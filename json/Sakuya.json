@@ -1,0 +1,986 @@
+{
+	"id": "izayoiSakuya",
+	"name": "Sakuya Izayoi",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Sakuya_Izayoi",
+	"movement": {
+		"dash": 11,
+		"commit": 6,
+		"backdashInvuln": "1-8",
+		"backdashGraze": "9-23",
+		"backdashTotal": 35
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 17,
+			"guard": "Mid",
+			"rbadv": "0",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 17,
+			"guard": "Mid",
+			"rbadv": "0",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 16,
+			"guard": "Mid",
+			"rbadv": "0",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 3,
+			"total": 25,
+			"guard": "High",
+			"rbadv": "-1",
+			"wbadv": "+3"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-7",
+			"wbadv": "-1"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 3,
+			"total": 33,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "-2"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 3,
+			"total": 29,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 42,
+			"guard": "Low",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 3,
+			"total": 29,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+1"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": "17, 21",
+			"active": "2, 3",
+			"total": 49,
+			"guard": "High x2",
+			"rbadv": "-, -6",
+			"wbadv": "-13, +0"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": "34, 38",
+			"active": "2, 3",
+			"total": 68,
+			"guard": "High (Crush)",
+			"rbadv": "N/A",
+			"wbadv": "-2, +20"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 4,
+			"total": 35,
+			"guard": "High, Air",
+			"rbadv": "(-6)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 2,
+			"total": 49,
+			"guard": "High, Air",
+			"rbadv": "(-19)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 12,
+			"total": 50,
+			"guard": "High, Air",
+			"rbadv": "(-14)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": "2",
+			"total": "48",
+			"guard": "High, Air",
+			"rbadv": "(-12)*",
+			"wbadv": "+5*",
+			"extra": "IA Cancel j.2a land: -1/+5 \nLowest j.2A land: +20/+26\nOther: ~+13/+19"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 19,
+			"motionCancel": 28,
+			"total": 55,
+			"FrameAdv": "-8 [+17]",
+			"spiritDmg": 0.075
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x21",
+			"grazeRes": 1,
+			"startup": 39,
+			"motionCancel": 48,
+			"total": 75,
+			"FrameAdv": "-2 [+17]",
+			"spiritDmg": 0.075
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": "1",
+			"startup": 12,
+			"motionCancel": 24,
+			"total": 53,
+			"FrameAdv": "-13 [+17]",
+			"spiritDmg": 0.075
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 19,
+			"motionCancel": 28,
+			"total": 55,
+			"FrameAdv": "-8 [+17]",
+			"spiritDmg": 0.075
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C1x21",
+			"grazeRes": 1,
+			"startup": 39,
+			"motionCancel": 48,
+			"total": 75,
+			"FrameAdv": "-2 [+17]",
+			"spiritDmg": 0.075
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": "12, 17, 22",
+			"active": "5x3",
+			"total": 52,
+			"guard": "High x3",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 16,
+			"motionCancel": 25,
+			"total": 53,
+			"FrameAdv": "[+17 ~ + 27]",
+			"spiritDmg": 0.075
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x21",
+			"grazeRes": 1,
+			"startup": 36,
+			"motionCancel": 45,
+			"total": 73,
+			"FrameAdv": "[+17 ~ +27]",
+			"spiritDmg": 0.075
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 16,
+			"motionCancel": 25,
+			"total": 53,
+			"FrameAdv": "[+17 ~ +27]",
+			"spiritDmg": 0.075
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x21",
+			"grazeRes": 1,
+			"startup": 36,
+			"motionCancel": 45,
+			"total": 73,
+			"FrameAdv": "[+17 ~ 27]",
+			"spiritDmg": 0.075
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x7",
+			"grazeRes": 1,
+			"startup": 22,
+			"motionCancel": 38,
+			"total": 62,
+			"FrameAdv": "-7 [+18]",
+			"spiritDmg": 0.125
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "1",
+			"startup": 19,
+			"motionCancel": 32,
+			"total": 61,
+			"FrameAdv": "-18 [+12]",
+			"spiritDmg": 0.125
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "1",
+			"startup": 18,
+			"motionCancel": 33,
+			"total": 59,
+			"FrameAdv": "-17 [+10]",
+			"spiritDmg": 0.25
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "B1x7",
+			"grazeRes": "Inf.",
+			"startup": 38,
+			"motionCancel": 53,
+			"total": 79,
+			"FrameAdv": "-17 [+10]",
+			"spiritDmg": 0.25
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 7,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "Graze frames 3~24"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x7",
+			"grazeRes": 1,
+			"startup": 16,
+			"motionCancel": 31,
+			"total": 58,
+			"FrameAdv": "-9 [+21]",
+			"spiritDmg": 0.125
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "N/A",
+			"startup": 19,
+			"motionCancel": 29,
+			"total": 55,
+			"FrameAdv": "-12 [+15]",
+			"spiritDmg": 0.125
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "B1x7",
+			"grazeRes": "N/A",
+			"startup": 31,
+			"motionCancel": 41,
+			"total": 67,
+			"FrameAdv": "-12 [+15]",
+			"spiritDmg": 0.125
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "N/A",
+			"startup": 16,
+			"motionCancel": 26,
+			"total": 53,
+			"FrameAdv": "-13 [+15]",
+			"spiritDmg": 0.25
+		},
+		"j.6[c]": {
+			"classification": "BULLET",
+			"density": "B1x7",
+			"grazeRes": "N/A",
+			"startup": 36,
+			"motionCancel": 46,
+			"total": 73,
+			"FrameAdv": "-13 [+15]",
+			"spiritDmg": 0.25
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 55,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": "Basically literally 66b"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 35,
+			"active": 3,
+			"total": 68,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "26",
+			"extra": "Purple Flash: 6F"
+		}
+	},
+	"skillcards": {
+		"magicStarSword": {
+			"name": "Magic Star Sword",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/50/Iz236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Velocity of thrown knives increase.",
+				"level3": "",
+				"level4": "Velocity of thrown knives increase."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_a089d885",
+			"bc": {
+				"difference": true,
+				"b": "Knives are thrown in a narrower spread.",
+				"c": "Knives are thrown in a wider spread."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"senseOfThrownEdge": {
+			"name": "Sense of Thrown Edge",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/47/Iz236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "B sets 7 knives, C sets 9.",
+				"level2": "",
+				"level3": "B sets 9 knives, C sets 11. Start up frames reduced by 4f.　",
+				"level4": "B sets 11 knives, C sets 13."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_1693eb29",
+			"bc": {
+				"difference": true,
+				"b": "Knives are placed all facing straight forwards.",
+				"c": "Knifes are placed intfront of Sakuya fanning outwards. This version throws two more knives than the B version."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"parallelBrain": {
+			"name": "Parallel Brane",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/78/Iz236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Frequency of suspended knife placement increased.",
+				"level3": "Frequency of suspended knife placement increased.",
+				"level4": "Frequency of suspended knife placement increased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_3bb4fb8f",
+			"bc": {
+				"difference": true,
+				"b": "The knives start off closely packed, and fan outward as they fly.",
+				"c": "The knives appear slightly above and below Sakuya, curving inward as they fly."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"crossupMagic": {
+			"name": "Close-up Magic",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e7/Iz623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Frame disadvantage reduced (j.623B is -1, j.623C is -13 when blocked fully by a grounded opponent).",
+				"level2": "",
+				"level3": "Frame disadvantage further reduced (j.623B is +1, j.623C is -11 when blocked fully by a grounded opponent).",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_9fb4267a",
+			"bc": {
+				"difference": true,
+				"b": "Ground: Leaps off the ground a shorter distance. Can be cancelled by bullets, skills, and spells at the apex of the leap. Air: Knives spin for a shorter period. Less recovery.",
+				"c": "Grazes. Ground: Leaps off the ground to a higher height, knives float farther from Sakuya. Can only be cancelled by spells. Air: Knives spin for a longer period. More recovery than B version."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"propellingSilver": {
+			"name": "Propelling Silver",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/df/Iz623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Number of hits increases by 1 (total of 5 hits), number of knives increases by 2, duration of the attack increases.",
+				"level3": "Number of knives increases by 2, duration of the attack further increases.",
+				"level4": "Number of hits increases by 1 (total of 6 hits), number of knives increases by 2, duration of the attack increases again."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_bffcaf8a",
+			"bc": {
+				"difference": true,
+				"b": "The circle of knives will have a smaller radius, and remain active for a longer time.",
+				"c": "The circle of knives will have a larger radius, and remain active for a shorter time."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"dancingStarSword": {
+			"name": "Dancing Star Sword",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c9/Iz623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Number of knives increases by 1, for a total of 5 knives.",
+				"level3": "Number of knives increases by 1, for a total of 6 knives.",
+				"level4": "Number of knives increases by 2, for a total of 8 knives."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_e8035795",
+			"bc": {
+				"difference": true,
+				"b": "Equips fully stocked aura of knives. Discards existing aura, and re-equips fully stock aura if knives are already equipped.",
+				"c": "Fires all remaining equipped knives if there are any. Equips fully stocked aura of knives if no knives are already equipped."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "Light/Medium/Heavy knives can vary based on melee attack used."
+		},
+		"bounceNoBounce": {
+			"name": "Bounce No-Bounce",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6e/Iz214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Increases knives thrown to 12 when uncharged, and 16 when charged.",
+				"level2": "",
+				"level3": "",
+				"level4": "Further increases knives thrown to 15 when uncharged, and 20 when charged."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_193a026b",
+			"bc": {
+				"difference": true,
+				"b": "Throws a barrage of knives at a steep upwards angle. The knives bounce off the ceiling down to the wall behind the opponent, bounce off the wall behind the opponent, and then fly offscreen.",
+				"c": "Throws a barrage of knives behind Sakuya at an angle. The knives bounce off the wall behind her upwards to the ceiling, bounce downwards off the ceiling, and fly offscreen. Has less total frames of animation than the B version."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"squareRicochet": {
+			"name": "Square Ricochet",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/47/Iz214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "+1 Hit Count.",
+				"level4": "+1 Hit Count."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_9fc2e9a3",
+			"bc": {
+				"difference": true,
+				"b": "Throws a knife upwards towards the ceiling. The knife bounces off the ceiling down to the wall behind the opponent, bounces off the wall behind the opponent, and then flies offscreen.",
+				"c": "Throws a knife towards the wall behind Sakuya. The knife bounces off the wall behind Sakuya up towards the ceiling, bounces off the ceiling towards the opponent, and then flies offscreen."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "Chargeable. Charging increases the number of hits by 2."
+		},
+		"misdirection": {
+			"name": "Misdirection",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/47/Iz214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "+1 wave of knives.",
+				"level3": "",
+				"level4": "+1 wave of Knives."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_6d01eb81",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": "Throws the blue knife higher and farther in front of Sakuya."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"vanishingEverything": {
+			"name": "Vanishing Everything",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ed/Iz22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Becomes air-usable.",
+				"level2": "",
+				"level3": "",
+				"level4": "Sakuya is able to act 4 frames earlier after the teleport, and is melee invulnerable until she can act (27F - 41F)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_b3f3c9ca",
+			"bc": {
+				"difference": true,
+				"b": "Sakuya teleports forwards.",
+				"c": "Sakuya teleports backwards."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "Invincible 13F - 26F."
+		},
+		"perfectMaid": {
+			"name": "Perfect Maid",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f4/Iz22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "Startup reduced to 10 frames from 13.",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_5fbe225c",
+			"bc": {
+				"difference": true,
+				"b": "Poses for 40 frames.",
+				"c": "Pose lasts 70 frames."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"timeParadox": {
+			"name": "Time Paradox",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/03/Iz22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Frame advantage improved. (B: -12 ~ +3 / C: -8)",
+				"level3": "",
+				"level4": "Frame advantage improved. (B: -9 ~ +6 / C: -7)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/237.html#id_4b76393b",
+			"bc": {
+				"difference": true,
+				"b": "Sakuya will slash first, followed by the clone.",
+				"c": "The clone will slash first, followed by Sakuya."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Magic Star Sword",
+				"emoteIcon": "<:Iz236bc1:728230251985109053>"
+			},
+			{
+				"name": "Sense of Thrown Edge",
+				"emoteIcon": "<:Iz236bc2:728230252307939388>"
+			},
+			{
+				"name": "Parallel Brain",
+				"emoteIcon": "<:Iz236bc3:728230252077121546>"
+			}
+		],
+		"214": [
+			{
+				"name": "Bounce No-Bounce",
+				"emoteIcon": "<:Iz214bc1:728230252169658518>"
+			},
+			{
+				"name": "Square Ricochet",
+				"emoteIcon": "<:Iz214bc2:728230251959681025>"
+			},
+			{
+				"name": "Misdirection",
+				"emoteIcon": "<:Iz214bc3:728230251649564735>"
+			}
+		],
+		"623": [
+			{
+				"name": "Close-up Magic",
+				"emoteIcon": "<:Iz623bc1:728230252165201930>"
+			},
+			{
+				"name": "Propelling Silver",
+				"emoteIcon": "<:Iz623bc2:728230252068995133>"
+			},
+			{
+				"name": "Dancing Star Sword",
+				"emoteIcon": "<:Iz623bc3:728230252282904636>"
+			}
+		],
+		"22": [
+			{
+				"name": "Vanishing Everything",
+				"emoteIcon": "<:Iz22bc1:728230251527667755>"
+			},
+			{
+				"name": "Perfect Maid",
+				"emoteIcon": "<:Iz22bc2:728230251980914748>"
+			},
+			{
+				"name": "Time Paradox",
+				"emoteIcon": "<:Iz22bc3:728230251666079786>"
+			}
+		]
+	},
+	"spellcards": {
+		"killingDoll": {
+			"name": "Illusion Sign \"Killing Doll\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9a/Izsc01.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "",
+			"tags": "Okizeme"
+		},
+		"silverBound": {
+			"name": "Silver Sign \"Silver Bound\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b7/Izsc02.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "",
+			"tags": "Okizeme"
+		},
+		"eternalMeek": {
+			"name": "Conjuring \"Eternal Meek\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c6/Izsc03.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"privateSquare": {
+			"name": "Time Sign \"Private Square\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/73/Izsc04.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"inscribedRedSoul": {
+			"name": "Wound Sign \"Inscribed Red Soul\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/68/Izsc05.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"luminousRicochet": {
+			"name": "Speed Sign \"Luminous Ricochet\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cc/Izsc06.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"imaginaryVerticalTime": {
+			"name": "Time Sign \"Imaginary Vertical Time\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/aa/Izsc07.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"lunaDial": {
+			"name": "Watch \"Luna Dial\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d5/Izsc08.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"phantasmicKiller": {
+			"name": "Buriallusion \"Phantasmic Killer\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/de/Izsc09.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"soulSculpture": {
+			"name": "Scarred Soul \"Soul Sculpture\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/85/Izsc10.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"sakuyasSpecialStopwatch": {
+			"name": "Time Sign \"Sakuya's Special Stopwatch\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/22/Izsc11.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"cRicochet": {
+			"name": "Lightspeed \"C. Ricochet\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/49/Izsc12.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"sakuyasWorld": {
+			"name": "Sakuya's World",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3d/Izsc13.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Killing Doll",
+				"emoteIcon": "<:Izsc01:728230252870107236>"
+			},
+			{
+				"name": "Silver Bound",
+				"emoteIcon": "<:Izsc02:728230252655935577>"
+			},
+			{
+				"name": "Eternal Meek",
+				"emoteIcon": "<:Izsc03:728230252463128586>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Private Square",
+				"emoteIcon": "<:Izsc04:728230252484100197>"
+			},
+			{
+				"name": "Inscribed Red Soul",
+				"emoteIcon": "<:Izsc05:728230252723044382>"
+			},
+			{
+				"name": "Luminous Ricochet",
+				"emoteIcon": "<:Izsc06:728230252802998352>"
+			},
+			{
+				"name": "Imaginary Vertical Time",
+				"emoteIcon": "<:Izsc07:728230252416991313>"
+			},
+			{
+				"name": "Luna Dial",
+				"emoteIcon": "<:Izsc08:728230252488163389>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Phantasmic Killer",
+				"emoteIcon": "<:Izsc09:728230252362334279>"
+			},
+			{
+				"name": "Soul Sculpture",
+				"emoteIcon": "<:Izsc10:728230252366528553>"
+			},
+			{
+				"name": "Sakuya's Special Stopwatch",
+				"emoteIcon": "<:Izsc11:728230252719112200>"
+			},
+			{
+				"name": "C. Ricochet",
+				"emoteIcon": "<:Izsc12:728230253188874351>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Sakuya's World",
+				"emoteIcon": "<:Izsc13:728230252287098932>"
+			}
+		]
+	}
+}

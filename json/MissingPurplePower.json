@@ -1,0 +1,115 @@
+{
+	"id": "ibukiSuika",
+	"name": "Suika Ibuki",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Suika_Ibuki",
+	"movement": {
+		"dash": 7,
+		"commit": 5,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-21+F (max 72)",
+		"backdashTotal": "21+F+13 (max 85)"
+	},
+	"normals": {
+		"initial": {
+			"classification": "MELEE",
+			"startup": "2+20",
+			"active": "3",
+			"total": 69,
+			"guard": "Mid",
+			"rbadv": "-28",
+			"wbadv": "-"
+		},
+		"walk": {
+			"classification": "MELEE",
+			"startup": "58",
+			"active": "7",
+			"total": "-",
+			"guard": "Mid",
+			"rbadv": "?",
+			"wbadv": "?"
+		},
+		"jump": {
+			"classification": "MELEE",
+			"startup": 23,
+			"active": 24,
+			"total": 113,
+			"guard": "?",
+			"rbadv": "?",
+			"wbadv": "?"
+		},
+		"horn": {
+			"classification": "MELEE",
+			"startup": 29,
+			"active": "-",
+			"total": 113,
+			"guard": "Unblockable",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 22,
+			"active": 2,
+			"total": 60,
+			"guard": "High",
+			"rbadv": "-11",
+			"wbadv": "-"
+		},
+		"5b": {
+			"classification": "MELEE",
+			"startup": 23,
+			"active": 3,
+			"total": 77,
+			"guard": "Low",
+			"rbadv": "-27",
+			"wbadv": "-5"
+		},
+		"5c": {
+			"classification": "MELEE",
+			"startup": 26,
+			"active": 3,
+			"total": 67,
+			"guard": "High",
+			"rbadv": "-14",
+			"wbadv": "+8",
+			"extra": "B1, 1graze resist"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": "27, 39, 51...",
+			"active": "-",
+			"total": 80,
+			"guard": "Mid",
+			"rbadv": "-32",
+			"wbadv": "-",
+			"extra": "inf graze resist \n .5orb per tick - spacing dependent"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 23,
+			"active": 20,
+			"total": "until landing",
+			"guard": "High",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"j.5b": {
+			"classification": "MELEE",
+			"startup": "*",
+			"active": 5,
+			"total": "*",
+			"guard": "Low",
+			"rbadv": "-15",
+			"wbadv": "-"
+		},
+		"j.5c": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 24,
+			"total": "until landing",
+			"guard": "?",
+			"rbadv": "-",
+			"wbadv": "-"
+		}
+	}
+}

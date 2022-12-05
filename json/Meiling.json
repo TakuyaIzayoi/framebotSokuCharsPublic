@@ -1,0 +1,978 @@
+{
+	"id": "meilingHong",
+	"name": "Hong Meiling",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Hong_Meiling",
+	"movement": {
+		"dash": 7,
+		"commit": 4,
+		"backdashInvuln": "1-8",
+		"backdashGraze": "9-26",
+		"backdashTotal": 34
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 6,
+			"active": 2,
+			"total": 15,
+			"guard": "Mid",
+			"rbadv": "+0",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 6,
+			"active": 2,
+			"total": 15,
+			"guard": "Mid",
+			"rbadv": "+0",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 6,
+			"active": 2,
+			"total": 15,
+			"guard": "Mid",
+			"rbadv": "+0",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 5,
+			"total": 30,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "-2"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 2,
+			"total": 40,
+			"guard": "High",
+			"rbadv": "-7",
+			"wbadv": "-1"
+		},
+		"5aaa6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 44,
+			"guard": "High",
+			"rbadv": "-7",
+			"wbadv": "-1",
+			"extra": "2 Spirit Orb Damage on wrong block."
+		},
+		"5aaa2a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 46,
+			"guard": "Low",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 2,
+			"total": 36,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 18,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "+0"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 9,
+			"total": 48,
+			"guard": "High",
+			"rbadv": "-11",
+			"wbadv": "-5"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 9,
+			"total": 64,
+			"guard": "High (Crush)",
+			"rbadv": "-6",
+			"wbadv": "+16"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 3,
+			"total": 39,
+			"guard": "Low",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 30,
+			"active": 3,
+			"total": 54,
+			"guard": "Low (Crush)",
+			"rbadv": "+3",
+			"wbadv": "+25"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 3,
+			"total": 36,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-5"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 7,
+			"total": 37,
+			"guard": "High, Air",
+			"rbadv": "(-9)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 9,
+			"total": 45,
+			"guard": "High, Air",
+			"rbadv": "(-11)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": "10, 26",
+			"active": "7, 3",
+			"total": 67,
+			"guard": "High, Air",
+			"rbadv": "(-22)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": "12, 22",
+			"active": "2, 2",
+			"total": "Until Landing",
+			"guard": "High, Air",
+			"rbadv": "(-F)",
+			"wbadv": "?"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C7x1",
+			"grazeRes": "-",
+			"startup": 13,
+			"motionCancel": 23,
+			"total": 38,
+			"FrameAdv": "-4 [+12]",
+			"spiritDmg": 0.5,
+			"extra": "7F Duration"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C7x1",
+			"grazeRes": "-",
+			"startup": 28,
+			"motionCancel": 40,
+			"total": 57,
+			"FrameAdv": "-8 [+10]",
+			"spiritDmg": 1,
+			"extra": "7F Duration"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C7x1",
+			"grazeRes": "-",
+			"startup": 16,
+			"motionCancel": 29,
+			"total": 46,
+			"FrameAdv": "-9 [+9]",
+			"spiritDmg": 0.5,
+			"extra": "7F Duration. \n Attack cancel: 13F."
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x7",
+			"grazeRes": 1,
+			"startup": 16,
+			"motionCancel": 26,
+			"total": 46,
+			"FrameAdv": "-15 [+6]",
+			"spiritDmg": "0.125*7",
+			"extra": "Duration: 41F"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 2,
+			"total": 46,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C7x1",
+			"grazeRes": "-",
+			"startup": 13,
+			"motionCancel": 23,
+			"total": 49,
+			"FrameAdv": "[+12]",
+			"spiritDmg": 0.5,
+			"extra": "Duration: 7F \n 8 Frames Landing Recovery."
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C7x1",
+			"grazeRes": 1,
+			"startup": 28,
+			"motionCancel": 40,
+			"total": 66,
+			"FrameAdv": "[+10]",
+			"spiritDmg": 1,
+			"extra": "Duration: 7F \n 8 Frames Landing Recovery."
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x7",
+			"grazeRes": 1,
+			"startup": 18,
+			"motionCancel": 28,
+			"total": 48,
+			"FrameAdv": "[+6]",
+			"spiritDmg": "0.125*7",
+			"extra": "Duration: 41F \n 8F Landing Recovery."
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C1x7",
+			"grazeRes": 1,
+			"startup": 18,
+			"motionCancel": 28,
+			"total": 48,
+			"FrameAdv": "[+6]",
+			"spiritDmg": "0.125*7",
+			"extra": "Duration: 41F \n 8F Landing Recovery."
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "-",
+			"startup": 23,
+			"motionCancel": 28,
+			"total": 54,
+			"FrameAdv": "-10 [+17]",
+			"spiritDmg": "0.25*3"
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "-",
+			"startup": 38,
+			"motionCancel": 43,
+			"total": 69,
+			"FrameAdv": "-10 [+17]",
+			"spiritDmg": "0.25*3"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "-",
+			"startup": 24,
+			"motionCancel": 31,
+			"total": 85,
+			"FrameAdv": "-",
+			"spiritDmg": "0.25*3",
+			"extra": "Attack Cancel: 19F \n Duration: 51F"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": 10,
+			"startup": 17,
+			"motionCancel": 33,
+			"total": 64,
+			"FrameAdv": "-24 [+8]",
+			"spiritDmg": "0.35*3",
+			"extra": "Duration: 60F"
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": 10,
+			"startup": 34,
+			"motionCancel": 50,
+			"total": 81,
+			"FrameAdv": "-24 [+8]",
+			"spiritDmg": "0.35*3",
+			"extra": "Duration: 60F"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 10,
+			"total": 49,
+			"guard": "Low",
+			"rbadv": "-11",
+			"wbadv": "-5"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "-",
+			"startup": 23,
+			"motionCancel": 28,
+			"total": 57,
+			"FrameAdv": "[+17]",
+			"spiritDmg": "0.25*3",
+			"extra": "Attack Cancel: 18F \n Duration: 51F \n 10F Landing Recovery"
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "-",
+			"startup": 32,
+			"motionCancel": 37,
+			"total": 66,
+			"FrameAdv": "[+17]",
+			"spiritDmg": "0.25*3",
+			"extra": "Attack Cancel: 27F \n Duration: 51F \n 10F Landing Recovery"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": 10,
+			"startup": 17,
+			"motionCancel": 33,
+			"total": 64,
+			"FrameAdv": "[+8]",
+			"spiritDmg": "0.35*3",
+			"extra": "Duration: 60F \n 10F Landing Recovery"
+		},
+		"j.6[c]": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": 10,
+			"startup": 41,
+			"motionCancel": 57,
+			"total": 88,
+			"FrameAdv": "[+8]",
+			"spiritDmg": "0.35*3",
+			"extra": "Duration: 60F \n 10F Landing Recovery"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 53,
+			"guard": "High",
+			"rbadv": "-14",
+			"wbadv": "-8",
+			"extra": "66b but thinner vertically"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 48,
+			"guard": "High",
+			"rbadv": "-10",
+			"wbadv": "-4",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 35,
+			"active": 2,
+			"total": 65,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "-29",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"fragrantWave": {
+			"name": "Fragrant Wave",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/75/Me236bc1.png",
+			"levels": {
+				"level1": "+startup, b recov frames+",
+				"level2": "range+",
+				"level3": "b recov. frames+",
+				"level4": "b range+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_f0d7fefc",
+			"bc": {
+				"difference": true,
+				"b": "Quicker Startup, Smaller Beam. 3 hits.",
+				"c": "Longer Startup, Larger Beam. 5 hits."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "inf",
+			"startup": "B Lv 0: 28, 35, 40\n B Lv 1+: 26, 33, 40\n C Lv 0: 63, 70, ... 91\n C Lv 1: 61, 68, ... 89",
+			"motionCancel": "B Lv 0: 49\n B Lv 1+: 47\n C Lv 0: 112\n C Lv 1: 110",
+			"total": "B Lv 0: 82\n B Lv 1+: 75 \n B Lv 3+: 70\n C Lv 0: 126\n C Lv 1: 124",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "also known as desync cannon."
+		},
+		"waterTaichiFist": {
+			"name": "Water Taichi Fist",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f9/Me236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Bullet Speed+",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_47e02f76",
+			"bc": {
+				"difference": true,
+				"b": "Bullet can be released after a minimum of one cycle, up to a maximum of 3 cycles. Bullet is faster then C version and has a very fast turn rate.",
+				"c": "Bullet can be released after a minimum of two cycles, up to a maximum of 5 cycles. Bullet is slower then B version and has a slower turn rate."
+			},
+			"classification": "BULLET",
+			"density": "Binfx1, B1x1",
+			"grazeRes": "inf",
+			"startup": "B: 34\n C: 74",
+			"motionCancel": "34",
+			"total": "B: 77\n C: 117",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "\"While it's being held, the vortex will absorb enemy bullets. The more bullets absorbed, the farther the orb travels. At higher levels, the bullet can become a real hell if it absorbs enough damage, sometimes circling into your opponent many times over.\""
+		},
+		"colorfulRain": {
+			"name": "Colorful Rain",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7a/Me236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Throws 13/19 shards.",
+				"level2": "Throws 15/21 shards.",
+				"level3": "Throws 17/23 shards.",
+				"level4": "Throws 19/25 shards."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_c7a0a8c0",
+			"bc": {
+				"difference": true,
+				"b": "Spins and throws shards.",
+				"c": "Fires a wider spread than the B version with more shards. Longer startup, not spell-cancelable."
+			},
+			"classification": "BULLET",
+			"density": "C1xn",
+			"grazeRes": "1F",
+			"startup": "G.B: 21+1n...\n G.C: 32+1n\nA.B: 20+1n...\nA.C: 34+1n...",
+			"motionCancel": "G.B: 20\n G.C: 31\nA.B: 19\n C: 33",
+			"total": "G.B: 94\nG.C: 117\n A.B: 91(12)\n A.C: 105(12)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"redCannon": {
+			"name": "Red Cannon",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/37/Me623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Bullet comes out right after the melee duration.",
+				"level2": "",
+				"level3": "Bullet hitbox becomes bigger. Duration+",
+				"level4": "Duration+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_81f8462f",
+			"bc": {
+				"difference": true,
+				"b": "Meiling remains in place for the thrust.",
+				"c": "Meiling zips roughly one and a half character lengths forward before doing her thrust (+90dots)."
+			},
+			"classification": "BULLET",
+			"density": "?",
+			"grazeRes": "inf",
+			"startup": "B: 11, 17\nC: 18/24",
+			"motionCancel": "?",
+			"total": "B: 56\n C:63",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "is this a melee or a bullet what uhhh probably both. block the bullet high tho frame adv. -18 tho"
+		},
+		"redEnergyRelease": {
+			"name": "Red Energy Release",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a5/Me623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup: 30f/60F.",
+				"level2": "Startup: 27f/55F.",
+				"level3": "Startup: 25f/50F.",
+				"level4": "Startup: 20f/40F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_40b996c7",
+			"bc": {
+				"difference": true,
+				"b": "A small explosion in front of Meiling. Hits high. +8 on block. **Airunblockable**",
+				"c": "Much longer startup than the B version, but **cannot be blocked**."
+			},
+			"classification": "MELEE",
+			"startup": "B: 30/27/25/20\nC: 60/55/50/40",
+			"active": 16,
+			"total": "B: 59/56/54/49\n C: 89/84/79/69",
+			"guard": "B: Mid\nC: Unblockable",
+			"rbadv": "+8 / down",
+			"wbadv": "- / down",
+			"extra": "on guard, hitstop(?): 10F you/20F opp."
+		},
+		"tigerChiRelease": {
+			"name": "Tiger Chi Release",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d1/Me623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Install duration set to 300/420F.",
+				"level2": "Duration increases to 360/480F.",
+				"level3": "Duration increases to 420/540F.",
+				"level4": "Duration increases to 480/600F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_02df4946",
+			"bc": {
+				"difference": true,
+				"b": "Installs for 300F (5 seconds)",
+				"c": "Installs for 420F (7 seconds). Longer startup than B version."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "B: 34\nC: 54",
+			"motionCancel": "-",
+			"total": "**Duration:**\nB: 300/360/420/480\nC: 420/480/540/600",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "some sort of buff for counterhits"
+		},
+		"spiralLightSteps": {
+			"name": "Spiral Light Steps",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/34/Me214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Startup is now 26F. Stomp gains hitbox, hits low, spell-cancelable.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_91f8f0df",
+			"bc": {
+				"difference": true,
+				"b": "Standard move.",
+				"c": "Goes farther than B version and has higher damage."
+			},
+			"classification": "MELEE",
+			"startup": "B Lv 0: 25, 28\n B Lv 3+: 10, 26, 30\n C Lv 0: 25, 28\n C Lv 3+: 10, 26, 30",
+			"active": "Lv 0: 3, 19\n Lv 3+: 4 ,4 ,18",
+			"total": "B Lv 0: 64\n B Lv 3+: 65\n C Lv 0: 69\n C Lv 3+: 70",
+			"guard": "Lv 0~2: High\n:Lv 3+: Low, High",
+			"rbadv": "B: -17\n C: -22",
+			"wbadv": "-",
+			"extra": "Airunblockable.: Grazes during active frames. "
+		},
+		"searingRedFist": {
+			"name": "Searing Red Fist",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/11/Me214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Bullet +4. Frame data stays the same.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_b9880a1e",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "Startup is longer and the projectiles and the punch hits farther away from Meiling. The punch at the end does more damage."
+			},
+			"classification": "MELEE",
+			"startup": "B Lv.0: 10, 14, ..., 30\n B Lv.3+: 10, 13, ..., 31\n B.Fin: 41\nC Lv.0: 16, 20, ... 36\nC Lv.3+: 16, 19, ..., 37\nC.Fin: 47",
+			"active": 8,
+			"total": "B: 72\n C: 82",
+			"guard": "Mid, High",
+			"rbadv": "B: -10\n C: -14",
+			"wbadv": "B: -4\n C: -8",
+			"extra": "Two Parter (Bullet + Melee)"
+		},
+		"kickOfShoweringBrilliance": {
+			"name": "Kick of Showering Brilliance",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a0/Me214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Air-usable. Airborne Startup: 23F, 25F. Airborne Duration: 14F, 20F.",
+				"level3": "Startup Speed+",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/250.html#id_1f0ac817",
+			"bc": {
+				"difference": true,
+				"b": "Meiling leaps forwards before kicking.",
+				"c": "Meiling leaps vertically before slamming down from on high. Very little horizontal range, but the ascent of the kick has graze frames."
+			},
+			"classification": "MELEE",
+			"startup": "G.B: 24/21\nG.C: 38/35\nA.B: 26/23\nA.C: 28/25",
+			"active": "G.B: 17/20\nG.C: 16/19\nA.B: 10/13\nA.C: 17/20",
+			"total": "G.B: 58\nG.C: 71\nA.B: 59(18)\nA.C: Until Land (18)",
+			"guard": "High",
+			"rbadv": "char. specific",
+			"wbadv": "char. specific",
+			"extra": "There's a character specific frame data table\n https://w.atwiki.jp/bulletaction/pages/250.html#id_9724afab \nFrame Data here sep. by Level; (1~2 / 3~4)\n G.C: Graze-1-37F"
+		},
+		"yellowQuakeKick": {
+			"name": "Yellow Quake Kick",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d7/Me22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Duration+? Causes knock-up instead of knock-down.",
+				"level2": "",
+				"level3": "",
+				"level4": "Increase Vertical Size Hitbox."
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, slower recovery.",
+				"c": "Slower startup, faster recovery."
+			},
+			"classification": "MELEE",
+			"startup": "B: 16\n [B]: 33\nC: 30\n [C]: 47",
+			"active": "Lv 0: 1\n Lv1+: 12",
+			"total": "B: 50\n [B]: 67\nC: 55\n [C]: 72",
+			"guard": "Low",
+			"rbadv": "B: -13\n C:-4",
+			"wbadv": "B: -7\n C:+2",
+			"extra": "[B] 14F; [C] 28F"
+		},
+		"earthDragonWave": {
+			"name": "Earth Dragon Wave",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Me22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Movement cancel is now on frame 27, HJC becomes +11F at closest.",
+				"level2": "",
+				"level3": "Shockwave grows in size.",
+				"level4": "Shockwave grows in size."
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "Slower, denser bullet. If charged creates second wave behind Meiling.",
+				"c": "Faster, less dense bullet. If charged creates second wave behind Meiling."
+			},
+			"classification": "BULLET",
+			"density": "Binfx1, B1x1",
+			"grazeRes": "inf",
+			"startup": "B/C: 16\n [B/C]: 31",
+			"motionCancel": "B/C: 27\n []: 42",
+			"total": "B/C: 31\n []: 72",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Charging this sends shockwaves on either side of Meiling."
+		},
+		"skyDragonKick": {
+			"name": "Sky Dragon Kick",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6c/Me22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "Recovery reduced. Combos after a22B are now possible. Cancellable on frame 52 for B version, -10 after cancelling",
+				"level4": "Recovery reduced. Cancellable on frame 44, -2 after cancelling for both versions."
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "Meiling travels the normal distance and then falls to the ground. Cancellable on frame 60, -18 after cancelling.",
+				"c": "Meiling travels farther in the air, her momentum carries her forward as she recovers. Can be briefly followed up with aerial moves. Cancellable on frame 52, -10 after cancelling."
+			},
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 21,
+			"total": "B: 72\nC: 81",
+			"guard": "High",
+			"rbadv": "B: -30\n C: -39",
+			"wbadv": "B: -39\n C: -35",
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Fragrant Wave",
+				"emoteIcon": "<:Me236bc1:728253379066986576>"
+			},
+			{
+				"name": "Water Taichi Fist",
+				"emoteIcon": "<:Me236bc2:728253379117056070>"
+			},
+			{
+				"name": "Colorful Rain",
+				"emoteIcon": "<:Me236bc3:728253378676785173>"
+			}
+		],
+		"623": [
+			{
+				"name": "Red Cannon",
+				"emoteIcon": "<:Me623bc1:728253378974711898>"
+			},
+			{
+				"name": "Red Energy Release",
+				"emoteIcon": "<:Me623bc2:728253378982969364>"
+			},
+			{
+				"name": "Tiger Chi Release",
+				"emoteIcon": "<:Me623bc3:728253378894889010>"
+			}
+		],
+		"214": [
+			{
+				"name": "Spiral Light Steps",
+				"emoteIcon": "<:Me214bc1:728253378651488256>"
+			},
+			{
+				"name": "Searing Red Fist",
+				"emoteIcon": "<:Me214bc2:728253378634711061>"
+			},
+			{
+				"name": "Kick of Showering Brilliance",
+				"emoteIcon": "<:Me214bc3:728253378689499156>"
+			}
+		],
+		"22": [
+			{
+				"name": "Yellow Quake Kick",
+				"emoteIcon": "<:Me22bc1:728253378571796550>"
+			},
+			{
+				"name": "Earth Dragon Wave",
+				"emoteIcon": "<:Me22bc2:728253378496561273>"
+			},
+			{
+				"name": "Sky Dragon Kick",
+				"emoteIcon": "<:Me22bc3:728253378404024342>"
+			}
+		]
+	},
+	"spellcards": {
+		"colorfulWindchime": {
+			"name": "Color Sign \"Colorful Windchime\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/90/Mesc01.png",
+			"classification": "MELEE",
+			"startup": "13+6",
+			"active": 62,
+			"total": 122,
+			"guard": "Mid",
+			"rbadv": "very negative",
+			"wbadv": "-",
+			"extra": "1-18F in completely invuln, 19-80F invuln (???)"
+		},
+		"intenseRainbowFist": {
+			"name": "Rainbow Sign \"Intense Rainbow Fist\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/29/Mesc02.png",
+			"classification": "MELEE",
+			"startup": "11+3",
+			"active": "?",
+			"total": 123,
+			"guard": "Mid",
+			"rbadv": "highly negative",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"starBullets": {
+			"name": "Chi Sign \"Star Bullets\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0b/Mesc03.png",
+			"classification": "BULLET",
+			"density": "A5x1",
+			"grazeRes": "inf",
+			"startup": "5+16",
+			"motionCancel": "-",
+			"total": "78",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"rocFist": {
+			"name": "Attack Sign \"Roc Fist\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1b/Mesc04.png",
+			"classification": "MELEE",
+			"startup": "9+2",
+			"active": 6,
+			"total": 88,
+			"guard": "High",
+			"rbadv": "-50",
+			"wbadv": "-46",
+			"extra": "1-16F upper vuln"
+		},
+		"earthDragonSkyDragonKick": {
+			"name": "Chi Sign \"Earth Dragon Sky Dragon Kick\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8e/Mesc05.png",
+			"classification": "MELEE",
+			"startup": "7+16, 38",
+			"active": "4",
+			"total": "120",
+			"guard": "Low, High",
+			"rbadv": "-52",
+			"wbadv": "KD",
+			"extra": "38-105F Kick Frame"
+		},
+		"madColorfulDance": {
+			"name": "UltimateColor \"Mad Colorful Dance\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cc/Mesc06.png",
+			"classification": "MELEE",
+			"startup": "13+6",
+			"active": "?",
+			"total": 238,
+			"guard": "Mid",
+			"rbadv": "negative",
+			"wbadv": "-",
+			"extra": "1-30F invuln, 19-226 air"
+		},
+		"rainbowTaichi": {
+			"name": "Colorful Brilliance \"Rainbow Taichi\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/22/Mesc07.png",
+			"classification": "BULLET",
+			"density": "B5x2",
+			"grazeRes": "5F",
+			"startup": "19+6",
+			"motionCancel": "-",
+			"total": "71",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"fierceTigerEnergyRelease": {
+			"name": "Chi Sign \"Fierce Tiger Energy Release\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/28/Mesc08.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "9",
+			"motionCancel": "-",
+			"total": "62",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "forced ch, duration: ~8s, 2x dmg"
+		},
+		"earthMovingStarBullets": {
+			"name": "Star Chi \"Earth-moving Star Bullets\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d7/Mesc09.png",
+			"classification": "BULLET",
+			"density": "Binfx1, A10x1",
+			"grazeRes": "inf, inf",
+			"startup": "5+1, 73",
+			"motionCancel": "-",
+			"total": "130",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"rocKillingFist": {
+			"name": "Fiery Attack \"Roc-Killing Fist\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/69/Mesc10.png",
+			"classification": "MELEE",
+			"startup": "15+13",
+			"active": 3,
+			"total": 73,
+			"guard": "High",
+			"rbadv": "-18",
+			"wbadv": "+4",
+			"extra": "1-30F invuln?"
+		},
+		"rainbowBrilliancePalm": {
+			"name": "Brilliance \"Rainbow Brilliance Palm\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6d/Mesc11.png",
+			"classification": "MELEE",
+			"startup": "9+36",
+			"active": 4,
+			"total": 104,
+			"guard": "Mid",
+			"rbadv": "-38",
+			"wbadv": "-",
+			"extra": "something something 15f, 74f?"
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Colorful Windchime",
+				"emoteIcon": "<:Mesc01:728253378936701043>"
+			},
+			{
+				"name": "Intense Rainbow Fist",
+				"emoteIcon": "<:Mesc02:728253378962128918>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Star Bullet",
+				"emoteIcon": "<:Mesc03:728253378878111816>"
+			},
+			{
+				"name": "Roc Fist",
+				"emoteIcon": "<:Mesc04:728253378995552299>"
+			},
+			{
+				"name": "Earth Dragon Sky Dragon Kick",
+				"emoteIcon": "<:Mesc05:728253379075375256>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Mad Colorful Dance",
+				"emoteIcon": "<:Mesc06:728253379066724352>"
+			},
+			{
+				"name": "Rainbow Taichi",
+				"emoteIcon": "<:Mesc07:728253379083632720>"
+			},
+			{
+				"name": "Fierce Tiger Energy Release",
+				"emoteIcon": "<:Mesc08:728253379075375184>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Earth-moving Star Bullets",
+				"emoteIcon": "<:Mesc09:728253379129901107>"
+			},
+			{
+				"name": "Roc-Killing Fist",
+				"emoteIcon": "<:Mesc10:728253379112992818>"
+			},
+			{
+				"name": "Rainbow Brilliance Palm",
+				"emoteIcon": "<:Mesc11:728253379121250305>"
+			}
+		]
+	}
+}

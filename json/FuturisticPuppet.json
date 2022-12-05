@@ -1,0 +1,84 @@
+{
+	"id": "margatroidAlice",
+	"name": "Alice Margatroid",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Alice_Margatroid",
+	"movement": {
+		"dash": 9,
+		"commit": 7,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-23",
+		"backdashTotal": 32
+	},
+	"normals": {
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 0,
+			"total": 0,
+			"guard": "Mid",
+			"rbadv": "-6",
+			"wbadv": "-",
+			"extra": "0.1 spirit dmg"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 0,
+			"total": 0,
+			"guard": "Mid",
+			"rbadv": "-17",
+			"wbadv": "-"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 0,
+			"total": 0,
+			"guard": "Mid",
+			"rbadv": "-22",
+			"wbadv": "-"
+		},
+		"8a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 0,
+			"total": 0,
+			"guard": "Mid",
+			"rbadv": "-14",
+			"wbadv": "+0"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "22",
+			"motionCancel": "?",
+			"total": "?",
+			"FrameAdv": "-0",
+			"spiritDmg": "1.25",
+			"extra": ""
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "BInfx1",
+			"grazeRes": "inf",
+			"startup": 35,
+			"motionCancel": "?",
+			"total": "?",
+			"FrameAdv": "",
+			"spiritDmg": "2",
+			"extra": "block high"
+		},
+		"5d": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": 3,
+			"startup": "1",
+			"motionCancel": "?",
+			"total": 16,
+			"FrameAdv": "N/A",
+			"spiritDmg": "0.25",
+			"extra": "i will explode"
+		}
+	}
+}

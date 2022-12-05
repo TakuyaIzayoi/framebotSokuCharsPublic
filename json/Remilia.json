@@ -1,0 +1,913 @@
+{
+	"id": "scarletRemilia",
+	"name": "RemiliaScarlet",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Remilia_Scarlet",
+	"movement": {
+		"dash": 9,
+		"commit": 28,
+		"backdashInvuln": "1-4",
+		"backdashGraze": "5-23",
+		"backdashTotal": 35
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 3,
+			"total": 15,
+			"guard": "Mid",
+			"rbadv": "+1",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 3,
+			"total": 15,
+			"guard": "Mid",
+			"rbadv": "+1",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 3,
+			"total": 15,
+			"guard": "Mid",
+			"rbadv": "+1",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": "9, 19",
+			"active": "2, 2",
+			"total": 38,
+			"guard": "High, High",
+			"rbadv": "-4",
+			"wbadv": "+0",
+			"extra": "Deals 0.5+1 Spirit Damage on Wrongblock."
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 2,
+			"total": 30,
+			"guard": "Low",
+			"rbadv": "-4",
+			"wbadv": "+0"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 3,
+			"total": 40,
+			"guard": "Mid",
+			"rbadv": "-9",
+			"wbadv": "N/A"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 16,
+			"total": 43,
+			"guard": "Low",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 2,
+			"total": 60,
+			"guard": "High (Crush)",
+			"rbadv": "-2",
+			"wbadv": "+20"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 39,
+			"guard": "High, Air",
+			"rbadv": "(-11)",
+			"wbadv": "?"
+		},
+		"j.5aa": {
+			"classification": "MELEE",
+			"startup": 5,
+			"active": 2,
+			"total": 20,
+			"guard": "High, Air",
+			"rbadv": "(+4)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 10,
+			"total": 60,
+			"guard": "High, Air",
+			"rbadv": "-19 (-21)",
+			"wbadv": "-13",
+			"extra": "If Remilia lands on 28F or later, 23F Landing Recovery. \n On hit, can be canceled from 28F+. \n If blocked, recoil animation can be cancelled except blocking from 41F."
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 3,
+			"total": 39,
+			"guard": "High, Air",
+			"rbadv": "(-9)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 2,
+			"total": 51,
+			"guard": "High, Air",
+			"rbadv": "(-21)",
+			"wbadv": "N/A",
+			"extra": "Landing Recovery: 8F"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "16",
+			"motionCancel": 27,
+			"total": 44,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 16F"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "36",
+			"motionCancel": 47,
+			"total": 64,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 36F"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "19",
+			"motionCancel": 30,
+			"total": 47,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 19F"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "39",
+			"motionCancel": 50,
+			"total": 67,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 39F"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "16",
+			"motionCancel": 30,
+			"total": 45,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*8",
+			"extra": "Attack Cancel: 16F"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "13",
+			"motionCancel": 23,
+			"total": 56,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 13F"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "33",
+			"motionCancel": 48,
+			"total": 76,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 33F"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "13",
+			"motionCancel": 23,
+			"total": 56,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 13F"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "33",
+			"motionCancel": 48,
+			"total": 76,
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 33F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "4",
+			"startup": 24,
+			"motionCancel": 36,
+			"total": 67,
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*10",
+			"extra": "Attack Cancel: 28F"
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B1x3",
+			"grazeRes": "4",
+			"startup": "49, 57, 65",
+			"motionCancel": 61,
+			"total": 108,
+			"FrameAdv": "?",
+			"spiritDmg": "0.075\\*7\\*3",
+			"extra": "Attack Cancel: 53F"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "4",
+			"startup": 17,
+			"motionCancel": 31,
+			"total": 64,
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*10",
+			"extra": "Attack Cancel: 21F"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "4",
+			"startup": 24,
+			"motionCancel": 36,
+			"total": 67,
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*10",
+			"extra": "Attack Cancel: 28F"
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B1x3",
+			"grazeRes": "4",
+			"startup": "49, 57, 65",
+			"motionCancel": 61,
+			"total": 92,
+			"FrameAdv": "?",
+			"spiritDmg": "0.075\\*7\\*3",
+			"extra": "Attack Cancel: 53F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "4",
+			"startup": 17,
+			"motionCancel": 26,
+			"total": 49,
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*10",
+			"extra": "Attack Cancel: 17F"
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "B1x3",
+			"grazeRes": "4",
+			"startup": "35",
+			"motionCancel": 46,
+			"total": 69,
+			"FrameAdv": "?",
+			"spiritDmg": "0.075\\*7\\*3",
+			"extra": "Attack Cancel: 37F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 55,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": "Similar to 6a in size but much taller."
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 58,
+			"guard": "High",
+			"rbadv": "-19",
+			"wbadv": "-13",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 42,
+			"active": 2,
+			"total": 73,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "28",
+			"extra": "Purple Flash: 14F"
+		}
+	},
+	"skillcards": {
+		"demonLordWalk": {
+			"name": "Demon Lord Walk",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/78/Re236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Recovery Frames reduced.",
+				"level2": "-",
+				"level3": "Recovery Frames reduced.",
+				"level4": "Recovery Frames reduced."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_22f0a8ea",
+			"bc": {
+				"difference": true,
+				"b": "Leaps once.",
+				"c": "Two leaps. If first one counterhits, the second always whiffs."
+			},
+			"classification": "MELEE",
+			"startup": "B:18 \n C:17,41",
+			"active": "B:13 \n C:13,16",
+			"total": "B: \n Lv0:63 \n Lv1-2:58 \n Lv3:53 \n Lv4:48 \n C: \n Lv0:89 \n Lv1-2:84 \n Lv3:79 \n Lv4:74",
+			"guard": "High",
+			"rbadv": "-13",
+			"wbadv": "-7",
+			"extra": "B: Grazes frame 1-30 \n C:Grazes frame 1-56 \n When blocked, Remi has a set recovery that leaves her  -13/-7 regardless of spacing and level."
+		},
+		"vampireClaw": {
+			"name": "Vampire Claw",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cf/Re236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Demon Lord Walk.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_69239c1c",
+			"bc": {
+				"difference": true,
+				"b": "Last hit is an overhead slash that does considerable knockback and wallslams. Guardcrush on wrongblock if charged. Hits high.",
+				"c": "First Hit is slightly slower with slight movement forwards. The last hit is a faster, less damaging slide that knocks down. Guardcrush on wrongblock. Hits low."
+			},
+			"classification": "MELEE",
+			"startup": "",
+			"active": "",
+			"total": "",
+			"guard": "",
+			"rbadv": "",
+			"wbadv": "",
+			"extra": "three parter rekka i need to do"
+		},
+		"tricksterDevil": {
+			"name": "Trickster Devil",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fa/Re236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Demon Lord Walk.",
+				"level2": "Startup frames reduced.",
+				"level3": "-",
+				"level4": "Startup frames reduced."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_ff60dc0a",
+			"bc": {
+				"difference": true,
+				"b": "Goes forward and attacks from behind. Whiffs in corner.",
+				"c": "Moves the other way around."
+			},
+			"classification": "MELEE",
+			"startup": "B: \n Lv1:32 /n Lv2-3:30 \n Lv4:28 \n C: \n Lv1:34 \n Lv2-3:32 \n Lv4:31 \n Followup:12",
+			"active": "12,2",
+			"total": "B: \n Lv1:63 /n Lv2-3:61 \n Lv4:59 \n C: \n Lv1:65 \n Lv2-3:63 \n Lv4:62 \n Followup:47",
+			"guard": "High,High",
+			"rbadv": "-14",
+			"wbadv": "-8",
+			"extra": "If the first hit connects or is blocked by the opponent, Remi will use a followup attack. \n C version has invul on frame 10-12 at Lv1 1, 8-10 at Lv2-3, and 7-12 at Lv4."
+		},
+		"demonLordCradle": {
+			"name": "Demon Lord Cradle",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/64/Re623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Gains invulnerability frames.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_05de279f",
+			"bc": {
+				"difference": true,
+				"b": "Remilia spirals up to approximately the height of her dash.",
+				"c": "Extends further and deals more damage."
+			},
+			"classification": "MELEE",
+			"startup": "14",
+			"active": "16",
+			"total": "95",
+			"guard": "Mid",
+			"rbadv": "-45",
+			"wbadv": "-",
+			"extra": "Level 0: upper body invul frame 1-11, melee invul frame 12-15 for B version, 12-21 for C version. \nLevel 1-4: melee invul frame 1-15, upper body invul frame 1-11"
+		},
+		"rocketKickUpper": {
+			"name": "Rocket Kick Upper",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7f/Re623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Demon Lord Cradle.",
+				"level2": "Bullet hitbox increase.",
+				"level3": "-",
+				"level4": "Bullet hitbox increase."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_58325532",
+			"bc": {
+				"difference": true,
+				"b": "Fires at a very steep angle, similar to 2C.",
+				"c": "Fires closer to a 45 degree angle."
+			},
+			"classification": "BULLET",
+			"density": "b4",
+			"grazeRes": "∞",
+			"startup": "13",
+			"motionCancel": "37",
+			"total": "66",
+			"FrameAdv": "-30[+0]",
+			"spiritDmg": "0.5*4",
+			"extra": "Bullet persists when hit."
+		},
+		"vampireKiss": {
+			"name": "Vampire Kiss",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/57/Re623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Demon Lord Cradle.",
+				"level2": "Increased Damage.",
+				"level3": "Increased Damage.",
+				"level4": "Increased Damage."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_f0c27a5a",
+			"bc": {
+				"difference": true,
+				"b": "Homes on the opponent at a moderate speed.",
+				"c": "Longer startup, but higher speed and more range."
+			},
+			"classification": "MELEE",
+			"startup": "",
+			"active": "",
+			"total": "",
+			"guard": "",
+			"rbadv": "",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"servantFlier": {
+			"name": "Servant Flier",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3c/Re214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "+1 Bullet.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "+1 Bullet."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_96543012",
+			"bc": {
+				"difference": true,
+				"b": "Summons bats close together.",
+				"c": "The bats are spread further apart."
+			},
+			"classification": "BULLET",
+			"density": "c4*n",
+			"grazeRes": "11",
+			"startup": "B/C: \n Lv0:84,89,94 \n Lv1-3:...99 \n Lv4:104 /n[B/C]: \n Lv0:104,109,114,119,124 \n Lv1-3:...129 \n Lv4...134",
+			"motionCancel": "B/C:36 \n [B/C]:56",
+			"total": "B/C:67 \n [B/C]:87",
+			"FrameAdv": "-",
+			"spiritDmg": "0.15*2*n",
+			"extra": "Bats become inactive for 2f after being grazed for 10f, effectively giving them 13f graze resist."
+		},
+		"chainGang": {
+			"name": "Chain Gang",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bd/Re214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Servant Flier",
+				"level2": "Maximum length of chain increases. C version tracking improves.",
+				"level3": "Maximum length of chain increases. Tracking improves.",
+				"level4": "Maximum length of chain increases. Tracking improves."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_7bd850e5",
+			"bc": {
+				"difference": true,
+				"b": "Remilia creates a chain that will pass through opponents, and then will explode shortly after it fully extends. Holding the button will extend the length of the chain.",
+				"c": "The tip of the chain will stun opponents if it makes contact. If it hits, Remilia will also glide along the chain to reach the enemy's position. The explosions caused by this chain do no damage."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1",
+			"startup": "105,106,107...",
+			"motionCancel": "B:31 \n C: \n ground:52 \n air: 60",
+			"total": "B: \n ground:53 \n air:51 \n C: \n ground:69 \n air:76",
+			"FrameAdv": "C: \n ground:-18 \n air:-25",
+			"spiritDmg": "B:0.1*n \n C:0.25",
+			"extra": ""
+		},
+		"demonsDinnerFork": {
+			"name": "Demon's Dinner Fork",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0c/Re214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Servant Flier. (Count: 2)",
+				"level2": "+1 Bullet (Count: 3)",
+				"level3": "+1 Bullet (Count: 4)",
+				"level4": "+1 Bullet (Count: 5)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_59582ae3",
+			"bc": {
+				"difference": true,
+				"b": "Low angle.",
+				"c": "Very high angle."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "∞",
+			"startup": "B/C:25 \n [B/C]:50",
+			"motionCancel": "B/C:41 \n [B/C]:66",
+			"total": "B/C:55 \n [B/C]:80",
+			"FrameAdv": "-5[+10]",
+			"spiritDmg": "0.25*n",
+			"extra": "All Levels: 6 Spears if charged."
+		},
+		"demonLordArrow": {
+			"name": "Demon Lord Arrow",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/59/Re22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Time travelling to walls reduced. Startup Frames reduced.",
+				"level2": "Startup Frames reduced.",
+				"level3": "Startup Frames reduced.",
+				"level4": "Startup Frames reduced."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_9bd7507b",
+			"bc": {
+				"difference": true,
+				"b": "Stalls on the wall behind her for about a second.",
+				"c": "Stalls longer. Remilia leaps to the wall in front of her."
+			},
+			"classification": "MELEE",
+			"startup": "?",
+			"active": "until Landing",
+			"total": "?",
+			"guard": "High",
+			"rbadv": "-40",
+			"wbadv": "-36",
+			"extra": "Grazes during Charge."
+		},
+		"ceilingFear": {
+			"name": "Ceiling Fear",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/08/Re22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Demon Lord Arrow.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Shockwave's bullet size increased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_dd0a0604",
+			"bc": {
+				"difference": true,
+				"b": "Slams about a screen away.",
+				"c": "Remilia hits further away, and the shockwave covers slightly less distance."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"stigmanizer": {
+			"name": "Stigmanizer",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/48/Re22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Demon Lord Arrow. (B3)",
+				"level2": "Hit Count +1. Density+ (B4)",
+				"level3": "Hit Count +1. Density+ (B5). Bullet size increased.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/235.html#id_8ee62786",
+			"bc": {
+				"difference": true,
+				"b": "Launches at approximately 45 degrees.",
+				"c": "Relatively more forward angle."
+			},
+			"classification": "BULLET",
+			"density": "Lv1:b3 \n Lv2:b4 \n Lv3-4:b5",
+			"grazeRes": "∞",
+			"startup": "33",
+			"motionCancel": "49f",
+			"total": "92f",
+			"FrameAdv": "Lv1:-23[+21] \n Lv2:-17[+27] Lv3-4:-11[+33]",
+			"spiritDmg": "0.25*n",
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Demon Lord Walk",
+				"emoteIcon": "<:Re236bc1:728253769409757195>"
+			},
+			{
+				"name": "Vampire Claw",
+				"emoteIcon": "<:Re236bc2:728253769418014781>"
+			},
+			{
+				"name": "Trickster Devil",
+				"emoteIcon": "<:Re236bc3:728253769430597784>"
+			}
+		],
+		"623": [
+			{
+				"name": "Demon Lord Cradle",
+				"emoteIcon": "<:Re623bc1:728253769783181343>"
+			},
+			{
+				"name": "Rocket Kick Upper",
+				"emoteIcon": "<:Re623bc2:728253769749626930>"
+			},
+			{
+				"name": "Vampire Kiss",
+				"emoteIcon": "<:Re623bc3:728253769770598450>"
+			}
+		],
+		"214": [
+			{
+				"name": "Servant Flier",
+				"emoteIcon": "<:Re214bc1:728253769552494602>"
+			},
+			{
+				"name": "Chain Gang",
+				"emoteIcon": "<:Re214bc2:728253769468477470>"
+			},
+			{
+				"name": "Demon's Dinner Fork",
+				"emoteIcon": "<:Re214bc3:728253769413820477>"
+			}
+		],
+		"22": [
+			{
+				"name": "Demon Lord Arrow",
+				"emoteIcon": "<:Re22bc1:728253769258631228>"
+			},
+			{
+				"name": "Ceiling Fear",
+				"emoteIcon": "<:Re22bc2:728253768939864126>"
+			},
+			{
+				"name": "Stigmanizer",
+				"emoteIcon": "<:Re22bc3:728253769548038144>"
+			}
+		]
+	},
+	"spellcards": {
+		"heartBreak": {
+			"name": "Critical \"Heart Break\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/dd/Resc01.png",
+			"classification": "BULLET",
+			"density": "S1x1",
+			"grazeRes": "inf",
+			"startup": "2+19",
+			"motionCancel": "-",
+			"total": "62",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Invuln on frame1 only."
+		},
+		"demonKingCradle": {
+			"name": "Midnight Sign \"Demon King Cradle\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/34/Resc02.png",
+			"classification": "MELEE",
+			"startup": "14+4",
+			"active": "",
+			"total": "69",
+			"guard": "Mid",
+			"rbadv": "-27",
+			"wbadv": "-",
+			"extra": "Melee Invuln: 15-17F"
+		},
+		"redTheNightlessCastle": {
+			"name": "Scarlet Sign \"Red the Nightless Castle\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5a/Resc03.png",
+			"classification": "BULLET",
+			"density": "A14x1",
+			"grazeRes": "inf",
+			"startup": "2+11",
+			"motionCancel": "-",
+			"total": "156",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1-29F Invuln. 3-127F Air State"
+		},
+		"badLadyScramble": {
+			"name": "Midnight Sign \"Bad Lady Scramble\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/54/Resc04.png",
+			"classification": "MELEE",
+			"startup": "?",
+			"active": "?",
+			"total": "?",
+			"guard": "High",
+			"rbadv": "really negative",
+			"wbadv": "",
+			"extra": "ground and air + variant apparently. also graze frames"
+		},
+		"miserableFate": {
+			"name": "Destiny \"Miserable Fate\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fa/Resc05.png",
+			"classification": "BULLET",
+			"density": "Binfx?",
+			"grazeRes": "inf, 1F",
+			"startup": "21+9; 45, 60, 75",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"spearTheGungnir": {
+			"name": "Divine Spear \"Spear the Gungnir\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c8/Resc06.png",
+			"classification": "BULLET",
+			"density": "S5x1",
+			"grazeRes": "inf",
+			"startup": "2+19",
+			"motionCancel": "-",
+			"total": "62",
+			"FrameAdv": "-",
+			"spiritDmg": "0.5xN (max 5)",
+			"extra": "invuln on frame 1."
+		},
+		"milleniumVampire": {
+			"name": "Millenium Vampire",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f5/Resc07.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "10",
+			"motionCancel": "-",
+			"total": "10",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "75% Lifesteal, Damage Received 120%. Duration: ~10s"
+		},
+		"remiliaStretch": {
+			"name": "Demon \"Remilia Stretch\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2d/Resc08.png",
+			"classification": "MELEE",
+			"startup": "17+64",
+			"active": "2",
+			"total": "157",
+			"guard": "Unblockable",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": "18-82F super armor"
+		},
+		"scarletDevil": {
+			"name": "Scarlet Devil \"Scarlet Devil\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/87/Resc09.png",
+			"classification": "BULLET",
+			"density": "A20x1",
+			"grazeRes": "inf",
+			"startup": "19+1",
+			"motionCancel": "-",
+			"total": "244",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1-139F invuln. 20-203F aerial"
+		},
+		"draculaCradle": {
+			"name": "Midnight King \"Dracula Cradle\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/21/Resc10.png",
+			"classification": "MELEE",
+			"startup": "2+8",
+			"active": "114",
+			"total": "142",
+			"guard": "Mid",
+			"rbadv": "-102",
+			"wbadv": "-",
+			"extra": ""
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Heart Break",
+				"emoteIcon": "<:Resc01:728253769707552768>"
+			},
+			{
+				"name": "Demon King Cradle",
+				"emoteIcon": "<:Resc02:728253769711616090>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Red the Nightless Castle",
+				"emoteIcon": "<:Resc03:728253771443994795>"
+			},
+			{
+				"name": "Bad Lady Scramble",
+				"emoteIcon": "<:Resc04:728253772144574636>"
+			},
+			{
+				"name": "Miserable Fate",
+				"emoteIcon": "<:Resc05:728253771867488298>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Spear the Gungnir",
+				"emoteIcon": "<:Resc06:728253772127535155>"
+			},
+			{
+				"name": "Millenium Vampire",
+				"emoteIcon": "<:Resc07:728253772127535275>"
+			},
+			{
+				"name": "Remilia Stretch",
+				"emoteIcon": "<:Resc08:728253772534644736>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Scarlet Devil",
+				"emoteIcon": "<:Resc09:728253772220071937>"
+			},
+			{
+				"name": "Dracula Cradle",
+				"emoteIcon": "<:Resc10:728253772580520006>"
+			}
+		]
+	}
+}

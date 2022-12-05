@@ -1,0 +1,937 @@
+{
+	"id": "cirno",
+	"name": "Cirno",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Cirno",
+	"movement": {
+		"dash": 7,
+		"commit": 5,
+		"backdashInvuln": "1-7",
+		"backdashGraze": "8-28",
+		"backdashTotal": 39
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 6,
+			"active": 2,
+			"total": 19,
+			"guard": "Mid",
+			"rbadv": "-4",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 6,
+			"active": 2,
+			"total": 19,
+			"guard": "Mid",
+			"rbadv": "-4",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 6,
+			"active": 2,
+			"total": 19,
+			"guard": "Mid",
+			"rbadv": "-4",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 12,
+			"total": 36,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1",
+			"extra": "Max 3 Hits. \n0.5 Spirit Damage per hit on wrongblock."
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 6,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 12,
+			"total": 38,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1",
+			"extra": "Max 3 Hits. \n0.5 Spirit Damage per hit on wrongblock."
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 5,
+			"active": 2,
+			"total": 14,
+			"guard": "Low",
+			"rbadv": "+0",
+			"wbadv": "+2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": 6,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 35,
+			"active": 6,
+			"total": 62,
+			"guard": "High (Crush)",
+			"rbadv": "+0",
+			"wbadv": "+22"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 3,
+			"total": 31,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+0",
+			"extra": "0.5 Spirit damage on wrong block."
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 15,
+			"total": 61,
+			"guard": "Low",
+			"rbadv": "-23",
+			"wbadv": "-17"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 4,
+			"total": 30,
+			"guard": "High, Air",
+			"rbadv": "(-1)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 6,
+			"total": 61,
+			"guard": "High, Air",
+			"rbadv": "(-27)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 8,
+			"total": 58,
+			"guard": "High, Air",
+			"rbadv": "(-24)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 24,
+			"total": 71,
+			"guard": "High, Air",
+			"rbadv": -26,
+			"wbadv": "?",
+			"extra": "4 Hits. \n 0.5 Orbs spirit damage per hit on wrong block."
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x4",
+			"grazeRes": 1,
+			"startup": 15,
+			"motionCancel": 23,
+			"total": 57,
+			"FrameAdv": "-27 [+8]",
+			"spiritDmg": 0.2
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "30+",
+			"motionCancel": "38+",
+			"total": "72+",
+			"FrameAdv": "-27 [+8]",
+			"spiritDmg": 0.2,
+			"extra": "Can be held for up to 95F. \nFires 6 bullet when held for 11F. \nFires 9 bullets when charged for 70F."
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1",
+			"startup": 20,
+			"motionCancel": 31,
+			"total": 50,
+			"FrameAdv": "-15 [+5]",
+			"spiritDmg": 0.2,
+			"extra": "Attack Cancel: 18F"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": "inf",
+			"startup": "19+",
+			"motionCancel": "35+",
+			"total": "61+",
+			"FrameAdv": "-17 [+10]",
+			"spiritDmg": 0.125,
+			"extra": "Can be held up to 74F. Doing so does not change the bullet."
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 32,
+			"total": 64,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-5"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x4",
+			"grazeRes": 1,
+			"startup": 15,
+			"motionCancel": 23,
+			"total": 57,
+			"FrameAdv": "-27 [+8]",
+			"spiritDmg": 0.2
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "30+",
+			"motionCancel": "38+",
+			"total": "72+",
+			"FrameAdv": "-27 [+8]",
+			"spiritDmg": 0.2,
+			"extra": "Can be held for up to 95F. \nFires 6 bullet when held for 11F. \nFires 9 bullets when charged for 70F."
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1",
+			"startup": "Varies",
+			"motionCancel": 34,
+			"total": 63,
+			"FrameAdv": "Varies",
+			"spiritDmg": 0.2,
+			"extra": "Thrown ice block does not interact and does no damage. \nLanding Recovery: 12F\nAttack Cancel: 16F"
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": "inf",
+			"startup": "19+",
+			"motionCancel": "35+",
+			"total": "61+",
+			"FrameAdv": "-17 [+10]",
+			"spiritDmg": 0.125,
+			"extra": "Can be held up to 74F. Doing so does not change the bullet. \n Landing Recovery: 12F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": 10,
+			"startup": 15,
+			"motionCancel": 30,
+			"total": 62,
+			"FrameAdv": "-6 [+27]",
+			"spiritDmg": 0.25,
+			"extra": "Up to 6 hits."
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "960-1000HP",
+			"grazeRes": "inf",
+			"startup": "24+",
+			"motionCancel": "34+",
+			"total": "62+",
+			"FrameAdv": "-17 [+12]",
+			"spiritDmg": 1,
+			"extra": "Attack Cancel: 23F. If the move is attack cancelled before the ball is thrown, there will be no attack produced. \n Can be held for 102F, during which the ice ball increases in size and HP."
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "C1xn",
+			"grazeRes": "1",
+			"startup": "61, 63, 65...F",
+			"motionCancel": 36,
+			"total": 67,
+			"FrameAdv": "+15 [+47]",
+			"spiritDmg": 0.125,
+			"extra": "Attack Cancel: 21F"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 15,
+			"total": 52,
+			"guard": "High, Air",
+			"rbadv": "-18",
+			"wbadv": "-12",
+			"extra": "Graze frames 5~17"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": 10,
+			"startup": 15,
+			"motionCancel": 30,
+			"total": 62,
+			"FrameAdv": "-6 [+27]",
+			"spiritDmg": 0.25,
+			"extra": "Up to 6 hits. \n Landing Recovery: 12F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "960-1000HP",
+			"grazeRes": "inf",
+			"startup": "24+",
+			"motionCancel": "34+",
+			"total": "55+",
+			"FrameAdv": "-10 [+12]",
+			"spiritDmg": 1,
+			"extra": "Landing Recovery: 12F\nAttack Cancel: 23F. If the move is attack cancelled before the ball is thrown, there will be no attack produced. \n Can be held for 102F, during which the ice ball increases in size and HP."
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "C1xn",
+			"grazeRes": "1",
+			"startup": "61, 63, 65...F",
+			"motionCancel": 36,
+			"total": 67,
+			"FrameAdv": "+15 [+47]",
+			"spiritDmg": 0.125,
+			"extra": "Landing Recovery: 12F \nAttack Cancel: 21F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 6,
+			"total": 58,
+			"guard": "High",
+			"rbadv": "-19",
+			"wbadv": "-13",
+			"extra": "6A but far end is the thin end. Extends much further than 6a"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 6,
+			"total": 52,
+			"guard": "High",
+			"rbadv": "-13",
+			"wbadv": "-7",
+			"extra": "Roughly the size of f.5a"
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 2,
+			"total": 66,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "25",
+			"extra": "Purple Flash: 4F \n4a with half the range."
+		}
+	},
+	"skillcards": {
+		"icicleShot": {
+			"name": "Icicle Shot",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fc/Ci236bc1.png",
+			"levels": {
+				"level0": "Shoots 3 icicles uncharged, gains 1 icicle per 15F charged.",
+				"level1": "Shoots 4 icicles uncharged, gains 1 icicle per 12F charged. Can now be cancelled (17F on ground, 16F in air) by pressing B or C button, whichever not used to charge the move.",
+				"level2": "Shoots 4 icicles uncharged, gains 1 icicle per 11F charged. (C Version shoots 1 extra with built-in charge timer).",
+				"level3": "Shoots 5 icicles uncharged, gains 1 icicle per 10F charged. (C Version shoots 1 extra with built-in charge timer).",
+				"level4": "Shoots 5 icicles uncharged, gains 1 icicle per 8F charged. (C Version shoots 1 extra with built-in charge timer)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/251.html#id_a6fc66ab",
+			"bc": {
+				"difference": true,
+				"b": "Max charge 10 icicles.",
+				"c": "Max charge 15 icicles; 11F charge timer built-in."
+			},
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "**Lv 0:** 1 \n**Lv 1:** 5 \n**Lv 2:** 10 \n**Lv 3:** 12",
+			"startup": "G: 15 \n A: 18",
+			"motionCancel": "G: 25 \n A: 31",
+			"total": "G: 49 \n A: 54",
+			"FrameAdv": "-",
+			"spiritDmg": 1,
+			"extra": ""
+		},
+		"frostPillars": {
+			"name": "Frost Pillars",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0e/Ci236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "B version lingers for 300F, C version lingers for 420F",
+				"level2": "Both versions stays 60F more.",
+				"level3": "Both versions stays 60F more.",
+				"level4": "Both versions stays 60F more."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/251.html#id_40030be3",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "Frost trap stays on screen longer, slightly slower motion cancel, much slower recovery."
+			},
+			"classification": "BULLET",
+			"density": "?",
+			"grazeRes": "1F",
+			"startup": "29",
+			"motionCancel": "B: 40\n C: 48",
+			"total": "B: 56 \n C: 78",
+			"FrameAdv": "-",
+			"spiritDmg": 0.5,
+			"extra": ""
+		},
+		"freezingLight": {
+			"name": "Freezing Light",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2b/Ci236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Ice beam hitbox grows for 19F.",
+				"level2": "-",
+				"level3": "Ice beam hitbox can grow up to 29F.",
+				"level4": "Ice beam hitbox can grow up to 39F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/251.html#id_a606de73",
+			"bc": {
+				"difference": false,
+				"b": "-",
+				"c": "-"
+			},
+			"classification": "BULLET",
+			"density": "B1x3",
+			"grazeRes": "inf",
+			"startup": "23",
+			"motionCancel": "41",
+			"total": "G: 69\n A: 75",
+			"FrameAdv": "-",
+			"spiritDmg": 0.4,
+			"extra": ""
+		},
+		"freezeTouchMe": {
+			"name": "Freeze Touch Me",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/28/Ci623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Ground versions start up and motion cancel happens 3F earlier. Total frames reduced by 3.",
+				"level3": "-",
+				"level4": "Ground versions start up and motion cancel happens 3F earlier. Total frames reduced by 3."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/251.html#id_ec5e19e4",
+			"bc": {
+				"difference": true,
+				"b": "Cirno spins and sends 8 ice clouds away from her.",
+				"c": "Slower start up, ice clouds moves faster and further away from Cirno."
+			},
+			"classification": "BULLET",
+			"density": "B1x8",
+			"grazeRes": "inf",
+			"startup": "G B: 14\n G C: 22 \n A: 14",
+			"motionCancel": "G B: 63\nG C: 79\nA B: 67\nG B: 75",
+			"total": "G B: 70\nG C: 86\nA B: 70(10)\nG B: 78(10)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"icicleLance": {
+			"name": "Icicle Lance",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ec/Ci623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "B version can spawn max 6 icicles, C version can spawn max 9 icicles.",
+				"level2": "B version can spawn max 7 icicles, C version can spawn max 11 icicles.",
+				"level3": "B version can spawn max 8 icicles, C version can spawn max 13 icicles.",
+				"level4": "B version can spawn max 9 icicles, C version can spawn max 15 icicles."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/251.html#id_dd821406",
+			"bc": {
+				"difference": true,
+				"b": "Cirno spawns an icicle close to her every 6F while charging, 3 icicles spawn uncharged.",
+				"c": "Cirno spawns icicles speading away from her every 4F while charging, 4 icicle spawn uncharged."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "1F",
+			"startup": "Spawn: 15\n Launch 29+",
+			"motionCancel": "",
+			"total": "65",
+			"FrameAdv": "-",
+			"spiritDmg": 0.1,
+			"extra": ""
+		},
+		"icicleSword": {
+			"name": "Icicle Sword",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a6/Ci623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Increases Spinning portion hitboxes.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/251.html#id_98d2cc66",
+			"bc": {
+				"difference": true,
+				"b": "Cirno lunge in a low arc, does not lift opponent while spinning.",
+				"c": "Cirno will leap high into the air before coming down, lifts opponent while spinning."
+			},
+			"classification": "MELEE",
+			"startup": "B: 15 \nC: 13",
+			"active": "B: 28\n C: 51\n A: untilLanding\n Finish: 2",
+			"total": "B: 88 \n C: 112 \n A: tillLanding",
+			"guard": "High",
+			"rbadv": "B: -16 \n C:-12 \n A: -16",
+			"wbadv": "B: -12 \n C:-15 \n A: -12",
+			"extra": "note to self: finisher frames"
+		},
+		"midsummerSnowman": {
+			"name": "Midsummer Snowman",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1a/Ci214bc1.png",
+			"levels": {
+				"level0": "Ice boulder has 800HP.",
+				"level1": "Ice boulder now has 1300HP. B version startup -3F, C version -4F.",
+				"level2": "Ice boulder now has 1450HP.",
+				"level3": "Ice boulder now has 1600HP.",
+				"level4": "Ice boulder now has 1800HP. C version startup -4F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/252.html#id_1cb6ad77",
+			"bc": {
+				"difference": true,
+				"b": "Faster start up higher acceleration, Cirno will slide further as a result when releasing the ice boulder.",
+				"c": "Slower start up lower acceleration, slides less distance than B version when releasing the ice boulder."
+			},
+			"classification": "MELEE",
+			"startup": "B: 28\nC: 42",
+			"active": 31,
+			"total": "B: 106 \n C: 120",
+			"guard": "High, Mid",
+			"rbadv": "?",
+			"wbadv": "?",
+			"extra": "note to self this has both melee and bullet props? also there's a lot lol"
+		},
+		"iceCharge": {
+			"name": "Ice Charge",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/db/Ci214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Becomes air usable.",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/252.html#id_13022a45",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "Cirno travels faster and has a longer duration."
+			},
+			"classification": "MELEE",
+			"startup": "G: 16\n A: 21",
+			"active": "B: 21 \nC: 31",
+			"total": "G B/C: 52/62 \n A B/C: 73/83",
+			"guard": "High",
+			"rbadv": "B: -10 \n C: -20",
+			"wbadv": "B: -4\n C: -14",
+			"extra": "Landing Recovery: 12F \n Ground B/C: 31/41F rec. \n Air B/C: 36/46F rec. \n can someone correct my information"
+		},
+		"iceKick": {
+			"name": "Ice Kick",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d8/Ci214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "All versions gain 1 additional hit.",
+				"level3": "-",
+				"level4": "All versions gain 1 additional hit."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/252.html#id_626f6d04",
+			"bc": {
+				"difference": true,
+				"b": "Cirno leaps up and performs dive kick at 45° down. Grazes during active frames.",
+				"c": "Cirno leaps higher. Grazes during active frames."
+			},
+			"classification": "MELEE",
+			"startup": "G.B: 32\n G.C: 38\n A.B: 19\n A.C: 26",
+			"active": "B: 9\n C: 16\n A: Until Land",
+			"total": "G.B: 63\n G.C: 76\n A.B: +28 land\n A.C: +31 land",
+			"guard": "High, Air",
+			"rbadv": "varies",
+			"wbadv": "varies",
+			"extra": "Air B: Grazes starting at 23F until landing. \n Air C: Slower start up. Grazes starting at 30F until landing."
+		},
+		"littleIceberg": {
+			"name": "Little Iceberg",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5b/Ci22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "2 icicles now spawn both front and back of glacier landing site.",
+				"level2": "Glacier hitbox becomes wider.",
+				"level3": "3 icicles now spawn both front and back of glacier landing site.",
+				"level4": "Glacier hitbox becomes wider; 4 icicles now spawn both front and back of glacier landing site."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/252.html#id_929b898f",
+			"bc": {
+				"difference": true,
+				"b": "Throws glacier at a higher angle and lands closer to Cirno.",
+				"c": "Throws glacier at a lower angle and lands further away from Cirno."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf, 1F",
+			"startup": "Main: 21\n Icicles: 81/86/91",
+			"motionCancel": "36",
+			"total": "47",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "this is a two parter on level up"
+		},
+		"icicleBomb": {
+			"name": "Icicle Bomb",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5f/Ci22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Duration increased. +2 Bullets.",
+				"level3": "Duration increased. +1 Bullet.",
+				"level4": "Duration increased. +1 Bullet."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/252.html#id_b8cec1e7",
+			"bc": {
+				"difference": true,
+				"b": "The bomb is shot straight forward.",
+				"c": "The bomb is shot diagonally up on the ground, diagonally down in the air."
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "initial isn't a bullet."
+		},
+		"frozenTechnique": {
+			"name": "Frozen Technique",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f6/Ci22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Range increased slightly.",
+				"level3": "Range increased slightly.",
+				"level4": "Startup decreased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/252.html#id_50d2782f",
+			"bc": {
+				"difference": false,
+				"b": "-",
+				"c": "C version jumps farther than the B version. "
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "Lv 1~3: 32\n Lv 4: 27",
+			"motionCancel": "-",
+			"total": "65",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "this is a grazable grab."
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Icicle Shot",
+				"emoteIcon": "<:Ci236bc1:728226832767254558>"
+			},
+			{
+				"name": "Frost Pillars",
+				"emoteIcon": "<:Ci236bc2:728226832754802748>"
+			},
+			{
+				"name": "Freezing Light",
+				"emoteIcon": "<:Ci236bc3:728226832813522987>"
+			}
+		],
+		"623": [
+			{
+				"name": "Freeze Touch Me",
+				"emoteIcon": "<:Ci623bc1:728226832708796428>"
+			},
+			{
+				"name": "Icicle Lance",
+				"emoteIcon": "<:Ci623bc2:728226832960192514>"
+			},
+			{
+				"name": "Icicle Sword",
+				"emoteIcon": "<:Ci623bc3:728226833220239471>"
+			}
+		],
+		"214": [
+			{
+				"name": "Midsummer Snowman",
+				"emoteIcon": "<:Ci214bc1:728226830393278466>"
+			},
+			{
+				"name": "Ice Charge",
+				"emoteIcon": "<:Ci214bc2:728226832553345114>"
+			},
+			{
+				"name": "Ice Kick",
+				"emoteIcon": "<:Ci214bc3:728226832712990750>"
+			}
+		],
+		"22": [
+			{
+				"name": "Little Iceberg",
+				"emoteIcon": "<:Ci22bc1:728226830590410752>"
+			},
+			{
+				"name": "Icicle Bomb",
+				"emoteIcon": "<:Ci22bc2:728226830670102548>"
+			},
+			{
+				"name": "Frozen Technique",
+				"emoteIcon": "<:Ci22bc3:728226830502592533>"
+			}
+		]
+	},
+	"spellcards": {
+		"icicleMachineGun": {
+			"name": "Ice Sign \"Icicle Machine Gun\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/45/Cisc01.png",
+			"classification": "BULLET",
+			"density": "C1x20",
+			"grazeRes": "1F",
+			"startup": "(15+7+2n)",
+			"motionCancel": "-",
+			"total": "122",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"fairySpin": {
+			"name": "Ice Sign \"Fairy Spin\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5c/Cisc02.png",
+			"classification": "BULLET",
+			"density": "C1x36",
+			"grazeRes": "1F",
+			"startup": "G: 11+5+17N\n A: 17+5+17N",
+			"motionCancel": "-",
+			"total": "G: 95\n A: 93",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"coldSprinkler": {
+			"name": "Ice Cubes \"Cold Sprinkler",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6b/Cisc03.png",
+			"classification": "BULLET",
+			"density": "C1x73",
+			"grazeRes": "1F",
+			"startup": "Parent: 15 \n Bullet: 36+3N",
+			"motionCancel": "-",
+			"total": "68",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "spawns from the parent thing",
+			"imageHitbox": ""
+		},
+		"superIceKick": {
+			"name": "Cold Body \"Super Ice Kick\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/df/Cisc04.png",
+			"classification": "MELEE",
+			"startup": "G: 29+3\n A:12+3",
+			"active": "G: 12 \n A: until Landing?",
+			"total": "60? 55~67?",
+			"guard": "High",
+			"rbadv": "-34",
+			"wbadv": "?",
+			"extra": "Graze/Recoil, etc?"
+		},
+		"swordFreezer": {
+			"name": "Ice Sign \"Sword Freezer\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/17/Cisc05.png",
+			"classification": "MELEE",
+			"startup": "init: 10+10\n final: 62",
+			"active": "?",
+			"total": 149,
+			"guard": "High",
+			"rbadv": "a lot",
+			"wbadv": "a lot",
+			"extra": "4 hits?"
+		},
+		"freezeAtmosphere": {
+			"name": "Frozen Sign \"Freeze Atmosphere\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/35/Cisc06.png",
+			"classification": "BULLET",
+			"density": "B1x23",
+			"grazeRes": "1F",
+			"startup": "init:13 \n bullet: 108+6N",
+			"motionCancel": "-",
+			"total": "45",
+			"FrameAdv": "+++",
+			"spiritDmg": 0,
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"instaFreezeBeam": {
+			"name": "Cold Sign \"Insta-Freeze Beam\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/48/Cisc07.png",
+			"classification": "BULLET",
+			"density": "B15x3",
+			"grazeRes": "inf",
+			"startup": "13",
+			"motionCancel": "-",
+			"total": "108",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"frostColumns": {
+			"name": "Frost Sign \"Frost Columns\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e7/Cisc08.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "13+6",
+			"motionCancel": "-",
+			"total": "62",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"iceTornado": {
+			"name": "Blowing Ice \"Ice Tornado\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5c/Cisc09.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "17+4",
+			"motionCancel": "-",
+			"total": "228",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "",
+			"imageHitbox": "at some point i'll know what abrasion shooting attritubte means\n Invuln: 1-42F"
+		},
+		"perfectFreeze": {
+			"name": "Cold Sign \"Perfect Freeze\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c6/Cisc10.png",
+			"classification": "BULLET",
+			"density": "B1x118, -, B1xN",
+			"grazeRes": "inf, -, 1F",
+			"startup": "scatter: 15+1n \n freeze: 135 \n freezeBullet: 226",
+			"motionCancel": "-",
+			"total": "190",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "three part-er, need to rewrite `scatter` startup.",
+			"imageHitbox": ""
+		},
+		"greatCrusher": {
+			"name": "Ice Cubes \"Great Crusher\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5a/Cisc11.png",
+			"classification": "MELEE",
+			"startup": "10+19",
+			"active": 2,
+			"total": 69,
+			"guard": "High",
+			"rbadv": "-",
+			"wbadv": "guardcrush",
+			"extra": "aub, 10-27F judged in air?"
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Icicle Machine Gun",
+				"emoteIcon": "<:Cisc01:728226833635737670>"
+			},
+			{
+				"name": "Fairy Spin",
+				"emoteIcon": "<:Cisc02:728226833505714186>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Cold Sprinkler",
+				"emoteIcon": "<:Cisc03:728226833518297139>"
+			},
+			{
+				"name": "Super Ice Kick",
+				"emoteIcon": "<:Cisc04:728226833530880061>"
+			},
+			{
+				"name": "Sword Freezer",
+				"emoteIcon": "<:Cisc05:728226833392205846>"
+			},
+			{
+				"name": "Freeze Atmosphere",
+				"emoteIcon": "<:Cisc06:728226833488805978>"
+			},
+			{
+				"name": "Insta-Freeze Beam",
+				"emoteIcon": "<:Cisc07:728226833157324811>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Frost Columns",
+				"emoteIcon": "<:Cisc08:728226833283285053>"
+			},
+			{
+				"name": "Ice Tornado",
+				"emoteIcon": "<:Cisc09:728226833379885157>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Perfect Freeze",
+				"emoteIcon": "<:Cisc10:728226833564303481>"
+			},
+			{
+				"name": "Great Crusher",
+				"emoteIcon": "<:Cisc11:728226833459445782>"
+			}
+		]
+	}
+}

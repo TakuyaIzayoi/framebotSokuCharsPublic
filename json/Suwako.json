@@ -1,0 +1,1079 @@
+{
+	"id": "moriya Suwako",
+	"name": "Suwako",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Suwako_Moriya",
+	"extra": "yeah half the bullet information is missing",
+	"movement": {
+		"dash": 22,
+		"commit": 47,
+		"backdashInvuln": "1-4, 12-61 (1-9 Lily)",
+		"backdashGraze": "5-17, 62-78 (10-35 Lily)",
+		"backdashTotal": "85 (45 Lily)"
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 18,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "0"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 18,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "0"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 25,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 21,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2",
+			"extra": "Airborne: 7-50F \nMax 4 Hits."
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": "13, 19",
+			"active": "Until Landing",
+			"total": "Varies",
+			"guard": "High (Crush), Air",
+			"rbadv": "-39",
+			"wbadv": "?",
+			"extra": "Landing Animation: 54F \n Landing Animation Underground: 7-24F \n Landing Animation Cancellable into Underground Skills/Spells: 11F-20F."
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 3,
+			"total": 43,
+			"guard": "Low",
+			"rbadv": "-7",
+			"wbadv": "-1"
+		},
+		"f.5[a]": {
+			"classification": "MELEE",
+			"startup": 30,
+			"active": 3,
+			"total": 69,
+			"guard": "Low (Crush)",
+			"rbadv": "-12",
+			"wbadv": "+10"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": "17 (18F Tree)",
+			"active": "10 (6F Tree)",
+			"total": 53,
+			"guard": "High, Air",
+			"rbadv": "-14",
+			"wbadv": "-8",
+			"extra": "Airborne: 15-47F \n Tree Hitbox Disappears if Suwako herself hits the opponent."
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": "32 (33F Tree)",
+			"active": "10 (6F Tree)",
+			"total": 73,
+			"guard": "High (Crush)",
+			"rbadv": "-13",
+			"wbadv": "+9",
+			"extra": "Airborne: 30-67F \n Tree Hitbox Disappears if Suwako herself hits the opponent."
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 24,
+			"active": 21,
+			"total": 54,
+			"guard": "High, Air",
+			"rbadv": "+3",
+			"wbadv": "+7",
+			"extra": "Invincible: 1-6F \n Airborne: 11-54F"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 25,
+			"active": 11,
+			"total": 57,
+			"guard": "Mid",
+			"rbadv": "-11",
+			"wbadv": "N/A",
+			"extra": "Enters Lilypad state after startup."
+		},
+		"l.5a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 4,
+			"total": 67,
+			"guard": "Low, Air",
+			"rbadv": "-33",
+			"wbadv": "-27",
+			"extra": "Can only be canceled 3F after it hits or blocked."
+		},
+		"l.6a": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 11,
+			"total": 87,
+			"guard": "High, Air",
+			"rbadv": "-41",
+			"wbadv": "-36",
+			"extra": "Airborne: 13-29F \nDashing 36-63F \nCan cancel into all underground moves from 40F forward."
+		},
+		"l.3a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 8,
+			"total": 48,
+			"guard": "Mid, Air",
+			"rbadv": "-1",
+			"wbadv": "N/A",
+			"extra": "Can only be canceled 3F after it hits or blocked."
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 21,
+			"total": 56,
+			"guard": "High, Air",
+			"rbadv": "(-7)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": "15, 19, 23, 27, 33",
+			"active": "4, 4, 4, 4, 3",
+			"total": 53,
+			"guard": "High, Air",
+			"rbadv": "(-1)",
+			"wbadv": "?",
+			"extra": "Has a 61F Landing Animation if Suwako lands while the move executes if it hits or is blocked. \n Landing Animation is Dashing 4-37F. \n Landing animation cancellable into all underground moves between 14-33F regardless of block, hit, or whiff."
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": "16 (18F Tree)",
+			"active": "5 (10F Tree)",
+			"total": 65,
+			"guard": "**Suwako:** Mid, Air \n **Tree:** Low, Air",
+			"rbadv": "**Suwako:** (-8) \n **Tree:** +1",
+			"wbadv": "**Suwako:** (-8) \n **Tree:** +7",
+			"extra": "Landing Recovery: 7F \n Frame Adv. for Tree is lowest poss. j.8a height. \n Tree can only be cancelled 11F after it hits or is blocked."
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 40,
+			"active": 18,
+			"total": 79,
+			"guard": "High, Air",
+			"rbadv": -17,
+			"wbadv": "-11",
+			"extra": "Invincible: 22~35F \n Airborne 40~72F"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": "15 (16 tree)",
+			"active": "10 (6 tree)",
+			"total": 59,
+			"guard": "High",
+			"rbadv": "-27",
+			"wbadv": "-21"
+		},
+		"66c": {
+			"classification": "BULLET",
+			"density": "C4x10",
+			"grazeRes": "1",
+			"startup": "25, 27, ... 43",
+			"motionCancel": "47",
+			"total": 82,
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*10",
+			"extra": "Invuln: 1~6F \n Airborne: 11~76F \n Attack Cancel: 25F"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x4",
+			"grazeRes": "1",
+			"startup": "15, 18, 21, 24",
+			"motionCancel": "25",
+			"total": "54",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25*4",
+			"extra": "Attack Cancel: 15F"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x4",
+			"grazeRes": "1",
+			"startup": "15, 18, 21, 24",
+			"motionCancel": "24",
+			"total": "63 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25*4",
+			"extra": "Attack Cancel: 27F"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": "1",
+			"startup": "27, 30, ..., 42",
+			"motionCancel": "37",
+			"total": "66",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25*6",
+			"extra": "Attack Cancel: 28F"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": "1",
+			"startup": "28, 31, ..., 43",
+			"motionCancel": "42",
+			"total": "76 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25*6",
+			"extra": "Attack Cancel: 28F"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C4x1",
+			"grazeRes": "6",
+			"startup": "15",
+			"motionCancel": "34",
+			"total": "65",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Does not bounce on walls. \nCan be charged twice, `6[B]` or `6[[B]]` \n Attack Cancel: 15F"
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C4x1",
+			"grazeRes": "6",
+			"startup": "16",
+			"motionCancel": "28",
+			"total": "58 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Does not bounce on walls. \nCan be charged twice, `j.6[B]` or `j.6[[B]]` \n Attack Cancel: 16F"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": "10",
+			"startup": "30",
+			"motionCancel": "49",
+			"total": "80",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Bounces once on walls. \nCan be charged twice, `6B` or `6[[B]]` \n Attack Cancel: 30F"
+		},
+		"6[[b]]": {
+			"classification": "BULLET",
+			"density": "C12x1",
+			"grazeRes": "14",
+			"startup": "60",
+			"motionCancel": "79",
+			"total": "110",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Bounces twice on walls. \nCan be charged twice, `6B` or `6[B]` \n Attack Cancel: 60F"
+		},
+		"j.6[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": "10",
+			"startup": "31",
+			"motionCancel": "43",
+			"total": "73 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Bounces once on walls. \nCan be charged twice, `j.6B` or `j.6[[B]]` \n Attack Cancel: 31F"
+		},
+		"j.6[[b]]": {
+			"classification": "BULLET",
+			"density": "C12x1",
+			"grazeRes": "14",
+			"startup": "61",
+			"motionCancel": "73",
+			"total": "103 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Bounces twice on walls. \nCan be charged twice, `j.6B` or `j.6[B]` \n Attack Cancel: 61F"
+		},
+		"l.5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1",
+			"startup": "15, 18, ..., 27",
+			"motionCancel": "25",
+			"total": "54",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25*5",
+			"extra": "Attack Cancel: 15F"
+		},
+		"l.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x7",
+			"grazeRes": "1",
+			"startup": "27, 30, ... 45",
+			"motionCancel": "37",
+			"total": "66",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25*7"
+		},
+		"l.6b": {
+			"classification": "BULLET",
+			"density": "C4x1",
+			"grazeRes": "6",
+			"startup": "25",
+			"motionCancel": "50",
+			"total": "69",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4",
+			"extra": "Not chargeable."
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "-, B1x1",
+			"grazeRes": "-, 1",
+			"startup": "28",
+			"motionCancel": "40",
+			"total": "74",
+			"FrameAdv": "?",
+			"spiritDmg": "1",
+			"extra": "Persists even when Suwako is hit. \nDoes not hit or emerge until it reaches the opponent. \n Attack Cancel: 30F"
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "-, B1x1",
+			"grazeRes": "-, 1",
+			"startup": "43",
+			"motionCancel": "55",
+			"total": "89",
+			"FrameAdv": "?",
+			"spiritDmg": "1",
+			"extra": "Persists even when Suwako is hit. \nDoes not hit or emerge until it reaches the opponent. \nCharged version travels faster and has a wider hitbox. \n Attack Cancel: 40F"
+		},
+		"l.5c": {
+			"classification": "BULLET",
+			"density": "**Boulders during orbit:** B1x5~13 \n**Boulders after being shot:** B1x5~13",
+			"grazeRes": "1, 1",
+			"startup": "14, 19, ... 84",
+			"motionCancel": "44",
+			"total": "82",
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*n",
+			"extra": "Can be held up to 13 Rocks."
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "inf",
+			"startup": "23",
+			"motionCancel": "49",
+			"total": "84",
+			"FrameAdv": "?",
+			"spiritDmg": "1"
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "inf",
+			"startup": "38",
+			"motionCancel": "64",
+			"total": "99",
+			"FrameAdv": "?",
+			"spiritDmg": "1.5"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C4x1",
+			"grazeRes": "6",
+			"startup": "14",
+			"motionCancel": "27",
+			"total": "61 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Bounces none on walls. \nCan be charged twice, `j.2[B]` or `j.2[[B]]`"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": "10",
+			"startup": "29",
+			"motionCancel": "42",
+			"total": "76 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Bounces once on walls. \nCan be charged twice, `j.2B` or `j.2[[B]]`"
+		},
+		"j.2[[b]]": {
+			"classification": "BULLET",
+			"density": "C12x1",
+			"grazeRes": "14",
+			"startup": "59",
+			"motionCancel": "72",
+			"total": "106 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*4 (?)",
+			"extra": "Bounces twice on walls. \nCan be charged twice, `j.2B` or `j.2[B]`"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "**Boulders during orbit:** B1x5~13 \n**Boulders after being shot:** B1x5~13",
+			"grazeRes": "1, 1",
+			"startup": "14, 19, ..., 84",
+			"motionCancel": "42",
+			"total": "73 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*n",
+			"extra": "Can be held up to 13 Rocks. \n Attack Cancel: 26F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x6",
+			"grazeRes": "3F",
+			"startup": "-, 11",
+			"motionCancel": "-",
+			"total": "58",
+			"FrameAdv": "?",
+			"spiritDmg": "0.5*n",
+			"extra": "Invuln: 3-29F \n Attack Cancel (G): 10-24F "
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "C4x10",
+			"grazeRes": "1",
+			"startup": "18, 20, ..., 36",
+			"motionCancel": "40",
+			"total": "79 (10)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.1*10",
+			"extra": "Attack Cancel: 20F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "Literally f.5a"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 46,
+			"guard": "High",
+			"rbadv": "-7",
+			"wbadv": "-1",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 39,
+			"active": 3,
+			"total": 67,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "31",
+			"extra": "Purple Flash: 11F"
+		}
+	},
+	"skillcards": {
+		"lakeOfGreatEarth": {
+			"name": "Lake of Great Earth",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/56/Sw236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup Frames on Aerial version reduced. Hitbox+",
+				"level2": "-",
+				"level3": "Hitbox size increase on Ground.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_d65843e0",
+			"bc": {
+				"difference": true,
+				"b": "Suwako travels a shorter distance by diving at a sharper angle.",
+				"c": "Suwako travels farther by diving at a more horizontal angle."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"ancientJade": {
+			"name": "Ancient Jade",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6c/Sw236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Lake of Great Earth",
+				"level2": "+1 Bullet.",
+				"level3": "+1 Bullet. Produces a splash effect on ground contact",
+				"level4": "+1 Bullet."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_e1793057",
+			"bc": {
+				"difference": true,
+				"b": "Gems are thrown at a more downwards angle. If used underground, sends Suwako up a short distance before launching the jades.",
+				"c": "Gems are thrown at a more horizontal angle. If used underground, sends Suwako up higher but has longer startup."
+			},
+			"classification": "BULLET",
+			"density": "B1xN/C1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"stoneFrogGod": {
+			"name": "Stone Frog God",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/51/Sw236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Lake of Great Earth",
+				"level2": "+1 Hit. (B/C: 4 Hits)",
+				"level3": "C Version: +1 Hit. (C: 5 Hits)",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_c95ccb94",
+			"bc": {
+				"difference": true,
+				"b": "Travels a shorter distance, and does one less hit than the C version for levels 3 and above.",
+				"c": "Travels a greater distance, and does one extra hit than the B version for levels 3 and above."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "I think this has two parts."
+		},
+		"toadGod": {
+			"name": "Toad God",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/08/Sw623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Hitbox increase.",
+				"level2": "-",
+				"level3": "Hitbox increase.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_3aead186",
+			"bc": {
+				"difference": true,
+				"b": "Suwako pops up from the ground and performs the skill.",
+				"c": "Suwako instantly appears on her lily pad and performs the skill."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "4F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Inner hitbox is melee. Outer hitbox is a bullet."
+		},
+		"ancientMetalRing": {
+			"name": "Ancient Metal Ring",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bc/Sw623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Toad God",
+				"level2": "-",
+				"level3": "Gain invuln. frames.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_64465451",
+			"bc": {
+				"difference": true,
+				"b": "8 hits, 16% limit. If used on lily, Suwako will travel upwards and slightly forward.",
+				"c": "Lasts longer than the B version. 10 hits, 20% limit. If used on lily, Suwako will travel forward and slightly upward."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"msLonglimbs": {
+			"name": "Ms Longlimbs",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/ae/Sw623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Toad God.",
+				"level2": "+2 Bullets.",
+				"level3": "-",
+				"level4": "+2 Bullets."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_4edd2c80",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, lasers travel a short distance before homing in on the opponent.",
+				"c": "Longer startup, lasers travel a greater distance before homing in on the opponent."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"ancientGeyser": {
+			"name": "Ancient Geyser",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1a/Sw214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Hitbox increase.",
+				"level2": "-",
+				"level3": "Hitbox increase.",
+				"level4": "Hitbox increase."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_110aaa65",
+			"bc": {
+				"difference": true,
+				"b": "5 hits, 25% limit. Rises up a shorter height from underground.",
+				"c": "8 hits, 40% limit. From underground, Suwako travels almost double the distance compared to 214B."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"frogGod": {
+			"name": "Frog God",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3c/Sw214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ancient Geyser.",
+				"level2": "Explosion hitbox increase.",
+				"level3": "-",
+				"level4": "Explosion gains a second hit."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_f9ddc95b",
+			"bc": {
+				"difference": true,
+				"b": "The frog jumps from Suwako's hat a shorter distance. Moves slowly across the screen.",
+				"c": "The frog jumps from Suwako's hat a longer distance. Moves faster across the screen."
+			},
+			"classification": "BULLET",
+			"density": "B17xN?, B5xN?",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"rainCallingFrog": {
+			"name": "Rain-Calling Frog",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e6/Sw214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ancient Geyser.",
+				"level2": "Hitbox increase.",
+				"level3": "-",
+				"level4": "Hitbox increase."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_707c25a3",
+			"bc": {
+				"difference": true,
+				"b": "Travels in a lower arc and hits closer to Suwako.",
+				"c": "Travels in a higher arc and hits farther away."
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"nativeScourge": {
+			"name": "Native Scourge",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cc/Sw22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Bullet Duration+. Curse Duration+. Curse Effect+. Size+. Curse occurs on block.",
+				"level2": "Curse Duration+.",
+				"level3": "Extended Bullet+. Curse Duration+. Curse Effect+. Size+.",
+				"level4": "Curse Duration+."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_4398a4ef",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B4xN",
+			"grazeRes": "4F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ":red_circle: **Red:** Suwako deals more damage. \n:blue_circle: **Blue:** Opponent suffers chip as a proportion of damage dealt.\n-This only applies to the first 4 hits of a combo.\n:green_circle: **Green:** Suwako will crush on any wrong-block."
+		},
+		"blightedEarth": {
+			"name": "Blighted Earth",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d5/Sw22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Native Scourge. (430F)",
+				"level2": "Duration Up (510F). AoE Increase. Curse Duration Up. Movement Reduction Increased. Curse Effect Up.",
+				"level3": "Duration Up (590F). AoE Increase. Curse Duration Up. Movement Reduction Increased. Curse Effect Up.",
+				"level4": "Duration Up (670F). AoE Increase. Curse Duration Up. Movement Reduction Increased. Curse Effect Up."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_ffc153de",
+			"bc": {
+				"difference": true,
+				"b": "Suwako emerges from the ground at a lower height if used underground. No difference from C on the ground.",
+				"c": "Suwako emerges from the ground at a greater height if used underground. No difference from B on the ground."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": ":red_circle: **Red:** Suwako deals more damage. \n:blue_circle: **Blue:** Opponent suffers chip as a proportion of damage dealt.\n-This only applies to the first 4 hits of a combo.\n:green_circle: **Green:** Suwako will crush on any wrong-block."
+		},
+		"mishagujiScourge": {
+			"name": "Mishaguji Scourge",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0a/Sw22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Native Scourge. (2S, 1.2x Damage)",
+				"level2": "Curse Duration Up. Curse Effect Up. (2.5S, 1.3x Damage)",
+				"level3": "Curse Duration Up. Curse Effect Up. (3S, 1.4x Damage)",
+				"level4": "Curse Duration Up. Curse Effect Up. (3.5S, 1.5x Damage)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/242.html#id_9df51f82",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "The requirements will only change when Suwako is knocked down. \n:small_orange_diamond:The opponent attacks.\n:small_orange_diamond:The opponent blocks a move.\n:small_orange_diamond:The opponent dashes or flies.\n:small_orange_diamond:The opponent suffers a guard crush."
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Lake of Great Earth",
+				"emoteIcon": "<:Sw236bc1:728253984732741632>"
+			},
+			{
+				"name": "Ancient Jade",
+				"emoteIcon": "<:Sw236bc2:728253984720158821>"
+			},
+			{
+				"name": "Stone Frog God",
+				"emoteIcon": "<:Sw236bc3:728253984468631626>"
+			}
+		],
+		"623": [
+			{
+				"name": "Toad God",
+				"emoteIcon": "<:Sw623bc1:728253984711901205>"
+			},
+			{
+				"name": "Ancient Metal Ring",
+				"emoteIcon": "<:Sw623bc2:728253984950714538>"
+			},
+			{
+				"name": "Ms Longlimbs",
+				"emoteIcon": "<:Sw623bc3:728253984812302367>"
+			}
+		],
+		"214": [
+			{
+				"name": "Ancient Geyser",
+				"emoteIcon": "<:Sw214bc1:728253983109546044>"
+			},
+			{
+				"name": "Frog God",
+				"emoteIcon": "<:Sw214bc2:728253984384483489>"
+			},
+			{
+				"name": "Rain-Calling Frog",
+				"emoteIcon": "<:Sw214bc3:728253984703381556>"
+			}
+		],
+		"22": [
+			{
+				"name": "Native Scourge",
+				"emoteIcon": "<:Sw22bc1:728253982912282706>"
+			},
+			{
+				"name": "Blighted Earth",
+				"emoteIcon": "<:Sw22bc2:728253985194246165>"
+			},
+			{
+				"name": "Mishaguji Scourge",
+				"emoteIcon": "<:Sw22bc3:728253983021596763>"
+			}
+		]
+	},
+	"spellcards": {
+		"moriyaClearWater": {
+			"name": "Spring Sign \"Moriya Clear Water\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b4/Swsc01.png",
+			"classification": "BULLET",
+			"density": "B1x30",
+			"grazeRes": "1F",
+			"startup": "19+4, 23, 25, ... 81",
+			"motionCancel": "",
+			"total": "G: 189\n A: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"moriyasMetalRing": {
+			"name": "Divine Instrument \"Moriya's Metal Ring\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c7/Swsc02.png",
+			"classification": "BULLET",
+			"density": "B2x3",
+			"grazeRes": "10F",
+			"startup": "G: 19+6\n A: 40+4",
+			"motionCancel": "",
+			"total": "G: 115\n A: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "G: Bounces 5x\n A: Bounces 4x"
+		},
+		"moriyaGod": {
+			"name": "Native God \"Moriya God\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/89/Swsc03.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "9+11, 73",
+			"motionCancel": "-",
+			"total": "130",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "1-22F Invuln"
+		},
+		"twoBowsTwoClapsOneBow": {
+			"name": "Party Start \"2 bows, 2 Claps, 1 Bow\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b6/Swsc04.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "Stand: 9, 36, 48\nUnder: 3, 30, 42",
+			"motionCancel": "-",
+			"total": "G: 103 \n A: 137",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "ungrazeable"
+		},
+		"froggyBravesTheElements": {
+			"name": "Native God \"Froggy Braves the Elements\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8f/Swsc05.png",
+			"classification": "BULLET",
+			"density": "L: B1x57\nS: C1x26",
+			"grazeRes": "1F",
+			"startup": "Lily: 17+13, 30, 34, ..., 102\n Air: 13+19, 36, ... 104",
+			"motionCancel": "-",
+			"total": "Lily: 115\n Air: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"horridRiverJade": {
+			"name": "Spring Sign \"Horrid River Jade\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/56/Swsc06.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "Lily: 13+2, 20\n Under: 22, 30",
+			"motionCancel": "-",
+			"total": "Lily: 198\n Under: 205",
+			"FrameAdv": "-",
+			"spiritDmg": "",
+			"extra": "initial hit-stun thing"
+		},
+		"snakeHearsAndEatsFrog": {
+			"name": "Frog Hunt \"Snake Hears and Eats Frog\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3a/Swsc07.png",
+			"classification": "BULLET",
+			"density": "A29x1?",
+			"grazeRes": "-",
+			"startup": "Stand: 30+10, 191\nLily: 13+20, 173",
+			"motionCancel": "-",
+			"total": "Stand: 235, Lily: 217",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"masterLonglimbs": {
+			"name": "Native God \"Master Longlimbs\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/96/Swsc08.png",
+			"classification": "BULLET",
+			"density": "B1x164",
+			"grazeRes": "1F",
+			"startup": "13+16, 32, ... 149",
+			"motionCancel": "-",
+			"total": "Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1-43F Invuln"
+		},
+		"redFrogOfHoueiFour": {
+			"name": "Native God \"Red Frog of Houei 4\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c6/Swsc09.png",
+			"classification": "BULLET",
+			"density": "Ainfx?",
+			"grazeRes": "1, inf",
+			"startup": "Lily: 9+2, 31\n Air: 13+2, 45",
+			"motionCancel": "-",
+			"total": "Lily: 272\n Air: 253",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"canAlwaysHibernate": {
+			"name": "Frog Nap \"Can Always Hibernate\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2b/Swsc10.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "6",
+			"motionCancel": "326~375 UG Attacks",
+			"total": "405",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Invuln: 1-381F~3012 HP"
+		},
+		"mishaguchiSama": {
+			"name": "Scourge God \"Mishaguchi-sama\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7a/Swsc11.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "10+23",
+			"motionCancel": "-",
+			"total": "217",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Unblockable, 150F Duration"
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Moriya Clear Water",
+				"emoteIcon": "<:Swsc01:728253984883867669>"
+			},
+			{
+				"name": "Moriya's Metal Ring",
+				"emoteIcon": "<:Swsc02:728253985131069520>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Moriya God",
+				"emoteIcon": "<:Swsc03:728253985080868925>"
+			},
+			{
+				"name": "2 bows, 2 Claps, 1 Bow",
+				"emoteIcon": "<:Swsc04:728253985173274656>"
+			},
+			{
+				"name": "Froggy Braves the Elements",
+				"emoteIcon": "<:Swsc05:728253985173274685>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Horrid River Jade",
+				"emoteIcon": "<:Swsc06:728253985378533406>"
+			},
+			{
+				"name": "Snake Hears and Eats Frog",
+				"emoteIcon": "<:Swsc07:728253985168818226>"
+			},
+			{
+				"name": "Master Longlimbs",
+				"emoteIcon": "<:Swsc08:728253985160691793>"
+			},
+			{
+				"name": "Red Frog of Houei 4",
+				"emoteIcon": "<:Swsc09:728253985311424563>"
+			},
+			{
+				"name": "Can Always Hibernate",
+				"emoteIcon": "<:Swsc10:728253985533853776>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Mishaguchi-sama",
+				"emoteIcon": "<:Swsc11:728253985651294299>"
+			}
+		]
+	}
+}

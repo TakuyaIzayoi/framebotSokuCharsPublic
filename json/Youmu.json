@@ -1,0 +1,942 @@
+{
+	"id": "konpakuYoumu",
+	"name": "Youmu Konpaku",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Youmu_Konpaku",
+	"movement": {
+		"dash": 7,
+		"commit": 30,
+		"backdashInvuln": "1-4",
+		"backdashGraze": "5~15",
+		"backdashTotal": 29
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 3,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 3,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 3,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 2,
+			"total": 31,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "-2"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 2,
+			"total": 40,
+			"guard": "Low",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"5aaaaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-12",
+			"wbadv": "-6"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 2,
+			"total": 27,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"f.2a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 2,
+			"total": 25,
+			"guard": "Low",
+			"rbadv": "+0",
+			"wbadv": "+4"
+		},
+		"1a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 20,
+			"guard": "Low",
+			"rbadv": "-3",
+			"wbadv": "-1"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 20,
+			"guard": "Low",
+			"rbadv": "-3",
+			"wbadv": "-1"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 8,
+			"total": 62,
+			"guard": "High (Crush)",
+			"rbadv": "-4",
+			"wbadv": "+18"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 2,
+			"total": 42,
+			"guard": "Low",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 2,
+			"total": 61,
+			"guard": "Low (Crush)",
+			"rbadv": "-2",
+			"wbadv": "+20"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 3,
+			"total": 33,
+			"guard": "High",
+			"rbadv": "-7",
+			"wbadv": "-3"
+		},
+		"66a6a": {
+			"classification": "MELEE",
+			"startup": 23,
+			"active": 4,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 12,
+			"total": 42,
+			"guard": "High, Air",
+			"rbadv": "(-16)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 9,
+			"total": 45,
+			"guard": "High, Air",
+			"rbadv": "(-13)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 10,
+			"total": 50,
+			"guard": "High, Air",
+			"rbadv": "(-19)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": "(15+)",
+			"total": "(62+)",
+			"guard": "High, Air",
+			"rbadv": "-3",
+			"wbadv": "+3",
+			"extra": "30F Recovery on Landing. \n If low enough for no hitbox to appear, has no recovery upon landing."
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": 30,
+			"motionCancel": 36,
+			"total": 41,
+			"FrameAdv": "+8 [+14]",
+			"spiritDmg": "0.25*5"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": 31,
+			"motionCancel": 31,
+			"total": 46,
+			"FrameAdv": "+4 [+20]",
+			"spiritDmg": "0.25*5"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": 27,
+			"motionCancel": 30,
+			"total": 43,
+			"FrameAdv": "+11 [+24]",
+			"spiritDmg": "0.25*5"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": 32,
+			"motionCancel": 32,
+			"total": 46,
+			"FrameAdv": "-6 [+18]",
+			"spiritDmg": "0.25*5"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": 32,
+			"motionCancel": 32,
+			"total": 46,
+			"FrameAdv": "+6 [+30]",
+			"spiritDmg": "0.25*5"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 8,
+			"total": 50,
+			"guard": "Low",
+			"rbadv": "-10",
+			"wbadv": "-4"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "C1x22",
+			"grazeRes": "1Fx22",
+			"startup": 28,
+			"motionCancel": 41,
+			"total": 68,
+			"FrameAdv": "-F [-F]",
+			"spiritDmg": "0.075*22"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "C1x22",
+			"grazeRes": "1Fx22",
+			"startup": 17,
+			"motionCancel": 26,
+			"total": 42,
+			"FrameAdv": "-F [-F]",
+			"spiritDmg": "0.075*22"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "C1x22",
+			"grazeRes": "1Fx22",
+			"startup": 31,
+			"motionCancel": 36,
+			"total": 87,
+			"FrameAdv": "-F [-F]",
+			"spiritDmg": "0.075*22"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "C1x22",
+			"grazeRes": "1Fx22",
+			"startup": 26,
+			"motionCancel": 36,
+			"total": 87,
+			"FrameAdv": "-F [-F]",
+			"spiritDmg": "0.075*22"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "1HP",
+			"grazeRes": "-",
+			"startup": 21,
+			"motionCancel": 41,
+			"total": 52,
+			"FrameAdv": "-8 [+4]",
+			"spiritDmg": 1
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 4,
+			"total": 52,
+			"guard": "High",
+			"rbadv": "-12",
+			"wbadv": "-6"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "1HP",
+			"grazeRes": "-",
+			"startup": "17",
+			"motionCancel": 37,
+			"total": 68,
+			"FrameAdv": "-38 [+4]",
+			"spiritDmg": 1
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 55,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": "6a, but a bit thicker. Not super large though."
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 2,
+			"total": 56,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 47,
+			"active": 10,
+			"total": 82,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "-24",
+			"extra": "Purple Flash: 17F"
+		}
+	},
+	"skillcards": {
+		"netherworldReflectionSlash": {
+			"name": "Netherworld Reflection Slash",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4d/Yo236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Increases duration (30F -> 50F). Reflector size increases.",
+				"level2": "",
+				"level3": "Doubles reflector-generated bullet count. Reflector size increases.",
+				"level4": "Increases duration (50F -> 80F). Reflector size increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_4e24265f",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "14?",
+			"motionCancel": "12",
+			"total": "49",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"lotusStanceCut": {
+			"name": "Lotus Stance Cut",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/60/Yo236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Damage and spirit drain **decrease**; hitbox size increases.",
+				"level3": "-",
+				"level4": "Number of hits increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_05da256b",
+			"bc": {
+				"difference": true,
+				"b": "Slows down right after it's fired, then travels almost through the whole stage before dissipating.",
+				"c": "Slows down halfway across the screen, then travels through the whole stage."
+			},
+			"classification": "BULLET",
+			"density": "B1x1 \nLv 4: B2x1",
+			"grazeRes": "10F",
+			"startup": "B: 22\n C: 29",
+			"motionCancel": "B: 22\n C: 29",
+			"total": "B: 70\n C:77",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"phosphoricSlash": {
+			"name": "Phosphoric Slash",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/17/Yo236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Density increases from C to B.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_988a57ff",
+			"bc": {
+				"difference": true,
+				"b": "Creates two rings, faster startup.",
+				"c": "Creates four rings."
+			},
+			"classification": "BULLET",
+			"density": "B: C2x2\nC: B2x4",
+			"grazeRes": "4F",
+			"startup": "B: 22\nC: 25",
+			"motionCancel": "B: 20/nC: 25",
+			"total": "B: 62\nC: 67",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "something something frame advantage"
+		},
+		"crescentMoonSlash": {
+			"name": "Crescent Moon Slash",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e0/Yo623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "B version gains melee invulnerability. C version slides further.",
+				"level2": "B version hitbox increases. C version slides further.",
+				"level3": "C version slides further.",
+				"level4": "C version slides further."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_bb78b707",
+			"bc": {
+				"difference": true,
+				"b": "Single hit move with melee invulnerability when leveled up.",
+				"c": "Two hit move with grazing frames. First hit is cancellable into spells. "
+			},
+			"classification": "MELEE",
+			"startup": "B: 13\nC: 10, 32",
+			"active": "B: 2\nC: 1, 5",
+			"total": "B: 70\nC: 96",
+			"guard": "B: Mid\nC: Mid, High",
+			"rbadv": "B: -36\n C: -42",
+			"wbadv": "C: -36",
+			"extra": "1-10 Upper Body Invuln, 11-14 Invuln? \nB Lv1+: 1-16F Invuln."
+		},
+		"intolerantAvici": {
+			"name": "Intolerant Avici",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7a/Yo623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Rate (30%)",
+				"level2": "Proration improves (40%).",
+				"level3": "Proration improves (50%).",
+				"level4": "Proration improves (65%)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_78ed55be",
+			"bc": {
+				"difference": true,
+				"b": "Grabs and pushes opponent forward.",
+				"c": "Grabs and pushes opponent backwards."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"insightfulSword": {
+			"name": "Insightful Sword",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/10/Yo623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_d7058842",
+			"bc": {
+				"difference": true,
+				"b": "Fast startup, counter time lasts 9 frames.",
+				"c": "Slower startup, counter time lasts 29 frames."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"slashOfLifeAndDeath": {
+			"name": "Slash of Life and Death",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/23/Yo214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Recovery+",
+				"level2": "Lv. 2 C Variation unlocked",
+				"level3": "Recovery+",
+				"level4": "C Variation Recovery+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_268d2fcb",
+			"bc": {
+				"difference": true,
+				"b": "First hit starts up faster.",
+				"c": "First hit slides further. // Also has an overhead crush variation @Lv 2."
+			},
+			"multipart": [
+				{
+					"name": "Slash of Life and Death 2",
+					"emote": "<:tasothink:417287724693848074>",
+					"classification": "MELEE",
+					"startup": 0,
+					"active": 0,
+					"total": 0,
+					"guard": "High",
+					"rbadv": "0",
+					"wbadv": "0"
+				},
+				{
+					"name": "Slash of Life and Death 3",
+					"emote": "<:ocube:799375180619186276>",
+					"classification": "MELEE",
+					"startup": 0,
+					"active": 0,
+					"total": 0,
+					"guard": "High",
+					"rbadv": "0",
+					"wbadv": "0"
+				},
+				{
+					"name": "Slash of Life and Death 2C Overhead",
+					"emote": "<:box:799375202462990396>",
+					"classification": "MELEE",
+					"startup": 0,
+					"active": 0,
+					"total": 0,
+					"guard": "High",
+					"rbadv": "0",
+					"wbadv": "0"
+				}
+			],
+			"classification": "MELEE",
+			"startup": "1B: 19\n1C: 22\n2: 14\n3: 19\n C.Fin: 24",
+			"active": "1B: 4\n1C: 8\n2: 3\n3: 2\n C.Fin: 10",
+			"total": "1B: 54/50/48\n1C: 63/59/57\n2: 50/48/46\n3: 57/52/50\n C.Fin: 68/64/60",
+			"guard": "1: Mid\n 2: Low\n3: High\n C.Fin: CrushHigh",
+			"rbadv": "1B: -14/-10/-8\n1C: -20/-16/-14\n2: -15/-13/-11\n3: -17/-12/-10\n C.Fin: -24/-20/-16",
+			"wbadv": "1B: -\n1C: -\n2: -9/-7/-5\n3: -11/-6/-4\n C.Fin: +8/+12/+16",
+			"extra": "Dude this is going to be a bitch to write down when I need to write actual data.\n also insert notes of when next input can happen.\nData is split by level-up. (0 / 1 / 3) (CFin: 2/3/4)"
+		},
+		"heartCarvingCut": {
+			"name": "Heart Carving Cut",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4a/Yo214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_4ed269cf",
+			"bc": {
+				"difference": true,
+				"b": "Fast startup, travels a shorter distance.",
+				"c": "Slower startup, travels further."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"slashingAFlowerUponOnesHead": {
+			"name": "Slashing a Flower Upon One's Head",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/07/Yo214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Hitbox Size+",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_7ec0b920",
+			"bc": {
+				"difference": true,
+				"b": "Moves forward by one character width before the slash.",
+				"c": "Moves forward by roughly three character widths before the slash."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "aaaaa",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"mediumsBind": {
+			"name": "Medium's Bind",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3e/Yo22bc1.png",
+			"levels": {
+				"level0": "Duration: 180F",
+				"level1": "Time attached to opponent increases (180F -> 210F).",
+				"level2": "Time attached to opponent increases (210F -> 240F).",
+				"level3": "Time attached to opponent increases (240F -> 270F).",
+				"level4": "Time attached to opponent increases (270F -> 300F)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_fa938ed6",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, travels roughly the same distance as 6C.",
+				"c": "Slower startup, travels about one character length further and cancels more bullets."
+			},
+			"classification": "BULLET",
+			"density": "1HP",
+			"grazeRes": "inf",
+			"startup": "B: 16\nC: 23",
+			"motionCancel": "B: 20/nC: 27",
+			"total": "B: 66\n C: 73",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"wickedSoul": {
+			"name": "Wicked Soul",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e7/Yo22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Hitbox+",
+				"level3": "Hitbox+",
+				"level4": "Hitbox+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_4984ffc1",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "One hit happens every 7 frames, until the last hit comes out at frame 60. \nDisables Myon for 137 frames."
+		},
+		"strangeHalfBody": {
+			"name": "Strange Half-Body",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b7/Yo22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "3 Bullets",
+				"level2": "Number of bullets increases. (4)",
+				"level3": "Bullet size increases.",
+				"level4": "Number of bullets increases. (5)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/236.html#id_1182ae84",
+			"bc": {
+				"difference": true,
+				"b": "Bullets fan upwards, juggles opponent unlike C version.",
+				"c": "Bullets fan downwards."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "4F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "One hit happens every 7 frames(?). \nDisables Myon for 170F."
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Netherworld Reflection Slash",
+				"emoteIcon": "<:Yo236bc1:728254316003196948>"
+			},
+			{
+				"name": "Lotus Stance Cut",
+				"emoteIcon": "<:Yo236bc2:728254315994808421>"
+			},
+			{
+				"name": "Phosphoric Slash",
+				"emoteIcon": "<:Yo236bc3:728254315793481780>"
+			}
+		],
+		"623": [
+			{
+				"name": "Crescent Moon Slash",
+				"emoteIcon": "<:Yo623bc1:728254315990483068>"
+			},
+			{
+				"name": "Intolerant Avici",
+				"emoteIcon": "<:Yo623bc2:728254316007260200>"
+			},
+			{
+				"name": "Insightful Sword",
+				"emoteIcon": "<:Yo623bc3:728254316040814643>"
+			}
+		],
+		"214": [
+			{
+				"name": "Slash of Life and Death",
+				"emoteIcon": "<:Yo214bc1:728254315466195106>"
+			},
+			{
+				"name": "Heart Carving Cut",
+				"emoteIcon": "<:Yo214bc2:728254315705401384>"
+			},
+			{
+				"name": "Slashing a Flower Upon One's Head",
+				"emoteIcon": "<:Yo214bc3:728254315541823560>"
+			}
+		],
+		"22": [
+			{
+				"name": "Medium's Bind",
+				"emoteIcon": "<:Yo22bc1:728254315344691221>"
+			},
+			{
+				"name": "Wicked Soul",
+				"emoteIcon": "<:Yo22bc2:728254315377983562>"
+			},
+			{
+				"name": "Strange Half-Body",
+				"emoteIcon": "<:Yo22bc3:728254315306811437>"
+			}
+		]
+	},
+	"spellcards": {
+		"slashOfPresent": {
+			"name": "Human Sign \"Slash of Present\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fe/Yosc01.png",
+			"classification": "MELEE",
+			"startup": "6+4",
+			"active": 10,
+			"total": 66,
+			"guard": "Mid",
+			"rbadv": "-26",
+			"wbadv": "-",
+			"extra": "10-24F Invuln."
+		},
+		"ghostlyWheelOfPain": {
+			"name": "Soul Sign \"Ghostly Wheel of Pain\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/15/Yosc02.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "11",
+			"motionCancel": "-",
+			"total": "22",
+			"FrameAdv": "-",
+			"spiritDmg": "",
+			"extra": "Duration: ~4F (at some point a table)"
+		},
+		"meditation": {
+			"name": "Life Ending Sword \"Meditation\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0e/Yosc03.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "5F",
+			"startup": "7+8",
+			"motionCancel": "",
+			"total": "81",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Block High."
+		},
+		"thousandCherryBlossoms": {
+			"name": "Sword Skill \"Thousand Cherry Blossoms\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d5/Yosc04.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "11+46, 59, ... 77",
+			"motionCancel": "",
+			"total": "56",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Invuln: 11-24F"
+		},
+		"swordOfCycles": {
+			"name": "Reincarnation Sword \"Sword of Cycles\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/29/Yosc05.png",
+			"classification": "MELEE",
+			"startup": "13+4",
+			"active": "-",
+			"total": 172,
+			"guard": "Mid",
+			"rbadv": "-28",
+			"wbadv": "0",
+			"extra": "insert notes here"
+		},
+		"riseFromDelusion": {
+			"name": "Enlightened Sword \"Rise from Delusion\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/03/Yosc06.png",
+			"classification": "MELEE",
+			"startup": "7+20",
+			"active": 16,
+			"total": 97,
+			"guard": "Mid",
+			"rbadv": "-39",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"ascensionToNirvana": {
+			"name": "Soul Cutting \"Ascension to Nirvana\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/90/Yosc07.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "10+19",
+			"motionCancel": "-",
+			"total": "56",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "11-23F: Invuln"
+		},
+		"slashOfEternity": {
+			"name": "Obsessor \"Slash of Eternity\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/25/Yosc08.png",
+			"classification": "MELEE",
+			"startup": "11+1",
+			"active": 15,
+			"total": 67,
+			"guard": "Mid",
+			"rbadv": "-20",
+			"wbadv": "-",
+			"extra": "11-32F: Invuln"
+		},
+		"secretOfLifeAndDeath": {
+			"name": "Spirit \"Secret of Life and Death\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/ba/Yosc09.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "11",
+			"motionCancel": "-",
+			"total": "11",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "Duration: 10F (at some point a table)"
+		},
+		"sixRootCleansing": {
+			"name": "Empty Perception \"6-root Cleansing\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f8/Yosc10.png",
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Slash of Present",
+				"emoteIcon": "<:Yosc01:728254315843813447>"
+			},
+			{
+				"name": "Ghostly Wheel of Pain",
+				"emoteIcon": "<:Yosc02:728254315738824707>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Meditation",
+				"emoteIcon": "<:Yosc03:728254316040814614>"
+			},
+			{
+				"name": "Thousand Cherry Blossoms",
+				"emoteIcon": "<:Yosc04:728254315831230578>"
+			},
+			{
+				"name": "Sword of Cycles",
+				"emoteIcon": "<:Yosc05:728254316036751391>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Rise from Delusion",
+				"emoteIcon": "<:Yosc06:728254316183289896>"
+			},
+			{
+				"name": "Ascension to Nirvana",
+				"emoteIcon": "<:Yosc07:728254315743150132>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Slash of Eternity",
+				"emoteIcon": "<:Yosc08:728254316162580481>"
+			},
+			{
+				"name": "Secret of Life and Death",
+				"emoteIcon": "<:Yosc09:728254316170706975>"
+			},
+			{
+				"name": "6-root Cleansing",
+				"emoteIcon": "<:Yosc10:728254316166643782>"
+			}
+		]
+	}
+}

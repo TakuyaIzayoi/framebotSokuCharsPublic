@@ -1,0 +1,1109 @@
+{
+	"id": "shameimaruAya",
+	"name": "Aya Shameimaru",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Aya_Shameimaru",
+	"movement": {
+		"dash": 10,
+		"commit": 4,
+		"backdashInvuln": "1-4",
+		"backdashGraze": "5-17",
+		"backdashTotal": 29,
+		"walk": {
+			"forward": 0,
+			"back": 0
+		},
+		"66": {
+			"startup": 0,
+			"initialDashSpeed": 0,
+			"sustainDashSpeed": 0,
+			"minDashDuration": 0,
+			"maxDashDuration": 0,
+			"highJumpCancel": 0,
+			"attackCancel": 0
+		},
+		"44": {
+			"duration": 0,
+			"invuln": "0",
+			"graze": "0",
+			"vulnerable": 0,
+			"distance": 0,
+			"movementStartup": 0,
+			"initSpeed": 0
+		},
+		"aerialmovement": {
+			"jumpHJ": 0,
+			"j66": 0,
+			"j44": 0,
+			"flight": 0,
+			"hjc": 0,
+			"flightspeed": 0
+		},
+		"wakeup": {
+			"neutral": 37,
+			"forward": 47,
+			"backwards": 47,
+			"distance": 390
+		},
+		"6be": {
+			"move": 0,
+			"blockattack": 0,
+			"total": 0
+		},
+		"4be": {
+			"invuln": 0,
+			"move": 0,
+			"graze": 0,
+			"total": 0
+		},
+		"2be": {
+			"graze": 0,
+			"jumpStartup": 0,
+			"block": 0,
+			"total": 0
+		},
+		"1be": {
+			"graze": 0,
+			"jumpStartup": 0,
+			"blockattack": 0,
+			"total": 0
+		},
+		"j.6be": {
+			"move": 0,
+			"blockattack": 0,
+			"total": 0
+		},
+		"j.4be": {
+			"move": 0,
+			"blockattack": 0,
+			"total": 0
+		}
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 2,
+			"total": 27,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 46,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 2,
+			"total": 30,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+1"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 16,
+			"guard": "Low",
+			"rbadv": "+0",
+			"wbadv": "+2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 2,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "+1"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 4,
+			"total": 60,
+			"guard": "High (Crush)",
+			"rbadv": "-1",
+			"wbadv": "+21"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 43,
+			"guard": "Low",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 30,
+			"active": 5,
+			"total": 59,
+			"guard": "Low (Crush)",
+			"rbadv": "-2",
+			"wbadv": "+20"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 6,
+			"total": 34,
+			"guard": "High, Air",
+			"rbadv": "(-7)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 8,
+			"total": 52,
+			"guard": "High, Air",
+			"rbadv": "(-20)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 2,
+			"total": 45,
+			"guard": "High, Air",
+			"rbadv": "(-18)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 20,
+			"active": "Until Landing",
+			"total": "- + 18F landing",
+			"guard": "High, Air",
+			"rbadv": "+2*",
+			"wbadv": "+8*",
+			"extra": "* on instant air, refer to wiki/pastebin on high air j.2a's.\n https://pastebin.com/ty1zC7xs"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 2,
+			"total": 31,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": 13,
+			"motionCancel": 20,
+			"total": 39,
+			"FrameAdv": "-11 [+9]",
+			"spiritDmg": 0.5
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": 28,
+			"motionCancel": 35,
+			"total": 54,
+			"FrameAdv": "-11 [+9]",
+			"spiritDmg": 0.5
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": "5",
+			"startup": 14,
+			"motionCancel": 22,
+			"total": 50,
+			"FrameAdv": "-21 [+8]",
+			"spiritDmg": 0.5
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": 13,
+			"motionCancel": 20,
+			"total": 39,
+			"FrameAdv": "-11 [+9]",
+			"spiritDmg": 0.5
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": 28,
+			"motionCancel": 35,
+			"total": 54,
+			"FrameAdv": "-11 [+9]",
+			"spiritDmg": 0.5
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": 13,
+			"motionCancel": 20,
+			"total": 41,
+			"FrameAdv": "[+9]",
+			"spiritDmg": 0.5
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": 28,
+			"motionCancel": 35,
+			"total": 56,
+			"FrameAdv": "[+9]",
+			"spiritDmg": 0.5
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": 13,
+			"motionCancel": 20,
+			"total": 41,
+			"FrameAdv": "[+9]",
+			"spiritDmg": 0.5
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": 28,
+			"motionCancel": 35,
+			"total": 56,
+			"FrameAdv": "[+9]",
+			"spiritDmg": 0.5
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 40,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+4"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 5,
+			"startup": 21,
+			"motionCancel": 31,
+			"total": 49,
+			"FrameAdv": "-7 [+12]",
+			"spiritDmg": 1
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "C1x2",
+			"grazeRes": 5,
+			"startup": 36,
+			"motionCancel": 46,
+			"total": 69,
+			"FrameAdv": "-12 [+12]",
+			"spiritDmg": 1
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": "5",
+			"startup": 21,
+			"motionCancel": 31,
+			"total": 49,
+			"FrameAdv": "-7 [+12]",
+			"spiritDmg": 1
+		},
+		"2[c]": {
+			"classification": "BULLET",
+			"density": "C1x2",
+			"grazeRes": "5",
+			"startup": 36,
+			"motionCancel": 46,
+			"total": 69,
+			"FrameAdv": "-12 [+12]",
+			"spiritDmg": 1
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "10",
+			"startup": 21,
+			"motionCancel": 31,
+			"total": 49,
+			"FrameAdv": "-7 [+12]",
+			"spiritDmg": 1
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 8,
+			"total": 59,
+			"guard": "High, Air",
+			"rbadv": "-23",
+			"wbadv": "-17",
+			"extra": "Graze frames 3~22"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 5,
+			"startup": 21,
+			"motionCancel": 31,
+			"total": 49,
+			"FrameAdv": "-7 [+12]",
+			"spiritDmg": 1
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "C1x2",
+			"grazeRes": 5,
+			"startup": 36,
+			"motionCancel": 46,
+			"total": 70,
+			"FrameAdv": "-12 [+12]",
+			"spiritDmg": 1
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 5,
+			"startup": 21,
+			"motionCancel": 31,
+			"total": 49,
+			"FrameAdv": "-7 [+12]",
+			"spiritDmg": 1
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "C1x2",
+			"grazeRes": 5,
+			"startup": 36,
+			"motionCancel": 46,
+			"total": 69,
+			"FrameAdv": "-12 [+12]",
+			"spiritDmg": 1
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": 10,
+			"startup": 21,
+			"motionCancel": 31,
+			"total": 49,
+			"FrameAdv": "-7 [+12]",
+			"spiritDmg": 1
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 64,
+			"guard": "High",
+			"rbadv": "-25",
+			"wbadv": "-19",
+			"extra": "The size of a fucking house."
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 2,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 38,
+			"active": 2,
+			"total": 70,
+			"guard": "High",
+			"rbadv": "-",
+			"wbadv": "27",
+			"extra": "Purple Flash: 6F"
+		}
+	},
+	"skillcards": {
+		"gustFan": {
+			"name": "Gust Fan",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d4/Ay236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Air version produces a bullet when it hits the ground.",
+				"level2": "Distance Traveled Increased. Hitbox size increase.",
+				"level3": "Distance Traveled Increased. Hitbox size increase.",
+				"level4": "Air version produces two bullets when it hits the ground. Travels across entire stage."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/223.html#id_dc112f2b",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "**Lv 0:** 1 \n**Lv 1:** 5 \n**Lv 2:** 10 \n**Lv 3:** 12",
+			"startup": "**G:** 15 \n **A:** 18",
+			"motionCancel": "**G:** 25 \n **A:** 31",
+			"total": "**G:** 49 \n **A:** 54",
+			"FrameAdv": "-",
+			"spiritDmg": "1",
+			"extra": ""
+		},
+		"galeFan": {
+			"name": "Gale Fan",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/ff/Ay236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Gust Fan. Numbers of shots is 2.",
+				"level2": "Number of shots increases to 3.",
+				"level3": "-",
+				"level4": "Number of shots increases to 4."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/223.html#id_8cc89a23",
+			"bc": {
+				"difference": true,
+				"b": "Shoots the bullets straight ahead.",
+				"c": "Shoots the bullets upwards if on the ground, and downwards in the air."
+			},
+			"classification": "BULLET",
+			"density": "**Lv 1:** B1x2 \n**Lv 2:** B1x3 \n**Lv MAX:** B1x4",
+			"grazeRes": "5",
+			"startup": "15",
+			"motionCancel": "30",
+			"total": "**G:** 54 \n **A:** 59",
+			"FrameAdv": "-",
+			"__comment": "**G:** -18 and **A:** -23",
+			"spiritDmg": "0.25*n",
+			"extra": "The bullets remain active for 60 frames. (90 on **Lv. MAX**)"
+		},
+		"windFromTheMapleFan": {
+			"name": "Wind from the Maple Fan",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f6/Ay236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Gust Fan. 5 Hitboxes",
+				"level2": "Increases in size vertically. 6 Hitboxes.",
+				"level3": "Increases in size vertically. 7 Hitboxes.",
+				"level4": "Increases in size vertically. 8 Hitboxes."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/223.html#id_bd57c8b8",
+			"bc": {
+				"difference": true,
+				"b": "Summons the tornado about a fourth of the screen away from Aya.",
+				"c": "Summons the tornado about a half the screen away from Aya."
+			},
+			"classification": "BULLET",
+			"density": "B1",
+			"grazeRes": "3",
+			"startup": "**B:** 19, 23, 27 ... \n **C:** 22, 26, 30 ...",
+			"motionCancel": "**B:** 34 \n **C:** 37",
+			"total": "**B:** 58 \n **C:** 61",
+			"FrameAdv": "-10 [+15]",
+			"spiritDmg": "0.25*n",
+			"extra": "Each segment of the tornado lasts 25 frames individually."
+		},
+		"peltingInTheNight": {
+			"name": "Pelting in the Night",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/22/Ay421bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Air Usable.",
+				"level2": "Crows increased to 8.",
+				"level3": "Crows increased to 10.",
+				"level4": "Crows increased to 12."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/224.html#id_b2e20198",
+			"bc": {
+				"difference": true,
+				"b": "Crows congregate above Aya.",
+				"c": "Summons crows that congregate over the opponent instead of Aya."
+			},
+			"classification": "BULLET",
+			"density": "C1*n",
+			"grazeRes": "1",
+			"startup": "125, 129, 133 ... ",
+			"motionCancel": "28",
+			"total": "**G:** 68 \n **A:** 80",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Summons 6 Crows at **Lv 0** and **Lv 1**."
+		},
+		"windSickleVeiling": {
+			"name": "Wind Sickle Veiling",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1a/Ay421bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Pelting in the Night. Hits once.",
+				"level2": "-",
+				"level3": "Hits 2 times.",
+				"level4": "Hits 3 times."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/224.html#id_b43843f6",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "**Lv 1:** 1 \n **Lv 3:** 2 \n **Lv 4:** 3",
+			"startup": "21",
+			"motionCancel": "-",
+			"total": "**G:** 51 \n **A:** 50",
+			"FrameAdv": "**G Lv 1:** -15 \n **Lv3:** -9 \n **Lv4:** -3",
+			"__comment": "all frame advantage is 1 frame higher in the air and 2 frames higher on hit",
+			"spiritDmg": "0.25*n",
+			"extra": "**Duration:** 150 \n The Veiling is a bullet that can be grazed through, but will not interact with other bullets. \n High profiles during frames 1-45."
+		},
+		"tenguPebbles": {
+			"name": "Tengu's Pebbles",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/90/Ay421bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Pelting in the Night. Stocks 4 per use.",
+				"level2": "Stocks 5 per use.",
+				"level3": "Stocks 6 per use.",
+				"level4": "Stocks 7 per use."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/224.html#id_f0737b5a",
+			"bc": {
+				"difference": true,
+				"b": "On the ground, throws rocks into the air. In the air, releases the thrown rocks.",
+				"c": "Releases thrown rocks on the ground or in the air over the opponent."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "1",
+			"startup": "12, 15, 18 ...",
+			"motionCancel": "**B:** 44 \n **C:** 16 **j.C:** 20",
+			"total": "**B:** 64 \n **C:** 52 **j.C:** 64",
+			"FrameAdv": "-",
+			"spiritDmg": "**RB:** 0.1*n \n **WB:** 0.2*n",
+			"extra": "Max 20 rocks can be stocked. \n Hits a grounded opponent roughly 30 frames after the input."
+		},
+		"dominationDash": {
+			"name": "Domination Dash",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/89/Ay214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup time decreases (26F -> 20F).",
+				"level2": "-",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/223.html#id_7d7e62ad",
+			"bc": {
+				"difference": true,
+				"b": "Goes straight ahead.",
+				"c": "Goes upward at a 45 degree angle if used from the ground, and crashes downward at a 45 degree angle if used from the air."
+			},
+			"classification": "MELEE",
+			"startup": "**Lv 0:** 26 \n **Lv 1:** 20",
+			"active": "21",
+			"total": "**Lv 0 B:** 74 **Lv 1 B:** 68 \n **Lv0 C:** 115 **Lv1 C:** 109 \n **Blocked:** 57",
+			"guard": "High for the jC version, Mid for all other versions.",
+			"rbadv": "-36 at best when blocked on the ground.",
+			"wbadv": "???",
+			"extra": "We didn't really bother putting in the framedata but basically even if this gets wrong blocked you get punished for it."
+		},
+		"gracefulDash": {
+			"name": "Graceful Dash",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c0/Ay214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Domination Dash. Dash Count: 2.",
+				"level2": "Dash Count: 3.",
+				"level3": "-",
+				"level4": "Dash Count: 4."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/223.html#id_fe2f5be8",
+			"bc": {
+				"difference": true,
+				"b": "Goes straight ahead.",
+				"c": "Goes upward at a 45 degree angle if used from the ground, and crashes downward at a 45 degree angle if used from the air."
+			},
+			"multipart": [
+				{
+					"name": "PLACEHOLDER",
+					"emote": "<:tasothink:417287724693848074>",
+					"image": "https://wiki.koumakan.jp/images/hisouten/c/c0/Ay214bc2.png",
+					"classification": "MELEE",
+					"startup": 0,
+					"active": 0,
+					"total": 0,
+					"guard": "High",
+					"rbadv": "0",
+					"wbadv": "0",
+					"extra": ""
+				}
+			],
+			"classification": "MELEE",
+			"startup": "Init: 26 \n Follow: 15",
+			"active": "Init: 31 \nFollow: 21",
+			"total": "*placeholder stuff",
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "There's apparently a lot to this. Also you're negative in adv."
+		},
+		"tenguFelling": {
+			"name": "Tengu Felling",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c5/Ay214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Domination Dash.",
+				"level2": "Startup time decreased.",
+				"level3": "-",
+				"level4": "+2 Hit count."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/223.html#id_38c6742b",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "C version flies upwards higher than the B version."
+			},
+			"classification": "BULLET",
+			"density": "B",
+			"grazeRes": "inf",
+			"startup": "**Lv 1 B:** 34 **Lv 2 B:** 30 \n **Lv 1 C:** 32 **Lv 2 C:** 28 \n **Lv 1 A:** 36 **Lv 2 A:** 30 ",
+			"motionCancel": "-",
+			"total": "**Lv 1 B:** 72 **Lv 2 B:** 68 \n **Lv 1 C:** 78 **Lv 2 C:** 74",
+			"FrameAdv": "**Lv 1 B:** -17 **Lv 4 B:** -10 \n **Lv 1 C:** -25 **Lv 4 C:** -18",
+			"spiritDmg": "**Lv 1:** 1 \n**Lv 4:** 1-1.2",
+			"extra": "Grazes for a small bit during the leap."
+		},
+		"windStandingOfTheTengu": {
+			"name": "Wind Standing of the Tengu",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ef/Ay22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Fires a projectile on jump.",
+				"level2": "Bullet duration slightly increased.",
+				"level3": "Bullet duration slightly increased.",
+				"level4": "Fires 2 more smaller projectiles on jump."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/224.html#id_d866a64d",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B",
+			"grazeRes": "inf",
+			"startup": "18 at earliest",
+			"motionCancel": "17",
+			"total": "**No Input:** 82 \n **7/8 Jump:** 33 \n **9 Jump:** 30",
+			"FrameAdv": "-",
+			"spiritDmg": "1 + 0.5*n",
+			"extra": "Bullet duration goes up to 16(Lv 1), 19(Lv 2), 21(Lv 3) and 31(Lv 4). \n You can use special moves a few frames earlier than normals for 7/8/9 (3f/7f/2f) jump variants."
+		},
+		"tengusDownburst": {
+			"name": "Tengu's Downburst",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7d/Ay22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Wind Standing of the Tengu.",
+				"level2": "B-Version hitbox expanded.",
+				"level3": "-",
+				"level4": "C Version fires 2 more projectiles."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/224.html#id_c78dc4bd",
+			"bc": {
+				"difference": true,
+				"b": "Hits once on the way down, and once upon landing.",
+				"c": "Divekick has no hitbox. Upon landing, wind bullets will travel across the ground on either side."
+			},
+			"multipart": [
+				{
+					"name": "Tengu's Downburst Proj.",
+					"emote": "<:tasothink:417287724693848074>",
+					"image": "https://wiki.koumakan.jp/images/hisouten/7/7d/Ay22bc2.png",
+					"classification": "BULLET",
+					"density": "B1xN",
+					"grazeRes": "1F",
+					"startup": "Until Landing",
+					"motionCancel": "",
+					"total": "Until Landing + 23F",
+					"FrameAdv": "-",
+					"spiritDmg": "1*N",
+					"extra": ""
+				}
+			],
+			"classification": "MELEE",
+			"startup": 15,
+			"active": "Until Landing",
+			"total": "Until Landing + 27F",
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-",
+			"extra": "Blast is a B+ Projectile."
+		},
+		"tenguDrum": {
+			"name": "Tengu Drum",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5a/Ay22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Wind Standing of the Tengu. Only A follow-up (j.8a).",
+				"level2": "B follow-up unlocked (j.2a). Enhanced manual maneuverability.",
+				"level3": "C follow-up unlocked (bullet). Enhanced manual maneuverability.",
+				"level4": "Enhanced manual maneuverability."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/224.html#id_efeeba42",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "C version jumps farther than the B version. "
+			},
+			"multipart": [
+				{
+					"name": "Tengu Drum A",
+					"emote": "<:tasothink:417287724693848074>",
+					"image": "https://wiki.koumakan.jp/images/hisouten/5/5a/Ay22bc3.png",
+					"classification": "MELEE",
+					"startup": 11,
+					"active": 2,
+					"total": "Until Landing + 20F",
+					"guard": "High",
+					"rbadv": "~-39(F)",
+					"wbadv": "0",
+					"extra": "J.8A"
+				},
+				{
+					"name": "Tengu Drum B",
+					"emote": "<:ocube:799375180619186276>",
+					"image": "https://wiki.koumakan.jp/images/hisouten/5/5a/Ay22bc3.png",
+					"classification": "MELEE",
+					"startup": 15,
+					"active": "Until Landing",
+					"total": "Until Landing + 20F",
+					"guard": "High",
+					"rbadv": "~-6F(?)",
+					"wbadv": "-",
+					"extra": "J.2A"
+				},
+				{
+					"name": "Tengu Drum C",
+					"emote": "<:box:799375202462990396>",
+					"image": "https://wiki.koumakan.jp/images/hisouten/5/5a/Ay22bc3.png",
+					"classification": "BULLET",
+					"density": "Bx1",
+					"grazeRes": "inf",
+					"startup": "14",
+					"motionCancel": "",
+					"total": "Until Landing + 20F",
+					"FrameAdv": "-",
+					"spiritDmg": 1,
+					"extra": ""
+				}
+			],
+			"classification": "MELEE",
+			"startup": "G: 26 \n A: 27",
+			"active": "B: 21 \n C: 31 \n Air: Until Landing",
+			"total": "Until Landing + 12F",
+			"guard": "High",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": "There's a bit of extra notes not written yet (ABC Follow-up). Remind me to fix them."
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Gust Fan",
+				"emoteIcon": "<:Ay236bc1:726752254996250654>"
+			},
+			{
+				"name": "Gale Fan",
+				"emoteIcon": "<:Ay236bc2:726752254606180364>"
+			},
+			{
+				"name": "Wind from the Maple Fan",
+				"emoteIcon": "<:Ay236bc3:726752254954045470>"
+			}
+		],
+		"421": [
+			{
+				"name": "Pelting in the Night",
+				"emoteIcon": "<:Ay421bc1:726752255100977192>"
+			},
+			{
+				"name": "Wind Sickle Veiling",
+				"emoteIcon": "<:Ay421bc2:726752255079874660>"
+			},
+			{
+				"name": "Tengu's Pebbles",
+				"emoteIcon": "<:Ay421bc3:726752255059165257>"
+			}
+		],
+		"214": [
+			{
+				"name": "Domination Dash",
+				"emoteIcon": "<:Ay214bc1:726752252609560617>"
+			},
+			{
+				"name": "Graceful Dash",
+				"emoteIcon": "<:Ay214bc2:726752254312448091>"
+			},
+			{
+				"name": "Tengu Felling",
+				"emoteIcon": "<:Ay214bc3:726752254387814434>"
+			}
+		],
+		"22": [
+			{
+				"name": "Wind Standing of the Tengu",
+				"emoteIcon": "<:Ay22bc1:726752252844572692>"
+			},
+			{
+				"name": "Tengu's Downburst",
+				"emoteIcon": "<:Ay22bc2:726752252630663251>"
+			},
+			{
+				"name": "Tengu Drum",
+				"emoteIcon": "<:Ay22bc3:726752253016277022>"
+			}
+		]
+	},
+	"spellcards": {
+		"sickleWeaselVeiling": {
+			"name": "Demonic Beast \"Sickle Weasel Veiling\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/09/Aysc01.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "10F",
+			"startup": "7+10",
+			"motionCancel": "",
+			"total": "G: 47 \nA: 46",
+			"FrameAdv": "39",
+			"spiritDmg": 0.5,
+			"extra": "Duration: 150F \n FOR THE LOVE OF GOD SOMEONE HELP ME this is a corner spell."
+		},
+		"windOfTheTenguPath": {
+			"name": "Wind Sign \"Wind of the Tengu Path\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e2/Aysc02.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "10+11",
+			"motionCancel": "-",
+			"total": "53",
+			"FrameAdv": "23",
+			"spiritDmg": 1.8,
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"tenguLimitedSpecial": {
+			"name": "Wind Sign \"Tengu Limited Special\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/53/Aysc03.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "7",
+			"motionCancel": "-",
+			"total": "G: 47\n A: 46",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "Duration: ~5.5s \nSpeed Buff roughly 2x.",
+			"imageHitbox": ""
+		},
+		"mapleLeafFan": {
+			"name": "Whirl Sign \"Maple Leaf Fan\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bd/Aysc04.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "10+10",
+			"motionCancel": "-",
+			"total": "100",
+			"FrameAdv": "-",
+			"spiritDmg": 2,
+			"extra": "something something bottom amoutn of frames plus guard",
+			"imageHitbox": ""
+		},
+		"tengusMacroburst": {
+			"name": "Thrust Sign \"Tengu's Macroburst\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/12/Aysc05.png",
+			"classification": "BULLET",
+			"density": "B1x1, A1x12",
+			"grazeRes": "1 + inf",
+			"startup": "15+10",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 1.1,
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"sarutahikosGuidance": {
+			"name": "Squall \"Sarutahiko's Guidance\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a5/Aysc06.png",
+			"classification": "MELEE",
+			"startup": "G: 10+11 \nA: 8+13",
+			"active": 21,
+			"total": "G: 77 \nA: variant",
+			"guard": "High",
+			"rbadv": "-36",
+			"wbadv": "-",
+			"extra": "note to self, write about graze frames and recovery"
+		},
+		"routeForbiddenToMan": {
+			"name": "Headwind \"Route Forbidden to Man\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/db/Aysc07.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1",
+			"startup": "10",
+			"motionCancel": "-",
+			"total": "80",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Duration: ~5s\nInvuln: 11-19F \n~13 large rocks, ~34 small rocks",
+			"imageHitbox": ""
+		},
+		"darkDaymare": {
+			"name": "Crow Sign \"Dark Daymare\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/94/Aysc08.png",
+			"classification": "BULLET",
+			"density": "1HP x 61 Crows",
+			"grazeRes": "inf",
+			"startup": "13",
+			"motionCancel": "-",
+			"total": "G: 196 \nA:208",
+			"FrameAdv": "-",
+			"spiritDmg": 1.1,
+			"extra": "block high",
+			"imageHitbox": ""
+		},
+		"indicationToTheDivine": {
+			"name": "Tornado \"Indication to the Divine\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7b/Aysc09.png",
+			"classification": "MELEE",
+			"startup": "10+10",
+			"active": "numbers",
+			"total": 222,
+			"guard": "Mid",
+			"rbadv": "Highly Negative",
+			"wbadv": "-",
+			"extra": "This is actually a melee reversal."
+		},
+		"illusionaryDominance": {
+			"name": "Illusionary Dominance",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/41/Aysc10.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "7, 34, etc",
+			"motionCancel": "-",
+			"total": "146",
+			"FrameAdv": "-",
+			"spiritDmg": "1+0",
+			"extra": "first part is bullet, dash is melee, note to self do somethign about it, also its bulelts after afhth"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Sickle Weasel Veiling",
+				"emoteIcon": "<:Aysc01:726752255000182826>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Wind of the Tengu Path",
+				"emoteIcon": "<:Aysc02:726752255146983457>"
+			},
+			{
+				"name": "Tengu Limited Special",
+				"emoteIcon": "<:Aysc03:726752255470207003>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Maple Leaf Fan",
+				"emoteIcon": "<:Aysc04:726752255155372084>"
+			},
+			{
+				"name": "Tengu's Macroburst",
+				"emoteIcon": "<:Aysc05:726752255273074801>"
+			},
+			{
+				"name": "Sarutahiko's Guidance",
+				"emoteIcon": "<:Aysc06:726752255440715798>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Route Forbidden to Man",
+				"emoteIcon": "<:Aysc07:726752255495110657>"
+			},
+			{
+				"name": "Dark Daymare",
+				"emoteIcon": "<:Aysc08:726752255314886727>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Indication to the Divine",
+				"emoteIcon": "<:Aysc09:726752255499436053>"
+			},
+			{
+				"name": "Illusionary Dominance",
+				"emoteIcon": "<:Aysc10:726752255902220399>"
+			}
+		]
+	}
+}

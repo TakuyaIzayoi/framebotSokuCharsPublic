@@ -1,0 +1,889 @@
+{
+	"id": "hinanawiTenshi",
+	"name": "Tenshi Hinanawi",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Tenshi_Hinanawi",
+	"movement": {
+		"dash": 10,
+		"commit": 4,
+		"backdashInvuln": "1-4",
+		"backdashGraze": "5-17",
+		"backdashTotal": 29,
+		"walk": {
+			"forward": 0,
+			"back": 0
+		},
+		"66": {
+			"startup": 0,
+			"initialDashSpeed": 0,
+			"sustainDashSpeed": 0,
+			"minDashDuration": 0,
+			"maxDashDuration": 0,
+			"highJumpCancel": 0,
+			"attackCancel": 0
+		},
+		"44": {
+			"duration": 0,
+			"invuln": "0",
+			"graze": "0",
+			"vulnerable": 0,
+			"distance": 0,
+			"movementStartup": 0,
+			"initSpeed": 0
+		},
+		"aerialmovement": {
+			"jumpHJ": 0,
+			"j66": 0,
+			"j44": 0,
+			"flight": 0,
+			"hjc": 0,
+			"flightspeed": 0
+		},
+		"wakeup": {
+			"neutral": 37,
+			"forward": 47,
+			"backwards": 47,
+			"distance": 390
+		},
+		"6be": {
+			"move": 0,
+			"blockattack": 0,
+			"total": 0
+		},
+		"4be": {
+			"invuln": 0,
+			"move": 0,
+			"graze": 0,
+			"total": 0
+		},
+		"2be": {
+			"graze": 0,
+			"jumpStartup": 0,
+			"block": 0,
+			"total": 0
+		},
+		"1be": {
+			"graze": 0,
+			"jumpStartup": 0,
+			"blockattack": 0,
+			"total": 0
+		},
+		"j.6be": {
+			"move": 0,
+			"blockattack": 0,
+			"total": 0
+		},
+		"j.4be": {
+			"move": 0,
+			"blockattack": 0,
+			"total": 0
+		}
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 26,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 26,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 4,
+			"total": 31,
+			"guard": "Low",
+			"rbadv": "-3",
+			"wbadv": "+1"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 47,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": "14 16",
+			"active": 4,
+			"total": 39,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+2",
+			"extra": "Numbers in brackets `[]` are for the later hitbox of the move."
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": "29 [31],",
+			"active": 4,
+			"total": 54,
+			"guard": "High (Crush)",
+			"rbadv": "+2",
+			"wbadv": "+24",
+			"extra": "Numbers in brackets `[]` are for the later hitbox of the move."
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 24,
+			"guard": "Low",
+			"rbadv": "0",
+			"wbadv": "+4"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": 3,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 10,
+			"total": 63,
+			"guard": "High (Crush)",
+			"rbadv": "-4",
+			"wbadv": "+18"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 3,
+			"total": 35,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 3,
+			"total": 44,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": "30",
+			"active": "3",
+			"total": 64,
+			"guard": "High (Crush)",
+			"rbadv": "-7",
+			"wbadv": "+15"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 4,
+			"total": 40,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": "Descent: Until Landing \n Landing: 1F",
+			"total": "Descent: Until Landing \n Landing: 28F",
+			"guard": "Descent: High, Air \n Landing: Low",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 13,
+			"total": 58,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": "13",
+			"motionCancel": 25,
+			"total": 50,
+			"FrameAdv": "-22 [+4]",
+			"spiritDmg": 0.5,
+			"extra": "Attack Cancel: 15F"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "11",
+			"motionCancel": 30,
+			"total": 58,
+			"FrameAdv": "-2 [+24]",
+			"spiritDmg": "0.15*6",
+			"extra": "Attack Cancel: 20F"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "16",
+			"motionCancel": 32,
+			"total": 61,
+			"FrameAdv": "0 [+30]",
+			"spiritDmg": "0.15*6"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": 22,
+			"startup": "36",
+			"motionCancel": 52,
+			"total": 81,
+			"FrameAdv": "+10 [+40]",
+			"spiritDmg": "0.15*8"
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "16",
+			"motionCancel": 35,
+			"total": 68,
+			"FrameAdv": "-7 [+27]",
+			"spiritDmg": "0.15*6",
+			"extra": "Landing: 9F"
+		},
+		"j.6[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": 20,
+			"startup": "36",
+			"motionCancel": 59,
+			"total": 88,
+			"FrameAdv": "[+33]",
+			"spiritDmg": "0.15*8",
+			"extra": "Landing: 9F"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": "12, 26, 40",
+			"active": "2F (per hit)",
+			"total": 70,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": "13",
+			"motionCancel": 25,
+			"total": 58,
+			"FrameAdv": "[+4]",
+			"spiritDmg": 0.5,
+			"extra": "Attack Cancel: 13F \n Landing: 9F"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "16",
+			"motionCancel": 35,
+			"total": 68,
+			"FrameAdv": "-",
+			"spiritDmg": "0.15*6",
+			"extra": "Landing: 9F"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": 22,
+			"startup": "36",
+			"motionCancel": 59,
+			"total": 88,
+			"FrameAdv": "[+33]",
+			"spiritDmg": "0.15*8",
+			"extra": "Landing: 9F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "5",
+			"startup": 26,
+			"motionCancel": 41,
+			"total": 62,
+			"FrameAdv": "-3 [+16]",
+			"spiritDmg": "0.15*10",
+			"extra": "Attack Cancel: 27F"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1x6",
+			"grazeRes": "5",
+			"startup": 20,
+			"motionCancel": 38,
+			"total": 67,
+			"FrameAdv": "-3 [+16]",
+			"spiritDmg": "0.15*6(?)",
+			"extra": "Attack Cancel: 23F"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 7,
+			"total": 53,
+			"guard": "High",
+			"rbadv": "-19",
+			"wbadv": "-13",
+			"extra": "Grazes: 5-15F"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "5",
+			"startup": 26,
+			"motionCancel": 41,
+			"total": 65,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.15*10",
+			"extra": "Attack Cancel: 27F \nLanding: 10F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x6",
+			"grazeRes": "5",
+			"startup": 19,
+			"motionCancel": 34,
+			"total": 60,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.15*4(?)",
+			"extra": "Attack Cancel: 29F \n Landing: 10F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://hisouten.koumakan.jp/images//d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 64,
+			"guard": "High",
+			"rbadv": "-25",
+			"wbadv": "-19",
+			"extra": "HuzNotesGoesHere"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://hisouten.koumakan.jp/images//4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 64,
+			"guard": "High",
+			"rbadv": "-25",
+			"wbadv": "-19",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://hisouten.koumakan.jp/images//9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 39,
+			"active": 3,
+			"total": 67,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "31",
+			"extra": "Purple Flash: _F"
+		}
+	},
+	"skillcards": {
+		"gustFan": {
+			"name": "Gust Fan",
+			"image": "https://hisouten.koumakan.jp/images//d/d4/Ay236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"skillCard": {
+			"name": "skillName",
+			"image": "URL",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "",
+				"level4": ""
+			},
+			"cardURL": "",
+			"bc": {
+				"difference": true,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Gust Fan",
+				"emoteIcon": "<:Ay236bc1:713983581495754792>"
+			},
+			{
+				"name": "Gale Fan",
+				"emoteIcon": "<:Ay236bc2:716899640888262738>"
+			},
+			{
+				"name": "Wind from the Maple Fan",
+				"emoteIcon": "<:Ay236bc3:716899641257623552>"
+			}
+		],
+		"421": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		],
+		"214": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		],
+		"623": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		],
+		"22": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			},
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		]
+	},
+	"spellcards": {
+		"windStandingOfTheTengu": {
+			"name": "Wind Standing of the Tengu",
+			"image": "https://hisouten.koumakan.jp/images//e/ef/Ay22bc1.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"windStandingOfTheTengu": {
+			"name": "Wind Standing of the Tengu",
+			"image": "https://hisouten.koumakan.jp/images//e/ef/Ay22bc1.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 64,
+			"guard": "High",
+			"rbadv": "-25",
+			"wbadv": "-19",
+			"extra": ""
+		},
+		"placeholderBullet": {
+			"name": "",
+			"image": "",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"placeholderMelee": {
+			"name": "",
+			"image": "",
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		],
+		"2sc": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		],
+		"3sc": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		],
+		"4sc": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		],
+		"5sc": [
+			{
+				"name": "",
+				"emoteIcon": ""
+			}
+		]
+	}
+}

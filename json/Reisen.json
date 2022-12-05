@@ -1,0 +1,1012 @@
+{
+	"id": "inabaReisen",
+	"_comment": "// Todo: Change classification on 6231, 6232, 222, and 223 when available, frame data for skills, figure something about for level specific notes in extra",
+	"name": "Reisen Inaba",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Reisen_Udongein_Inaba",
+	"thanks": "Alrysc",
+	"movement": {
+		"dash": 9,
+		"commit": 4,
+		"backdashInvuln": "1-9",
+		"backdashGraze": "10-23",
+		"backdashTotal": 35
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 16,
+			"guard": "Mid",
+			"rbadv": "+0",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 16,
+			"guard": "Mid",
+			"rbadv": "+0",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 17,
+			"guard": "Mid",
+			"rbadv": "+0",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 5,
+			"total": 28,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+0"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 3,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 3,
+			"total": 34,
+			"guard": "High",
+			"rbadv": "-7",
+			"wbadv": "-3"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 3,
+			"total": 21,
+			"guard": "Low",
+			"rbadv": "-5",
+			"wbadv": "-3"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 18,
+			"total": 56,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+2",
+			"extra": "Special ending animation when they make contact which results in the frame advantage always being the same no matter when they hit."
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 29,
+			"active": 24,
+			"total": 82,
+			"guard": "High (Crush)",
+			"rbadv": "-3",
+			"wbadv": "+19",
+			"extra": "Special ending animation when they make contact which results in the frame advantage always being the same no matter when they hit."
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 3,
+			"total": 40,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 17,
+			"total": 47,
+			"guard": "Low",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "Frame advantage varies with distance."
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": "11, 21",
+			"active": "9, 36",
+			"total": 81,
+			"guard": "Low, Low (Crush)",
+			"rbadv": "-33",
+			"wbadv": "-11"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 8,
+			"total": 38,
+			"guard": "High, Air",
+			"rbadv": "(-10)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 2,
+			"total": 45,
+			"guard": "High, Air",
+			"rbadv": "(-12)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 9,
+			"total": 53,
+			"guard": "High, Air",
+			"rbadv": "(-23)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 25,
+			"active": 8,
+			"total": 59,
+			"guard": "High, Air",
+			"rbadv": "+12 (-15)",
+			"wbadv": "+18",
+			"extra": "Landing Recovery: 7F \n Ground Block Frame Adv. if from lowest possible j.2a."
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C2x3",
+			"grazeRes": 1,
+			"startup": "13, 20, 27",
+			"motionCancel": 22,
+			"total": 48,
+			"FrameAdv": "-5 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C2x5",
+			"grazeRes": 1,
+			"startup": "28, 34..., 52",
+			"motionCancel": 36,
+			"total": 73,
+			"FrameAdv": "-5 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C2x3",
+			"grazeRes": 1,
+			"startup": "13, 20, 27",
+			"motionCancel": 22,
+			"total": 53,
+			"FrameAdv": "-10 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F"
+		},
+		"2[b]": {
+			"classification": "BULLET",
+			"density": "C2x5",
+			"grazeRes": 1,
+			"startup": "28, 35..., 56",
+			"motionCancel": 37,
+			"total": 82,
+			"FrameAdv": "-10 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C2x3",
+			"grazeRes": 1,
+			"startup": "13, 20, 27",
+			"motionCancel": 22,
+			"total": 48,
+			"FrameAdv": "-5 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C2x5",
+			"grazeRes": 1,
+			"startup": "28, 34..., 52",
+			"motionCancel": 36,
+			"total": 73,
+			"FrameAdv": "-5 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 23,
+			"active": 13,
+			"total": 51,
+			"guard": "Low",
+			"rbadv": "-7",
+			"wbadv": "-1",
+			"extra": "Graze frames 3-35\nFrame advantage varies with distance."
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C2x3",
+			"grazeRes": 1,
+			"startup": "13, 20, 27",
+			"motionCancel": 22,
+			"total": 48,
+			"FrameAdv": "[+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F \n Landing Recovery: 10F"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C2x5",
+			"grazeRes": 1,
+			"startup": "28, 34..., 52",
+			"motionCancel": 36,
+			"total": 73,
+			"FrameAdv": "[+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C2x3",
+			"grazeRes": 1,
+			"startup": "13, 20, 27",
+			"motionCancel": 22,
+			"total": 48,
+			"FrameAdv": "-5 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F \n Landing Recovery: 10F"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C2x5",
+			"grazeRes": 1,
+			"startup": "28, 34..., 52",
+			"motionCancel": 36,
+			"total": 73,
+			"FrameAdv": "-5 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Duration: 121F \n Landing Recovery: 10F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x1",
+			"grazeRes": "-",
+			"startup": 18,
+			"motionCancel": 32,
+			"total": 47,
+			"FrameAdv": "+6 [+22]",
+			"spiritDmg": "0.2, 0.2*3",
+			"extra": "Attack Cancel: 32F \n Damage/Spirit Damage are on a per-bullet basis."
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x5",
+			"grazeRes": "-",
+			"startup": 33,
+			"motionCancel": 47,
+			"total": 70,
+			"FrameAdv": "-2 [+22]",
+			"spiritDmg": "0.2, 0.075*3",
+			"extra": "Attack Cancel: 47F \n Damage/Spirit Damage are on a per-bullet basis."
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "12",
+			"motionCancel": "29",
+			"total": "52",
+			"FrameAdv": "-9 [+5]",
+			"spiritDmg": 1,
+			"extra": "Attack Cancel: 13F. \nDuration: 21F"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x1",
+			"grazeRes": "-",
+			"startup": 18,
+			"motionCancel": 32,
+			"total": 47,
+			"FrameAdv": "+6 [+22]",
+			"spiritDmg": "0.2, 0.2*3",
+			"extra": "Attack Cancel: 32F \n Damage/Spirit Damage are on a per-bullet basis."
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x5",
+			"grazeRes": "-",
+			"startup": 33,
+			"motionCancel": 47,
+			"total": 70,
+			"FrameAdv": "-2 [+22]",
+			"spiritDmg": "0.2, 0.075*3",
+			"extra": "Attack Cancel: 47F \n Damage/Spirit Damage are on a per-bullet basis."
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 26,
+			"active": 13,
+			"total": 48,
+			"guard": "High, Air",
+			"rbadv": "-24",
+			"wbadv": "-18",
+			"extra": "Graze frames 3-31 or until landing a hit."
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x1",
+			"grazeRes": "-",
+			"startup": 18,
+			"motionCancel": 32,
+			"total": 47,
+			"FrameAdv": "[+22]",
+			"spiritDmg": "0.2, 0.2*3",
+			"extra": "Attack Cancel: 32F \n Landing Recovery: 10F \n Damage/Spirit Damage are on a per-bullet basis."
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x5",
+			"grazeRes": "-",
+			"startup": 33,
+			"motionCancel": 47,
+			"total": 70,
+			"FrameAdv": "[+22]",
+			"spiritDmg": "0.2, 0.075*3",
+			"extra": "Attack Cancel: 47F \n Landing Recovery: 10F \n Damage/Spirit Damage are on a per-bullet basis."
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x1",
+			"grazeRes": "-",
+			"startup": 18,
+			"motionCancel": 32,
+			"total": 47,
+			"FrameAdv": "[+22]",
+			"spiritDmg": "0.2, 0.2*3",
+			"extra": "Attack Cancel: 32F \n Landing Recovery: 10F \n Damage/Spirit Damage are on a per-bullet basis."
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "B1x1, B4x5",
+			"grazeRes": "-",
+			"startup": 33,
+			"motionCancel": 47,
+			"total": 70,
+			"FrameAdv": "[+22]",
+			"spiritDmg": "0.2, 0.075*3",
+			"extra": "Attack Cancel: 47F \n Landing Recovery: 10F \n Damage/Spirit Damage are on a per-bullet basis."
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "Last hit of Dial A, all boxes extend forward horizontally"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 57,
+			"guard": "High",
+			"rbadv": "-19",
+			"wbadv": "-13",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 36,
+			"active": 3,
+			"total": 68,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "27",
+			"extra": "Purple Flash: 5F"
+		}
+	},
+	"skillcards": {
+		"mindExplosion": {
+			"name": "Mind Explosion",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b2/Ud236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Explosion radius increases.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/227.html#id_ad348f21",
+			"bc": {
+				"difference": true,
+				"b": "Fires straight ahead.",
+				"c": "Fires at a 45 degree angle."
+			},
+			"classification": "BULLET",
+			"density": "Bullet: B1x1\nExplosion: B4x1",
+			"grazeRes": "**Lv 0+:** inf",
+			"startup": "19",
+			"motionCancel": "29",
+			"total": "57",
+			"FrameAdv": "+4",
+			"spiritDmg": "0.2*n, 5 hits",
+			"extra": "Slightly tracks the opponent."
+		},
+		"mindBending": {
+			"name": "Mind Bending",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9e/Ud236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Mind Explosion.",
+				"level2": "Explosions occur further from projectile.",
+				"level3": "Explosions occur further from projectile.",
+				"level4": "Explosions occur even further from projectile."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/227.html#id_e7189f20",
+			"bc": {
+				"difference": true,
+				"b": "Fires straight ahead.",
+				"c": "Fires at a 45 degree angle."
+			},
+			"_comment": "Uh, -19 for no explosions hitting and -6 for explosions hitting, assuming no motion cancel and pointblank. Honestly no idea what to do for in air.",
+			"classification": "BULLET",
+			"density": "Bullet: B1x1\nExplosions: B1x8",
+			"grazeRes": "**Lv 0+:** inf",
+			"startup": "G: 19, A: 21",
+			"motionCancel": "G: 33, A: 35",
+			"total": "G: 56, A: 58",
+			"FrameAdv": "-",
+			"spiritDmg": "0.5 per explosion",
+			"extra": "Landing Recovery: 12F"
+		},
+		"mindDropping": {
+			"name": "Mind Dropping",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/40/Ud236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Mind Explosion. 6 exploding bullets.",
+				"level2": "8 exploding bullets.",
+				"level3": "10 exploding bullets.",
+				"level4": "12 exploding bullets."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/227.html#id_a463a082",
+			"bc": {
+				"difference": true,
+				"b": "The large bullet travels a short distance. Reisen is at the edge of the spray area.",
+				"c": "The bullet goes more horizontally, thus reaching further distances."
+			},
+			"classification": "BULLET",
+			"density": "B1xn, C1xn",
+			"grazeRes": "**Lv 1+:** 1",
+			"startup": "26~176",
+			"motionCancel": "23",
+			"total": "47",
+			"FrameAdv": "-",
+			"spiritDmg": "0.1*n, 0.2*n",
+			"extra": "Holding the B or C button when firing will delay the dropping's activation.\nStartup reflects the minimum and maximum delay.\nThe skill ends if another skill or card is used while holding it.\nDensity and spirit damage are for the spread bullets and explosions, respectively."
+		},
+		"ultraredField": {
+			"name": "Ultrared Field",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/60/Ud623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Duration increases.",
+				"level2": "Duration increases.",
+				"level3": "Duration increases.",
+				"level4": "Duration increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/227.html#id_1efee55a",
+			"bc": {
+				"difference": true,
+				"b": "Creates a large field centered around Reisen.",
+				"c": "Creates a small field centered around the opponent, and lasts only half as long as the B version."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "36",
+			"motionCancel": "B: 26 \nC: 35",
+			"total": "B: 46 \nC: 56",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "While the opponent is in the field, bullets pass through Reisen harmlessly.\nSpell Cancel: 17"
+		},
+		"ultravioletField": {
+			"name": "Ultraviolet Field",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/99/Ud623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ultrared Field.",
+				"level2": "Duration increases. Radius increases.",
+				"level3": "Duration increases. Radius increases, an extra clone appears behind Reisen.",
+				"level4": "Duration increases. Radius increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/227.html#id_d9bc9149",
+			"bc": {
+				"difference": true,
+				"b": "Creates a large field centered around Reisen.",
+				"c": "Creates a small field centered around the opponent, and lasts only half as long as the B version."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "36",
+			"motionCancel": "B: 26\nC: 35",
+			"total": "B: 46\nC: 55",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "While the opponent is in the field, Reisen clones appear that mimic her movements. \nAny melee attack except Disorder Eye is replicated by the clones. Normal bullets are replicated by the clones at 1/4 damage and spirit damage. A clone's 2c will still do 1 orb of spirit damage.\nSpell Cancel: 17"
+		},
+		"undersenseBreak": {
+			"name": "Undersense Break",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/25/Ud623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ultrared Field.",
+				"level2": "Startup decreases for B version.",
+				"level3": "-",
+				"level4": "Gains graze frames 1-13."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/227.html#id_79807398",
+			"bc": {
+				"difference": true,
+				"b": "Faster, less damage.",
+				"c": "Slower, deals more damage. C version always has 15F startup."
+			},
+			"_comment": "Putting this here in case you actyally want startup saidfor every level even if it's the same. But I probably forgot and didn't do that later anyway. **Lv 1:** B: 14, C: 15\n**Lv 2:** B: 10, C: 15\n**Lv 3:** B: 10, C: 15\n**Lv 4:** B: 10, C: 15",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "**Lv 1+:** inf",
+			"startup": "**B:** Lv 1: 14, Lv 2+: 10\n**C:** 15",
+			"motionCancel": "-",
+			"total": "B: 67 \nC: 75",
+			"FrameAdv": "B: -12 \nC: -11",
+			"spiritDmg": "0.1*n",
+			"extra": "The B version hits 5 times, and the C version hits 7 times.\nUpper body invulnerability:\nB: Lv 1: 1-31, Lv 2+: 1-27\nC: 1-39"
+		},
+		"illusionaryBlast": {
+			"name": "Illusionary Blast",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7f/Ud214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup of B version decreases (37F -> 32F).",
+				"level2": "Startup of C version decreases (31F -> 25F).",
+				"level3": "Size of B version increases.",
+				"level4": "Size of C version increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/228.html#id_d779fbd4",
+			"bc": {
+				"difference": true,
+				"b": "Fires straight ahead.",
+				"c": "Fires at a 45 degree angle and moves upward a bit during the attack."
+			},
+			"classification": "BULLET",
+			"density": "B inf",
+			"grazeRes": "**Lv 0+:** inf",
+			"startup": "**Lv 0:** B: 37, C: 31 \n **Lv 1:** B: 32, C: 31 \n**Lv 2:** B: 32, C: 25 \n**Lv 3:** B: 32, C: 25 \n**Lv 4:** B: 32, C: 25",
+			"motionCancel": "B: Lv 0: 54, Lv 1+: 49 \n C: Lv 0/1: 43, Lv 2+: 37",
+			"total": "B: Lv 0: 93, Lv 1+: 78 \n C: Lv 0/1: 81, Lv 2+: 75",
+			"FrameAdv": "B: +12/+10, C: +8/+6",
+			"spiritDmg": "0.1*n, 8 hits",
+			"extra": "Frame advantage is against a grounded opponent and airborne opponent respectively."
+		},
+		"eyesightCleansing": {
+			"name": "Eyesight Cleansing",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9c/Ud214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Illusionary Blast. Up to 7/5 (B/C) tracer lines.",
+				"level2": "Up to 8/5 (B/C) tracer lines.",
+				"level3": "Up to 9/5 (B/C) tracer lines.",
+				"level4": "Up to 11/6 (B/C) tracer lines."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/228.html#id_eb98a74f",
+			"bc": {
+				"difference": true,
+				"b": "Widens more slowly, but the inside tracers are more frequent.",
+				"c": "Widens faster, but the tracers appear more spaced out."
+			},
+			"_comment": "Frame advantage against an airborne opponent is +6. How do we convey that properly? I wrote it in the extra of Illusionary Blast, but should that be the standard? Or should we only include against a grounded opponent, like the wiki probably does?",
+			"classification": "BULLET",
+			"density": "Tracer Ray: B inf \nScan lines: B1x2 \nLasers: -",
+			"grazeRes": "**Lv 1+:** 7",
+			"startup": "**B:** 42~222 \n**J.B:** 39~219 \n**C:** 42~222 \n**J.C**: 39~219",
+			"motionCancel": "50, or 10 after releasing B/C",
+			"total": "G: 84, or 44 after releaseing B/C\nA: 79, or 42 after releasing B/C",
+			"FrameAdv": "G: +6 \nA: +8",
+			"spiritDmg": "0.2*n, 7 hits",
+			"extra": "Graze Res. is for the laser.\nAir momentum carries slightly.\nHolding the button makes the tracer ray expand out. Startup ranges from the earliest the laser can be fired to the latest.\nLaser targets opponent if they are in the tracer ray. The laser fires 2F after releasing B/C.\nLanding Recovery: 10F\nSpell Cancel: G: 31, A: 29\nCan be Spell cancelled any time after the Spell Cancel window, even while holding B/C."
+		},
+		"rippleVision": {
+			"name": "Ripple Vision",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/10/Ud214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Illusionary Blast.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Leaves afterimages of the ring."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/228.html#id_dbdab1a7",
+			"bc": {
+				"difference": true,
+				"b": "Fires straight ahead.",
+				"c": "Fires at a 45 degree angle, upwards from the ground, towards the ground if airborne."
+			},
+			"classification": "BULLET",
+			"density": "Ring: B3x1 \nAfterimage rings: B1xn",
+			"grazeRes": "inf",
+			"startup": "G: B: 22, C: 19 \nA: 21",
+			"motionCancel": "G: 31 \nA: 30",
+			"total": "G: B: 58, C: 51\nA: B: 59",
+			"FrameAdv": "B: -6 \nC: -2",
+			"spiritDmg": "Ring: 1 \nAfterimage: 0.1*n",
+			"extra": "Frame advantage is for point blank with no afterimages. Varies with distance and afterimages.\nAt level MAX, afterimages spawn on the startup frame and every 10th frame after."
+		},
+		"disbeliefAspect": {
+			"name": "Disbelief Aspect",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e6/Ud22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Additional bullet added (4 -> 5).",
+				"level2": "Additional bullet added (5 -> 6).",
+				"level3": "-",
+				"level4": "Additional bullet added (6 -> 7)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/228.html#id_643e5349",
+			"bc": {
+				"difference": true,
+				"b": "The jumping Reisen is real. After the jump, Reisen can act.",
+				"c": "The stationary Reisen is real. High jump cancelable."
+			},
+			"classification": "BULLET",
+			"density": "C1xn",
+			"grazeRes": "1",
+			"startup": "B: 44 \nC: 43",
+			"motionCancel": "B: - \nC: 35",
+			"total": "B: 35 \nC: 50",
+			"FrameAdv": "-",
+			"spiritDmg": "0.125*n",
+			"extra": "Spell Cancel: B: 36, C: 39"
+		},
+		"disorderEye": {
+			"name": "Disorder Eye",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/86/Ud22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Disbelief Aspect.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Both versions produce 6 clones."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/228.html#id_7cf479b0",
+			"bc": {
+				"difference": true,
+				"b": "Reisen splits into two clones which move left and right.",
+				"c": "Reisen splits into four clones which spread out diagonally."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1",
+			"startup": "20, 47",
+			"motionCancel": "-",
+			"total": "G: 79 \nA: 95",
+			"FrameAdv": "-, -5",
+			"spiritDmg": 0.25,
+			"extra": "The skill has two hits: One from the clones moving out, and one when they come back together. The first hit is a projectile and thus can be grazed, but the second hit is melee.\nInvulnerable 20-55\n11F gap between the first hit and the second on pointblank block.\nSpell Cancel: 55, air version cannot be spell cancelled after 87\nLanding Recover: 10F"
+		},
+		"acuraSpectral": {
+			"name": "Acura Spectral",
+			"altName": "Ocular Spectrum",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/87/Ud22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Disbelief Aspect.",
+				"level2": "After-teleport cooldown decreases.",
+				"level3": "Gains air usability 1 time before landing.",
+				"level4": "After-teleport air cooldown decreases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/228.html#id_fc19ad23",
+			"bc": {
+				"difference": true,
+				"b": "Clones appear ahead of Reisen.",
+				"c": "Clones appear slightly behind Reisen."
+			},
+			"_comment": "The formatting on the extra notes for the invincibility is probably ugly. Will need to decide how to do those later.",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "G: 15 \nA: 20",
+			"motionCancel": "-",
+			"total": "G: Lv 1: 44, Lv 2+: 39\nA: Lv 3: 49, Lv 4: 44",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "Hold a direction before startup ends to appear at the clone in that direction.\nInvincibility: \nG: Lv 1: 15-30, Lv 2+: 15-25\nA: Lv 3: 20-35, Lv 4: 20-30\nGrazes from startup to total."
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Mind Explosion",
+				"emoteIcon": "<:Ud236bc1:728254167998660648>"
+			},
+			{
+				"name": "Mind Bending",
+				"emoteIcon": "<:Ud236bc2:728254167872831510>"
+			},
+			{
+				"name": "Mind Dropping",
+				"emoteIcon": "<:Ud236bc3:728254167914643503>"
+			}
+		],
+		"623": [
+			{
+				"name": "Ultrared Field",
+				"emoteIcon": "<:Ud623bc1:728254168116232323>"
+			},
+			{
+				"name": "Ultraviolet Field",
+				"emoteIcon": "<:Ud623bc2:728254168103649381>"
+			},
+			{
+				"name": "Undersense Break",
+				"emoteIcon": "<:Ud623bc3:728254168208244776>"
+			}
+		],
+		"214": [
+			{
+				"name": "Illusionary Blast",
+				"emoteIcon": "<:Ud214bc1:728254167918968912>"
+			},
+			{
+				"name": "Eyesight Cleansing",
+				"emoteIcon": "<:Ud214bc2:728254167755522191>"
+			},
+			{
+				"name": "Ripple Vision",
+				"emoteIcon": "<:Ud214bc3:728254167818174558>"
+			}
+		],
+		"22": [
+			{
+				"name": "Disbelief Aspect",
+				"emoteIcon": "<:Ud22bc1:728254167948329051>"
+			},
+			{
+				"name": "Disorder Eye",
+				"emoteIcon": "<:Ud22bc2:728254167902060554>"
+			},
+			{
+				"name": "Acura Spectral",
+				"emoteIcon": "<:Ud22bc3:728254167990272030>"
+			}
+		]
+	},
+	"spellcards": {
+		"corollaVision": {
+			"name": "Charming Look \"Corolla Vision\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/15/Udsc01.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"demotivation": {
+			"name": "Weak Heart \"Demotivation\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bb/Udsc02.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"gasWovenOrb": {
+			"name": "Poison Smokescreen \"Gas-Woven Orb\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fe/Udsc03.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"infrared Moon": {
+			"name": "Farsight \"Infrared Moon\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/89/Udsc04.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"mindStarmine": {
+			"name": "Illusion Bomb \"Mind Starmine\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ea/Udsc05.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"crownVision": {
+			"name": "Fascination \"Crownvision\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/00/Udsc06.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"discarder": {
+			"name": "Desolation \"Discarder\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c6/Udsc07.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"grandPatriotsElixir": {
+			"name": "Life Elixir \"Grand Patriot's Elixir\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/ce/Udsc08.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "note to self write 4x potions and or an alt"
+		},
+		"xWave": {
+			"name": "Shortsight \"X-Wave\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bc/Udsc09.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"lunaticBlast": {
+			"name": "Red Eyes \"Lunatic Blast\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ec/Udsc10.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"lunaticRedEyes": {
+			"name": "Lunatic Red Eyes",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/48/Udsc11.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Corolla Vision",
+				"emoteIcon": "<:Udsc01:728254168208244777>"
+			},
+			{
+				"name": "Demotivation",
+				"emoteIcon": "<:Udsc02:728254168195661898>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Gas-Woven Orb",
+				"emoteIcon": "<:Udsc03:728254168183078958>"
+			},
+			{
+				"name": "Infrared Moon",
+				"emoteIcon": "<:Udsc04:728254167952523297>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Mind Starmine",
+				"emoteIcon": "<:Udsc05:728254168036540507>"
+			},
+			{
+				"name": "Crown Vision",
+				"emoteIcon": "<:Udsc06:728254168078221394>"
+			},
+			{
+				"name": "Discarder",
+				"emoteIcon": "<:Udsc07:728254168061575192>"
+			},
+			{
+				"name": "Grand Patriot's Elixir",
+				"emoteIcon": "<:Udsc08:728254168300519446>"
+			},
+			{
+				"name": "X-Wave",
+				"emoteIcon": "<:Udsc09:728254168329879622>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Lunatic Blast",
+				"emoteIcon": "<:Udsc10:728254168439062598>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Lunatic Red Eyes",
+				"emoteIcon": "<:Udsc11:728254168430673940"
+			}
+		]
+	}
+}

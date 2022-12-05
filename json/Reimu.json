@@ -1,0 +1,945 @@
+{
+	"id": "hakureiReimu",
+	"name": "Reimu Hakurei",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Reimu_Hakurei",
+	"thanks": "Nep Nep, FranFran",
+	"movement": {
+		"dash": 7,
+		"commit": 8,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-23",
+		"backdashTotal": 36
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 17,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 5,
+			"total": 25,
+			"guard": "High",
+			"rbadv": "-1",
+			"wbadv": "+3"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 13,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 2,
+			"total": 33,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 18,
+			"total": 41,
+			"guard": "Low",
+			"rbadv": "-7",
+			"wbadv": "-3"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 13,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 13,
+			"total": 63,
+			"guard": "High (Crush)",
+			"rbadv": "-5",
+			"wbadv": "+17"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": "12 [15]",
+			"active": "3 [10]",
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "-21",
+			"wbadv": "-15"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 38,
+			"active": 12,
+			"total": 70,
+			"guard": "Low (Crush)",
+			"rbadv": "-5",
+			"wbadv": "+17"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 16,
+			"total": 53,
+			"guard": "High, Air",
+			"rbadv": "(-24)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 10,
+			"total": 49,
+			"guard": "High, Air",
+			"rbadv": "(-16)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 7,
+			"total": 45,
+			"guard": "High, Air",
+			"rbadv": "(-17)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 8,
+			"total": 51,
+			"guard": "High, Air",
+			"rbadv": "(-15)",
+			"wbadv": "?"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 3,
+			"total": 36,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "+1"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": 15,
+			"motionCancel": 30,
+			"total": 49,
+			"FrameAdv": "-6 [+14]",
+			"spiritDmg": 0.2
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": 31,
+			"motionCancel": 40,
+			"total": 65,
+			"FrameAdv": "-6 [+17]",
+			"spiritDmg": 0.2
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": 14,
+			"motionCancel": 26,
+			"total": 37,
+			"FrameAdv": "-2 [+10]",
+			"spiritDmg": 1
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": 14,
+			"motionCancel": 29,
+			"total": 48,
+			"FrameAdv": "-6 [+14]",
+			"spiritDmg": 0.2
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": 30,
+			"motionCancel": 39,
+			"total": 64,
+			"FrameAdv": "-6 [+17]",
+			"spiritDmg": 0.2
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": 15,
+			"motionCancel": 23,
+			"total": 53,
+			"FrameAdv": "[+15]",
+			"spiritDmg": 0.2
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": 31,
+			"motionCancel": 39,
+			"total": 69,
+			"FrameAdv": "[+15]",
+			"spiritDmg": 0.2
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": 30,
+			"motionCancel": 22,
+			"total": 68,
+			"FrameAdv": "-10 [+15]",
+			"spiritDmg": 0.2
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": 31,
+			"motionCancel": 38,
+			"total": 69,
+			"FrameAdv": "-10 [+15]",
+			"spiritDmg": 0.2
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 11,
+			"total": 48,
+			"guard": "Low",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B3",
+			"grazeRes": 10,
+			"startup": 25,
+			"motionCancel": 36,
+			"total": 53,
+			"FrameAdv": "+9 [+27]",
+			"spiritDmg": 0.25
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B6x1",
+			"grazeRes": 10,
+			"startup": 50,
+			"motionCancel": 63,
+			"total": 84,
+			"FrameAdv": "+21 [+43]",
+			"spiritDmg": 0.25
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "C1",
+			"grazeRes": "-",
+			"startup": 15,
+			"motionCancel": 38,
+			"total": 57,
+			"FrameAdv": "-16 [+4]",
+			"spiritDmg": 0.5
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 11,
+			"total": 47,
+			"guard": "High, Air",
+			"rbadv": "-13",
+			"wbadv": "-7"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B3",
+			"grazeRes": 10,
+			"startup": 18,
+			"motionCancel": 28,
+			"total": 52,
+			"FrameAdv": "+3 [+28]",
+			"spiritDmg": 0.25
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B6x1",
+			"grazeRes": 10,
+			"startup": 43,
+			"motionCancel": 53,
+			"total": 77,
+			"FrameAdv": "[+46]",
+			"spiritDmg": 0.25
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B3",
+			"grazeRes": 10,
+			"startup": 21,
+			"motionCancel": 41,
+			"total": 62,
+			"FrameAdv": "[+18]",
+			"spiritDmg": 0.25
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "B3",
+			"grazeRes": 10,
+			"startup": 46,
+			"motionCancel": 66,
+			"total": 89,
+			"FrameAdv": "[+36]",
+			"spiritDmg": 0.25
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "6a but the back part is thicker vertically"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 8,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 36,
+			"active": 3,
+			"total": 67,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "30",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"hakureiAmulet": {
+			"name": "Hakurei Amulet",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/34/Ha236bc1.png",
+			"levels": {
+				"level0": "Charge time reduced by 3 frames, Graze resistance = 4F.",
+				"level1": "Charge time reduced by 3 frames, Graze resistance = 10F.",
+				"level2": "Charge time reduced by 3 frames, Graze resistance = 15.",
+				"level3": "Charge time reduced by 3 frames, Graze resistance = 20F. Bullet density increased to B2",
+				"level4": "Air version produces two bullets when it hits the ground. Travels across entire stage."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/213.html#id_d712050f",
+			"bc": {
+				"difference": true,
+				"b": "B versions can be charged to throw 4 bullets.",
+				"c": "C versions can be charged to throw 6 bullets, instead of 4."
+			},
+			"classification": "BULLET",
+			"density": "B1x2 \n Lv 4: B2x2",
+			"grazeRes": "**Lv 0:** 4 \n**Lv 1:** 10 \n**Lv 2:** 15 \n**Lv 3:** 20",
+			"startup": "G: 30 \n A: 27",
+			"motionCancel": "G: 30 \n A: 29",
+			"total": "G: 58 \n A: 43",
+			"FrameAdv": "G: +3[+32] \n A: +15[+30]",
+			"spiritDmg": 0.25,
+			"extra": ""
+		},
+		"youkaiBuster": {
+			"name": "Youkai Buster",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1c/Ha236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Hakurei Amulet. Numbers of hits is 6 (Frame advantage improves by 3F).",
+				"level2": "",
+				"level3": "Numbers of hits is 7 (Frame advantage improves by 3F).",
+				"level4": "Numbers of hits is 8 (Frame advantage improves by 3F).."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/213.html#id_0d4a9844",
+			"bc": {
+				"difference": true,
+				"b": "Startup is faster, but bullets are slower.",
+				"c": "Startup is delayed, but the bullets are significantly faster."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "-",
+			"startup": "G: 17 /n A: 14F",
+			"motionCancel": "G: 37F /n A: 36F",
+			"total": "G: 65 /n A: 50F",
+			"FrameAdv": "G: 12[+17] /n A: +0[+15]",
+			"spiritDmg": 0.05,
+			"extra": ""
+		},
+		"spreadAmulet": {
+			"name": "Spread Amulet",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c1/Ha236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Hakurei Amulet. Large bullets split into 6 bullets each.",
+				"level2": "Large bullets split into 8 bullets each.",
+				"level3": "",
+				"level4": "Large bullets split into 10 bullets each."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/213.html#id_0bc4bc59",
+			"bc": {
+				"difference": true,
+				"b": "B version fires 2 large amulets.",
+				"c": "C version fires 3 large amulets."
+			},
+			"classification": "BULLET",
+			"density": "Large: B1xN\n Small: C1x1",
+			"grazeRes": "Large: 5F\n Small: 1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Something about charge times here"
+		},
+		"ascensionKick": {
+			"name": "Ascension Kick",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0f/Ha623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "-",
+				"level4": "B Version gains full-body invulnerability."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/213.html#id_11e50651",
+			"bc": {
+				"difference": true,
+				"b": "Horizontal Wallslam. Faster Recovery. (Lv. Max) Gains Full Body Invuln 1-14F.",
+				"c": "Initial Graze Frames. Can Spell Cancel. Launches upwards."
+			},
+			"classification": "MELEE",
+			"startup": 36,
+			"active": 3,
+			"total": 67,
+			"guard": "High",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"slidingAscensionKick": {
+			"name": "Sliding Ascension Kick",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ef/Ha623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ascension Kick.",
+				"level2": "B Version Recovery decreares in first stage. (-2F)",
+				"level3": "B Version Recovery decreares in first stage. (-2F)",
+				"level4": "Third attack now available after the second hit."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/213.html#id_2736ef49",
+			"bc": {
+				"difference": false,
+				"b": "Will transition to 2nd hit if pressed 14-30F.",
+				"c": "Will transition to 2nd hit if pressed 19-43F."
+			},
+			"classification": "MELEE",
+			"startup": 36,
+			"active": 3,
+			"total": 67,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "30",
+			"extra": "This thing is a rekka and I need to organize this."
+		},
+		"rainDance": {
+			"name": "Rain Dance",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f6/Ha623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ascension Kick.",
+				"level2": "-",
+				"level3": "Hitbox Increase.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/213.html#id_a2296472",
+			"bc": {
+				"difference": true,
+				"b": "Moves downwards while attacking.",
+				"c": "Keeps moving forwards for a large distance."
+			},
+			"classification": "MELEE",
+			"startup": 36,
+			"active": 3,
+			"total": 67,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "30",
+			"extra": ""
+		},
+		"cautionaryBorder": {
+			"name": "Cautionary Border",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f5/Ha214bc1.png",
+			"levels": {
+				"level0": "Duration: 1.5s",
+				"level1": "Replaces Cautionary Border. Density increases to B5x1. Duration: 2.5s.",
+				"level2": "Hit Count: 3. Duration: 3s.",
+				"level3": "Duration: 3.5s.",
+				"level4": "Density increases to B5x1. Hit Count: 4. Duration: 2.5s."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/212.html#id_07d5afe4",
+			"bc": {
+				"difference": true,
+				"b": "The border is created a short distance from Reimu.",
+				"c": "The border is placed at mid-range."
+			},
+			"classification": "BULLET",
+			"density": "Lv0: B4x1\n Lv1: B5x1\n Lv 4: B6x1",
+			"grazeRes": "10F",
+			"startup": "G: 45\n A: 44",
+			"motionCancel": "G: 30\n A: 29",
+			"total": "G: 47\n A: 43(15)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Duration: 91/151/181/211/241"
+		},
+		"bindingBorder": {
+			"name": "Binding Border",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/20/Ha214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Cautionary Border.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Both versions of the move will create 4 borders."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/212.html#id_ddde9c3c",
+			"bc": {
+				"difference": true,
+				"b": "The borders are to the left and right of the opponent.",
+				"c": "The borders are above and below the opponent."
+			},
+			"classification": "BULLET",
+			"density": "BinfxN",
+			"grazeRes": "inf",
+			"startup": "35",
+			"motionCancel": "40",
+			"total": "G: 101\n A: 109(15)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"permanentBorder": {
+			"name": "Permanent Border",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0e/Ha214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Cautionary Border. Duration 3.5s.",
+				"level2": "Duration 4.5s.",
+				"level3": "Duration 5.5s.",
+				"level4": "Duration 6.5s."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/212.html#id_661c62e1",
+			"bc": {
+				"difference": true,
+				"b": "Places the amulet under Reimu. Slower startup and cancel.",
+				"c": "Tosses an amulet far away. Faster startup and cancel."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"dimensionalRift": {
+			"name": "Dimensional Rift",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/47/Ha421bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup decreases to 46F.",
+				"level2": "B-",
+				"level3": "Startup decreases to 44F.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/212.html#id_27396c37",
+			"bc": {
+				"difference": true,
+				"b": "Reimu will appear above the opponent's head and perform a divekick. Hits high, crushes on wrongblock.",
+				"c": "Low Slide Tackle; does 1, 1, and 1.25 orbs of wrongblock damage. Grazes."
+			},
+			"classification": "MELEE",
+			"startup": "Lv 0: 49\n Lv 1-2: 46\n Lv 3-4: 44 \n C (all): 49",
+			"active": "Lv 0: 8\n Lv 1+: 9\n C: 15",
+			"total": "B (Lv 0/1/3): 76/74/72\n C: 87",
+			"guard": "B: High\n C: Low",
+			"rbadv": "around -5/-6",
+			"wbadv": "+/-0",
+			"extra": "There's a bit of graze frames + invuln frames somewhere. Remind me at some point."
+		},
+		"demonSealingDimensionalRift": {
+			"name": "Demon Sealing Dimensional Rift",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/92/Ha421bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dimensional Rift. Initially, both versions of the move fires 1 wave of 6 needles.",
+				"level2": "B version now fires 2 waves of needles.",
+				"level3": "C version now fires 2 waves of needles.",
+				"level4": "Both versions fire 3 waves of needles."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/212.html#id_ef21ad94",
+			"bc": {
+				"difference": true,
+				"b": "Teleports a little forward. The needles are spread at a sharper downwards angle.",
+				"c": "Teleports far to the back. Needles spread more forward than the B version."
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "40 + 7n",
+			"motionCancel": "B: 67\n C: 66",
+			"total": "B: 69\n C: 68",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "13~39F invuln"
+		},
+		"instantDimensionalRift": {
+			"name": "Instant Dimensional Rift",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e1/Ha421bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dimensional Rift.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Each amulet will hit as it is created, doubling the max hits to 50, and making the counter much faster and harder to avoid at close range."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/212.html#id_2ebe93fb",
+			"bc": {
+				"difference": true,
+				"b": "Only works on melee attacks.",
+				"c": "Only works on bullet attacks."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "There's a list of attacks that can't be countered. Go check the wiki. 6-25F?"
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Hakurei Amulet",
+				"emoteIcon": "<:Ha236bc1:728226884558651464>"
+			},
+			{
+				"name": "Youkai Buster",
+				"emoteIcon": "<:Ha236bc2:728226884273307649>"
+			},
+			{
+				"name": "Spread Amulet",
+				"emoteIcon": "<:Ha236bc3:728226884587880448>"
+			}
+		],
+		"623": [
+			{
+				"name": "Ascension Kick",
+				"emoteIcon": "<:Ha623bc1:728226885250711604>"
+			},
+			{
+				"name": "Sliding Ascension Kick",
+				"emoteIcon": "<:Ha623bc2:728226885690982430>"
+			},
+			{
+				"name": "Rain Dance",
+				"emoteIcon": "<:Ha623bc3:728226885410226248>"
+			}
+		],
+		"214": [
+			{
+				"name": "Cautionary Border",
+				"emoteIcon": "<:Ha214bc1:728226883828842527>"
+			},
+			{
+				"name": "Binding Border",
+				"emoteIcon": "<:Ha214bc2:728226884248141857>"
+			},
+			{
+				"name": "Permanent Border",
+				"emoteIcon": "<:Ha214bc3:728226884478828624>"
+			}
+		],
+		"421": [
+			{
+				"name": "Dimensional Rift",
+				"emoteIcon": "<:Ha421bc1:728226884659445780>"
+			},
+			{
+				"name": "Demon Sealing Dimensional Rift",
+				"emoteIcon": "<:Ha421bc2:728226884810309712>"
+			},
+			{
+				"name": "Instant Dimensional Rift",
+				"emoteIcon": "<:Ha421bc3:728226884684349480>"
+			}
+		]
+	},
+	"spellcards": {
+		"concealedOrbsOfLight": {
+			"name": "Jewel Sign \"Concealed Orbs of Light\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/56/Hasc01.png",
+			"classification": "BULLET",
+			"density": "A2x3",
+			"grazeRes": "-",
+			"startup": "13+14",
+			"motionCancel": "-",
+			"total": "G: 79 /n A: 59",
+			"FrameAdv": "-",
+			"spiritDmg": 0.125,
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"fantasyOrb": {
+			"name": "Spirit Sign \"Fantasy Orb\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/72/Hasc02.png",
+			"classification": "BULLET",
+			"density": "B2x10",
+			"grazeRes": "-",
+			"startup": "5+9",
+			"motionCancel": "-",
+			"total": "G: 74 /n A: 93",
+			"FrameAdv": "-",
+			"spiritDmg": 0.125,
+			"extra": ""
+		},
+		"demonBindingArray": {
+			"name": "Dream Sign \"Demon Binding Array\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7f/Hasc03.png",
+			"classification": "BULLET",
+			"density": "B6x1",
+			"grazeRes": "-",
+			"startup": "9+8",
+			"motionCancel": "-",
+			"total": 120,
+			"FrameAdv": "-35",
+			"spiritDmg": 0.25,
+			"extra": "Invincible frames 1-24"
+		},
+		"yinYangOrb": {
+			"name": "Treasure Sign \"Yin-Yang Orb\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/11/Hasc04.png",
+			"classification": "BULLET",
+			"density": "A5x1",
+			"grazeRes": "-",
+			"startup": "1+15",
+			"motionCancel": "-",
+			"total": 88,
+			"FrameAdv": "-7",
+			"spiritDmg": 0.25,
+			"extra": ""
+		},
+		"expandingBoundary": {
+			"name": "Boundary \"Expanding Boundary\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/da/Hasc05.png",
+			"classification": "BULLET",
+			"density": "A1x60?",
+			"grazeRes": "-",
+			"startup": "16+26",
+			"motionCancel": "-",
+			"total": "G: 120 /n A: Until landing",
+			"FrameAdv": "-80",
+			"spiritDmg": 0.15,
+			"extra": ""
+		},
+		"windGodKick": {
+			"name": "Divine Arts \"Wind God Kick\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/33/Hasc06.png",
+			"classification": "MELEE",
+			"startup": "4+5",
+			"active": "-",
+			"total": 168,
+			"guard": "High",
+			"rbadv": "-56",
+			"wbadv": "-",
+			"extra": "Invincible frames 1-10, grazes 11-25"
+		},
+		"demonBindingCircle": {
+			"name": "Divine Arts \"Demon Binding Circle\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b6/Hasc07.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "-",
+			"startup": "14+6",
+			"motionCancel": "-",
+			"total": 204,
+			"FrameAdv": "-33",
+			"spiritDmg": 0.05,
+			"extra": "Invincible frames 1-108"
+		},
+		"yinYangSanctifierOrb": {
+			"name": "Holy Relic \"Yin-Yang Sanctifier Orb\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3f/Hasc08.png",
+			"classification": "BULLET",
+			"density": "A99x1",
+			"grazeRes": "-",
+			"startup": "1+20",
+			"motionCancel": "-",
+			"total": 82,
+			"FrameAdv": "+20~+110",
+			"spiritDmg": 0.05,
+			"extra": "Highest frame advantage if used when Reimu's back is to the wall"
+		},
+		"fantasySeal": {
+			"name": "Divine Spirit \"Fantasy Seal\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a7/Hasc09.png",
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "-",
+			"startup": "9+11",
+			"motionCancel": "-",
+			"total": "G: 105 /n A:Until landing",
+			"FrameAdv": "-10",
+			"spiritDmg": "0.25[0.5]",
+			"extra": "Invincible frames 1-9"
+		},
+		"fantasyHeaven": {
+			"name": "Fantasy Heaven",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c9/Hasc10.png",
+			"classification": "BULLET",
+			"density": "A1xN",
+			"grazeRes": "-",
+			"startup": "10+0",
+			"active": "-",
+			"motionCancel": "-",
+			"total": 42,
+			"guard": "-",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "Invincible frames 1-13"
+		},
+		"fantasyHeavenActivation": {
+			"name": "Fantasy Heaven Activation",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c9/Hasc10.png",
+			"classification": "BULLET",
+			"density": "A?x??",
+			"grazeRes": "-",
+			"startup": "9+11",
+			"motionCancel": "-",
+			"total": 275,
+			"FrameAdv": "-",
+			"spiritDmg": 0.5,
+			"extra": "Invincible frames 1-276. Mystic Oriental Love Consulation (End of Century Ver.) will play if used in round 3"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Concealed Orbs of Light",
+				"emoteIcon": "<:Hasc01:728226885854822401>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Fantasy Orb",
+				"emoteIcon": "<:Hasc02:728226886253281341>"
+			},
+			{
+				"name": "Demon Binding Array",
+				"emoteIcon": "<:Hasc03:728226886211338310>"
+			},
+			{
+				"name": "Yin-Yang Orb",
+				"emoteIcon": "<:Hasc04:728226886118932521>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Expanding Boundary",
+				"emoteIcon": "<:Hasc05:728226886139904061>"
+			},
+			{
+				"name": "Wind God Kick",
+				"emoteIcon": "<:Hasc06:728226886383042656>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Demon Binding Circle",
+				"emoteIcon": "<:Hasc07:728226885909348374>"
+			},
+			{
+				"name": "Yin-Yang Sanctifier Orb",
+				"emoteIcon": "<:Hasc08:728226886148161596>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Fantasy Seal",
+				"emoteIcon": "<:Hasc09:728226886161006602>"
+			},
+			{
+				"name": "Fantasy Heaven",
+				"emoteIcon": "<:Hasc10:728226886190235719>"
+			}
+		]
+	}
+}

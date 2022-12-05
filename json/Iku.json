@@ -1,0 +1,976 @@
+{
+	"id": "nagaeIku",
+	"name": "Iku Nagae",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Iku_Nagae",
+	"movement": {
+		"dash": 9,
+		"commit": 4,
+		"backdashInvuln": "1-9",
+		"backdashGraze": "10-23",
+		"backdashTotal": 35
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 25,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 25,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 2,
+			"total": 36,
+			"guard": "Mid",
+			"rbadv": "-7",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 4,
+			"total": 35,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 20,
+			"total": 65,
+			"guard": "Mid, Air",
+			"rbadv": "-24",
+			"wbadv": "N/A"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 8,
+			"total": 29,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 49,
+			"guard": "High",
+			"rbadv": "-12",
+			"wbadv": "-6"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 2,
+			"total": 64,
+			"guard": "High (Crush)",
+			"rbadv": "-6",
+			"wbadv": "+16"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 6,
+			"total": 48,
+			"guard": "Low",
+			"rbadv": "-10",
+			"wbadv": "-4"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 6,
+			"total": 63,
+			"guard": "Low (Crush)",
+			"rbadv": "-4",
+			"wbadv": "+18"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 3,
+			"total": 39,
+			"guard": "High, Air",
+			"rbadv": "(-8)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 8,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "(-23)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 16,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "(-12)",
+			"wbadv": "?",
+			"extra": "0.5 orbs spirit damage per hit on wrong block."
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 3,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "(-23)",
+			"wbadv": "?"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": 19,
+			"motionCancel": 25,
+			"total": 51,
+			"FrameAdv": "-2 [+25]",
+			"spiritDmg": "0.3*5"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x9",
+			"grazeRes": 1,
+			"startup": 39,
+			"motionCancel": 45,
+			"total": 71,
+			"FrameAdv": "-2 [+25]",
+			"spiritDmg": "0.3*9"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": 18,
+			"motionCancel": 24,
+			"total": 48,
+			"FrameAdv": "+0 [+25]",
+			"spiritDmg": "0.3*3"
+		},
+		"2[b]": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": 38,
+			"motionCancel": 44,
+			"total": 68,
+			"FrameAdv": "+0 [+25]",
+			"spiritDmg": "0.3*5"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 10,
+			"total": 58,
+			"guard": "Mid, Air",
+			"rbadv": "-14",
+			"wbadv": "N/A",
+			"extra": "Forms a non-interacting bullet; deals 1 orb on all forms of block."
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": 19,
+			"motionCancel": 31,
+			"total": 58,
+			"FrameAdv": "[+19]",
+			"spiritDmg": "0.3*5",
+			"extra": "Landing Recovery: 10F"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x9",
+			"grazeRes": 1,
+			"startup": 39,
+			"motionCancel": 51,
+			"total": 78,
+			"FrameAdv": "[+19]",
+			"spiritDmg": "0.3*9",
+			"extra": "Landing Recovery: 10F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "C3x1, C1x4",
+			"grazeRes": "15, 1",
+			"startup": "25, 85",
+			"motionCancel": 37,
+			"total": 66,
+			"FrameAdv": "+49 [+59]",
+			"spiritDmg": "0.3\\*3, 0.25\\*4",
+			"extra": "Up to 3 hits on the first part, then splits into 4 bullets. \nAttack Cancel: 27F \n Duration: 60F, 60F"
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "C3x1, C1x4",
+			"grazeRes": "15, 1",
+			"startup": "50, 110",
+			"motionCancel": 62,
+			"total": 91,
+			"FrameAdv": "+49 [+59]",
+			"spiritDmg": "0.3\\*3, 0.25\\*4",
+			"extra": "Up to 3 hits on the first part, then splits into 4 bullets. \nAttack Cancel: 52F \n Duration: 60F, 60F"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "-",
+			"startup": 22,
+			"motionCancel": 40,
+			"total": 80,
+			"FrameAdv": "-",
+			"spiritDmg": "0.25*3",
+			"extra": "Attack Cancel: 25F. \n Duration: 90F"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "C1x4",
+			"grazeRes": "-",
+			"startup": "15",
+			"motionCancel": 27,
+			"total": 56,
+			"FrameAdv": "-11 [+19]",
+			"spiritDmg": "0.25*4",
+			"extra": "Attack Cancel: 17F"
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "-",
+			"startup": "40",
+			"motionCancel": 52,
+			"total": 81,
+			"FrameAdv": "-11 [+19]",
+			"spiritDmg": "0.25*5",
+			"extra": "Attack Cancel: 42F"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 27,
+			"active": 14,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+4"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "C3x1, C1x4",
+			"grazeRes": "15, 1",
+			"startup": "25, 85",
+			"motionCancel": 37,
+			"total": 71,
+			"FrameAdv": "[+79]",
+			"spiritDmg": "0.3\\*3, 0.25\\*4",
+			"extra": "Up to 3 hits on the first part, then splits into 4 bullets. \nAttack Cancel: 27F \n Duration: 60F, 60F \n Landing Recovery: 10F"
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "C3x1, C1x4",
+			"grazeRes": "15, 1",
+			"startup": "50, 110",
+			"motionCancel": 62,
+			"total": 96,
+			"FrameAdv": "[+79]",
+			"spiritDmg": "0.3\\*3, 0.25\\*4",
+			"extra": "Up to 3 hits on the first part, then splits into 4 bullets. \nAttack Cancel: 52F \n Duration: 60F, 60F \n Landing Recovery: 10F"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "C1x4",
+			"grazeRes": "-",
+			"startup": "15",
+			"motionCancel": 27,
+			"total": 61,
+			"FrameAdv": "[+19]",
+			"spiritDmg": "0.25*4",
+			"extra": "Attack Cancel: 17F \n Landing Recovery: 10F"
+		},
+		"j.6[c]": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "-",
+			"startup": "40",
+			"motionCancel": 52,
+			"total": 86,
+			"FrameAdv": "-11 [+19]",
+			"spiritDmg": "0.25*5",
+			"extra": "Attack Cancel: 42F\n Landing Recovery: 10F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "Orb: C5x1 \nTail: C1xn",
+			"grazeRes": "Orb: 5 \nTail: 1",
+			"startup": 24,
+			"motionCancel": 42,
+			"total": 71,
+			"FrameAdv": "-17 [+13]",
+			"spiritDmg": "Orb: 1 \nTail: 0.125*n",
+			"extra": "Orb generates tail bullets on the frame it appears and evert 5 frames as long as its not destroyed. \n Tail's bullets lasts 10 frames (?). \nLanding Recovery: 10F"
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "Orb: C5x2 \nTail: C1xn",
+			"grazeRes": "Orb: 5 \nTail: 1",
+			"startup": 39,
+			"motionCancel": 57,
+			"total": 86,
+			"FrameAdv": "-17 [+13]",
+			"spiritDmg": "Orb: 1\\*2 \nTail: 0.125\\*n",
+			"extra": "Orb generates tail bullets on the frame it appears and evert 5 frames as long as its not destroyed. \n Tail's bullets lasts 10 frames (?). \nLanding Recovery: 10F"
+		},
+		"j.1c": {
+			"classification": "BULLET",
+			"density": "Orb: C5x1 \nTail: C1xn",
+			"grazeRes": "Orb: 5 \nTail: 1",
+			"startup": 24,
+			"motionCancel": 42,
+			"total": 71,
+			"FrameAdv": "-17 [+13]",
+			"spiritDmg": "Orb: 1 \nTail: 0.125*n",
+			"extra": "Orb generates tail bullets on the frame it appears and evert 5 frames as long as its not destroyed. \n Tail's bullets lasts 10 frames (?). \nLanding Recovery: 10F"
+		},
+		"j.1[c]": {
+			"classification": "BULLET",
+			"density": "Orb: C5x2 \nTail: C1xn",
+			"grazeRes": "Orb: 5 \nTail: 1",
+			"startup": 39,
+			"motionCancel": 57,
+			"total": 86,
+			"FrameAdv": "-17 [+13]",
+			"spiritDmg": "Orb: 1\\*2 \nTail: 0.125\\*n",
+			"extra": "Orb generates tail bullets on the frame it appears and evert 5 frames as long as its not destroyed. \n Tail's bullets lasts 10 frames (?). \nLanding Recovery: 10F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 53,
+			"guard": "High",
+			"rbadv": "-14",
+			"wbadv": "-8",
+			"extra": "f.5a, but substantially thicker vertically"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-11",
+			"wbadv": "-5",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 37,
+			"active": 3,
+			"total": 65,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "31",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"dragonFishsStrike": {
+			"name": "Dragon Fish's Strike",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/db/Ik236bc1.png",
+			"levels": {
+				"level0": "Frame advantage is -10 for B version and -25 for C version.",
+				"level1": "Both versions get 20F startup (from 25F for B and 28F for C).",
+				"level2": "-",
+				"level3": "Recovery decreases. Frame advantage is -5 for B version and -20 for C verion.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_3b42c15f",
+			"bc": {
+				"difference": true,
+				"b": "Hits 4 times, doesn't slide as far (71,5 dots), shorter recovery.",
+				"c": "Hits 6 times, slide further (157,5 dots), longer recovery."
+			},
+			"classification": "MELEE",
+			"startup": "B: 25\nC: 28",
+			"active": "? 25/45?",
+			"total": "B: 71 \n C: 99",
+			"guard": "Mid",
+			"rbadv": "B: -10\n C: -25",
+			"wbadv": "-",
+			"extra": "uhh can i get a double check here on active frames"
+		},
+		"dragonGodsStrike": {
+			"name": "Dragon God's Strike",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/90/Ik236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dragon Fish's Strike. Density is B4x1. Frame advantage: -8F (+2F if charged), HJC on 31 F (40F if charged).",
+				"level2": "-",
+				"level3": "Number of hits +1. Density increases to B5x1. Hit frequency is increased, making it impossible to BE between hits. Frame advantage: -6 (+3 if charged).",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_290dc3f6",
+			"bc": {
+				"difference": true,
+				"b": "Attacks forward.",
+				"c": "Attacks diagonally upwards."
+			},
+			"classification": "BULLET",
+			"density": "Lv 0: B3x1\nLv 1: B4\nLv 3: B5",
+			"grazeRes": "?",
+			"startup": "B/C: 18 \n [B/C]: 38",
+			"motionCancel": "B/C: 31 \n [B/C]: 51",
+			"total": "B/C: 70\n[B/C]: 90",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"dragonfishTheAbleSwimmer": {
+			"name": "Dragonfish, the Able Swimmer",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9c/Ik236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dragon Fish's Strike. Spirit regen delay is 120F.",
+				"level2": "Can be cancelled into itself during 18F-31F.",
+				"level3": "Spirit regen delay decreased to 60F.",
+				"level4": "Spirit regen delay decreased to 45F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_7ced0133",
+			"bc": {
+				"difference": true,
+				"b": "Hops the opponent's direction.",
+				"c": "Hops backwards."
+			},
+			"classification": "BULLET",
+			"_comment": "//not really",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "-",
+			"motionCancel": "-",
+			"total": "31",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"veilsLikeWater": {
+			"name": "Veils Like Water",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d5/Ik623bc1.png",
+			"levels": {
+				"level0": "B verion has autoguard during 7F-32F. C verion has autoguard during 7F-17F.",
+				"level1": "Autoguard starts at 5F for both versions, hitbox increases.",
+				"level2": "-",
+				"level3": "Autoguard starts at 3F for both versions, hitbox increases.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_8e24c66b",
+			"bc": {
+				"difference": true,
+				"b": "Longer autoguard. Attack happens, after iku has blocked the attack or after 46 frames.",
+				"c": "Shorter autoguard. Attack happens, after iku has blocked the attack or after 26 frames."
+			},
+			"classification": "MELEE",
+			"startup": "B: 46\n C: 26",
+			"active": 2,
+			"total": "B: 94\n C: 74",
+			"guard": "Mid",
+			"rbadv": "-27",
+			"wbadv": "-",
+			"extra": "can someone double check active frames"
+		},
+		"veilsLikeWind": {
+			"name": "Veils like Wind",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f4/Ik623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Veils like Water. Duration is 90F for B version, 50F for C version.",
+				"level2": "Duration is 120F for B version, 60F for C version.",
+				"level3": "Duration is 150F for B version, 70F for C version.",
+				"level4": "Duration is 180F for B version, 80F for C version."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_f74a6207",
+			"bc": {
+				"difference": true,
+				"b": "Smaller reflector, but disappears later.",
+				"c": "Larger reflector, but disappears earlier."
+			},
+			"classification": "BULLET",
+			"_comment": "//not really",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "?",
+			"motionCancel": "29",
+			"total": "G: 55\n A: 58",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Bullet Reflector, can someone double check data on this"
+		},
+		"theSmiteOfTheGoddess": {
+			"name": "The Smite of the Goddess",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5c/Ik623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Veils like Water.",
+				"level2": "-",
+				"level3": "Hitbox increases.",
+				"level4": "Relevant damage boost. Access to grab glitch."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_ed986db8",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, but blockable.",
+				"c": "Slower startup, but a throw. Less damage."
+			},
+			"classification": "MELEE",
+			"startup": "B: 17 \nC: 24",
+			"active": 5,
+			"total": "B: 24 \nC: 68",
+			"guard": "High",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": "this is a grab right"
+		},
+		"electrostaticGuidedMissile": {
+			"name": "Electrostatic Guided Missile",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/89/Ik214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup of first projectile is decreased by 2F.",
+				"level2": "First projectile expanded.",
+				"level3": "-",
+				"level4": "Spawns 3 projectiles, instead of 1. Bullet refraction delay reduced by 10F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_ca8e2b55",
+			"bc": {
+				"difference": true,
+				"b": "Initially goes horizontally forward.",
+				"c": "Initially goes 45 degrees upward on the ground and 45 degrees downwards in the air."
+			},
+			"classification": "BULLET",
+			"density": "Initial: B3x1\n Refraction: B1xN",
+			"grazeRes": "Inf, 1F",
+			"startup": "22",
+			"motionCancel": "G/A: 37\n []: 67/65",
+			"total": "?",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "there's a lot here, damn. need to be double checked"
+		},
+		"dragonGodsLightningFlash": {
+			"name": "Dragon God's Lightning Flash",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/ca/Ik214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Electrostatic Guided Missile. Graze resistance value is 2F.",
+				"level2": "Graze resistance +1F. Bullet speed increases.",
+				"level3": "Graze resistance +1F.",
+				"level4": "Graze resistance +1F. Bullet speed increases. Projectiles are reflected if hit the ground."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_b4cd7da5",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "Lv 1: 2F\n Lv2: 3F\n Lv3: 4F\nLv4: 5F",
+			"startup": "B/C: 34\n []: 59",
+			"motionCancel": "38 68",
+			"total": "67/72 10/97 \n 102 102",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "note to self rewrite this"
+		},
+		"dragonsEye": {
+			"name": "Dragon's Eye",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6d/Ik214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Electrostatic Guided Missile. Density is B2x1.",
+				"level2": "Number of hits +1. Maximum size increases. Density increases to B4x1.",
+				"level3": "-",
+				"level4": "Number of hits +1. Maximum size increases. Density increases to B6x1."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_c354d769",
+			"bc": {
+				"difference": true,
+				"b": "Projectile rotates clockwise if facing right (counter clockwise if facing left).",
+				"c": "Projectile rotates counter clockwise if facing right (clockwise if facing left)."
+			},
+			"classification": "BULLET",
+			"density": "Lv1: B2x1\n Lv2: B4x1\n Lv4:B6x1",
+			"grazeRes": "10F",
+			"startup": "G: 23\n A: 27",
+			"motionCancel": "G: 38\nA: 42",
+			"total": "G: 67\n A: 71",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"dragonFishsWrath": {
+			"name": "Dragon Fish's Wrath",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8e/Ik22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup decreases by 2F for both the lightning strike and the thunder dome.",
+				"level2": "-",
+				"level3": "Startup decreased by 2F only for the lightning strike.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_155a2887",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "Dome: B5x1\n Strike: B3x1",
+			"grazeRes": "inf",
+			"startup": "22",
+			"motionCancel": "",
+			"total": "60",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "note to self: write level reduction + cancel notes?"
+		},
+		"dragonGodsWrath": {
+			"name": "Dragon God's Wrath",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bd/Ik22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dragon Fish's Wrath. Duration is 60F. HJC on 43F. Bolt delayable between 161F and 381F.",
+				"level2": "Duration is 52F. HJC is on 39F. Bolt delayable between 157F and 417F.",
+				"level3": "Maximum hold time increases up to 457F.",
+				"level4": "Duration is 48F. HJC on 35F. Bolt delayable between 153F and 493F. Bullet size increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_03685b54",
+			"bc": {
+				"difference": true,
+				"b": "The lightning strike appears at the opponent's location.",
+				"c": "The lightning strike appaers over Iku."
+			},
+			"classification": "BULLET",
+			"density": "B5x1",
+			"grazeRes": "5F",
+			"startup": "Lv 1: 161\n Lv 2: 157\n Lv 4: 153",
+			"motionCancel": "Lv 1: 43\n Lv 2: 39\n Lv 4: 35",
+			"total": "Lv 1: 60\n Lv 2: 52\n Lv 4: 48",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "double check please"
+		},
+		"whiskersOfTheDragonGod": {
+			"name": "Whiskers of the Dragon God",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4d/Ik22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dragon Fish's Wrath.",
+				"level2": "Duration increased for C version. Bullet size increases.",
+				"level3": "Duration increased for C version.",
+				"level4": "Duration increased for C version. Bullet size increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/220.html#id_a5b3e9f1",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, with up to 4 hits and 3 rotations.",
+				"c": "Very slow startup, with up to 12 hits."
+			},
+			"classification": "BULLET",
+			"density": "Binfx1",
+			"grazeRes": "inf",
+			"startup": "27",
+			"motionCancel": "B: 97\n C: 127/147/177/217",
+			"total": "B: 114\n C: 144/164/194/234",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "can someone double check this"
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Dragon Fish's Strike",
+				"emoteIcon": "<:Ik236bc1:728227044005117972>"
+			},
+			{
+				"name": "Dragon God's Strike",
+				"emoteIcon": "<:Ik236bc2:728227044005249036>"
+			},
+			{
+				"name": "Dragonfish, the Able Swimmer",
+				"emoteIcon": "<:Ik236bc3:728227044038541402>"
+			}
+		],
+		"623": [
+			{
+				"name": "Veils like Water",
+				"emoteIcon": "<:Ik623bc1:728227043673899109>"
+			},
+			{
+				"name": "Veils like Wind",
+				"emoteIcon": "<:Ik623bc2:728227044193992754>"
+			},
+			{
+				"name": "The Smite of the Goddess",
+				"emoteIcon": "<:Ik623bc3:728227044013375499>"
+			}
+		],
+		"214": [
+			{
+				"name": "Electrostatic Guided Missile",
+				"emoteIcon": "<:Ik214bc1:728227044005249166>"
+			},
+			{
+				"name": "Dragon God's Lightning Flash",
+				"emoteIcon": "<:Ik214bc2:728227044005118063>"
+			},
+			{
+				"name": "Dragon's Eye",
+				"emoteIcon": "<:Ik214bc3:728227043656990792>"
+			}
+		],
+		"22": [
+			{
+				"name": "Dragon Fish's Wrath",
+				"emoteIcon": "<:Ik22bc1:728227043980083251>"
+			},
+			{
+				"name": "Dragon God's Wrath",
+				"emoteIcon": "<:Ik22bc2:728227044005249105>"
+			},
+			{
+				"name": "Whiskers of the Dragon God",
+				"emoteIcon": "<:Ik22bc3:728227043900260392>"
+			}
+		]
+	},
+	"spellcards": {
+		"thunderDrumShot": {
+			"name": "Electric Sign \"Thunder Drum Shot\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/05/Iksc01.png",
+			"classification": "BULLET",
+			"density": "A3x1, B2x8",
+			"grazeRes": "15F, inf",
+			"startup": "16+2, 42",
+			"motionCancel": "-",
+			"total": "G: 54\n A: 59",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "two parter"
+		},
+		"veilsLikeTime": {
+			"name": "Angel's Railment \"Veils like Time\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a1/Iksc02.png",
+			"classification": "MELEE",
+			"startup": "Init: 10\n CH: 1+15",
+			"active": "G: 2\n A: 15",
+			"total": "G: 49\n A: 58",
+			"guard": "High",
+			"rbadv": "G: -12",
+			"wbadv": "A: -6",
+			"extra": "this is actually a 2+ cost card lol -dabomb\nInvuln: 1-15F"
+		},
+		"swimmingThunderShot": {
+			"name": "Lightning Fish \"Swimming Thunder Shot\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5d/Iksc03.png",
+			"classification": "BULLET",
+			"density": "A3x1",
+			"grazeRes": "inf",
+			"startup": "16+4, 56, 87, 118",
+			"motionCancel": "-",
+			"total": "79",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"dragonFishDrill": {
+			"name": "Fish Sign \"Dragonfish Drill\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/48/Iksc04.png",
+			"classification": "MELEE",
+			"startup": "9+4",
+			"active": 35,
+			"total": 79,
+			"guard": "Mid",
+			"rbadv": "-12",
+			"wbadv": "-"
+		},
+		"elekiterDragonPalace": {
+			"name": "Lightning Sign \"Elekiter Dragon Palace\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/83/Iksc05.png",
+			"classification": "BULLET",
+			"density": "AinfX1",
+			"grazeRes": "inf",
+			"startup": "9+9",
+			"motionCancel": "-",
+			"total": "131",
+			"FrameAdv": "-23",
+			"spiritDmg": "?",
+			"extra": "Invuln: 1-19F"
+		},
+		"lightDragonsSigh": {
+			"name": "Star Light \"Light Dragon's Sigh\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e3/Iksc06.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "9+4",
+			"motionCancel": "-",
+			"total": "74",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Invuln: 3-8F"
+		},
+		"thunderCloudStickleback": {
+			"name": "Thorn Sign \"Thundercloud Stickleback\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/12/Iksc07.png",
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "15F",
+			"startup": "10+6",
+			"motionCancel": "-",
+			"total": "54",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Max 8 hits? double check plz, duration: 299F"
+		},
+		"veilsLikeSky": {
+			"name": "Angel's Railment \"Veils like Sky\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e5/Iksc08.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "10",
+			"motionCancel": "-",
+			"total": "10",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "lmao cant touch this note to self write duration\nInvuln: 1-10F\n Duration: ~15s"
+		},
+		"orbOfTheFiveClawedDragon": {
+			"name": "Orb Sign \"Orb of the Five-Clawed Dragon\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/10/Iksc09.png",
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "1F",
+			"startup": "16",
+			"motionCancel": "-",
+			"total": "G: 74 \nA: 79",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"swimmingOarfishShot": {
+			"name": "Dragonfish \"Swimming Oarfish Shot\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e4/Iksc10.png",
+			"classification": "BULLET",
+			"density": "-, A1xN",
+			"grazeRes": "4, inf",
+			"startup": "G: 17+1+10N \n A: 10+1+10N",
+			"motionCancel": "-",
+			"total": "G: 155 \nA: 158",
+			"FrameAdv": "-",
+			"spiritDmg": "a lot",
+			"extra": "exodia lmao, 13 bullets"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Thunder Drum Shot",
+				"emoteIcon": "<:Iksc01:728227044399513622>"
+			},
+			{
+				"name": "Veils like Time",
+				"emoteIcon": "<:Iksc02:728227044185473024>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Swimming Thunder Shot",
+				"emoteIcon": "<:Iksc03:728227044424417310>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Dragonfish Drill",
+				"emoteIcon": "<:Iksc04:728227044156244000>"
+			},
+			{
+				"name": "Elekiter Dragon Palace",
+				"emoteIcon": "<:Iksc05:728227043883352145>"
+			},
+			{
+				"name": "Light Dragon's Sigh",
+				"emoteIcon": "<:Iksc06:728227044420354088>"
+			},
+			{
+				"name": "Thundercloud Stickleback",
+				"emoteIcon": "<:Iksc07:728227044110106665>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Veils like Sky",
+				"emoteIcon": "<:Iksc08:728227044361633802>"
+			},
+			{
+				"name": "Orb of the Five-Clawed Dragon",
+				"emoteIcon": "<:Iksc09:728227044311302155>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Swimming Oarfish Shot",
+				"emoteIcon": "<:Iksc10:728227044428873768>"
+			}
+		]
+	}
+}

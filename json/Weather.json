@@ -1,0 +1,226 @@
+{
+	"wiki": "https://hisouten.koumakan.jp/wiki/Weather",
+	"weather": {
+		"clear": {
+			"name": "Clear",
+			"description": "*Today's forecast*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/05/WeatherName000.png",
+			"previous": "-",
+			"next": "-",
+			"timer": 100,
+			"effects": "0.1 of the timer goes up per 1 frame. \n0.1 of the timer goes down per 2 frames in an active weather. \n**Cycles on:** Knockdown, Wallbounce, Spellcard Use. \nIf **Sword of Scarlet Perception** is used, the weather is called and timer is set to 100, even if its max timer is less.\n\n<Insert more information when weather crystals happen>",
+			"color": "BLACK"
+		},
+		"sunny": {
+			"name": "Sunny",
+			"description": "*Fly through the sky*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b4/WeatherName001.png",
+			"previous": "Aurora",
+			"next": "Drizzle",
+			"timer": 100,
+			"effects": "Border Escapes are free, but orbs are not regenerated. \n Flight cost is halved, turning radius during flight is greatly decreased.\nSanae's wind has a greatly increased effect on her movement/bullets. ",
+			"commentedOut": "\n> *`Normal:`* :blue_circle::black_circle::black_circle::black_circle::black_circle: **> BE >** :blue_circle::blue_circle::blue_circle::blue_circle::red_circle: \n> *`Sunny :`*  :blue_circle::black_circle::black_circle::black_circle::black_circle: **> BE >** :blue_circle::black_circle::black_circle::black_circle::black_circle:",
+			"color": "WHITE"
+		},
+		"drizzle": {
+			"name": "Drizzle",
+			"description": "*Spellcards are power!*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/19/WeatherName002.png",
+			"previous": "Sunny",
+			"next": "Cloudy",
+			"timer": 100,
+			"effects": "Spellcard damage increased by 25%. \nWhen a spellcard is used, the weather timer decreases by 25% of whatever it is currently.",
+			"color": "BLUE"
+		},
+		"cloudy": {
+			"name": "Cloudy",
+			"description": "*Spell use becomes easier*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c5/WeatherName003.png",
+			"previous": "Drizzle",
+			"next": "Blue Sky",
+			"timer": 100,
+			"effects": "Decreases spellcard cost by 1 (unless already one). \nDoubles rate at which the spell gauge fills. \n Weather effect ends if any card is used.",
+			"color": "WHITE"
+		},
+		"blueSky": {
+			"name": "Blue Sky",
+			"description": "*Combos become sharper*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/82/WeatherName004.png",
+			"previous": "Cloudy",
+			"next": "Hail",
+			"timer": 100,
+			"effects": "Special attacks can be canceled into other special attacks at the same period when the special could be canceled into a spell. \n This does not apply, however, to skills activated from cards. \nCannot use the same special twice in a chain. \nEvery special used causes the weather timer to decrease by 10% of whatever it is currently.",
+			"color": "WHITE"
+		},
+		"hail": {
+			"name": "Hail",
+			"description": "*Spirit attacks become stronger*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4d/WeatherName005.png",
+			"previous": "Blue Sky",
+			"next": "Spring Haze",
+			"timer": 100,
+			"effects": "Spirit Recovery speed is doubled. \nIncreases damage of special moves by 25%. \nEvery special used causes the weather timer to decrease by 10% of whatever it is currently.",
+			"color": "BLUE"
+		},
+		"springHaze": {
+			"name": "Spring Haze",
+			"description": "*Physical attacks are ineffective*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ed/WeatherName006.png",
+			"previous": "Hail",
+			"next": "Heavy Fog",
+			"timer": 50,
+			"effects": "Melee attacks can be grazed, at a cost of rapid spirit drain (0.25 orbs per frame of graze). \n Grazing bullets will cause minor spirit drain. \n When this weather is active, grazing or blocking any attack will produce weather crystals.",
+			"color": "WHITE"
+		},
+		"heavyFog": {
+			"name": "Heavy Fog",
+			"description": "*Become like a vampire*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b5/WeatherName007.png",
+			"previous": "Spring Haze",
+			"next": "Snow",
+			"timer": 100,
+			"effects": "Causes Vampirism. \n50% of all damage to the opponent (including chip damage) is transferred to the attacker's life bar.",
+			"color": "RED"
+		},
+		"snow": {
+			"name": "Snow",
+			"description": "*Become like a ghost*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/59/WeatherName008.png",
+			"previous": "Heavy Fog",
+			"next": "Sunshower",
+			"timer": 100,
+			"effects": "Getting hit with or blocking any attack other than spellcards reduces a player's card energy. \nIf the meter for a slot is reduced to zero, the players currently selected card is lost for the rest of the game. \nA player will instantly lose a card on hit/block if their hand is full. \nLosing a card reduces the weather timer by 25% of its current time.",
+			"color": "BLUE"
+		},
+		"sunshower": {
+			"name": "Sunshower",
+			"description": "*Defense becomes strange*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2d/WeatherName009.png",
+			"previous": "Snow",
+			"next": "Sprinkle",
+			"timer": 75,
+			"effects": "Any wrongblocked attack will cause an instant guard crush. \nBeing guard crushed in this weather restores no spirit. \nGuard crushed orbs recover much faster. \n Guard crushes produces more red crystals.",
+			"color": "RED"
+		},
+		"sprinkle": {
+			"name": "Sprinkle",
+			"description": "*Special moves go all out*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6e/WeatherName010.png",
+			"previous": "Sunshower",
+			"next": "Tempest",
+			"timer": 100,
+			"effects": "Causes all skills (special moves) to act as maxed level for the duration of the weather.",
+			"color": "BLUE"
+		},
+		"tempest": {
+			"name": "Tempest",
+			"description": "*Aerial combat is more effective*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1b/WeatherName012.png",
+			"previous": "Sprinkle",
+			"next": "Mountain Vapor",
+			"timer": 50,
+			"effects": "Maximum Airdashes/Flight allowed increased by one. \n Characters will walk and airdash much faster and farther (flight speed is unaffected).",
+			"color": "BLUE"
+		},
+		"mountainVapor": {
+			"name": "Mountain Vapor",
+			"description": "*Cards become invisible*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c1/WeatherName013.png",
+			"previous": "Tempest",
+			"next": "River Mist",
+			"timer": 100,
+			"effects": "The cards in the deck are shuffled. \n The player's hands will be hidden by 5 \"?\" images, but players will keep the same number of cards in hand. \nWeather effect ends if a card is used. You are considered to have 5 cards when it comes to spellcard consumption. \nE.g: A 5 cost card could be used for 1 cost (consumes all your current meter) if it is the front card and you have no other cards.",
+			"color": "WHITE"
+		},
+		"riverMist": {
+			"name": "River Mist",
+			"description": "*Distance becomes strange*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4c/WeatherName014.png",
+			"previous": "Mountain Vapor",
+			"next": "Typhoon",
+			"timer": 75,
+			"effects": "Causes the distance between players to oscillate. Keeping track of the effect while fighting is difficult, so expect many combos and blockstrings to fall apart during this weather.",
+			"color": "BLUE"
+		},
+		"typhoon": {
+			"name": "Typhoon",
+			"description": "*Fights become wild*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fa/WeatherName015.png",
+			"previous": "River Mist",
+			"next": "Calm",
+			"timer": 75,
+			"effects": "Characters gain superarmor and will not enter hitstun, and also lose the ability to block. \nNote that if the weather suddenly clears, even in the middle of a rapidly hitting attack, a player being hit and holding the block direction will *immediately* go into block at the end.",
+			"color": "BLUE"
+		},
+		"calm": {
+			"name": "Calm",
+			"description": "*Heals your injuries*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bb/WeatherName018.png",
+			"previous": "Typhoon",
+			"next": "Diamond Dust",
+			"timer": 100,
+			"effects": "First character to land a hit will gain a spotlight. \nThat character will regenerate life until the weather ends or until the character with the spotlight is hit which will cause ownership of the healing spotlight to switch. \nIf both players got hit at the same time and the weather activates, the first to tech gains the spotlight. \nEach time the spotlight falls on someone, the weather timer decreases by 10% of its current time, and the rate of healing increases.",
+			"color": "WHITE"
+		},
+		"diamondDust": {
+			"name": "Diamond Dust",
+			"description": "*You snooze, you lose*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/59/WeatherName019.png",
+			"previous": "Calm",
+			"next": "Dust Storm",
+			"timer": 100,
+			"effects": "Groundteching is disabled; knocked down characters take 500 damage from standing up. \nThis damage is not able to KO. \nThe ground damage effect causes the weather timer decreases by 10% of its current time.",
+			"color": "BLUE"
+		},
+		"dustStorm": {
+			"name": "Dust Storm",
+			"description": "*Counter hits*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/44/WeatherName020.png",
+			"previous": "Diamond Dust",
+			"next": "Scorching Sun",
+			"timer": 100,
+			"effects": "All hits which can normally counterhit will always counter hit. \nHitstun time for counterhits also increase an additional 50% compared to a normal counterhits, making some weather-specific combos possible. \nOn this counterhit effect, the weather timer decreases by 25% of its current time.",
+			"color": "YELLOW"
+		},
+		"scorchingSun": {
+			"name": "Scorching Sun",
+			"description": "*Incinerate everything*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e4/WeatherName021.png",
+			"previous": "Dust Storm",
+			"next": "Monsoon",
+			"timer": 100,
+			"effects": "The higher you are in the air, the more your attack power increases (max +35%), but at the cost of HP, which will drain more quickly the higher you are. \n That lost health is traded for card energy at an increasingly efficient rate the higher you go.",
+			"color": "WHITE"
+		},
+		"monsoon": {
+			"name": "Monsoon",
+			"description": "*Bounce off the ground*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/29/WeatherName022.png",
+			"previous": "Scorching Sun",
+			"next": "Aurora",
+			"timer": 100,
+			"effects": "Attacks will induce ground/wallslam, which allows for combos similar to \"OTG's\". \nAttacks that already have the property of ground/wallslamming will have an exaggerated slam effect. \nHitstun time still decreases as combos continue, so some monsoon groundslams can be teched out of.",
+			"color": "BLUE"
+		},
+		"aurora": {
+			"name": "Aurora",
+			"description": "*Anything can happen*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3d/WeatherName016.png",
+			"previous": "Monsoon",
+			"next": "Sunny",
+			"timer": "*",
+			"effects": "Causes a random weather above to activate. \nThe actual weather effect must be discovered by the players. \n[*] Same as the randomly selected weather. \n Refer to the wiki for tips on determining the weather.",
+			"color": "RED"
+		},
+		"twilight": {
+			"name": "Twilight",
+			"description": "*Frontier*",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/60/WeatherName017.png",
+			"previous": "-",
+			"next": "-",
+			"timer": "-",
+			"effects": "Weather of the final spell against Tenshi in SWR. \nDoes not do anything significant here!",
+			"color": "RED"
+		}
+	}
+}

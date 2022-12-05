@@ -1,0 +1,907 @@
+{
+	"id": "hinanawiTenshi",
+	"name": "Tenshi Hinanawi",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Tenshi_Hinanawi",
+	"movement": {
+		"dash": 9,
+		"commit": 7,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-23",
+		"backdashTotal": 35
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 26,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 26,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 4,
+			"total": 31,
+			"guard": "Low",
+			"rbadv": "-3",
+			"wbadv": "+1"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 47,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": "14",
+			"active": 4,
+			"total": 39,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"f.5[a]": {
+			"classification": "MELEE",
+			"startup": "29",
+			"active": 4,
+			"total": 54,
+			"guard": "High (Crush)",
+			"rbadv": "+2",
+			"wbadv": "+24"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 24,
+			"guard": "Low",
+			"rbadv": "0",
+			"wbadv": "+4"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": 3,
+			"total": 45,
+			"guard": "High, Air",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 10,
+			"total": 63,
+			"guard": "High (Crush)",
+			"rbadv": "-4",
+			"wbadv": "+18"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 3,
+			"total": 35,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 3,
+			"total": 44,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": "30",
+			"active": "3",
+			"total": 64,
+			"guard": "High (Crush)",
+			"rbadv": "-7",
+			"wbadv": "+15"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 4,
+			"total": 40,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": "Descent: Until Landing \n Landing: 1F",
+			"total": "Descent: Until Landing \n Landing: 28F",
+			"guard": "Descent: High, Air \n Landing: Low",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 13,
+			"total": 58,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": "13",
+			"motionCancel": 25,
+			"total": 50,
+			"FrameAdv": "-22 [+4]",
+			"spiritDmg": 0.5,
+			"extra": "Attack Cancel: 15F"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "11",
+			"motionCancel": 33,
+			"total": 58,
+			"FrameAdv": "-2 [+24]",
+			"spiritDmg": "0.15*6",
+			"extra": "Attack Cancel: 20F"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "16",
+			"motionCancel": 32,
+			"total": 61,
+			"FrameAdv": "0 [+30]",
+			"spiritDmg": "0.15*6"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": 22,
+			"startup": "36",
+			"motionCancel": 52,
+			"total": 81,
+			"FrameAdv": "+10 [+40]",
+			"spiritDmg": "0.15*8"
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "16",
+			"motionCancel": 35,
+			"total": 68,
+			"FrameAdv": "-7 [+27]",
+			"spiritDmg": "0.15*6",
+			"extra": "Landing: 9F"
+		},
+		"j.6[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": 20,
+			"startup": "36",
+			"motionCancel": 59,
+			"total": 88,
+			"FrameAdv": "[+33]",
+			"spiritDmg": "0.15*8",
+			"extra": "Landing: 9F"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": "12, 26, 40",
+			"active": "2F (per hit)",
+			"total": 70,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x1",
+			"grazeRes": 1,
+			"startup": "13",
+			"motionCancel": 25,
+			"total": 58,
+			"FrameAdv": "[+4]",
+			"spiritDmg": 0.5,
+			"extra": "Attack Cancel: 13F \n Landing: 9F"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C6x1",
+			"grazeRes": 20,
+			"startup": "16",
+			"motionCancel": 35,
+			"total": 68,
+			"FrameAdv": "-",
+			"spiritDmg": "0.15*6",
+			"extra": "Landing: 9F"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C8x1",
+			"grazeRes": 22,
+			"startup": "36",
+			"motionCancel": 59,
+			"total": 88,
+			"FrameAdv": "[+33]",
+			"spiritDmg": "0.15*8",
+			"extra": "Landing: 9F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "5",
+			"startup": 26,
+			"motionCancel": 41,
+			"total": 62,
+			"FrameAdv": "-3 [+16]",
+			"spiritDmg": "0.15*10",
+			"extra": "Attack Cancel: 27F"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "5",
+			"startup": 20,
+			"motionCancel": 38,
+			"total": 67,
+			"FrameAdv": "-3 [+16]",
+			"spiritDmg": "0.15*10",
+			"extra": "Attack Cancel: 23F"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 7,
+			"total": 53,
+			"guard": "High",
+			"rbadv": "-19",
+			"wbadv": "-13",
+			"extra": "Grazes: 5-15F"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "5",
+			"startup": 26,
+			"motionCancel": 41,
+			"total": 65,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.15*10",
+			"extra": "Attack Cancel: 27F \nLanding: 10F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "5",
+			"startup": 19,
+			"motionCancel": 34,
+			"total": 60,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.15*10",
+			"extra": "Attack Cancel: 19F \n Landing: 10F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 55,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": "Very long and relatively thick hitbox"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 2,
+			"total": 51,
+			"guard": "High",
+			"rbadv": "-13",
+			"wbadv": "-7",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 37,
+			"active": 2,
+			"total": 69,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "27",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"beamsOfNonPerception": {
+			"name": "Beams of Non-Perception",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e7/Te236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Air-usable. +10 Hitcount.",
+				"level2": "-",
+				"level3": "Can be cancelled 9 frames earlier (from 63F to 54F) in the ground or in the air.",
+				"level4": "Thickness+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/217.html#id_987afbfe",
+			"bc": {
+				"difference": true,
+				"b": "Fires the beams close together.",
+				"c": "The cone of beams spreads out vertically."
+			},
+			"classification": "BULLET",
+			"density": "B1x20?",
+			"grazeRes": "inf",
+			"startup": "36+2n",
+			"motionCancel": "54",
+			"total": "63, 54 lv 3/4",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"heavenAndEarthPress": {
+			"name": "Heaven and Earth Press",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/75/Te236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "Size of the rocks and of the collision increases.",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/217.html#id_7a43fffb",
+			"bc": {
+				"difference": true,
+				"b": "The rocks float from a much closer distance to Tenshi to start, and collide directly in front of her. It can be stalled for about 1 second to collide one character length away. Releases faster than the C version.",
+				"c": "The rocks float from a much higher distance to start, and collide about 1.5 character lengths away. It can be stalled for about 3 seconds to collide almost one screen away. Releases slower than the B version."
+			},
+			"classification": "BULLET",
+			"density": "B1x1?",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "there's stuff here to remind me to write"
+		},
+		"scarletSwordTemperament": {
+			"name": "Scarlet Sword Temperament",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2c/Te236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Duration increases and travels further.",
+				"level3": "Size of the bullet increases.",
+				"level4": "Duration increases and travels further."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/217.html#id_c7b096ae",
+			"bc": {
+				"difference": true,
+				"b": "Second slash causes a slower shock wave that extends mid screen.",
+				"c": "Second slash causes a faster shock wave that extends just short of end screen."
+			},
+			"classification": "BULLET",
+			"density": "B?x?",
+			"grazeRes": "6, 10",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"swordOfNonPerception": {
+			"name": "Sword of Non-Perception",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/94/Te623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Speed and distance traveled increase.",
+				"level3": "-",
+				"level4": "Speed and distance traveled increase. Move gains a red mist graphic."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/217.html#id_ba35802f",
+			"bc": {
+				"difference": true,
+				"b": "Shorter ranged. Smaller recovery (-11F/-5F).",
+				"c": "Goes further forward. Larger recovery (-14F/-8F)."
+			},
+			"classification": "MELEE",
+			"startup": "B: 18\n C: 22",
+			"active": 2,
+			"total": "B: 50\n C: 57",
+			"guard": "Low",
+			"rbadv": "B: -11\n C: -14",
+			"wbadv": "B: -5\n C: -8",
+			"extra": "B: 1-17F Graze (9-12?)\nC: 1-21F Graze (9-16?)"
+		},
+		"swordOfScarletPerception": {
+			"name": "Sword of Scarlet Perception",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b2/Te623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "C version finisher is now high jump cancellable (straight upwards only) on hit.",
+				"level3": "Now able to hold forward to move Tenshi during the atttack.",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/217.html#id_96d9a95c",
+			"bc": {
+				"difference": true,
+				"b": "Tenshi will end the attack with the downwards slash.",
+				"c": "Tenshi will end the attack with a finishing upwards slash after the last downwards slash. The finisher hits high."
+			},
+			"classification": "MELEE",
+			"startup": "B: 14, 24\n C: 16,26,38",
+			"active": 2,
+			"total": "B: 53\n C:68",
+			"guard": "Mid\n C.Final: High",
+			"rbadv": "B: -3\n C: -9",
+			"wbadv": "C.Final: -3",
+			"extra": "HJC at 40F if C3 hits?"
+		},
+		"skyAttack": {
+			"name": "Sky Attack",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9e/Te623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "Recovery of aerial version decreases.",
+				"level4": "Recovery of aerial version decreases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/217.html#id_55606a01",
+			"bc": {
+				"difference": true,
+				"b": "Tenshi charges upward diagonally for a small distance.",
+				"c": "Tenshi charges upward diagonally for a large distance."
+			},
+			"classification": "MELEE",
+			"startup": "G: 19\nA: 13",
+			"active": "B: 12\n G.C: 18\n A: 12",
+			"total": "G.B: 105\n G.C: 122\nA.B: 65/65/59/53\nA.C: 71/71/65/59",
+			"guard": "Mid",
+			"rbadv": "You're really minus.",
+			"wbadv": "-",
+			"extra": "1-21F Invuln."
+		},
+		"swordOfTheEarth": {
+			"name": "Sword of the Earth",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/36/Te214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Now air usable.",
+				"level2": "Number of bullets increases from 4*2 to 5*2. Spikes will appear over a longer horizontal distance.",
+				"level3": "",
+				"level4": "Number of bullets increases from 5*2 to 7*2. Spikes will appear over a longer horizontal distance."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/218.html#id_fb0c5f0d",
+			"bc": {
+				"difference": true,
+				"b": "Shorter startup, smaller ranged. Launches enemies higher.",
+				"c": "Longer startup, more horizontal range. Shorter launch."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"sixEarthQuakesSigns": {
+			"name": "Six Earthquakes -Signs-",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5a/Te214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/218.html#id_8e8d27e1",
+			"bc": {
+				"difference": true,
+				"b": "Earthquake happens right when the sword hits the ground.",
+				"c": "Earthquake happens approx. 1.5 seconds after sword hits the ground."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "B: 30\n C: 100",
+			"motionCancel": "B: 32/nC: 42",
+			"total": "B: 76\n C: 96",
+			"FrameAdv": "B.FA: -25/-19\nC.FA:+25/+31",
+			"spiritDmg": "?",
+			"extra": "Type C. If you perform a different special before C happens, EQ won't happen.\nB.FA: -25/-19\nC.FA:+25/+31"
+		},
+		"swordOfFate": {
+			"name": "Sword of Fate",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8e/Te214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Number of sword hits increase from 3 to 4.",
+				"level3": "-",
+				"level4": "Number of sword hits increase from 4 to 5."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/218.html#id_22802ec9",
+			"bc": {
+				"difference": true,
+				"b": "Tenshi throws her sword straight forward.",
+				"c": "Tenshi throws her sword forward and upward at a diagonal."
+			},
+			"classification": "BULLET",
+			"density": "Bnx1",
+			"grazeRes": "inf, 3/4/5",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"pillarsOfDivinePunishment": {
+			"name": "Pillars of Divine Punishment",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b0/Te22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Now air-usable. Pillar will remain on screen after it falls. Has 800 HP.",
+				"level2": "Duration+, 1200 HP",
+				"level3": "Duration+, 1600 HP",
+				"level4": "Duration+, 2000 HP"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/218.html#id_67e3e384",
+			"bc": {
+				"difference": true,
+				"b": "Drops large rocks closer to Tenshi.",
+				"c": "Drops smaller rocks farther away from Tenshi."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "inf",
+			"startup": "23",
+			"motionCancel": "34",
+			"total": "G. 66\n A: 73(15)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "**Duration:**/nB: 26/104/163/223/283\nC: 27/73/103/133/163"
+		},
+		"guardingKeystones": {
+			"name": "Guarding Keystones",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/92/Te22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Rock shield lasts longer and projectile launched with C version input lasts longer.",
+				"level3": "Rock shield lasts longer and projectile launched with C version input lasts longer.",
+				"level4": "Rock shield lasts longer and projectile launched with C version input lasts longer."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/218.html#id_2d0cf74f",
+			"bc": {
+				"difference": true,
+				"b": "Fires one of the rocks of the shield at the opponent.",
+				"c": "All remaining rocks will slowly fly towards the opponent while continuing their circular motion."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "B: inf\nC: 5F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"awakeningOfTheEarthSpirits": {
+			"name": "Awakening of the Earth Spirits",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f4/Te22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "`111F / 226F / 401F`, Duration: `541F`",
+				"level2": "Growth Speed+ `101F / 211F / 381F`, Duration+ `601F`",
+				"level3": "Growth Speed+ `91F / 196F / 361F`, Duration+ `661F`",
+				"level4": "Growth Speed+ `81F / 181F / 341F`, Duration+ `721F`"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/218.html#id_12403c15",
+			"bc": {
+				"difference": true,
+				"b": "Tenshi throws the rock drill downward onto her position.",
+				"c": "Tenshi throws the rock drill a short ways forward from her position."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F/2F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "There's a table for this somewhere for growth speed and duration. \n `STG 1, STG2, STG3, DURATION`"
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Beams of Non-Perception",
+				"emoteIcon": "<:Te236bc1:728254026491232326>"
+			},
+			{
+				"name": "Heaven and Earth Press",
+				"emoteIcon": "<:Te236bc2:728254026155556979>"
+			},
+			{
+				"name": "Scarlet Sword Temperament",
+				"emoteIcon": "<:Te236bc3:728254026499751956>"
+			}
+		],
+		"214": [
+			{
+				"name": "Sword of the Earth",
+				"emoteIcon": "<:Te214bc1:728254025908092959>"
+			},
+			{
+				"name": "Six Earthquakes -Signs-",
+				"emoteIcon": "<:Te214bc2:728254026478518332>"
+			},
+			{
+				"name": "Sword of Fate",
+				"emoteIcon": "<:Te214bc3:728254026419798090>"
+			}
+		],
+		"623": [
+			{
+				"name": "Sword of Non-Perception",
+				"emoteIcon": "<:Te623bc1:728254026176790649>"
+			},
+			{
+				"name": "Sword of Scarlet Perception",
+				"emoteIcon": "<:Te623bc2:728254026462003242>"
+			},
+			{
+				"name": "Sky Attack",
+				"emoteIcon": "<:Te623bc3:728254026587701335>"
+			}
+		],
+		"22": [
+			{
+				"name": "Pillars of Divine Punishment",
+				"emoteIcon": "<:Te22bc1:728254025711091774>"
+			},
+			{
+				"name": "Guarding Keystones",
+				"emoteIcon": "<:Te22bc2:728254026113613914>"
+			},
+			{
+				"name": "Awakening of the Earth Spirits",
+				"emoteIcon": "<:Te22bc3:728254026080190565>"
+			}
+		]
+	},
+	"spellcards": {
+		"swordOfUnlettingSoil": {
+			"name": "Earth Sign \"Sword of Unletting Soil\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/50/Tesc01.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "17 (animation);\n 19/39/59/79 (bullet)",
+			"motionCancel": "-",
+			"total": "65",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "fill this in"
+		},
+		"swordOfRapture": {
+			"name": "Non-perception \"Sword of Rapture\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1d/Tesc02.png",
+			"classification": "MELEE",
+			"startup": "7+6",
+			"active": 3,
+			"total": 51,
+			"guard": "Mid",
+			"rbadv": "-17",
+			"wbadv": "-",
+			"extra": "prevents 20seconds of weather on hit"
+		},
+		"swordOfDivineJustice": {
+			"name": "Heaven Sign \"Sword of Divine Justice\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ee/Tesc03.png",
+			"classification": "MELEE",
+			"startup": "7+6",
+			"active": 24,
+			"total": 135,
+			"guard": "Mid",
+			"rbadv": "-94",
+			"wbadv": "-",
+			"extra": "fill this in again bulletaction\n 1-9f invuln, 10-15 invuln+graze, 16-36f graze"
+		},
+		"swordOfSwagger": {
+			"name": "Swordplay \"Sword of Swagger\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0f/Tesc04.png",
+			"classification": "MELEE",
+			"startup": "8+8",
+			"active": "1, 1.., 2",
+			"total": 100,
+			"guard": "Mid",
+			"rbadv": "0",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"scarletWeatherPressure": {
+			"name": "Weather \" Scarlet Weather Pressure\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/ff/Tesc05.png",
+			"classification": "BULLET",
+			"density": "B1x50",
+			"grazeRes": "1F",
+			"startup": "21+5...",
+			"motionCancel": "-",
+			"total": "152 or till landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "something something ground and air"
+		},
+		"meteorologicalRevelation": {
+			"name": "Temperament \"Meteorological Revelation\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5d/Tesc06.png",
+			"classification": "BULLET",
+			"density": "**w/o:** A10x1, **w/:** Ainfx1",
+			"grazeRes": "inf",
+			"startup": "7+6",
+			"motionCancel": "-",
+			"total": "51",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "you have more hits in weather"
+		},
+		"stateOfEnlightenment": {
+			"name": "Temperatment \"State of Enlightenment\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1c/Tesc07.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "31",
+			"motionCancel": "-",
+			"total": "96",
+			"FrameAdv": "-",
+			"spiritDmg": "-",
+			"extra": "on 20f guaranteed. super armor 16s 25% damage reduction"
+		},
+		"swordOfWorryAndJoy": {
+			"name": "Earthquake \"Sword of Worry and Joy\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/41/Tesc08.png",
+			"classification": "BULLET",
+			"density": "?x11",
+			"grazeRes": "-",
+			"startup": "15+425?",
+			"motionCancel": "-",
+			"total": "60",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "cannot be grazed or blocked. type 3 bullet, 3x11"
+		},
+		"worldCreationPress": {
+			"name": "Keystone \"World Creation Press\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/ad/Tesc09.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "13",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "2.5 on chicken block",
+			"extra": "melee initially, high type 3 bullet after \n invuln 1f-15f, graze 10f 36f. hits high, will hit if blocked low."
+		},
+		"scarletWeatherRapture": {
+			"name": "\"Scarlet Weather Rapture\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/83/Tesc10.png",
+			"classification": "BULLET",
+			"density": "Sinfx1",
+			"grazeRes": "inf",
+			"startup": "31+10",
+			"motionCancel": "-",
+			"total": "244(or until landing)",
+			"FrameAdv": "-",
+			"spiritDmg": 3,
+			"extra": "super armor 9-30f, invuln 31-157f. drains weather"
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Sword of Unletting Soil",
+				"emoteIcon": "<:Tesc01:728254026621386833>"
+			},
+			{
+				"name": "Sword of Rapture",
+				"emoteIcon": "<:Tesc02:728254026671587399>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Sword of Divine Justice",
+				"emoteIcon": "<:Tesc03:728254026625318972>"
+			},
+			{
+				"name": "Sword of Swagger",
+				"emoteIcon": "<:Tesc04:728254026684170370>"
+			},
+			{
+				"name": "Scarlet Weather Pressure",
+				"emoteIcon": "<:Tesc05:728254026298425395>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Meteorological Revelation",
+				"emoteIcon": "<:Tesc06:728254026692427786>"
+			},
+			{
+				"name": "State of Enlightenment",
+				"emoteIcon": "<:Tesc07:728254026717855804>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Sword of Worry and Joy",
+				"emoteIcon": "<:Tesc08:728254026369597481>"
+			},
+			{
+				"name": "World Creation Press",
+				"emoteIcon": "<:Tesc09:728254026797547590>"
+			},
+			{
+				"name": "Scarlet Weather Rapture",
+				"emoteIcon": "<:Tesc10:728254026591764482>"
+			}
+		]
+	}
+}

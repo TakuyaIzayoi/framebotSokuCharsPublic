@@ -1,0 +1,1156 @@
+{
+	"id": "knowledgePatchouli",
+	"name": "Patchouli Knowledge",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Patchouli_Knowledge",
+	"movement": {
+		"dash": 7,
+		"commit": 3,
+		"backdashInvuln": "1-7",
+		"backdashGraze": "8-31",
+		"backdashTotal": 31
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 4,
+			"total": 25,
+			"guard": "High",
+			"rbadv": "-1",
+			"wbadv": "+3"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 4,
+			"total": 25,
+			"guard": "High",
+			"rbadv": "-1",
+			"wbadv": "+3"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 18,
+			"total": 55,
+			"guard": "High",
+			"rbadv": "-14",
+			"wbadv": "-10",
+			"extra": "0.5*3 Spirit Damage per hit on wrongblock."
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 54,
+			"guard": "High, Air",
+			"rbadv": "-17",
+			"wbadv": "-11"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 46,
+			"guard": "High, Air",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"f.5[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 3,
+			"total": 64,
+			"guard": "High (Crush), \nAir (2.5 orbs)",
+			"rbadv": "-5",
+			"wbadv": "+17"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 2,
+			"total": 27,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 8,
+			"total": 51,
+			"guard": "High",
+			"rbadv": "-12",
+			"wbadv": "-6"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 33,
+			"active": 8,
+			"total": 66,
+			"guard": "High (Crush)",
+			"rbadv": "-6",
+			"wbadv": "+16"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 4,
+			"total": 48,
+			"guard": "Low",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 16,
+			"total": 48,
+			"guard": "Low",
+			"rbadv": "-11",
+			"wbadv": "-5"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": "31",
+			"active": "25",
+			"total": 70,
+			"guard": "Low (Crush)",
+			"rbadv": "-12",
+			"wbadv": "+10"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 24,
+			"total": 63,
+			"guard": "High, Air",
+			"rbadv": "(-28)",
+			"wbadv": "?",
+			"extra": "0.5*3 Spirit Damage per hit on wrongblock."
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 20,
+			"total": 70,
+			"guard": "High, Air",
+			"rbadv": "(-17)",
+			"wbadv": "?",
+			"extra": "0.5 Spirit Damage per hit on wrongblock. \n Land Cancels only after active frames end."
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 31,
+			"total": 67,
+			"guard": "High, Air",
+			"rbadv": "(-19)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 20,
+			"active": 6,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "(-16)",
+			"wbadv": "?"
+		},
+		"j.2[a]": {
+			"classification": "MELEE",
+			"startup": 35,
+			"active": 6,
+			"total": 70,
+			"guard": "High, Air",
+			"rbadv": "(-16)",
+			"wbadv": "?"
+		},
+		"4b": {
+			"classification": "BULLET",
+			"density": "C3x4",
+			"grazeRes": 5,
+			"startup": "14",
+			"motionCancel": 28,
+			"total": 50,
+			"FrameAdv": "-11 [+12]",
+			"spiritDmg": "0.125*3",
+			"extra": "Duration: 60F \n AttackCancel: 16F"
+		},
+		"4[b]": {
+			"classification": "BULLET",
+			"density": "C3x7",
+			"grazeRes": 5,
+			"startup": "29",
+			"motionCancel": 43,
+			"total": 65,
+			"FrameAdv": "-11 [+12]",
+			"spiritDmg": "0.125*3",
+			"extra": "Duration: 60F \n AttackCancel: 31F"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": 3,
+			"startup": "14, 17, 20",
+			"motionCancel": 23,
+			"total": 48,
+			"FrameAdv": "-12 [+14]",
+			"spiritDmg": 0.25
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C3x5",
+			"grazeRes": 3,
+			"startup": "29, 32, ..., 41",
+			"motionCancel": 41,
+			"total": 63,
+			"FrameAdv": "-6 [+17]",
+			"spiritDmg": 0.25
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": 3,
+			"startup": "13, 16, 19",
+			"motionCancel": 22,
+			"total": 54,
+			"FrameAdv": "-19 [+14]",
+			"spiritDmg": 0.25
+		},
+		"2[b]": {
+			"classification": "BULLET",
+			"density": "C3x5",
+			"grazeRes": 3,
+			"startup": "28, 31, ..., 40",
+			"motionCancel": 40,
+			"total": 69,
+			"FrameAdv": "-13 [+17]",
+			"spiritDmg": 0.25
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": 3,
+			"startup": "16, 19, 22",
+			"motionCancel": 25,
+			"total": 52,
+			"FrameAdv": "-14 [+14]",
+			"spiritDmg": 0.25
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C3x5",
+			"grazeRes": 3,
+			"startup": "31, 34, ..., 43",
+			"motionCancel": 40,
+			"total": 67,
+			"FrameAdv": "-8 [+17]",
+			"spiritDmg": 0.25
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 18,
+			"total": 51,
+			"guard": "Mid, Air",
+			"rbadv": "-8",
+			"wbadv": "N/A",
+			"extra": "Can be canceled into a skill or spell if grazed."
+		},
+		"j.4b": {
+			"classification": "BULLET",
+			"density": "C3x4",
+			"grazeRes": 5,
+			"startup": "14",
+			"motionCancel": 26,
+			"total": 53,
+			"FrameAdv": "[+14]",
+			"spiritDmg": "0.125*3",
+			"extra": "Duration: 60F \n AttackCancel: 17F \n Landing Recovery: 7F"
+		},
+		"j.4[b]": {
+			"classification": "BULLET",
+			"density": "C3x7",
+			"grazeRes": 5,
+			"startup": "29",
+			"motionCancel": 41,
+			"total": 68,
+			"FrameAdv": "[+14]",
+			"spiritDmg": "0.125*3",
+			"extra": "Duration: 60F \n AttackCancel: 32F"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": 3,
+			"startup": "14, 17, 20",
+			"motionCancel": 23,
+			"total": 53,
+			"FrameAdv": "[+14]",
+			"spiritDmg": 0.25,
+			"extra": "Landing Recovery: 7F"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C3x5",
+			"grazeRes": 3,
+			"startup": "29, 32, ..., 41",
+			"motionCancel": 41,
+			"total": 68,
+			"FrameAdv": "[+17]",
+			"spiritDmg": 0.25,
+			"extra": "Landing Recovery: 7F"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": 3,
+			"startup": "16, 19, 22",
+			"motionCancel": 24,
+			"total": 47,
+			"FrameAdv": "-9 [+15]",
+			"spiritDmg": 0.25,
+			"extra": "Landing Recovery: 7F"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C3x5",
+			"grazeRes": 3,
+			"startup": "31, 34, ..., 43",
+			"motionCancel": 39,
+			"total": 62,
+			"FrameAdv": "[+17]",
+			"spiritDmg": 0.25,
+			"extra": "Landing Recovery: 7F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "C2x7",
+			"grazeRes": "6",
+			"startup": 12,
+			"motionCancel": 36,
+			"total": 63,
+			"FrameAdv": "-36 [-8]",
+			"spiritDmg": "0.25"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "C3x1",
+			"grazeRes": "6",
+			"startup": 14,
+			"motionCancel": 34,
+			"total": 49,
+			"FrameAdv": "+10 [+26]",
+			"spiritDmg": "0.35",
+			"extra": "Duration: 60F \n Attack Cancel: 18F"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "3",
+			"startup": "15, 17, ..., 23",
+			"motionCancel": 28,
+			"total": 50,
+			"FrameAdv": "-12 [+11]",
+			"spiritDmg": "0.25",
+			"extra": "Attack Cancel: 16F"
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "3",
+			"startup": "30, 32, ..., 48",
+			"motionCancel": 43,
+			"total": 65,
+			"FrameAdv": "-2 [+15]",
+			"spiritDmg": "0.25",
+			"extra": "Attack Cancel: 31F"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 3,
+			"total": 40,
+			"guard": "High, Air",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "C2x7",
+			"grazeRes": "6",
+			"startup": 11,
+			"motionCancel": 37,
+			"total": 69,
+			"FrameAdv": "[-10]",
+			"spiritDmg": "0.25",
+			"extra": "Landing Recovery: 8F \n Attack Cancel: 13F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1",
+			"startup": 17,
+			"motionCancel": 35,
+			"total": 59,
+			"FrameAdv": "[-22]",
+			"spiritDmg": "0.25",
+			"extra": "Landing Recovery: 8F"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "3",
+			"startup": "15, 17, ..., 23",
+			"motionCancel": 26,
+			"total": 53,
+			"FrameAdv": "[+13]",
+			"spiritDmg": "0.25",
+			"extra": "Attack Cancel: 17F \n Landing Recovery: 8F"
+		},
+		"j.6[c]": {
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "3",
+			"startup": "30, 32, ..., 48",
+			"motionCancel": 41,
+			"total": 68,
+			"FrameAdv": "[+15]",
+			"spiritDmg": "0.25",
+			"extra": "Attack Cancel: 32F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 53,
+			"guard": "High",
+			"rbadv": "-14",
+			"wbadv": "-8",
+			"extra": "f.5a but slightly thicker vertically"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 3,
+			"total": 56,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 39,
+			"active": 6,
+			"total": 71,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "27",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"summerRed": {
+			"name": "Summer Red",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b1/Pa236bc1.png",
+			"levels": {
+				"level0": "Default.",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Fireball and hitbox increases in size.",
+				"level4": "behind two trails of fire every 5f as it travels that can hit opponents."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/225.html#id_c5531006",
+			"bc": {
+				"difference": true,
+				"b": "Ground: The fireball travels at a decent pace. Air: Fires at an angle closer to Patchouli.",
+				"c": "Ground: The fireball travels very quickly. Air: Fires at an angle further from Patchouli."
+			},
+			"classification": "BULLET",
+			"density": "B10x1",
+			"grazeRes": "∞",
+			"startup": "Ground: 20, Air: 17",
+			"motionCancel": "Ground: 34, Air: 25",
+			"total": "Ground: 51, Air: 64",
+			"FrameAdv": "Ground: -10, (+8), Air: (+22)",
+			"spiritDmg": 1,
+			"extra": "Frame advantage assumes point blank distance with motion cancel included in parenthesis. Aerial versions change Patchouli's hurtbox, and pushes her slightly backwards.Trail information; Density: C1xn, Startup: 20 25 30~... "
+		},
+		"summerFlame": {
+			"name": "Summer Flame",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bf/Pa236bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces 'Summer Red', fires 7-17 bullets.",
+				"level2": "Fires 7-21 bullets.",
+				"level3": "Fires 7-24 bullets.",
+				"level4": "Fires 7-27 bullets."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/225.html#id_232b2ebc",
+			"bc": {
+				"difference": true,
+				"b": "Focuses fire horizontally in front of Patchouli.",
+				"c": "Focuses fire diagonally upwards in front of Patchouli. Aerial version angles diagonally downwards."
+			},
+			"classification": "BULLET",
+			"density": "B1xn",
+			"grazeRes": "1",
+			"startup": "20, 23, 26...",
+			"motionCancel": "40",
+			"total": "79-139",
+			"FrameAdv": "-10, (+8)",
+			"spiritDmg": "0.075xn",
+			"extra": "Summer Flame's 'B' and 'C' durations can be extended by holding the corresponding button, or by using the skill level up button + 'B' (does not work with C version). Chip damage is relatively high and increases per level but entirely reliant on number of blocked hits whose total damage ranges from 650 to 1300. "
+		},
+		"wipeMoisture": {
+			"name": "Wipe Moisture",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/aa/Pa236bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces 'Summer Red'.",
+				"level2": "-",
+				"level3": "Hitbox size increases.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/225.html#id_bf8e8e23",
+			"bc": {
+				"difference": true,
+				"b": "Swings twice, no frame gap.",
+				"c": "Swings thrice, 8f gap between hits 2 and 3."
+			},
+			"classification": "BULLET",
+			"density": "'B' version: B1x2. 'C' version: B1x3.",
+			"grazeRes": "Melee",
+			"startup": "'B' version: 15, 35. 'C' version: 15, 35, 68.",
+			"motionCancel": "-",
+			"total": "'B' version: 77. 'C' version: 113.",
+			"FrameAdv": "'B' version: -17. 'C' version: -20.",
+			"spiritDmg": "0",
+			"extra": "Wipe Moisture is a melee skill with B-tier density bullet properties; thus, it can both destroy and be destroyed by bullets. Air unblockable. Each attack is active for 18 frames. Can be canceled on whiff into any spell, or skill if the weather is 'Blue Sky'."
+		},
+		"springWind": {
+			"name": "Spring Wind",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/97/Pa623bc1.png",
+			"levels": {
+				"level0": "Default. Pushback force decreases by 0.40 per frame. Total pushback = 255.60/418.60",
+				"level1": "Pushback force decreases by 0.35 per frame. Total pushback = 293.15/479.70",
+				"level2": "Pushback force decreases by 0.30 per frame. Total pushback = 343.20/561.20",
+				"level3": "Pushback force decreases by 0.25 per frame. Total pushback = 413.25/675.25",
+				"level4": "Pushback force decreases by 0.20 per frame. Total pushback = 518.40/846.40"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/225.html#id_32afba8d",
+			"bc": {
+				"difference": true,
+				"b": "Melee invulnerable frames 1-29, and grazes frames 1-12. Initial pushback force per frame is 14.5, and decreases per frame(including the starting one) depending on level.",
+				"c": "Melee invulnerable frames 1-12, and grazes frames 1-52. Initial pushback force per frame is 18.5, and decreases per frame(including the starting one) depending on level."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "14",
+			"motionCancel": "-",
+			"total": "'B': 55, 'C': 82",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Usable on ground only. Has invulnerability and graze on all levels."
+		},
+		"flashOfSpring": {
+			"name": "Flash of Spring",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f1/Pa623bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces 'Spring Wind'. Shot cancel recovery: 20f.",
+				"level2": "Shot cancel recovery: 15f (reduced by 5 frames).",
+				"level3": "Creates a wind blast upon bullet collision. ",
+				"level4": "Shot cancel recovery: 10f (reduced by 5 frames)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/225.html#id_de06d2ce",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "C1",
+			"grazeRes": "1",
+			"startup": "27",
+			"motionCancel": "40, 27",
+			"total": "72, 73 for aerial 'C' version. Shot cancel totals: 46(lv1), 41(lv2), 36(lv4).",
+			"FrameAdv": "-24, (+9)",
+			"spiritDmg": 1,
+			"extra": "Frame advantage assumes point blank distance, with motion cancel included in parenthesis. Slows descent if used in the air. Landing recovery: 10f. Can be canceled while holding by pressing a different attack button. The shot cancel point (27) is also the motion and spell cancel point if shot canceled, as well as the skill cancel point in 'Blue Sky'. Vortex information; Density: B∞, Active: 40, Spirit damage: 1."
+		},
+		"staticGreen": {
+			"name": "Static Green",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/be/Pa623bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces 'Spring Wind'. Discharges 1 lightning bolt (main).",
+				"level2": "Gains invincibility on startup.",
+				"level3": "Discharges two additional lightning bolts (3 total).",
+				"level4": "Discharges two additional lightning bolts (5 total)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/225.html#id_bc3622c4",
+			"bc": {
+				"difference": true,
+				"b": "Fires lightning bolts vertically.",
+				"c": "Fires lightning bolts horizontally."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "∞",
+			"startup": "15",
+			"motionCancel": "-",
+			"total": "84",
+			"FrameAdv": "-44",
+			"spiritDmg": "0.25x3",
+			"extra": "Usable on ground only. Does a small jump upon activation, displacing Patchouli's hurtbox. Main and additional lightning bolts crush on low block. \nMain lightning bolt information; Density: B1, Startup: 41, Active: 3, Frame Adv.: -15, +7(crush), Spirit Dmg: 0.5(crush on low block). Additional lightning bolt information; Density: B1xn, Startup: 44f 47f, Active: 3, Frame Adv.: -12/-9, +10/+13(crush), Spirit Dmg: 0.1xn(crush on low block)."
+		},
+		"autumnEdge": {
+			"name": "Autumn Edge",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7e/Pa214bc1.png",
+			"levels": {
+				"level0": "Default, no refire properties. 'B' Version: 5 total blades. 'C' Version: 6 total blades.",
+				"level1": "Increases 'C' version's blade count by 2. Gains the following ability: Upon hit confirm or block, all remaining blades will home in on the opponent. ",
+				"level2": "Increases 'B' version's blade count by 2 (7 total). 'B' version's first blade creation -2F(from 16 to 14) and interval between blade creation -1F(from 7 to 6)",
+				"level3": "Increases 'B' and 'C' versions blade count by 2 (B: 9 total, C: 10 total). 'B' version's minimum blade count increases by 2(5 total). 'B' version's first blade creation -2F(from 14 to 12) and interval between blade creation -1F(From 6 to 5).",
+				"level4": "Increases 'B' and 'C' versions blade count by 2 (B: 11 total, C; 12 total). 'B' version's first blade creation -2F(from 12 to 10) and interval between blade creations -1F(From 5 to 4)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_738f699e",
+			"bc": {
+				"difference": true,
+				"b": "Fires blades in a forward arc.",
+				"c": "Fires blades diagonally upwards and downwards, with a gap in the middle."
+			},
+			"classification": "BULLET",
+			"density": "B1xn",
+			"grazeRes": "∞",
+			"startup": "26",
+			"motionCancel": "36",
+			"total": "77",
+			"FrameAdv": "-4, (+12)",
+			"spiritDmg": "0.2xn",
+			"extra": "note to self put zerofuse's info here",
+			"extraAAAA": "Usable on ground only. Can be held to generate more blades and delay the shot. Frame advantage assumes point blank distance, with motion cancel included in parenthesis. At level 1 on hit or block, all remaining blades will home in on the opponent. The 'C' version at level 1 becomes plus on block at close range. The startup time for holding then releasing as opposed to inputting and relasing instantly becomes 27 on both 'B' and 'C' versions. \nBlade spawn info; \n**'B' version:** \nlevel 0: startup 26, first blade at frame 16, 2nd and 3rd at 23, 4/5@ 30f\nlevel 1: same as level 0.\nlevel 2: Startup 26, first blade @ 14f, 2/3@ 20f, 4/5@ 26, 6th/7th@ 32f\nlevel 3: Startup 26, first blade @ 12f, 2/3@ 17f, 4/5@ 22f, 6/7@ 27f, 8/9@ 32f\nlevel 4: Startup 26, first blade @ 10f, 2/3@ 14f, 4/5@ 18f, 6/7@ 22f, 8/9@ 26f, 10/11@ 30f\n**C version:** \nlevel 0: First two @ 16f, 3/4@ 23f, 5/6@ 30f\nlevel 1: First two @ 16f, 3/4@ 23f, 5/6@ 30f, 7/8@ 37f\nlevel 2: First two @ 16f, 3/4@ 23f, 5/6@ 30f, 7/8@ 37f\nlevel 3: First two @ 16f, 3/4@ 23f, 5/6@ 30f, 7/8@ 37f, 9/10@ 44f\nlevel 4: First two @ 16f, 3/4@ 23f, 5/6@ 30f, 7/8@ 37f,9/10@ 44f, 11/12@ 51f\n"
+		},
+		"autumnBlade": {
+			"name": "Autumn Blade",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/94/Pa214bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces 'Autumn Edge'. Blades hit 3 times.",
+				"level2": "Blades now hit 4 times.",
+				"level3": "-",
+				"level4": "Blades now hit 5 times."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_d3d4fe92",
+			"bc": {
+				"difference": true,
+				"b": "Lunges a blade at the opponent limited to a 90 degree arc directly in front of you.",
+				"c": "Lunges 2 blades, focused on the same location the 'B' version would be fired, but instead firing one at +45 degrees and one at -45 degrees of the designated angle."
+			},
+			"classification": "BULLET",
+			"density": "'B' version: Bn. 'C' version: Bnx2.",
+			"grazeRes": "∞",
+			"startup": "'B' version; Ground: 19F, Air: 20F. 'C' version; Ground: 27F, Air: 28F.",
+			"motionCancel": "'B' version; Ground: 27F, Air: 28F. 'C' version; Ground: 35F, Air: 36F.",
+			"total": "'B' version; Ground: 50F, Air: 58F. 'C' Version; Ground: 58F, Air: 64F.",
+			"FrameAdv": "**'B' version**; Ground: -3F(+21) lv 1, 0F(+24) lv2-3, +3F(+27) level 4, Air: -8F(+21F) lv 1, -5F(+24F) lv 2-3, -2F(+27F) lv 40.  **'C' version**; Ground: -3F(+21F) lv 1, 0F(+24F) lv 2-3, +3F(+27F) lv 4, Air: -8F(+21F) lv 1, -5F(+24F) lv 2-3, -2F(+27F) lv 4.",
+			"spiritDmg": "0.2xN",
+			"extra": "Can be land canceled. Landing recovery: 13F. Frame advantage assumes point blank distance, with motion cancel included in parenthesis. \nMax level is plus on block and does 1 full orb of spirit damage."
+		},
+		"forceLasher": {
+			"name": "Force Lasher",
+			"altName": "Fall Slasher",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a9/Pa214bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces 'Autumn Edge'. Creates 6 swords.",
+				"level2": "Creates 7 swords.",
+				"level3": "-",
+				"level4": "Creates 8 swords."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_7c5d900d",
+			"bc": {
+				"difference": true,
+				"b": "Shoots swords at the ground closer to Patchouli.",
+				"c": "Shoots swords at the ground further from Patchouli."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "∞",
+			"startup": "40, 42, 45, 48, 51 ...",
+			"motionCancel": "48F",
+			"total": "83F",
+			"FrameAdv": "varies",
+			"spiritDmg": "0.25xN",
+			"extra": "Usable on ground only. 'B' and 'C' versions can both be held to freeze the swords in mid-air until release, or both at the same time at the expense of limiting Patchouli's offensive options to melee only. Patchouli is free to move around as the swords are held in place. If held for too long, the swords will fire one at a time. If spell canceled at the earliest frame possible, the swords will become inactive and fall to the ground."
+		},
+		"dewSpear": {
+			"name": "Dew Spear",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5e/Pa421bc1.png",
+			"levels": {
+				"level0": "Default. Launches 5 crystals.",
+				"level1": "Launches 6 crystals.",
+				"level2": "-",
+				"level3": "Launches 7 crystals.",
+				"level4": "Launches 8 crystals."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_3adfa7f0",
+			"bc": {
+				"difference": true,
+				"b": "Crystals are launched close to and in front of Patchouli.",
+				"c": "Crystals are launched much further from Patchouli."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "∞",
+			"startup": "Crystals: 12, 13, 14F... Hitbox: 49, 54, 59F...",
+			"active": "-",
+			"motionCancel": "23F",
+			"total": "58F",
+			"FrameAdv": "varies",
+			"spiritDmg": "0.375xN",
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "Usable on the ground only. If spell canceled at the earliest possible frame (14), only 3 crystals will be launched. Therefore, Patchouli needs to wait 1 extra frame per crystal before spell canceling depending on how many crystals she wants to spawn."
+		},
+		"emeraldCity": {
+			"name": "Emerald City",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0d/Pa421bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces 'Dew Spears'. ",
+				"level2": "Start-up decreases (-2F).",
+				"level3": "-",
+				"level4": "Hitbox and Height increases significantly."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_cd8ec249",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "13F(lv 1), 11F(lv 2-4)",
+			"active": 0,
+			"motionCancel": "-",
+			"total": "77F (lv 1), 75F (lv 2-4)",
+			"FrameAdv": "-34/-6(crush)",
+			"spiritDmg": "1",
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "Usable on the ground only. Has melee invulnerability on start-up across all levels. Cannot be spell canceled."
+		},
+		"diamondHardness": {
+			"name": "Diamond Hardness",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/79/Pa421bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "B Duration 180F. C duration 270F. 20% defense. Startup and recovery decrease.",
+				"level2": "B Duration 440F. C duration 600F. 30% defense. Startup and recovery decrease.",
+				"level3": "B Duration 500F. C duration 660F. 40% defense. Startup and recovery decrease.",
+				"level4": "B Duration 560F. C duration 720F. 50% defense. Startup and recovery decrease."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_9de0c3e3",
+			"bc": {
+				"difference": true,
+				"b": "Faster Startup, Shorter Duration.",
+				"c": "Longer Startup, Longer Duration."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "-",
+			"startup": "B: 31/30/29/28F\nC: 46/43/40/37F",
+			"motionCancel": "-",
+			"total": "B: 80/76/72/68F\n C: 105/98/91/84F",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Superarmor for one hit. On hit will enter hitstop."
+		},
+		"winterElement": {
+			"name": "Winter Element",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/91/Pa22bc1.png",
+			"levels": {
+				"level0": "-",
+				"level1": "-",
+				"level2": "Spout is now 1.5 times taller and reaches the top of the screen.",
+				"level3": "",
+				"level4": "The spout's width is nearly doubled."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_b4b7bac2",
+			"bc": {
+				"difference": true,
+				"b": "Max. distance of 1/3 the entire screen.",
+				"c": "Min. distance of 1/3 the entire screen."
+			},
+			"classification": "BULLET",
+			"density": "B1x3",
+			"grazeRes": "inf",
+			"startup": "47",
+			"motionCancel": "28",
+			"total": "52",
+			"FrameAdv": "-",
+			"spiritDmg": "0.5*3",
+			"extra": "Active: 30F"
+		},
+		"condensedBubble": {
+			"name": "Condensed Bubble",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a2/Pa22bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "-",
+				"level2": "6 mini bubbles are released if the bubble pops on its own. Mini bubble lifespan 60f.",
+				"level3": "-",
+				"level4": "Giant bubble's size increases and 8 mini bubbles are released if the bubble pops on its own. Mini bubble lifespan 120f and speed increase."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_5c245855",
+			"bc": {
+				"difference": true,
+				"b": "Bubble fired out close to Patchy",
+				"c": "Bubble fires out a long distance before stopping."
+			},
+			"classification": "BULLET",
+			"density": "1HP\n Mini: C1xN",
+			"grazeRes": "Mini: 1F",
+			"startup": "29",
+			"motionCancel": "36",
+			"total": "72\n Mini: 60f/120f(?)",
+			"FrameAdv": "-",
+			"spiritDmg": "1 + 0.5*n",
+			"extra": "Land recovery: 10F. \nDuration: 175F"
+		},
+		"stickyBubbles": {
+			"name": "Sticky Bubbles",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d9/Pa22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Max of 7 bubbles are fired, stuck bubbles last 15 seconds. Bubble projectiles active for 60f.",
+				"level2": "Max of 8 bubbles are fired, stuck bubbles last 17 seconds. Time between bubbles being fired decreased from 5F to 4F. Bubble projectiles active for 70f.",
+				"level3": "Max of 12(11 in air) bubbles are fired, stuck bubbles last 19 seconds. Time between bubbles being fired decreased from 4F to 3F. Bubble projectiles active for 80f.",
+				"level4": "Max of 12(11 in air) bubbles are fired, stuck bubbles last 21 seconds. Bubble projectiles active for 90f."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/226.html#id_10585c48",
+			"bc": {
+				"difference": true,
+				"b": "Fires bubbles straight forward.",
+				"c": "Fires bubbles at an upward angle."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "G: λ = 14+(6-i)\\*n \nA: λ = 15+(6-i)\\*n \n i = currentLevel \n n = currentBullet",
+			"startupA": "G: 20+(6-currentLevel)\\*n... \nA:21+(6-currentLevel)\\*n...",
+			"startupN": "G: 20,25,30F.../ 20,24,28F.../20,23,26F... \nA: 21,26,31F.../ 21,25,29F.../21,24,27F...",
+			"motionCancel": "G: 35\n A: 36",
+			"total": "G: 77 \n A: 78\n Trap: 150F",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Landing Recovery: 10F. \n10 Bubbles required. \nSomeone please help me condense startup later."
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Summer Red",
+				"emoteIcon": "<:Pa236bc1:728253431755571320>"
+			},
+			{
+				"name": "Summer Flame",
+				"emoteIcon": "<:Pa236bc2:728253431591993364>"
+			},
+			{
+				"name": "Wipe Moisture",
+				"emoteIcon": "<:Pa236bc3:728253431650713621>"
+			}
+		],
+		"421": [
+			{
+				"name": "Dew Spear",
+				"emoteIcon": "<:Pa421bc1:728253431634198578>"
+			},
+			{
+				"name": "Emerald City",
+				"emoteIcon": "<:Pa421bc2:728253431801839707>"
+			},
+			{
+				"name": "Diamond Hardness",
+				"emoteIcon": "<:Pa421bc3:728253431717822604>"
+			}
+		],
+		"623": [
+			{
+				"name": "Spring Wind",
+				"emoteIcon": "<:Pa623bc1:728253431822942208>"
+			},
+			{
+				"name": "Flash of Spring",
+				"emoteIcon": "<:Pa623bc2:728253431705239572>"
+			},
+			{
+				"name": "Static Green",
+				"emoteIcon": "<:Pa623bc3:728253431843913728>"
+			}
+		],
+		"214": [
+			{
+				"name": "Autumn Edge",
+				"emoteIcon": "<:Pa214bc1:728253431474552912>"
+			},
+			{
+				"name": "Autumn Blade",
+				"emoteIcon": "<:Pa214bc2:728253431520952480>"
+			},
+			{
+				"name": "Force Lasher",
+				"emoteIcon": "<:Pa214bc3:728253431554375780>"
+			}
+		],
+		"22": [
+			{
+				"name": "Winter Element",
+				"emoteIcon": "<:Pa22bc1:728253431231414342>"
+			},
+			{
+				"name": "Condensed Bubble",
+				"emoteIcon": "<:Pa22bc2:728253431026024450>"
+			},
+			{
+				"name": "Sticky Bubbles",
+				"emoteIcon": "<:Pa22bc3:728253431290134559>"
+			}
+		]
+	},
+	"spellcards": {
+		"noachianDeluge": {
+			"name": "Earth Water Sign \"Noachian Deluge\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/93/Pasc01.png",
+			"classification": "BULLET",
+			"density": "B1x40",
+			"grazeRes": "∞",
+			"startup": "(10+2)12, 14, 16...",
+			"motionCancel": "-",
+			"total": "93",
+			"FrameAdv": "-22",
+			"spiritDmg": "0.05*40",
+			"extra": "Applies 8f of landing recovery if vertical positioning is <20. Can be fired while airborne."
+		},
+		"elementalHarvester": {
+			"name": "Metal Wood Sign \"Elemental Harvester\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4a/Pasc02.png",
+			"classification": "MELEE",
+			"startup": "(2+6)8",
+			"active": 142,
+			"total": 162,
+			"guard": "Mid",
+			"rbadv": "-24~+8",
+			"wbadv": "-",
+			"extra": "Invulnerable frames 1-7. Melee invulnerable only on frames 8-149."
+		},
+		"stElmosPillar": {
+			"name": "Fire Metal Sign \"Saint Elmo's Pillar\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3a/Pasc03.png",
+			"classification": "BULLET",
+			"density": "S1",
+			"grazeRes": "∞",
+			"startup": "(10+2)12, 20-45",
+			"motionCancel": "-",
+			"total": "56",
+			"FrameAdv": "-15~+10",
+			"spiritDmg": "1.5",
+			"extra": "Grazes frames 1-20. Spell startup is based on distance from oppoonent. Can be interrupted if attacked before frame 12, otherwise the spell persists regardless if hit or not."
+		},
+		"jellyfishPrincess": {
+			"name": "Water Sign \"Jellyfish Princess\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2b/Pasc04.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "(17+17)34",
+			"motionCancel": "-",
+			"total": "69",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "3000 HP absorbant shield unaffected by proration. Active duration: 350f (roughly 6 seconds)."
+		},
+		"satelliteSunflower": {
+			"name": "Moon Wood Sign \"Satellite Sunflower\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d3/Pasc05.png",
+			"classification": "BULLET",
+			"density": "B1xn",
+			"grazeRes": "3",
+			"startup": "(17+14)31",
+			"motionCancel": "-",
+			"total": "78",
+			"FrameAdv": "-",
+			"spiritDmg": "0.25xN",
+			"extra": "Fires a total of 72 projectiles."
+		},
+		"photosynthesis": {
+			"name": "Sun Wood Sign \"Photosynthesis\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/29/Pasc06.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "(9+0)9, 57",
+			"motionCancel": "-",
+			"total": "112",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Restores: 3 orbs per second(60F), 1 card every 167F, and 3 health per frame. Spell is garunteed on frame 9, effects begin at frame 57."
+		},
+		"phlogisticPillar": {
+			"name": "Fire Water Sign \"Phlogistic Pillar\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4c/Pasc07.png",
+			"classification": "BULLET",
+			"density": "A1xn",
+			"grazeRes": "∞",
+			"startup": "(10+14)24",
+			"motionCancel": "-",
+			"total": "93",
+			"FrameAdv": "-7~+58",
+			"spiritDmg": "0.075*n",
+			"extra": "Can be fired while airborne. Damage and duration is dependent on distance from corner. Startup of top and bottom pillars change depending on Patchouli's altitude when activated. Spell persists if attacked after fuses have been fired."
+		},
+		"silentSelene": {
+			"name": "Moon Sign \"Silent Selene\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9e/Pasc08.png",
+			"classification": "BULLET",
+			"density": "∞",
+			"grazeRes": "∞, initial hit: 1",
+			"startup": "(13+2)15F, 25... 195",
+			"motionCancel": "-",
+			"total": "266",
+			"FrameAdv": "-17~-38",
+			"spiritDmg": "0.025*n, initial hit: 0.25",
+			"extra": "Invulnerable frames 1-105. The initial attack spawns a large asymmetrical hitbox on top of patchouli on startup. Spell patterns remain consistent regardless of orientation, so the right side is more effective and has better frame advantages."
+		},
+		"emeraldMegalopolis": {
+			"name": "Earth Metal Sign \"Emerald Megalopolis\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/ab/Pasc09.png",
+			"classification": "BULLET",
+			"density": "∞HP",
+			"grazeRes": "∞",
+			"startup": "(17+4)21,46,71,96",
+			"motionCancel": "-",
+			"total": "59",
+			"FrameAdv": "-2/+23/+48/+73",
+			"spiritDmg": "0.5*n",
+			"extra": "Pillars spawned behave like objects that block projectiles and melee attacks. Pillars begin to sink into the ground after 3 seconds(180F) or when they get hit by anything. "
+		},
+		"royalFlare": {
+			"name": "Sun Sign \"Royal Flare\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cc/Pasc10.png",
+			"classification": "BULLET",
+			"density": "S∞",
+			"grazeRes": "∞",
+			"startup": "(34+9)43",
+			"motionCancel": "-",
+			"total": "260",
+			"FrameAdv": "-35~-72F",
+			"spiritDmg": "0.075*n",
+			"extra": "Invulnerable 34-163f. 41 hits that decrease in amount slightly the further away the opponent is from the spawn point."
+		},
+		"philosophersStone": {
+			"name": "Five Elements \"Philosopher's Stone\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/10/Pasc11.png",
+			"classification": "BULLET",
+			"density": "C1x9",
+			"grazeRes": "1",
+			"startup": "(13+53)66",
+			"motionCancel": "-",
+			"total": "85",
+			"FrameAdv": "-",
+			"spiritDmg": "0.1*n",
+			"extra": "Spell duration: 1200F(20 seconds). \nSpell effect is garunteed on frame 66.\n Exhausted crystals respawn after 210 frames(3.5 seconds). \nNewly spawned crystals activate immediately if Patchouli is in mid-cast of its corresponding input. \nEarth-421, Fire-236, Wood-623, Water-22, Metal-214"
+		},
+		"royalDiamondRing": {
+			"name": "Sun Moon Sign \"Royal Diamond Ring\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6a/Pasc12.png",
+			"classification": "BULLET",
+			"density": "B1x375",
+			"grazeRes": "1",
+			"startup": "(42+1)43F",
+			"motionCancel": "-",
+			"total": "118",
+			"FrameAdv": "Garunteed",
+			"spiritDmg": "0.05*n",
+			"extra": "Invulnerable 34-42f. Fires 5 bullets every 4 frames for almost 5 seconds(296 frames). 375 bullets total."
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Noachian Deluge",
+				"emoteIcon": "<:Pasc01:728253431759765504>"
+			},
+			{
+				"name": "Elemental Harvester",
+				"emoteIcon": "<:Pasc02:728253431864885269>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Saint Elmo's Pillar",
+				"emoteIcon": "<:Pasc03:728253431801708634>"
+			},
+			{
+				"name": "Jellyfish Princess",
+				"emoteIcon": "<:Pasc04:728253431680204822>"
+			},
+			{
+				"name": "Satellite Sunflower",
+				"emoteIcon": "<:Pasc05:728253431810097154>"
+			},
+			{
+				"name": "Photosynthesis",
+				"emoteIcon": "<:Pasc06:728253431827136543>"
+			},
+			{
+				"name": "Phlogistic Pillar",
+				"emoteIcon": "<:Pasc07:728253431860691014>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Silent Selene",
+				"emoteIcon": "<:Pasc08:728253432045109309>"
+			},
+			{
+				"name": "Emerald Megalopolis",
+				"emoteIcon": "<:Pasc09:728253432288510023>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Royal Flare",
+				"emoteIcon": "<:Pasc10:728253431965548644>"
+			},
+			{
+				"name": "Philosopher's Stone",
+				"emoteIcon": "<:Pasc11:728253431973806090>"
+			},
+			{
+				"name": "Royal Diamond Ring",
+				"emoteIcon": "<:Pasc12:728253432003297280>"
+			}
+		]
+	}
+}

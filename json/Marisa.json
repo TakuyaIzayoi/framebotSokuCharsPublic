@@ -1,0 +1,1043 @@
+{
+	"id": "kirisameMarisa",
+	"name": "Marisa Kirisame",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Marisa_Kirisame",
+	"movement": {
+		"dash": 7,
+		"commit": 7,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-23",
+		"backdashTotal": 35
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 17,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 17,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 17,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 5,
+			"total": 26,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 2,
+			"total": 44,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 5,
+			"total": 30,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+0"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 4,
+			"total": 26,
+			"guard": "Low",
+			"rbadv": "-1",
+			"wbadv": "+3"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 15,
+			"total": 52,
+			"guard": "High, Air",
+			"rbadv": "-16",
+			"wbadv": "-10"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 28,
+			"active": 28,
+			"total": 78,
+			"guard": "High (Crush), Air",
+			"rbadv": "-23",
+			"wbadv": "-1",
+			"extra": "Grazes frames 28-55"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 44,
+			"guard": "Low",
+			"rbadv": "-7",
+			"wbadv": "-1"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 3,
+			"total": 63,
+			"guard": "Low (Crush)",
+			"rbadv": "-5",
+			"wbadv": "+17"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 2,
+			"total": 30,
+			"guard": "High, Air",
+			"rbadv": "(-3)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 2,
+			"total": 52,
+			"guard": "High, Air",
+			"rbadv": "(-20)",
+			"wbadv": "?"
+		},
+		"j.6[a]": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "-",
+			"startup": 21,
+			"motionCancel": "-",
+			"total": 50,
+			"FrameAdv": "(-10)",
+			"spiritDmg": "1 (2)",
+			"extra": "Hits high and does 2 orbs on wrongblock."
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": "12, 15",
+			"active": "3, 11",
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "(-21)",
+			"wbadv": "?",
+			"extra": "0.5 spirit damage per hit on wrongblock."
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 4,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "-20",
+			"wbadv": "?"
+		},
+		"j.2[a]": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "-",
+			"startup": 23,
+			"motionCancel": "-",
+			"total": 47,
+			"FrameAdv": "(-5)",
+			"spiritDmg": "1 (2)",
+			"extra": "Hits high and does 2 orbs on wrongblock."
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 2,
+			"total": 38,
+			"guard": "Mid",
+			"rbadv": "-4",
+			"wbadv": "N/A"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": "14, 17, 20",
+			"motionCancel": 25,
+			"total": 39,
+			"FrameAdv": "-4 [+11]",
+			"spiritDmg": "0.3*3"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": "28, 31, ..., 40",
+			"motionCancel": 39,
+			"total": 53,
+			"FrameAdv": "-2 [+14]",
+			"spiritDmg": "0.3*5"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x5~12",
+			"grazeRes": "1",
+			"startup": "12, 16,... 28~56",
+			"motionCancel": "25+",
+			"total": "48~78",
+			"FrameAdv": "-5~7 [+15]",
+			"spiritDmg": "0.1*8",
+			"extra": "Attack Cancel: 13F \n Each shot has 10F Duration."
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": "14, 17, 20",
+			"motionCancel": 25,
+			"total": 39,
+			"FrameAdv": "-4 [+11]",
+			"spiritDmg": "0.3*3"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": "28, 31, ..., 40",
+			"motionCancel": 39,
+			"total": 53,
+			"FrameAdv": "-2 [+14]",
+			"spiritDmg": "0.3*5"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": "17, 20, 23",
+			"motionCancel": 29,
+			"total": 41,
+			"FrameAdv": "[+10]",
+			"spiritDmg": "0.3*3",
+			"extra": "8F Landing Recovery."
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": "31, 34, ..., 43",
+			"motionCancel": 43,
+			"total": 55,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.3*5",
+			"extra": "8F Landing Recovery."
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x3",
+			"grazeRes": 1,
+			"startup": "17, 20, 23",
+			"motionCancel": 26,
+			"total": 37,
+			"FrameAdv": "+1 [+13]",
+			"spiritDmg": "0.3*3",
+			"extra": "8F Landing Recovery."
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": 1,
+			"startup": "31, 34, ..., 43",
+			"motionCancel": 40,
+			"total": 51,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.3*5",
+			"extra": "8F Landing Recovery."
+		},
+		"66b": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": 1,
+			"startup": 13,
+			"motionCancel": "-",
+			"total": 36,
+			"FrameAdv": "-2~+4",
+			"spiritDmg": 1,
+			"extra": "Duration: 7F \n Move can be canceled if grazed."
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x1 (B3x1)",
+			"grazeRes": "-",
+			"startup": 18,
+			"motionCancel": 26,
+			"total": 73,
+			"FrameAdv": "-17 [+31]",
+			"spiritDmg": "0.1 (0.35*3)",
+			"extra": "Bullet changes to values in parentheses after colliding with being destroyed or blocked. \n Lingering explosion has 29F duration."
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B1x1 (B5x1)",
+			"grazeRes": "-",
+			"startup": 47,
+			"motionCancel": 55,
+			"total": 102,
+			"FrameAdv": "+11 [+59]",
+			"spiritDmg": "0.1 (0.35*5)",
+			"extra": "Bullet changes to values in parentheses after colliding with being destroyed or blocked. \n Lingering explosion has 29F duration."
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1x1 (B3x1)",
+			"grazeRes": "1, *",
+			"startup": "19+",
+			"motionCancel": "34+",
+			"total": "45+",
+			"FrameAdv": "-4 [+8]",
+			"spiritDmg": "0, (1)",
+			"extra": "Attack Cancel: 20F \n Explosion Duration: 59F"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B2x1",
+			"grazeRes": "-",
+			"startup": "22+",
+			"motionCancel": "42+",
+			"total": "81+",
+			"FrameAdv": "-2 [+29]",
+			"spiritDmg": "0.125*n",
+			"extra": "Projectile loses hits as it travels and disappears if canceled. \n At most 10 hits at point blank."
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 4,
+			"total": 58,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-12"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x1 (B3x1)",
+			"grazeRes": "-",
+			"startup": 17,
+			"motionCancel": 25,
+			"total": 72,
+			"FrameAdv": "-17 [+31]",
+			"spiritDmg": "0.1 (0.35*3)"
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B1x1 (B5x1)",
+			"grazeRes": "-",
+			"startup": 48,
+			"motionCancel": 56,
+			"total": 103,
+			"FrameAdv": "[+59]",
+			"spiritDmg": "0.1 (0.35*5)"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x1 (B3x1)",
+			"grazeRes": "-",
+			"startup": 22,
+			"motionCancel": 41,
+			"total": 56,
+			"FrameAdv": "-4 [+20]",
+			"spiritDmg": "1 (0.35*3)",
+			"extra": "8F Landing Recovery."
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B2x1",
+			"grazeRes": "-",
+			"startup": "22+",
+			"motionCancel": "42+",
+			"total": "81+",
+			"FrameAdv": "[+29]",
+			"spiritDmg": "0.125*n",
+			"extra": "8F Landing Recovery."
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "66c with much taller back end."
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 2,
+			"total": 53,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 39,
+			"active": 2,
+			"total": 70,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "28",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"meteonicDebris": {
+			"name": "Meteonic Debris",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/36/Ma236bc1.png",
+			"levels": {
+				"level0": "-",
+				"level1": "B version startup decreased by 2F. HJC is 3F earlier for all versions.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "HJC is 3F earlier (6F earlier in total)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_7184fffa",
+			"bc": {
+				"difference": true,
+				"b": "The stars are fired in a narrow spread.",
+				"c": "The stars are fired in a wider spread."
+			},
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "1F",
+			"startup": "B Lv0: 21, 25, ...\n B +1/C 0+: 19, 23, ...\n A: 21, 25, ... \n[]/A[]: 42, 46, ...",
+			"motionCancel": "B Lv0: 46\n B +1/C 0+: 44\n A: 46\n[]/A[]: 77",
+			"total": "B Lv0: 66\n B +1/C 0+: 44\n A: 66(8)?\n[]/A[]: 97, 97(8)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "double check info plz"
+		},
+		"narrowSpark": {
+			"name": "Narrow Spark",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/54/Ma236bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces Meteonic Debris.",
+				"level2": "Projectile speed increases.",
+				"level3": "Projectile speed increases.",
+				"level4": "Projectile speed increases. Projectile width increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_67909daf",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B2x1",
+			"grazeRes": "inf",
+			"startup": "25",
+			"motionCancel": "83",
+			"total": "100(8)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "wtf does hold fluctuates from 100 to 118f mean"
+		},
+		"greenSpread": {
+			"name": "Green Spread",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c6/Ma236bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces Meteonic Debris.",
+				"level2": "Star dispersion distance and duration increased by 10F.",
+				"level3": "Star dispersion distance and duration increased by 10F.",
+				"level4": "Star dispersion distance and duration increased by 10F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_dd17486d",
+			"bc": {
+				"difference": true,
+				"b": "Fires approximately 1/4 screen at full screen.",
+				"c": "Fires approximately 1/2 screen at full screen."
+			},
+			"classification": "BULLET",
+			"density": "B4x1",
+			"grazeRes": "inf, 5F",
+			"startup": "41, 47",
+			"motionCancel": "B: 39\n C: 49",
+			"total": "B: 65\n C: 75",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"miasmaSweep": {
+			"name": "Miasma Sweep",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a8/Ma623bc1.png",
+			"levels": {
+				"level0": "-",
+				"level1": "B Version gains melee invulnerability, 1F-12F.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_0be494ff",
+			"bc": {
+				"difference": true,
+				"b": "Goes about 1/3rd screen height, has upper body invulnerability.",
+				"c": "Goes about 2/3rd screen height, grazes."
+			},
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 22,
+			"total": "B: 84\n C: 104",
+			"guard": "Mid",
+			"rbadv": "B: -49\nC: -69",
+			"wbadv": "-",
+			"extra": "B: Upper Vuln 1-34F, Invuln 1~12F Lv 1. \nC: 1-34F Graze"
+		},
+		"boskySweeper": {
+			"name": "Bosky Sweeper",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2b/Ma623bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces Miasma Sweep.",
+				"level2": "B Version hitbox increases in size.",
+				"level3": "C Version hitbox increases in size.",
+				"level4": "B Version hitbox increases in size."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_b12c6eb9",
+			"bc": {
+				"difference": true,
+				"b": "Goes straight up, hits 4 times.",
+				"c": "Travels at a steeper angle, hits 5 times."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "13",
+			"motionCancel": "B: 52\n C: 62",
+			"total": "B: 83\n C: 99",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "-"
+		},
+		"stellarMissile": {
+			"name": "Stellar Missile",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/ad/Ma623bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces Miasma Sweep.",
+				"level2": "-",
+				"level3": "Hitbox size increases.",
+				"level4": "Bullet is active for 20F longer (61F > 81F)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_ef0ec5b4",
+			"bc": {
+				"difference": true,
+				"b": "Fires almost directly above Marisa's head.",
+				"c": "Fires about 1/3rd screen distance at max zoom out."
+			},
+			"classification": "BULLET",
+			"density": "B6x1",
+			"grazeRes": "",
+			"startup": "27",
+			"motionCancel": "B: 27\n C: 39",
+			"total": "74",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "active frames 62->84 at lv 4"
+		},
+		"witchLeyline": {
+			"name": "Witch Leyline",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8c/Ma214bc1.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Recovery becomes cancellable into skills on block, and any move on whiff.",
+				"level2": "Startup decreased by 3F.",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_432f6d2c",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": "Lv 0: 18\n Lv 2+: 15",
+			"active": 22,
+			"total": "Lv 0: 85\n Lv 2+: 82\n Recoil: 77\n A: Until Land",
+			"guard": "Mid",
+			"rbadv": "-56",
+			"wbadv": "0",
+			"extra": "(insert extra notes here) on 64F can be canceled lv 1. \ncan also be canceled at 41f on recoil? \n plz help me write this"
+		},
+		"radialStrike": {
+			"name": "Radial Strike",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7e/Ma214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Witch Leyline.",
+				"level2": "-",
+				"level3": "Projectile speed increases.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_e53fa3c8",
+			"bc": {
+				"difference": true,
+				"b": "Fires straight ahead.",
+				"c": "Fires at an upwards angle."
+			},
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "inf",
+			"startup": "21",
+			"motionCancel": "21",
+			"total": "G: 76\n A: Until Landing (18)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1-21F: something\n 22-58F: something"
+		},
+		"upSweeper": {
+			"name": "Up Sweeper",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2f/Ma214bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces Witch Leyline.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Hitbox size increases slightly."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_8d3974d1",
+			"bc": {
+				"difference": true,
+				"b": "Travels nearer.",
+				"c": "Travels further."
+			},
+			"classification": "BULLET",
+			"density": "?",
+			"grazeRes": "?",
+			"startup": "G.B: 13\n G.C: 18\n A.B: 18\nA.C: 25",
+			"motionCancel": "G.B: 15\n G.C: 20\n A.B: 20\nA.C: 27",
+			"total": "G.B: 93\n G.C: 106\n A.B: 100 (19)\nA.C: 107 (19)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "please don't use this -texture\n also im lazy to fill this out\n13-78F G.B\n 18-87F G.C"
+		},
+		"grandStardust": {
+			"name": "Grand Stardust",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/42/Ma22bc1.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Explosion size increases.",
+				"level2": "-",
+				"level3": "Explosion size increases.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_7a47898c",
+			"bc": {
+				"difference": true,
+				"b": "Charged bomb travels nearer.",
+				"c": "Charged bomb travels further."
+			},
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "1F",
+			"startup": "G: 48\n A: ?",
+			"motionCancel": "28",
+			"total": "G: 39\n A: 43(15)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "39~99F, 43~103F? on hold"
+		},
+		"devildomTorch": {
+			"name": "Devildom Torch",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/40/Ma22bc2.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces Grand Stardust.",
+				"level2": "Explosion size increases. Number of explosions +1 (3>4). Air use enabled.",
+				"level3": "Explosion size increases.",
+				"level4": "Explosion size increases. Number of explosions +1 (4>5)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_f2fbce08",
+			"bc": {
+				"difference": true,
+				"b": "Throws the pot nearer.",
+				"c": "Throws the pot further."
+			},
+			"classification": "BULLET",
+			"density": "?",
+			"grazeRes": "1F",
+			"startup": "G: 36, 42, 48, 54, 60\n A: notes here",
+			"motionCancel": "19",
+			"total": "G: 55\n A: 58(10)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "put notes for C version here"
+		},
+		"magicalReusableBomb": {
+			"name": "Magical Reusable Bomb",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/79/Ma22bc3.png",
+			"levels": {
+				"level0": "-",
+				"level1": "Replaces Grand Stardust.",
+				"level2": "Air use enabled.",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/241.html#id_bdbcd278",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "1F",
+			"startup": "G.B: 205\nG.C: 211\n A.B: 202\n A.C: 206",
+			"motionCancel": "G.B: 25\nG.C: 31\n A.B: 24\n A.C: 28",
+			"total": "G.B: 61\nG.C: 67\n A.B: 53(10)\n A.C: 57(10)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Blows on 180F. something about spirit consumption here"
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Meteonic Debris",
+				"emoteIcon": "<:Ma236bc1:728252477433970729>"
+			},
+			{
+				"name": "Narrow Spark",
+				"emoteIcon": "<:Ma236bc2:728252477723508827>"
+			},
+			{
+				"name": "Green Spread",
+				"emoteIcon": "<:Ma236bc3:728252478662901794>"
+			}
+		],
+		"623": [
+			{
+				"name": "Miasma Sweep",
+				"emoteIcon": "<:Ma623bc1:728252478860034149>"
+			},
+			{
+				"name": "Bosky Sweeper",
+				"emoteIcon": "<:Ma623bc2:728252479199903775>"
+			},
+			{
+				"name": "Stellar Missile",
+				"emoteIcon": "<:Ma623bc3:728252479049039874>"
+			}
+		],
+		"214": [
+			{
+				"name": "Witch Leyline",
+				"emoteIcon": "<:Ma214bc1:728252477480370327>"
+			},
+			{
+				"name": "Radial Strike",
+				"emoteIcon": "<:Ma214bc2:728252477249683577>"
+			},
+			{
+				"name": "Up Sweeper",
+				"emoteIcon": "<:Ma214bc3:728252477480239165>"
+			}
+		],
+		"22": [
+			{
+				"name": "Grand Stardust",
+				"emoteIcon": "<:Ma22bc1:728252477316661258>"
+			},
+			{
+				"name": "Devildom Torch",
+				"emoteIcon": "<:Ma22bc2:728252477345890426>"
+			},
+			{
+				"name": "Magical Reusable Bomb",
+				"emoteIcon": "<:Ma22bc3:728252477513793637>"
+			}
+		]
+	},
+	"spellcards": {
+		"meteoricShower": {
+			"name": "Star Sign \"Meteoric Shower\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e7/Masc01.png",
+			"classification": "BULLET",
+			"density": "B1x13",
+			"grazeRes": "inf",
+			"startup": "17+10+4n",
+			"motionCancel": "-",
+			"total": "103",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "17-18F is Invuln."
+		},
+		"stardustReverie": {
+			"name": "Magic Sign \"Stardust Reverie\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0c/Masc02.png",
+			"classification": "MELEE",
+			"startup": "7+8",
+			"active": "-",
+			"total": "until hit? \n Recoil: 76",
+			"guard": "High",
+			"rbadv": "-55",
+			"wbadv": "-",
+			"extra": "there's a 4 parter to invulns on this"
+		},
+		"luminousStrike": {
+			"name": "Light Sign \"Luminous Strike\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/59/Masc03.png",
+			"classification": "BULLET",
+			"density": "A6x1",
+			"grazeRes": "inf",
+			"startup": "17+1",
+			"motionCancel": "-",
+			"total": "G: 76\n A: until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"orreriesSun": {
+			"name": "Ritual Sign \"Orreries Sun\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/db/Masc04.png",
+			"classification": "BULLET",
+			"density": "B: B1x7\nC: B10x4\n Reuse: Ainfx4",
+			"grazeRes": "B: 5f\nC: inf\n Reuse: Inf",
+			"startup": "Initial: 13\n G.B: 16\n A.B: 19\n C: 38 \n Reuse: 14+2",
+			"motionCancel": "-",
+			"total": "Initial: 50\n G.B: 39\n A.B: 41\n C: 83\n Reuse: 75",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "skittles LMAO -sigets \n also theres like 4 parts to this i'll get to this later"
+		},
+		"masterSpark": {
+			"name": "Love Sign \"Master Spark\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/66/Masc05.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "9+19",
+			"motionCancel": "-",
+			"total": "137",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Invuln: 9-27F\n \\_: 28-89F \n double check what these do"
+		},
+		"escapeVelocity": {
+			"name": "Star Sign \"Escape Velocity\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c6/Masc06.png",
+			"classification": "MELEE",
+			"startup": "10+3",
+			"active": 42,
+			"total": 133,
+			"guard": "Mid",
+			"rbadv": "-93",
+			"wbadv": "0",
+			"extra": "Invuln: 1-22F\n Graze: 23-54F"
+		},
+		"gravityBeat": {
+			"name": "Star Sign \"Gravity Beat\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c4/Masc07.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "5+8, 34, 49",
+			"motionCancel": "-",
+			"total": "66",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "up, down, explos. also block high on the downwards."
+		},
+		"earthlightRay": {
+			"name": "Light Sign \"Earthlight Ray\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/70/Masc08.png",
+			"classification": "BULLET",
+			"density": "B2x5",
+			"grazeRes": "inf",
+			"startup": "7+31, 40, 43, 46, 49",
+			"motionCancel": "-",
+			"total": "57",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"nonDirectionalLaser": {
+			"name": "Love Sign \"Non-Directional Laser\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b8/Masc09.png",
+			"classification": "BULLET",
+			"density": "Binfx5",
+			"grazeRes": "inf",
+			"startup": "17+7",
+			"motionCancel": "-",
+			"total": "199",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"deepEcologicalBomb": {
+			"name": "Magical Ruin \"Deep Ecological Bomb\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/14/Masc10.png",
+			"classification": "BULLET",
+			"density": "A4x1",
+			"grazeRes": "4F",
+			"startup": "15; Detonation: 223",
+			"motionCancel": "-",
+			"total": "56",
+			"FrameAdv": "-",
+			"spiritDmg": "Unblockable",
+			"extra": ""
+		},
+		"finalSpark": {
+			"name": "Magicannon \"Final Spark\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/23/Masc11.png",
+			"classification": "BULLET",
+			"density": "Sinfx1",
+			"grazeRes": "inf",
+			"startup": "17+25",
+			"motionCancel": "-",
+			"total": 205,
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "15-157F Invuln"
+		},
+		"dragonMeteor": {
+			"name": "Star Sign \"Dragon Meteor\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2c/Masc12.png",
+			"classification": "BULLET",
+			"density": "Sinfx1",
+			"grazeRes": "inf",
+			"startup": "17+22",
+			"motionCancel": "-",
+			"total": "G: 240, A: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Invuln at some point? 17F?"
+		},
+		"blazingStar": {
+			"name": "Comet \"Blazing Star\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cf/Masc13.png",
+			"classification": "MELEE",
+			"startup": "5+22",
+			"active": "-",
+			"total": 150,
+			"guard": "Mid-Guardcrush",
+			"rbadv": "-74",
+			"wbadv": "0",
+			"extra": "kyou mo kawaii \n Invuln: 1-93F"
+		},
+		"sureFireMasterSpark": {
+			"name": "Perversion \"Sure-Fire Master Spark\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/05/Masc14.png",
+			"classification": "BULLET",
+			"density": "Sinfx1",
+			"grazeRes": "inf",
+			"startup": "24+25, 125",
+			"motionCancel": "-",
+			"total": "304",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "103-215F Invuln"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Meteoric Shower",
+				"emoteIcon": "<:Masc01:728252479195709451>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Stardust Reverie",
+				"emoteIcon": "<:Masc02:728252479430590545>"
+			},
+			{
+				"name": "Luminous Strike",
+				"emoteIcon": "<:Masc03:728252479405293598>"
+			},
+			{
+				"name": "Orreries Sun",
+				"emoteIcon": "<:Masc04:728252479430721626>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Master Spark",
+				"emoteIcon": "<:Masc05:728252479640305664>"
+			},
+			{
+				"name": "Escape Velocity",
+				"emoteIcon": "<:Masc06:728252479254429757>"
+			},
+			{
+				"name": "Gravity Beat",
+				"emoteIcon": "<:Masc07:728252479623528468>"
+			},
+			{
+				"name": "Earthlight Ray",
+				"emoteIcon": "<:Masc08:728252479279726674>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Non-Directional Laser",
+				"emoteIcon": "<:Masc09:728252479325863948>"
+			},
+			{
+				"name": "Deep Ecological Bomb",
+				"emoteIcon": "<:Masc10:728252479556550736>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Final Spark",
+				"emoteIcon": "<:Masc11:728252479271338095>"
+			},
+			{
+				"name": "Dragon Meteor",
+				"emoteIcon": "<:Masc12:728252479686443069>"
+			},
+			{
+				"name": "Blazing Star",
+				"emoteIcon": "<:Masc13:728252479787237387>"
+			},
+			{
+				"name": "Sure-Fire Master Spark",
+				"emoteIcon": "<:Masc14:728252480047022140>"
+			}
+		]
+	}
+}

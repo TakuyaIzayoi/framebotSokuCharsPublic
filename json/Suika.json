@@ -1,0 +1,918 @@
+{
+	"id": "ibukiSuika",
+	"name": "Suika Ibuki",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Suika_Ibuki",
+	"movement": {
+		"dash": 7,
+		"commit": 5,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-21+F (max 72)",
+		"backdashTotal": "21+F+13 (max 85)"
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 4,
+			"total": 26,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 4,
+			"total": 26,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 3,
+			"total": 36,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 6,
+			"total": 52,
+			"guard": "High",
+			"rbadv": "-14",
+			"wbadv": "-8"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 25,
+			"active": 11,
+			"total": 62,
+			"guard": "High (Crush)",
+			"rbadv": "-9",
+			"wbadv": "+13"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 4,
+			"total": 40,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "+4"
+		},
+		"f.5[a]": {
+			"classification": "MELEE",
+			"startup": 35,
+			"active": 4,
+			"total": 62,
+			"guard": "High (Crush)",
+			"rbadv": "+0",
+			"wbadv": "+22"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 3,
+			"total": 28,
+			"guard": "Low",
+			"rbadv": "-4",
+			"wbadv": "+0"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 12,
+			"total": 54,
+			"guard": "Low",
+			"rbadv": "-14",
+			"wbadv": "-8"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 34,
+			"active": 12,
+			"total": 69,
+			"guard": "Low (Crush)",
+			"rbadv": "-8",
+			"wbadv": "+14"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 15,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-11",
+			"wbadv": "-5"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 33,
+			"active": 15,
+			"total": 65,
+			"guard": "High (Crush)",
+			"rbadv": "-5",
+			"wbadv": "+17"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": "14, 31",
+			"active": "2, 3",
+			"total": 62,
+			"guard": "Mid, High",
+			"rbadv": "-10",
+			"wbadv": "-4",
+			"extra": "Both hits are cancellable."
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 20,
+			"total": 42,
+			"guard": "High, Air",
+			"rbadv": "(-14)",
+			"wbadv": "-"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": "13, 15",
+			"active": "2, 2",
+			"total": "60",
+			"guard": "High, Air",
+			"rbadv": "-24",
+			"wbadv": "-18"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 10,
+			"total": 63,
+			"guard": "High, Air",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 24,
+			"total": 60,
+			"guard": "High, Air",
+			"rbadv": "(-)",
+			"wbadv": "?"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C3x1",
+			"grazeRes": "-",
+			"startup": 15,
+			"motionCancel": 28,
+			"total": 42,
+			"FrameAdv": "-12 [+3]",
+			"spiritDmg": 0.5
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": "-",
+			"startup": 30,
+			"motionCancel": 56,
+			"total": 81,
+			"FrameAdv": "-12 [+14]",
+			"spiritDmg": 0.5
+		},
+		"2b": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 43,
+			"guard": "Mid",
+			"rbadv": "-6",
+			"wbadv": "N/A",
+			"extra": "Despite being melee, requires an orb to perform."
+		},
+		"2[b]": {
+			"classification": "MELEE",
+			"startup": 36,
+			"active": 2,
+			"total": 63,
+			"guard": "Low",
+			"rbadv": "-6",
+			"wbadv": "+0",
+			"extra": "Despite being melee, requires an orb to perform."
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x1, B1x1",
+			"grazeRes": "1, 1",
+			"startup": 18,
+			"motionCancel": 31,
+			"total": 45,
+			"FrameAdv": "-5 [+10]",
+			"spiritDmg": "0, 1.0",
+			"extra": "The bullet changes properties on collision."
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 15,
+			"total": 59,
+			"guard": "Low",
+			"rbadv": "-8",
+			"wbadv": "-2",
+			"extra": "Grazing lasts until the first frame of the first hit. \n Grazes Frames: 3-35F."
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C3x1",
+			"grazeRes": "-",
+			"startup": 15,
+			"motionCancel": 27,
+			"total": 41,
+			"FrameAdv": "-12 [+3]",
+			"spiritDmg": 0.5
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C3x3",
+			"grazeRes": "-",
+			"startup": 29,
+			"motionCancel": 61,
+			"total": 75,
+			"FrameAdv": "+12 [+14]",
+			"spiritDmg": 0.5
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x1, B1x1",
+			"grazeRes": "1, 1",
+			"startup": 18,
+			"motionCancel": 31,
+			"total": 45,
+			"FrameAdv": "-5 [+10]",
+			"spiritDmg": "0, 1.0",
+			"extra": "The bullet changes properties on collision."
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C1x1, B1x1",
+			"grazeRes": "1, 1",
+			"startup": 18,
+			"motionCancel": 31,
+			"total": 45,
+			"FrameAdv": "-5 [+10]",
+			"spiritDmg": "0, 1.0",
+			"extra": "The bullet changes properties on collision."
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "C1x18",
+			"grazeRes": 1,
+			"startup": 52,
+			"motionCancel": 37,
+			"total": 51,
+			"FrameAdv": "+16 [+31]",
+			"spiritDmg": 0.125
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "C1x18",
+			"grazeRes": 1,
+			"startup": 41,
+			"motionCancel": 23,
+			"total": 42,
+			"FrameAdv": "-",
+			"spiritDmg": 0.125
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "C1x18",
+			"grazeRes": 1,
+			"startup": 52,
+			"motionCancel": 37,
+			"total": 51,
+			"FrameAdv": "+16 [+31]",
+			"spiritDmg": 0.125
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": 29,
+			"total": 57,
+			"guard": "High, Air",
+			"rbadv": "-27",
+			"wbadv": "-21",
+			"extra": "The move grazes and can be canceled midair."
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "C1x18",
+			"grazeRes": 1,
+			"startup": 52,
+			"motionCancel": 32,
+			"total": 51,
+			"FrameAdv": "+16 [+31]",
+			"spiritDmg": 0.125
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "C1x18",
+			"grazeRes": 1,
+			"startup": 52,
+			"motionCancel": 32,
+			"total": 51,
+			"FrameAdv": "+16 [+31]",
+			"spiritDmg": 0.125
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 4,
+			"total": 61,
+			"guard": "High",
+			"rbadv": "-22",
+			"wbadv": "-16",
+			"extra": "f.5a hitbox but string hitbox is extremely big horizontally"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 20,
+			"active": 4,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-2",
+			"wbadv": "4",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 40,
+			"active": 4,
+			"total": 73,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "26",
+			"extra": "Purple Flash: 8F"
+		}
+	},
+	"skillcards": {
+		"spectreDense": {
+			"name": "Spectre -Dense-",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b0/Ib236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Armor added to C Version. Explosion Bullets +1",
+				"level2": "Super Armor added to B version. Explosion Bullets +1",
+				"level3": "C Version HP+, Bullet +1",
+				"level4": "C Version HP+, Bullet +1"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/229.html#id_112695e1",
+			"bc": {
+				"difference": true,
+				"b": "Suika punches straight forward. Gains superarmor at level 2. Armor comes out slower, attack comes out faster.",
+				"c": "Suika punches upwards. Has armor from the start. Armor comes out faster, attack comes out slower. This punch's melee hitbox extends fairly far into the air, making it a viable anti-air-approach."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"oniSpiritBomb": {
+			"name": "Oni Spirit Bomb",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/44/Ib236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Hold B Version Bullet Speed-, Hold C Version Bullet Speed+",
+				"level3": "Hold B Version Bullet Speed-, Hold C Version Bullet Speed+",
+				"level4": "Hold Efficiency+, Hold B Version Bullet Speed-, Hold C Version Bullet Speed+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/229.html#id_b1d993e0",
+			"bc": {
+				"difference": true,
+				"b": "As it levels up, the fireball slows down when charged.",
+				"c": "As it levels up, the fireball speeds up when charged."
+			},
+			"classification": "BULLET",
+			"density": "**Normal:** B1x1 \n**STG 1:** B3x1\n**STG 2:** B10x1",
+			"grazeRes": "**Normal:** 5 \n**STG 1:** 10\n**STG 2:** inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"footBellows": {
+			"name": "Foot Bellows",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7e/Ib236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Hitbox+",
+				"level3": "",
+				"level4": "Hitbox+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/229.html#id_51bd690d",
+			"bc": {
+				"difference": true,
+				"b": "Hops a length of about one Suika. Never hops over the opponent.",
+				"c": "Hops a length of about five Suikas. Can hop over the opponent."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"gnomeDense": {
+			"name": "Gnome -Dense-",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8c/Ib623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Leap gains a Hitbox.",
+				"level3": "",
+				"level4": "Spikes are added to the attack."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/229.html#id_2c29972b",
+			"bc": {
+				"difference": true,
+				"b": "Suika jumps lower if on the ground. Comes out faster in the air.",
+				"c": "Suika jumps higher if on the ground. Comes out slower in the air. Creates a bigger spike than the B version."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "pretty sure there's a bullet part to it. B1 density if you're going to ask"
+		},
+		"gnomeThin": {
+			"name": "Gnome -Thin-",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5b/Ib623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "+1 Bullet",
+				"level3": "+1 Bullet",
+				"level4": "+1 Bullet"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/229.html#id_e66eb44d",
+			"bc": {
+				"difference": true,
+				"b": "Quicker startup. 6 wisps are created.",
+				"c": "Bigger startup, produces more wisps that tend to generally cover more area. 8 wisps are created."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"fireOni": {
+			"name": "Fire Oni",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6c/Ib623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Becomes a shotgun. +4 Bullet on Landing.",
+				"level3": "+2 Bullet (6 Total)",
+				"level4": "+2 Bullet (8 Total)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/229.html#id_31244da1",
+			"bc": {
+				"difference": true,
+				"b": "The fireball is launched and travels roughly half the stage's length.",
+				"c": "The fireball is launched and travels the entire screen's distance."
+			},
+			"classification": "BULLET",
+			"density": "**Large:** B1x1 \n**Small:** C1xN",
+			"grazeRes": "**Large:** inf \n**Small:** 3F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"spectreThin": {
+			"name": "Spectre -Thin-",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d1/Ib214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Becomes air usable. Number of Mini-Suikas goes up to 7.",
+				"level2": "Number of Mini-Suikas increased to 8.",
+				"level3": "Number of Mini-Suikas increased to 9.",
+				"level4": "Number of Mini-Suikas increased to 10."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/230.html#id_e7d7cc52",
+			"bc": {
+				"difference": true,
+				"b": "Mini-Suikas float horizontally across the screen.",
+				"c": "Mini-Suikas fall to the ground and run as a little mob."
+			},
+			"classification": "BULLET",
+			"density": "1HP",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "can someone check the amount of mini suikas spawned on B/C, Ground and Air, esp. on Level up?"
+		},
+		"unpleasantMist": {
+			"name": "Unpleasant Mist",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/09/Ib214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "B is invincible for 13-46F. Holding can extend the time up to 87F. // C version is invincible for 23-56F. Holding can extend the time up to 97F.",
+				"level2": "Invincibility can be extended up to 107F. // C version can be extended up to 117F.",
+				"level3": "B is invincible for 13-43F. Can be extended up to 124F. // C is invincible for 20-53F. Can be extended up to 134F.",
+				"level4": "Can be extended up to 144F. // C version can be extended up to 154F"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/230.html#id_7c515c1b",
+			"bc": {
+				"difference": true,
+				"b": "Near-instant invincibility on startup, but longer ending lag. The mist is less dense at the startup, then thickens soon after.",
+				"c": "Invincibility starts later, but Suika can act sooner after."
+			},
+			"classification": "BULLET",
+			"density": "B3xN",
+			"grazeRes": "10F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "i have no idea what to put here or if its correct."
+		},
+		"ignisFatuus": {
+			"name": "Ignis Fatuus",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f5/Ib214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Homing+",
+				"level3": "Homing+, +1 Bullet",
+				"level4": "Homing+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/230.html#id_853ad3d0",
+			"bc": {
+				"difference": true,
+				"b": "2 hits.",
+				"c": "Has longer startup delay, but hits 4 times."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "2F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"gatheringOni": {
+			"name": "Gathering Oni",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/ff/Ib22bc1.png",
+			"levels": {
+				"level0": "60F",
+				"level1": "Duration+ (80F)",
+				"level2": "Duration+ (100F)",
+				"level3": "Duration+ (120F)",
+				"level4": "Duration+ (140F)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/230.html#id_b720e419",
+			"bc": {
+				"difference": true,
+				"b": "Assuming the camera can zoom in no closer, the gravity well is created half a screen away.",
+				"c": "The gravity well is created roughly half the map ahead of Suika."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"thinOni": {
+			"name": "Thin Oni",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/aa/Ib22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Duration+, BulletSpeed+",
+				"level3": "Duration+, BulletSpeed+, Bullet Rate+",
+				"level4": "Duration+, BulletSpeed+, Bullet Rate+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/230.html#id_cca9bf15",
+			"bc": {
+				"difference": true,
+				"b": "The vortex is thrown roughly a fourth of the stage's distance.",
+				"c": "The vortex is thrown roughly half the stage's distance."
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "N= 15 17 23 34, Charged: 24 26 34 49"
+		},
+		"kidnappingOni": {
+			"name": "Kidnapping Oni",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4c/Ib22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Startup becomes 2F faster (32/43).",
+				"level3": "Startup becomes 2F faster (30/41).",
+				"level4": "Startup becomes 2F faster (28/39)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/230.html#id_bdfa78c6",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, weaker vacuum.",
+				"c": "11F slower startup, stronger vacuum."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Spectre -Dense-",
+				"emoteIcon": "<:Ib236bc1:728227007837634671>"
+			},
+			{
+				"name": "Oni Spirit Bomb",
+				"emoteIcon": "<:Ib236bc2:728227007720062998>"
+			},
+			{
+				"name": "Foot Bellows",
+				"emoteIcon": "<:Ib236bc3:728227008319848478>"
+			}
+		],
+		"214": [
+			{
+				"name": "Spectre -Thin-",
+				"emoteIcon": "<:Ib214bc1:728227006214438913>"
+			},
+			{
+				"name": "Unpleasant Mist",
+				"emoteIcon": "<:Ib214bc2:728227007611273349>"
+			},
+			{
+				"name": "Ignis Fatuus",
+				"emoteIcon": "<:Ib214bc3:728227007997149205>"
+			}
+		],
+		"623": [
+			{
+				"name": "Gnome -Dense-",
+				"emoteIcon": "<:Ib623bc1:728227008336625684>"
+			},
+			{
+				"name": "Gnome -Thin-",
+				"emoteIcon": "<:Ib623bc2:728227008336756879>"
+			},
+			{
+				"name": "Fire Oni",
+				"emoteIcon": "<:Ib623bc3:728227008353402921>"
+			}
+		],
+		"22": [
+			{
+				"name": "Gathering Oni",
+				"emoteIcon": "<:Ib22bc1:728227006184947762>"
+			},
+			{
+				"name": "Thin Oni",
+				"emoteIcon": "<:Ib22bc2:728227006130421861>"
+			},
+			{
+				"name": "Kidnapping Oni",
+				"emoteIcon": "<:Ib22bc3:728227006436868157>"
+			}
+		]
+	},
+	"spellcards": {
+		"gatheringAndDissipating": {
+			"name": "Mist Sign \"Gathering and Dissipating\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c8/Ibsc01.png",
+			"classification": "BULLET",
+			"density": "-, Axinf",
+			"grazeRes": "Initial: 9F, inf",
+			"startup": "5+13",
+			"motionCancel": "",
+			"total": "75",
+			"FrameAdv": "-",
+			"spiritDmg": ".1\*5",
+			"extra": "there's two parts to this i think but tell me a suika that actually uses this"
+		},
+		"throwingMtTogakushi": {
+			"name": "Gather Sign \"Throwing Mt. Togakushi\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d5/Ibsc02.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "-",
+			"startup": "13+28",
+			"motionCancel": "",
+			"total": "G: 97\nA: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "13-38F Invuln; Opponent Vuln: 42-61F"
+		},
+		"artOfOniBinding": {
+			"name": "Drunk Sign \"Art of Oni Binding\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3f/Ibsc03.png",
+			"classification": "MELEE",
+			"startup": "9+8",
+			"active": 3,
+			"total": 72,
+			"guard": "Mid",
+			"rbadv": "-41",
+			"wbadv": "0",
+			"extra": "9-19F Invuln"
+		},
+		"missingPower": {
+			"name": "Oni Sign \"Missing Power\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1c/Ibsc04.png",
+			"classification": "MELEE",
+			"startup": "2+18",
+			"active": 3,
+			"total": 107,
+			"guard": "Mid",
+			"rbadv": "-66",
+			"wbadv": "-",
+			"extra": "Invuln: 1-92F"
+		},
+		"threeStepDestruction": {
+			"name": "Secret of Kings \"3-Step Destruction\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2f/Ibsc05.png",
+			"classification": "MELEE",
+			"startup": "5+6, 43, 75",
+			"active": "3, 3, 3",
+			"total": 165,
+			"guard": "Mid",
+			"rbadv": "-63",
+			"wbadv": "-",
+			"extra": "20-122: Super Armor, 123-135 Invuln"
+		},
+		"artOfGakiBinding": {
+			"name": "Drunken Dream \"Art of Gaki Binding\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cc/Ibsc06.png",
+			"classification": "MELEE",
+			"startup": "9+6",
+			"active": 3,
+			"total": 72,
+			"guard": "Mid",
+			"rbadv": "-41",
+			"wbadv": "-",
+			"extra": "9-19F Invuln"
+		},
+		"missingPurplePower": {
+			"name": "Great Oni \"Missing Purple Power\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/37/Ibsc07.png",
+			"classification": "MELEE",
+			"startup": "2+20",
+			"active": "3",
+			"total": 69,
+			"guard": "Mid",
+			"rbadv": "-28",
+			"wbadv": "-",
+			"extra": "Use `~mpp <move>` for specifics (incomplete). \n Duration: ~8 Seconds, Invuln: 1-58F, EndInvuln: 1-53F  \n **Movelist:** \n`initial`, `walk`, `jump`, `horn`, `5a`, `5b`, `5c`, `2a`, `j5a`, `j5b`, `j5c`"
+		},
+		"superdenseConflaguration": {
+			"name": "Will-o-wisp \"Superdense Conflaguration\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d3/Ibsc08.png",
+			"classification": "BULLET",
+			"density": "**Big/Medium:** A5xN  \n**Small:** C1xN",
+			"grazeRes": "**Big/Medium:** inf  \n**Small:** 3F",
+			"startup": "9+6",
+			"motionCancel": "-",
+			"total": "67",
+			"FrameAdv": "-",
+			"spiritDmg": "1, 1, .25",
+			"extra": "-"
+		},
+		"throwingAtlas": {
+			"name": "Gathering Oni \"Throwing Atlas\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1e/Ibsc09.png",
+			"classification": "MELEE",
+			"startup": "7+10",
+			"active": 31,
+			"total": 62,
+			"guard": "High",
+			"rbadv": "-29",
+			"wbadv": "-1",
+			"extra": "1-42F Invuln, 7-42F? If Final Frame hits, the attack fails."
+		},
+		"massacreOnMtOoe": {
+			"name": "Oni Sign \"Massacre on Mt. Ooe\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5e/Ibsc10.png",
+			"classification": "MELEE",
+			"startup": "10+2",
+			"active": 2,
+			"total": 43,
+			"guard": "Unblockable",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": "10-13F invuln?"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Gathering and Dissipating",
+				"emoteIcon": "<:Ibsc01:728227008391413891>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Throwing Mt. Togakushi",
+				"emoteIcon": "<:Ibsc02:728227008584351794>"
+			},
+			{
+				"name": "Art of Oni Binding",
+				"emoteIcon": "<:Ibsc03:728227008710049844>"
+			},
+			{
+				"name": "Missing Power",
+				"emoteIcon": "<:Ibsc04:728227008672432219>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "3-Step Destruction",
+				"emoteIcon": "<:Ibsc05:728227008500203642>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Art of Gaki Binding",
+				"emoteIcon": "<:Ibsc06:728227008907182170>"
+			},
+			{
+				"name": "Missing Purple Power",
+				"emoteIcon": "<:Ibsc07:728227010370863184>"
+			},
+			{
+				"name": "Superdense Conflaguration",
+				"emoteIcon": "<:Ibsc08:728227008806387723>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Throwing Atlas",
+				"emoteIcon": "<:Ibsc09:728227008647135274>"
+			},
+			{
+				"name": "Massacre on Mt. Ooe",
+				"emoteIcon": "<:Ibsc10:728227009066696794>"
+			}
+		]
+	}
+}

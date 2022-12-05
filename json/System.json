@@ -1,0 +1,195 @@
+{
+	"wiki": "https://hisouten.koumakan.jp/wiki/System_Cards",
+	"system": {
+		"spiritualStrikeTalisman": {
+			"name": "Spiritual Strike Talisman",
+			"description": "sample text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ed/Soku_common_card000.png",
+			"startup": 12,
+			"duration": 2,
+			"total": 58,
+			"extra": "Invuln: 1-13F \nCan be air-blocked."
+		},
+		"magicPotion": {
+			"name": "Magic Potion",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/df/Soku_common_card001.png",
+			"startup": 22,
+			"duration": 360,
+			"total": 61,
+			"extra": "6 Seconds of Unlimited Spirit. \n Recovers all broken spirit orbs."
+		},
+		"stopwatch": {
+			"name": "Stopwatch",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a3/Soku_common_card002.png",
+			"startup": 60,
+			"duration": 50,
+			"total": 59,
+			"extra": "After startup, stops time for 50F. User can move, but not attack."
+		},
+		"hakuroken": {
+			"name": "Hakuroken",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/30/Soku_common_card003.png",
+			"startup": 1,
+			"duration": "*",
+			"total": "*",
+			"extra": "[*] Same as character's ground dash. \nCancels current action into a dash. \nCosts 2 Spirit Orbs to use.\nUser will not recover spirit for 5 seconds."
+		},
+		"sacrificialDoll": {
+			"name": "Sacrificial Doll",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/18/Soku_common_card004.png",
+			"startup": 1,
+			"duration": "-",
+			"total": 59,
+			"extra": "**Dmg. Reduction:** [+3%/+7%/+12%/+20%] \n**Level 1:** Self: 10309 (+309) \n**Level 2:** Self: 10752 (+442) \n**Level 3:** Self: 11364 (+612) \n**Level 4:** Self: 12500 (+1136)",
+			"extraPlaceholder": "**`Level 1:`** `Self: 10309` `HP Advantage: 309 (+309) [3%]` \n**`Level 2:`** `Self: 10752` `HP Advantage: 752 (+443) [7%]` \n**`Level 3:`** `Self: 11364` `HP Advantage: 1364 (+612) [12%]` \n**`Level 4:`** `Self: 12500` `HP Advantage: 2500 (+1136) [20%]`"
+		},
+		"grimoire": {
+			"name": "Grimoire",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7d/Soku_common_card005.png",
+			"startup": 1,
+			"duration": "-",
+			"total": 59,
+			"extra": "**Default:** 6.0 per second.\n**Level 1:** 6.5 per second, additional effect: 0.5 per second. \n**Level 2:** 7.25 per second, additional effect: 0.75 per second.\n**Level 3:** 8.16 per second, additional effect: 0.91 per second. \n**Level 4:** 9.25 per second, additional effect: 1.09 per second."
+		},
+		"customParasol": {
+			"name": "Custom Parasol",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d9/Soku_common_card006.png",
+			"startup": 12,
+			"duration": 360,
+			"total": 59,
+			"extra": "Eats all projectiles level B and below. \nWill eat an unlimited amount of projectiles until it expires."
+		},
+		"soulTorch": {
+			"name": "Soul Torch",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/63/Soku_common_card007.png",
+			"startup": 13,
+			"duration": "-",
+			"total": 59,
+			"extra": "B-density Projectiles \n0.5*3 Spirit Damage."
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"startup": "*",
+			"duration": "*",
+			"total": "*",
+			"extra": "[*] Character Dependant \nSpirit Damage: 5 Orbs (Crush) \nFrame Adv. on crush is char. dependant. \n Use `~<char> lhff` for character specifics."
+		},
+		"ibukiGourd": {
+			"name": "Ibuki Gourd",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c2/Soku_common_card009.png",
+			"startup": 21,
+			"duration": 24,
+			"total": "74",
+			"extra": "1 card is instantly drawn after *startup* finishes. \nRapidly gains 2nd card gauge over the *duration*. \nIf interrupted, ends the gauge fill effect."
+		},
+		"tenguFan": {
+			"name": "Tengu Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/14/Soku_common_card010.png",
+			"startup": 1,
+			"duration": "-",
+			"total": "59",
+			"extra": "Gives a flat boost (+0.5*n).\n Affects walk speed, dash speed, and airdash speed. \n Does not affect flight. \n Stacks with Tempest."
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"startup": "*",
+			"duration": "*",
+			"total": "*",
+			"extra": "[*] Character Dependant. \n Hits High, AUB. \n Use `~<char> Drug` for character specifics."
+		},
+		"aPennySaved": {
+			"name": "A Penny Saved",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/70/Soku_common_card012.png",
+			"startup": "-",
+			"duration": "-",
+			"total": "-",
+			"extra": "\nPushes back at a rate of (16-n) dots starting at frame 1. \n(e.g. 15, 14, ..., 1; total of 120 units)\n> \"Any normal pushback happening from an opponent blocking in corner will override coin pushback, but if that normal pushback ends, coin pushback can resume.\" -Iron\n\nOn use, drains 1 spirit orb and requires [x] time before it can recover. \n1 Coin: 140F of Spirit Recovery Delay \n2 Coins: 120F \n3 Coins: 100F \n4 Coins: 80F"
+		},
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"startup": "10 (flash) + 18",
+			"duration": "2-6*",
+			"total": "52-64*",
+			"extra": "[*] Character Dependant \n Invuln: 1-27F \n Hits High & Airunblockable. \n Use `~<char> scarf` for specifics."
+		},
+		"swordOfScarletPerception": {
+			"name": "Sword of Scarlet Perception",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8b/Soku_common_card014.png",
+			"startup": "12",
+			"duration": "-",
+			"total": "59",
+			"extra": "Invuln: 17-60F \nUsage in weather causes it to drain at 7x the normal speed."
+		},
+		"illnessRecoveryCharm": {
+			"name": "Illness Recovery Charm",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4a/Soku_common_card015.png",
+			"startup": "22",
+			"duration": "250",
+			"total": "81",
+			"extra": "Recovers 1,000HP over 250F.\nGetting hit ends the effect."
+		},
+		"frozenFrog": {
+			"name": "Frozen Frog",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c3/Soku_common_card016.png",
+			"startup": "13",
+			"duration": "600",
+			"total": "59",
+			"extra": "Lasts 10 seconds or being used 3 times. \n Dashing or Jumping on Ice will cause the players to be knocked down."
+		},
+		"dragonStar": {
+			"name": "Dragon Star",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/26/Soku_common_card017.png",
+			"startup": "1",
+			"duration": "240",
+			"total": "59",
+			"extra": "Grants Super Armor for 4 seconds. 1 second is spent on recovery, 3 seconds after actions can be done. \n Can be broken after three consecutive hits or during hitstun. \n If the card is still active, the armor will be reinstated."
+		},
+		"controlRod": {
+			"name": "Control Rod",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/01/Soku_common_card018.png",
+			"startup": "1",
+			"duration": "-",
+			"total": "59",
+			"extra": "**User Attack/Defense Drop:** [+10%\\*n/+7.5%\\*n] \n**Level 1:** `Self: 9,302 | Opp.: 9,091 | HP Adv.: 211 | Mutual DMG: 698` \n**Level 2:** `Self: 8,696 | Opp.: 8,333 | HP Adv.: 363 | Mutual DMG: 1,304` \n**Level 3:** `Self: 8,163 | Opp.: 7,692 | HP Adv.: 471 | Mutual DMG: 1,837` \n**Level 4:** `Self: 7,692 | Opp.: 7,143 | HP Adv.: 549 | Mutual DMG: 2,308`"
+		},
+		"threeHeavenlyDrops": {
+			"name": "Three Heavenly Drops",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bf/Soku_common_card019.png",
+			"startup": "1",
+			"duration": "480",
+			"total": "59",
+			"extra": "On third use, grants 8 seconds of Invuln and unlimited Spirit. \n If a 4th is used during the duration, adds an additional 8 seconds."
+		},
+		"catfishGiantEarthquake": {
+			"name": "Catfish's Great Earthquake",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3a/Soku_common_card020.png",
+			"startup": "129",
+			"duration": "2",
+			"total": "59",
+			"extra": "If hit before 13F, does not spawn. \nHits Low. \n Deals 1 (2 on wrong block) of Spirit Damage."
+		}
+	}
+}

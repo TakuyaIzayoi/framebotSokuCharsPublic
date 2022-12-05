@@ -1,0 +1,926 @@
+{
+	"id": "saigyoujiYuyuko",
+	"name": "Yuyuko Saigyouji",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Yuyuko_Saigyouji",
+	"movement": {
+		"dash": 7,
+		"commit": 4,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-24",
+		"backdashTotal": 30
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 6,
+			"total": 30,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 6,
+			"total": 30,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 5,
+			"total": 36,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "-2"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 4,
+			"total": 46,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 6,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-12",
+			"wbadv": "-6"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 23,
+			"guard": "Low",
+			"rbadv": "+0",
+			"wbadv": "+4"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 4,
+			"total": 44,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 4,
+			"total": 62,
+			"guard": "High (Crush)",
+			"rbadv": "-3",
+			"wbadv": "+19"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 10,
+			"total": 34,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 49,
+			"guard": "Low",
+			"rbadv": "-12",
+			"wbadv": "-6"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 36,
+			"active": 3,
+			"total": 69,
+			"guard": "Low (Crush)",
+			"rbadv": "-6",
+			"wbadv": "+16"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 6,
+			"total": 39,
+			"guard": "High, Air",
+			"rbadv": "(-10)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 9,
+			"total": 62,
+			"guard": "High, Air",
+			"rbadv": "(-27)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 5,
+			"total": 43,
+			"guard": "High, Air",
+			"rbadv": "(-19)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 14,
+			"total": 64,
+			"guard": "High, Air",
+			"rbadv": "(-19)",
+			"wbadv": "?"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 24,
+			"motionCancel": 39,
+			"total": 52,
+			"FrameAdv": "+7 [+11]",
+			"spiritDmg": 0.1
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x20",
+			"grazeRes": 1,
+			"startup": 45,
+			"motionCancel": 61,
+			"total": 84,
+			"FrameAdv": "+6 [+10]",
+			"spiritDmg": 0.1
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x12",
+			"grazeRes": "1",
+			"startup": 12,
+			"motionCancel": 46,
+			"total": 57,
+			"FrameAdv": "-",
+			"spiritDmg": 0.1
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 20,
+			"active": 4,
+			"total": 47,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 24,
+			"motionCancel": 39,
+			"total": 52,
+			"FrameAdv": "+7 [+11]",
+			"spiritDmg": 0.1
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x20",
+			"grazeRes": 1,
+			"startup": 45,
+			"motionCancel": 61,
+			"total": 84,
+			"FrameAdv": "+6 [+10]",
+			"spiritDmg": 0.1
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": 5,
+			"startup": 22,
+			"motionCancel": 47,
+			"total": 64,
+			"FrameAdv": "+5 [+23]",
+			"spiritDmg": 0.25,
+			"extra": "6 Wisps."
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": 5,
+			"startup": 42,
+			"motionCancel": 57,
+			"total": 92,
+			"FrameAdv": "-1 [+23]",
+			"spiritDmg": 0.25,
+			"extra": "10 Wisps."
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "5",
+			"startup": 28,
+			"motionCancel": 44,
+			"total": 99,
+			"FrameAdv": "-",
+			"spiritDmg": 0.25,
+			"extra": "6 Wisps."
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": 21,
+			"motionCancel": 41,
+			"total": 70,
+			"FrameAdv": "-20 [+10]",
+			"spiritDmg": 0.35,
+			"extra": "Lasts 3 Seconds."
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 22,
+			"active": 9,
+			"total": 65,
+			"guard": "High, Air",
+			"rbadv": "-22",
+			"wbadv": "-16",
+			"extra": "4-24F Graze Duration."
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": 5,
+			"startup": 22,
+			"motionCancel": 37,
+			"total": 64,
+			"FrameAdv": "-",
+			"spiritDmg": 0.25,
+			"extra": "6 Wisps."
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": 5,
+			"startup": 42,
+			"motionCancel": 57,
+			"total": 92,
+			"FrameAdv": "-",
+			"spiritDmg": 0.25,
+			"extra": "10 Wisps."
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": 5,
+			"startup": 22,
+			"motionCancel": 37,
+			"total": 64,
+			"FrameAdv": "-",
+			"spiritDmg": 0.25
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": 5,
+			"startup": 42,
+			"motionCancel": 57,
+			"total": 92,
+			"FrameAdv": "-",
+			"spiritDmg": 0.25
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": 21,
+			"motionCancel": 41,
+			"total": 70,
+			"FrameAdv": "-20 [+10]",
+			"spiritDmg": 0.35,
+			"extra": "Lasts 3 Seconds."
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 4,
+			"total": 55,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": "6a with the back filled in more."
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 4,
+			"total": 56,
+			"guard": "High",
+			"rbadv": "-16",
+			"wbadv": "-10",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 39,
+			"active": 4,
+			"total": 71,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "27",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"lightOfTheUndead": {
+			"name": "Light of the Undead",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/12/Ji236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_a4ba4884",
+			"bc": {
+				"difference": true,
+				"b": "Lasers are fired closer together.",
+				"c": "Lasers are fired in a wide spread."
+			},
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "**Lv 0:** 1 \n**Lv 1:** 5 \n**Lv 2:** 10 \n**Lv 3:** 12",
+			"startup": "G: 15 \n A: 18",
+			"motionCancel": "G: 25 \n A: 31",
+			"total": "G: 49 \n A: 54",
+			"FrameAdv": "-",
+			"spiritDmg": 1,
+			"extra": ""
+		},
+		"lanceOfTheSwallowtailCrest": {
+			"name": "Lance of the Swallowtail Crest",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3a/Ji236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Light of the Undead.",
+				"level2": "-",
+				"level3": "Butterfly bullet generation increased. Bullet speed increased.",
+				"level4": "Butterfly bullet generation increased. Bullet speed increased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_5b892e32",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"landOfDeath": {
+			"name": "Land of Death",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/62/Ji236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Light of the Undead.",
+				"level2": "Extended Duration. +1 Graze Resist.",
+				"level3": "+3 Graze Resist. +1 Bullet.",
+				"level4": "+5 Graze Resist."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_71e52b23",
+			"bc": {
+				"difference": true,
+				"b": "Sends out 3 wisps and is quicker on startup and recovery.",
+				"c": "Slower, but throws out 4."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"danceOfTheButterflyDream": {
+			"name": "Dance of the Butterfly Dream",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/18/Ji623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup Time decreased.",
+				"level2": "-",
+				"level3": "Hitbox size increase.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_3da07824",
+			"bc": {
+				"difference": true,
+				"b": "Grazes until active frames. Attacks sooner at point blank.",
+				"c": "Grazes for the total duration (about half the entire screen). Doesn't hit immediately at point blank."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"reverseScreens": {
+			"name": "Reverse Screens",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5b/Ji623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dance of the Butterfly Dream",
+				"level2": "-",
+				"level3": "Hitbox size increase.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_22851293",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"senseOfElegance": {
+			"name": "Sense of Elegance",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b4/Ji623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Dance of the Butterfly Dream.",
+				"level2": "Hitbox size increase. Untech time increase.",
+				"level3": "-",
+				"level4": "Hitbox size increase."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_82f51c7c",
+			"bc": {
+				"difference": true,
+				"b": "Yuyuko twirls for a shorter time before attacking.",
+				"c": "Yuyuko twirls for a longer time before attacking. Yuyuko is fully invulnerable while spinning."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"ghostlyButterfly": {
+			"name": "Ghostly Butterfly",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a1/Ji214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "+1 Bullet.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "+1 Bullet."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_25e59799",
+			"bc": {
+				"difference": true,
+				"b": "Sends the harmless wisps diagonally forwards.",
+				"c": "Sends the harmless wisps diagonally backwards."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"spiritsThatDiedWell": {
+			"name": "Spirits that Died Well",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d9/Ji214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ghostly Butterfly",
+				"level2": "+1 Beam. (4)",
+				"level3": "+1 Beam. (5)",
+				"level4": "+1 Beam. (6)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_35a30a48",
+			"bc": {
+				"difference": true,
+				"b": "Sends the harmless wisp a shorter distance.",
+				"c": "Sends the harmless wisp a longer distance."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"sphereBloom": {
+			"name": "Sphere Bloom",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5c/Ji214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ghostly Butterfly",
+				"level2": "Explosion Hitbox incease.",
+				"level3": "Duration increased.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_0364d389",
+			"bc": {
+				"difference": true,
+				"b": "Yuyuko releases a loop of pink spheres in front of her.",
+				"c": "Yuyuko releases a loop of pink spheres from a backflip, covering the area above her and moving her backwards."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"eternalWandering": {
+			"name": "Eternal Wandering",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/55/Ji421bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Aerial B-version velocity increased.",
+				"level2": "C-version duration increased.",
+				"level3": "B-version velocity increased.",
+				"level4": "B-version velocity increased. C-version duration increased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_8b1cb007",
+			"bc": {
+				"difference": true,
+				"b": "Creates a ring of wisps directly in front of Yuyuko. Not highjump cancelable until very late. Highjump canceling removes the wisp ring.",
+				"c": "Creates a ring of wisps that travels diagonally upwards. Highjump cancelable as soon as wisps become active."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"spiritLuringNectar": {
+			"name": "Spirit-Luring Nectar",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/28/Ji421bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Eternal Wandering.",
+				"level2": "Extended duration.",
+				"level3": "Extended duration.",
+				"level4": "Extended duration."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_d59af85d",
+			"bc": {
+				"difference": true,
+				"b": "The light starts moving in the forwards direction.",
+				"c": "The light starts moving in the upwards direction."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"giftsToTheDeceased": {
+			"name": "Gifts to the Deceased",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e0/Ji421bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Eternal Wandering.",
+				"level2": "Increased damage from spirits and duration.",
+				"level3": "Increased damage from spirits and duration.",
+				"level4": "Increased damage from spirits and duration."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/233.html#id_776a9515",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, but goes less distance and travels slower.",
+				"c": "Longer startup, but travels a longer distance at a faster speed."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Light of the Undead",
+				"emoteIcon": "<:Ji236bc1:728230283937185909>"
+			},
+			{
+				"name": "Lance of the Swallowtail Crest",
+				"emoteIcon": "<:Ji236bc2:728230283857625250>"
+			},
+			{
+				"name": "Land of Death",
+				"emoteIcon": "<:Ji236bc3:728230284344033310>"
+			}
+		],
+		"421": [
+			{
+				"name": "Eternal Wandering",
+				"emoteIcon": "<:Ji421bc1:728230284499353670>"
+			},
+			{
+				"name": "Spirit-Luring Nectar",
+				"emoteIcon": "<:Ji421bc2:728230284214141039>"
+			},
+			{
+				"name": "Gifts to the Deceased",
+				"emoteIcon": "<:Ji421bc3:728230284234850336>"
+			}
+		],
+		"214": [
+			{
+				"name": "Ghostly Butterfly",
+				"emoteIcon": "<:Ji214bc1:728230283949637722>"
+			},
+			{
+				"name": "Spirits that Died Well",
+				"emoteIcon": "<:Ji214bc2:728230284126060544>"
+			},
+			{
+				"name": "Sphere Bloom",
+				"emoteIcon": "<:Ji214bc3:728230283933122622>"
+			}
+		],
+		"623": [
+			{
+				"name": "Dance of the Butterfly Dream",
+				"emoteIcon": "<:Ji623bc1:728230284402753557>"
+			},
+			{
+				"name": "Reverse Screens",
+				"emoteIcon": "<:Ji623bc2:728230284587302922>"
+			},
+			{
+				"name": "Sense of Elegance",
+				"emoteIcon": "<:Ji623bc3:728230284629245962>"
+			}
+		]
+	},
+	"spellcards": {
+		"passageToTheUnderworld": {
+			"name": "Nether Sign \"Passage to the Underworld\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e6/Jisc01.png",
+			"classification": "BULLET",
+			"density": "B1x10",
+			"grazeRes": "10F",
+			"startup": "8+7, 20, 25, 30, ... 60",
+			"motionCancel": "-",
+			"total": "83",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"ghastlyDream": {
+			"name": "Death Sign \"Ghastly Dream\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/45/Jisc02.png",
+			"classification": "BULLET",
+			"density": "B1x48",
+			"grazeRes": "1F",
+			"startup": "8+3",
+			"motionCancel": "-",
+			"total": "90",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1-38F Invuln"
+		},
+		"agelessDream": {
+			"name": "Ghost Sign \"Ageless Dream\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/93/Jisc03.png",
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "inf",
+			"startup": "7+4",
+			"motionCancel": "-",
+			"total": "39",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"asTheButterflyFlies": {
+			"name": "Psyche \"As the Butterfly Flies\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/db/Jisc04.png",
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "7+varies",
+			"motionCancel": "-",
+			"total": "G: 94 \nA: varies",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "3x butterflies per wisp\n A: Invuln 7-32F"
+		},
+		"invitationToTheAfterlife": {
+			"name": "Elegance \"Invitation to the Afterlife\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/80/Jisc05.png",
+			"classification": "BULLET",
+			"density": "Binfx9",
+			"grazeRes": "inf",
+			"startup": "12+4",
+			"motionCancel": "-",
+			"total": "68",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"resurrectionButterflies": {
+			"name": "\"Resurrection Butterflies\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1e/Jisc06.png",
+			"classification": "BULLET",
+			"density": "**Laser:** AinfxN \n **Butterflies:** -",
+			"grazeRes": "**Laser:** Inf \n **Butterflies:** 1F",
+			"startup": "1st: 5+33\n12nd: 5+28\n3rd: 5+23\n4th: 5+19",
+			"motionCancel": "-",
+			"total": "1st: 257\n1st: 247\n1st: 237\n1st: 227",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Power+ on Repeat Usage. \n **LaserN:** 12/16/20/24 \n **ButterfliesN:** 32/80/144/224"
+		},
+		"endlessNap": {
+			"name": "Deadly Butterfly \"Endless Nap\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/93/Jisc07.png",
+			"classification": "BULLET",
+			"density": "B1x96",
+			"grazeRes": "1F",
+			"startup": "7+1, 38",
+			"motionCancel": "-",
+			"total": "140",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1-37F Invuln"
+		},
+		"ticketToTheNetherworld": {
+			"name": "Life Limit \"Ticket to the Netherworld\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bd/Jisc08.png",
+			"classification": "BULLET",
+			"density": "B1xinf",
+			"grazeRes": "inf",
+			"startup": "7+4",
+			"motionCancel": "-",
+			"total": "39",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "hope you can backdash or i-frames or hit the yuyuko. 360F detonation"
+		},
+		"deathLance": {
+			"name": "Butterfly Sign \"Death Lance\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/43/Jisc09.png",
+			"classification": "BULLET",
+			"density": "**Laser: ** B3x8 \n**Butterfly:** C1x48",
+			"grazeRes": "**Laser: ** inf \n**Butterfly:** 1F",
+			"startup": "13+10, 38, 53, 68",
+			"motionCancel": "-",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"gensokyosHell": {
+			"name": "Lost Again\" Gensokyo's Hell\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6d/Jisc10.png",
+			"classification": "BULLET",
+			"density": "B1x63",
+			"grazeRes": "inf",
+			"startup": "4+22, 29, ...",
+			"motionCancel": "-",
+			"total": "39",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"senseOfCherryBlossom": {
+			"name": "Cherry Sign \"Sense of Cherry Blossom\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f4/Jisc11.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "",
+			"startup": "5+67",
+			"motionCancel": "-",
+			"total": "143",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "im pretty sure this isn't a bullet? also block high.\n Invuln: 1-73F"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Passage to the Netherworld",
+				"emoteIcon": "<:Jisc01:728230284754944021>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Ghastly Dream",
+				"emoteIcon": "<:Jisc02:728230284666863758>"
+			},
+			{
+				"name": "Ageless Dream",
+				"emoteIcon": "<:Jisc03:728230284436307981>"
+			},
+			{
+				"name": "As the Butterfly Flies",
+				"emoteIcon": "<:Jisc04:728230284696354917>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Invitation to the Afterlife",
+				"emoteIcon": "<:Jisc05:728230284859801690>"
+			},
+			{
+				"name": "Resurrection Butterflies",
+				"emoteIcon": "<:Jisc06:728230284931366942>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Endless Nap",
+				"emoteIcon": "<:Jisc07:728230284977373224>"
+			},
+			{
+				"name": "Ticket to the Netherworld",
+				"emoteIcon": "<:Jisc08:728230284847218748>"
+			},
+			{
+				"name": "Death Lance",
+				"emoteIcon": "<:Jisc09:728230284415336449>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Gensokyo's Hell",
+				"emoteIcon": "<:Jisc10:728230285165985793>"
+			},
+			{
+				"name": "Sense of Cherry Blossom",
+				"emoteIcon": "<:Jisc11:728230284910264360>"
+			}
+		]
+	}
+}

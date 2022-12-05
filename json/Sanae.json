@@ -1,0 +1,960 @@
+{
+	"id": "kochiyaSanae",
+	"name": "Sanae Kochiya",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Sanae_Kochiya",
+	"movement": {
+		"dash": 7,
+		"commit": 7,
+		"backdashInvuln": "1-9",
+		"backdashGraze": "10-28",
+		"backdashTotal": 41
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 19,
+			"guard": "Mid",
+			"rbadv": "-3",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 19,
+			"guard": "Mid",
+			"rbadv": "-3",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 2,
+			"total": 19,
+			"guard": "Mid",
+			"rbadv": "-3",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 2,
+			"total": 28,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+1"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 6,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "-7",
+			"wbadv": "-1"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 2,
+			"total": 30,
+			"guard": "Low",
+			"rbadv": "-4",
+			"wbadv": "+0"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 26,
+			"guard": "Low",
+			"rbadv": "-2",
+			"wbadv": "+2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "+0"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 3,
+			"total": 58,
+			"guard": "High (Crush)",
+			"rbadv": "+0",
+			"wbadv": "+22"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 12,
+			"total": 56,
+			"guard": "Low",
+			"rbadv": "-18",
+			"wbadv": "-12"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 32,
+			"active": 16,
+			"total": 75,
+			"guard": "Low (Crush)",
+			"rbadv": "-16",
+			"wbadv": "+6"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 3,
+			"total": 41,
+			"guard": "High, Air",
+			"rbadv": "(-10)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 3,
+			"total": 47,
+			"guard": "High, Air",
+			"rbadv": "(-15)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": "13",
+			"active": "2",
+			"total": 43,
+			"guard": "High, Air",
+			"rbadv": "(-11)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": "40",
+			"total": 61,
+			"guard": "High, Air",
+			"rbadv": "-10(-12)",
+			"wbadv": "-4",
+			"extra": "Frame adv. listed is for forward bounce. \n Forward bounce is 31F total. \n Backwards bounce is 38 frames total."
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 2,
+			"total": 34,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "17",
+			"motionCancel": 23,
+			"total": 51,
+			"FrameAdv": "-3  +26 ",
+			"spiritDmg": "0.1"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x20",
+			"grazeRes": 1,
+			"startup": "38",
+			"motionCancel": 44,
+			"total": 72,
+			"FrameAdv": "+0  +29 ",
+			"spiritDmg": "0.1"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": "1",
+			"startup": "17",
+			"motionCancel": "25",
+			"total": "56",
+			"FrameAdv": "-24  +8 ",
+			"spiritDmg": "0.1"
+		},
+		"2[b]": {
+			"classification": "BULLET",
+			"density": "C1x22",
+			"grazeRes": "1",
+			"startup": "38",
+			"motionCancel": "46",
+			"total": "77",
+			"FrameAdv": "-24  +8 ",
+			"spiritDmg": "0.1"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "17",
+			"motionCancel": 23,
+			"total": 51,
+			"FrameAdv": "-3  +26 ",
+			"spiritDmg": "0.1"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C1x20",
+			"grazeRes": 1,
+			"startup": "38",
+			"motionCancel": 44,
+			"total": 72,
+			"FrameAdv": "+0  +29 ",
+			"spiritDmg": "0.1"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": 17,
+			"motionCancel": 23,
+			"total": 51,
+			"FrameAdv": "-",
+			"spiritDmg": "0.1"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x20",
+			"grazeRes": 1,
+			"startup": 38,
+			"motionCancel": 44,
+			"total": 72,
+			"FrameAdv": "-",
+			"spiritDmg": "0.1"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": 21,
+			"motionCancel": 27,
+			"total": 55,
+			"FrameAdv": "-",
+			"spiritDmg": "0.1"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x20",
+			"grazeRes": 1,
+			"startup": "42",
+			"motionCancel": 48,
+			"total": 76,
+			"FrameAdv": "-",
+			"spiritDmg": "0.1"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 3,
+			"total": 51,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x1, (B1x4)",
+			"grazeRes": "1, -",
+			"startup": "21, 51",
+			"motionCancel": 37,
+			"total": 64,
+			"FrameAdv": "-22 [+6] , +11 [+39]",
+			"spiritDmg": "0.25, 0.25*4",
+			"extra": "The second set of frame advantage numbers stands for when the second part is blocked."
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B1x1, (B1x5)",
+			"grazeRes": "1, -",
+			"startup": "37, 67",
+			"motionCancel": 53,
+			"total": 80,
+			"FrameAdv": "-22 [+6] , +12 [+40] ",
+			"spiritDmg": "0.25, 0.25*5",
+			"extra": "The second set of frame advantage numbers stands for when the second part is blocked."
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "5F",
+			"startup": "24",
+			"motionCancel": "38",
+			"total": "57",
+			"FrameAdv": "-",
+			"spiritDmg": "0.5"
+		},
+		"4c": {
+			"classification": "BULLET",
+			"density": "1HP",
+			"grazeRes": "-",
+			"startup": "25",
+			"motionCancel": "47",
+			"total": "80",
+			"FrameAdv": "-30  +3 ",
+			"spiritDmg": "~0.15",
+			"extra": "4 Second Cooldown on Suwako"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "1",
+			"startup": "20",
+			"motionCancel": "39",
+			"total": "72",
+			"FrameAdv": "-31  +3 ",
+			"spiritDmg": "1",
+			"extra": "4 Second Cooldown on Kanako"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": "16, 31",
+			"active": "2, 4",
+			"total": 61,
+			"guard": "High",
+			"rbadv": "-9",
+			"wbadv": "-3"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x1, B1x5",
+			"grazeRes": "1, -",
+			"startup": "21, 51",
+			"motionCancel": 37,
+			"total": 64,
+			"FrameAdv": "-22 [+6] , +11 [+39] ",
+			"spiritDmg": "0.25, 0.25*4",
+			"extra": "14F landing recovery. \nThe second set of frame advantage numbers stands for when the second part is blocked."
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B1x1, B1x5",
+			"grazeRes": "1, -",
+			"startup": "37, 67",
+			"motionCancel": 53,
+			"total": 80,
+			"FrameAdv": "-22 [+6] , +12 [+40] ",
+			"spiritDmg": "0.25, 0.25*5",
+			"extra": "14F landing recovery. \nThe second set of frame advantage numbers stands for when the second part is blocked."
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x5 (B1x7)",
+			"grazeRes": "5",
+			"startup": 23,
+			"motionCancel": 37,
+			"total": 60,
+			"FrameAdv": "-",
+			"spiritDmg": "0.5",
+			"extra": "Will spawn 7 stars (if B bullets are used)\n Resets to 5 stars if `2c` is used. \n 14F Landing Recovery."
+		},
+		"j.4c": {
+			"classification": "BULLET",
+			"density": "1HP",
+			"grazeRes": "-",
+			"startup": "37",
+			"motionCancel": "42",
+			"total": "65",
+			"FrameAdv": "-3  +21 ",
+			"spiritDmg": "~0.15",
+			"extra": "4 Second Cooldown on Suwako"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "1",
+			"startup": "20",
+			"motionCancel": "39",
+			"total": "72",
+			"FrameAdv": "-31  +3 ",
+			"spiritDmg": "1",
+			"extra": "15F Landing Recovery \n 4 Second Cooldown on Kanako"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "First hit of 66c with the top hitbox chopped off and thinner"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 2,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-13",
+			"wbadv": "-7",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 35,
+			"active": 2,
+			"total": 67,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "27",
+			"extra": "Purple Flash: 7F"
+		}
+	},
+	"skillcards": {
+		"windCall": {
+			"name": "Wind-Call",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e4/Sa236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Duration Extension, +1 Hit Count, Bullet Hitbox+",
+				"level2": "Bullet Hitbox+",
+				"level3": "Duration Extension, +1 Hit Count, Bullet Hitbox+",
+				"level4": "Bullet Hitbox+?"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/253.html#id_5632effc",
+			"bc": {
+				"difference": true,
+				"b": "Summons the gust in front of Sanae.",
+				"c": "Summons the gust above and in front of Sanae."
+			},
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "10F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Density+"
+		},
+		"waveCall": {
+			"name": "Wave-Call",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5f/Sa236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "B version bullets +2, C version bullets +4",
+				"level3": "Number of bullets +2",
+				"level4": "C version bullets +2"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/253.html#id_ce20867c",
+			"bc": {
+				"difference": true,
+				"b": "Summons the gust above and in front of Sanae.",
+				"c": "Slower startup. Faster wave that travels a longer longer distance."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "?",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"fallingStars": {
+			"name": "Falling Stars",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/18/Sa236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Max Bullets Held +1, Hitbox+",
+				"level3": "Max Bullets Held +1",
+				"level4": "Max Bullets Held +1, Hitbox+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/253.html#id_09815787",
+			"bc": {
+				"difference": true,
+				"b": "Summons stars directly over Sanae's head.",
+				"c": "Summons stars higher over Sanae's head."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"skyGodSummonAttack": {
+			"name": "Sky God Summon: Attack",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4f/Sa623bc1.png",
+			"levels": {
+				"level0": "480F",
+				"level1": "Reload Speed++ (390F)",
+				"level2": "Reload Speed+ (360F)",
+				"level3": "Reload Speed+ (330F)",
+				"level4": "Reload Speed+ (300F)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/253.html#id_21681871",
+			"bc": {
+				"difference": true,
+				"b": "Travels a shorter distance. (329.75dots)",
+				"c": "Travels a greater distance at a faster speed. (765dots)"
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "Graze attack."
+		},
+		"skyGodSummonWind": {
+			"name": "Sky God Summon: Wind",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c5/Sa623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "360F",
+				"level2": "Reload Speed+ (330F), Hit Count +1",
+				"level3": "Reload Speed+ (300F)",
+				"level4": "Reload Speed+ (270F), Hit Count +1"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/253.html#id_61196551",
+			"bc": {
+				"difference": true,
+				"b": "Kanako is summoned at the same height as Sanae.",
+				"c": "Kanako is summoned above Sanae when used on the ground, and on the ground when in the air."
+			},
+			"classification": "BULLET",
+			"density": "Bnx1",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"skyGodSummonOnbashira": {
+			"name": "Sky God Summon: Onbashira",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/af/Sa623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "300F",
+				"level2": "Reload+ (270F), Bullet Hitbox+",
+				"level3": "Reload+ (240F)",
+				"level4": "Reload+ (210F), Bullet Hitbox+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/253.html#id_3c685d94",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, Sanae is invulnerable to melee only.",
+				"c": "Slower startup, Sanae is invulnerable to melee and grazes as well."
+			},
+			"classification": "BULLET",
+			"density": "B4xN",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"earthGodSummonShield": {
+			"name": "Earth God Summon: Shield",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fe/Sa214bc1.png",
+			"levels": {
+				"level0": "330F",
+				"level1": "Reload++ (270F), Size+, HP+, Leaves Bullets on Disappearance.",
+				"level2": "Reload+ (250F), HP+",
+				"level3": "Reload+ (230F), Size+, HP+, Bullet +2",
+				"level4": "Reload+ (210F), HP+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/254.html#id_1c5396cb",
+			"bc": {
+				"difference": true,
+				"b": "Shield is placed in front of Sanae.",
+				"c": "Shield is placed in front of and above Sanae."
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"earthGodSummonIronRing": {
+			"name": "Earth God Summon: Iron Ring",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/dc/Sa214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "330F",
+				"level2": "Reload+ (310F), Active+, Recovery+, Hits+1",
+				"level3": "Reload+ (290F), Active+, Hits+1",
+				"level4": "Reload+ (270F), Active+, Recovery+, Hits+1"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/254.html#id_63711c0e",
+			"bc": {
+				"difference": true,
+				"b": "Suwako moves a shorter distance.",
+				"c": "Suwako moves a slightly longer distance."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "1HP? 1F Graze? uhhh"
+		},
+		"earthGodSummonTrap": {
+			"name": "Earth God Summon: Trap",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fb/Sa214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "360F",
+				"level2": "Reload+ (330F), Duration+, Suwako Speed+",
+				"level3": "Reload+ (300F), Duration+, Suwako Speed+, Suwako Hitbox+",
+				"level4": "Reload+ (270F), Duration+, Suwako Speed+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/254.html#id_8ca8c9d2",
+			"bc": {
+				"difference": true,
+				"b": "Suwako will jump a shorter height out of the ground.",
+				"c": "Suwako will jump higher from the ground."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": "1 bullet somewhere"
+		},
+		"omikujiBomb": {
+			"name": "Omikuji Bomb",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c4/Sa22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "大吉 DMG+ Hitbox+ | 吉 Duration+ | 凶 Bullet+1 | 大凶 Duration+ Hit+1",
+				"level2": "大凶 Duration+ Hit+1",
+				"level3": "大吉 DMG+ Hitbox+ | 吉 Duration+ | 凶 Bullet+1 | 大凶 Duration+ Hit+1",
+				"level4": "吉 Duration+ | 大凶 Duration+ Hit+1"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/254.html#id_113d77d6",
+			"bc": {
+				"difference": true,
+				"b": "Sanae tosses the packet a shorter distance.",
+				"c": "Sanae tosses the packet a farther distance."
+			},
+			"classification": "BULLET",
+			"density": "Omikuji: C1x1\n大吉: Binfx1\n吉: B1x1\n凶: C1xN\n大凶: B10+Lv x1",
+			"grazeRes": "Omikuji: 1F\n大吉: inf\n吉: inf\n凶: 5F\n大凶: 10+Lv",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "`\"Dai Kichi\" (大吉） Great Luck\n\"Kichi\" （吉） Good Luck\n\"Kyou\" （凶） Bad Luck\n\"Dai Kyou\" （大凶） Very Bad Luck`"
+		},
+		"skySerpent": {
+			"name": "Sky Serpent",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4a/Sa22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "+2 Bullet, +3 Graze Resist",
+				"level4": "+2 Graze Resist"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/254.html#id_715ca3ae",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "Lv1: 5F\n Lv3: 8F\n Lv4: 10F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"cobaltSpread": {
+			"name": "Cobalt Spread",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c4/Sa22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Travel Speed Increases.",
+				"level3": "Travel Speed Increases.",
+				"level4": "Travel Speed Increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/254.html#id_41a40d45",
+			"bc": {
+				"difference": true,
+				"b": "The frogs will jump higher out of the ground.",
+				"c": "The frogs will jump come out of the ground earlier than the B version, and will jump lower, but farther forward."
+			},
+			"classification": "BULLET",
+			"density": "C1x12",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Wind-Call",
+				"emoteIcon": "<:Sa236bc1:728253813240102942>"
+			},
+			{
+				"name": "Wave-Call",
+				"emoteIcon": "<:Sa236bc2:728253812858683446>"
+			},
+			{
+				"name": "Falling Stars",
+				"emoteIcon": "<:Sa236bc3:728253813097627648>"
+			}
+		],
+		"214": [
+			{
+				"name": "Earth God Summon: Shield",
+				"emoteIcon": "<:Sa214bc1:728253812942569512>"
+			},
+			{
+				"name": "Earth God Summon: Iron Ring",
+				"emoteIcon": "<:Sa214bc2:728253812766408846>"
+			},
+			{
+				"name": "Earth God Summon: Trap",
+				"emoteIcon": "<:Sa214bc3:728253813084913664>"
+			}
+		],
+		"623": [
+			{
+				"name": "Sky God Summon: Attack",
+				"emoteIcon": "<:Sa623bc1:728253813118468176>"
+			},
+			{
+				"name": "Sky God Summon: Wind",
+				"emoteIcon": "<:Sa623bc2:728253813299085413>"
+			},
+			{
+				"name": "Sky God Summon: Onbashira",
+				"emoteIcon": "<:Sa623bc3:728253813148090484>"
+			}
+		],
+		"22": [
+			{
+				"name": "Omikuji Bomb",
+				"emoteIcon": "<:Sa22bc1:728253812871266435>"
+			},
+			{
+				"name": "Sky Serpent",
+				"emoteIcon": "<:Sa22bc2:728253812996833411>"
+			},
+			{
+				"name": "Cobalt Spread",
+				"emoteIcon": "<:Sa22bc3:728253813030518855>"
+			}
+		]
+	},
+	"spellcards": {
+		"charmOfGoodCommerce": {
+			"name": "Prayer \"Charm of Good Commerce\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f2/Sasc01.png",
+			"classification": "BULLET",
+			"density": "C1x26",
+			"grazeRes": "1F",
+			"startup": "9+21, 35, 40, ..., 90",
+			"motionCancel": "-",
+			"total": "91",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"greyThaumaturgy": {
+			"name": "Esoterica \"Grey Thaumaturgy\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5d/Sasc02.png",
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "3F",
+			"startup": "Init: 5+13, 27, 36, 45, 54 \n Burst: 38, 47, 56, 65, 74",
+			"motionCancel": "-",
+			"total": "G: 85 \n A: 112",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "25 bullets total (5x5)"
+		},
+		"randomOmikujiBarrage": {
+			"name": "Omikuji \"Random Omikuji Barrage\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9d/Sasc03.png",
+			"classification": "BULLET",
+			"density": "??x4",
+			"grazeRes": "-",
+			"startup": "7+3, 18, 26, 34",
+			"motionCancel": "-",
+			"total": "57",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "5F GrazeRes. for Bad, x14 count for Very Bad"
+		},
+		"theDayTheSeaSplit": {
+			"name": "Sea Opening \"The Day the Sea Split\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5f/Sasc04.png",
+			"classification": "BULLET",
+			"density": "B1x?",
+			"grazeRes": "?",
+			"startup": "9+6, 36, ... 183",
+			"motionCancel": "-",
+			"total": "50",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"midDaySupernova": {
+			"name": "Miracle \"Mid-Day Supernova\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/7e/Sasc05.png",
+			"classification": "BULLET",
+			"density": "B1x1, B1x50",
+			"grazeRes": "inf, 1",
+			"startup": "7+1; 40, 43, ..., 187",
+			"motionCancel": "-",
+			"total": "86",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"forgottenRitual": {
+			"name": "Esoterica \"Forgotten Ritual\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a8/Sasc06.png",
+			"classification": "BULLET",
+			"density": "A1x5",
+			"grazeRes": "inf",
+			"startup": "7+18",
+			"motionCancel": "-",
+			"total": "170",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1-112 invuln"
+		},
+		"nightOfTheSupernovaStorm": {
+			"name": "Miracle \"Night of the Supernova Storm\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ea/Sasc07.png",
+			"classification": "BULLET",
+			"density": "A?x1",
+			"grazeRes": "inf",
+			"startup": "11+32, 201",
+			"motionCancel": "-",
+			"total": "234",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"mosesMiracle": {
+			"name": "Sea Opening \"Moses' Miracle\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/83/Sasc08.png",
+			"classification": "MELEE",
+			"startup": "10+33, 59",
+			"active": "-",
+			"total": 123,
+			"guard": "High",
+			"rbadv": "-43",
+			"wbadv": "KD",
+			"extra": "2nd part is a bullet\n 10-39F Invuln, 40-56F hit+graze"
+		},
+		"nineCharacterPierce": {
+			"name": "Esoterica \"9 Character Pierce\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4a/Sasc09.png",
+			"classification": "BULLET",
+			"density": "B11x9",
+			"grazeRes": "inf",
+			"startup": "13+200",
+			"motionCancel": "-",
+			"total": "254",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "480 duration, 2500+1HP"
+		}
+	},
+	"spells": {
+		"2sc": [
+			{
+				"name": "Charm of Good Commerce",
+				"emoteIcon": "<:Sasc01:728253813240234044>"
+			},
+			{
+				"name": "Grey Thaumaturgy",
+				"emoteIcon": "<:Sasc02:728253813244559390>"
+			},
+			{
+				"name": "Random Omikuji Barrage",
+				"emoteIcon": "<:Sasc03:728253812921335809>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "The Day the Sea Split",
+				"emoteIcon": "<:Sasc04:728253813215068241>"
+			},
+			{
+				"name": "Mid-Day Supernova",
+				"emoteIcon": "<:Sasc05:728253813558870016>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Forgotten Ritual",
+				"emoteIcon": "<:Sasc06:728253813403680889>"
+			},
+			{
+				"name": "Night of the Supernova Storm",
+				"emoteIcon": "<:Sasc07:728253813374582834>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Moses' Miracle",
+				"emoteIcon": "<:Sasc08:728253813319794730>"
+			},
+			{
+				"name": "9 Character Pierce",
+				"emoteIcon": "<:Sasc09:728253813391228998>"
+			}
+		]
+	}
+}

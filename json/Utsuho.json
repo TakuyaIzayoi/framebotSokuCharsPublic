@@ -1,0 +1,1039 @@
+{
+	"id": "reiujiUtsuho",
+	"name": "Utsuho Reiuji",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Utsuho_Reiuji",
+	"movement": {
+		"dash": 11,
+		"commit": 19,
+		"backdashInvuln": "1-22",
+		"backdashGraze": "23-43",
+		"backdashTotal": 54
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 6,
+			"total": 32,
+			"guard": "High, Air",
+			"rbadv": "-4",
+			"wbadv": "+2",
+			"imageHitbox": "https://cdn.discordapp.com/attachments/167635765008924672/882383652380631111/Utsuho_4a_hitbox.png"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 7,
+			"active": 6,
+			"total": 32,
+			"guard": "High, Air",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 4,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 3,
+			"total": 39,
+			"guard": "Low",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 55,
+			"guard": "High (Crush)",
+			"rbadv": "-17",
+			"wbadv": "+11"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 42,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"f.5[a]": {
+			"classification": "MELEE",
+			"startup": 33,
+			"active": 3,
+			"total": 57,
+			"guard": "High (Crush)",
+			"rbadv": "+3",
+			"wbadv": "+25"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 3,
+			"total": 31,
+			"guard": "Low",
+			"rbadv": "-6",
+			"wbadv": "-2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 3,
+			"total": 39,
+			"guard": "Low",
+			"rbadv": "-5",
+			"wbadv": "+1"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 28,
+			"active": 3,
+			"total": 54,
+			"guard": "Low (Crush)",
+			"rbadv": "+1",
+			"wbadv": "+23"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 12,
+			"active": 6,
+			"total": 50,
+			"guard": "High",
+			"rbadv": "-17",
+			"wbadv": "-11"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": 27,
+			"active": 6,
+			"total": 70,
+			"guard": "High (Crush)",
+			"rbadv": "-16",
+			"wbadv": "+6"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 4,
+			"total": 43,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 3,
+			"total": 55,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 23,
+			"total": 63,
+			"guard": "High, Air",
+			"rbadv": "(-)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 6,
+			"total": 46,
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 20,
+			"active": "6",
+			"total": "62",
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "-"
+		},
+		"j.2[a]": {
+			"classification": "MELEE",
+			"startup": "35, 43",
+			"active": "6, 6",
+			"total": "92",
+			"guard": "High, Air",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": "Generates a downwards blast projectile. \n Both Melee and Proj. hit high and drain one orb on wrongblock. \n Normal blocking drains 0.5 Spirit"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": "18, 20, ..., 26",
+			"motionCancel": "30",
+			"total": "54",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*5"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x9",
+			"grazeRes": "5F",
+			"startup": "38, 40, ..., 54",
+			"motionCancel": "50",
+			"total": "74",
+			"FrameAdv": "?",
+			"spiritDmg": "0.11...*9"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "5F",
+			"startup": "17, 19, ..., 25",
+			"motionCancel": "28",
+			"total": "58",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*5"
+		},
+		"2[b]": {
+			"classification": "BULLET",
+			"density": "C1x9",
+			"grazeRes": "5F",
+			"startup": "31, 33, ..., 47",
+			"motionCancel": "42",
+			"total": "72",
+			"FrameAdv": "?",
+			"spiritDmg": "0.11...*9"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C5x1, C3x2",
+			"grazeRes": "15, 1",
+			"startup": "25",
+			"motionCancel": "34",
+			"total": "62",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25 * n",
+			"extra": "Nucleus produces two satellites. \nSatellites disappear when nucleus is destroyed. \nSatellites will indefinitely revive until nucleus is destroyed."
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C5x1, C3x2",
+			"grazeRes": "15, 1",
+			"startup": "25",
+			"motionCancel": "34",
+			"total": "62 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25 * n",
+			"extra": "Nucleus produces two satellites. \nSatellites disappear when nucleus is destroyed. \nSatellites will indefinitely revive until nucleus is destroyed."
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": "18, 20, ..., 26",
+			"motionCancel": "30",
+			"total": "54 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*5"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x9",
+			"grazeRes": "5F",
+			"startup": "38, 40, ..., 54",
+			"motionCancel": "50",
+			"total": "74",
+			"FrameAdv": "?",
+			"spiritDmg": "0.11...*9"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x5",
+			"grazeRes": "1Fx5",
+			"startup": "18, 20, ..., 26",
+			"motionCancel": "30",
+			"total": "54 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.2*5"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x9",
+			"grazeRes": "5F",
+			"startup": "38, 40, ..., 54",
+			"motionCancel": "50",
+			"total": "74 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.11...*9"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 23,
+			"active": 3,
+			"total": 78,
+			"guard": "High, Air",
+			"rbadv": "-33",
+			"wbadv": "-27"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B6x1",
+			"grazeRes": "-",
+			"startup": "25",
+			"motionCancel": "33",
+			"total": "70",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25 * n"
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B6x1, -",
+			"grazeRes": "-, -",
+			"startup": "37",
+			"motionCancel": "49",
+			"total": "86",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25 * n",
+			"extra": "Nucleus produces eight satellites.\nNumber of hits shared between core and satellites.\nSatellites do not interact with other bullets."
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B10x1",
+			"grazeRes": "-",
+			"startup": "20",
+			"motionCancel": "40",
+			"total": "83",
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B6x1",
+			"grazeRes": "-",
+			"startup": "25",
+			"motionCancel": "33",
+			"total": "74 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25 * n"
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B6x1, -",
+			"grazeRes": "-, -",
+			"startup": "37",
+			"motionCancel": "49",
+			"total": "90 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.25 * n",
+			"extra": "Nucleus produces eight satellites.\nNumber of hits shared between core and satellites.\nSatellites do not interact with other bullets."
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B10x1",
+			"grazeRes": "-",
+			"startup": "24",
+			"motionCancel": "44",
+			"total": "93 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10"
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B10x1",
+			"grazeRes": "-",
+			"startup": "24",
+			"motionCancel": "44",
+			"total": "93",
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": "13, 32",
+			"active": "6, 9",
+			"total": 85,
+			"guard": "High, High Air",
+			"rbadv": "-50, -33",
+			"wbadv": "-44, -"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B10x1",
+			"grazeRes": "-",
+			"startup": "24",
+			"motionCancel": "44",
+			"total": "93 (14)",
+			"FrameAdv": "?",
+			"spiritDmg": "0.125*10"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 54,
+			"guard": "High",
+			"rbadv": "-15",
+			"wbadv": "-9",
+			"extra": "Literally f.5a"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 42,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "3",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 38,
+			"active": 3,
+			"total": 70,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "31",
+			"extra": "Purple Flash: 11F"
+		}
+	},
+	"skillcards": {
+		"groundMelt": {
+			"name": "Ground Melt",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f7/Ut236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "Causes explosions to reach the sky.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/245.html#id_a481c76a",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"hellGeyser": {
+			"name": "Hell Geyser",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/83/Ut236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ground Melt.",
+				"level2": "Duration increased.",
+				"level3": "-",
+				"level4": "Duration increased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/245.html#id_cab18a65",
+			"bc": {
+				"difference": true,
+				"b": "Fires towards enemy, erupting in front of Utsuho.",
+				"c": "Fires towards Utsuho, erupting from a small distance away."
+			},
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"radiantBlade": {
+			"name": "Radiant Blade",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/12/Ut236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ground Melt.",
+				"level2": "-",
+				"level3": "Hitbox increased.",
+				"level4": "Hitbox increased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/245.html#id_746f5677",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "C version dashes further than B version."
+			},
+			"classification": "BULLET",
+			"density": "B3x1",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"flareUp": {
+			"name": "Flare Up",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4a/Ut623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "Range increases.",
+				"level3": "Range increases. Utsuho gains a hitbox.",
+				"level4": "Range increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/245.html#id_f453d968",
+			"bc": {
+				"difference": true,
+				"b": "Plasma balls spiral closer to Utsuho.",
+				"c": "Plasma balls spiral further away from Utsuho."
+			},
+			"classification": "BULLET",
+			"density": "BinfxN",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"rocketDive": {
+			"name": "Rocket Dive",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/da/Ut623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Flare Up",
+				"level2": "Startup gains a hitbox.",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/245.html#id_efe0aad9",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "C version accelerates much faster than B version and the point of reentry is higher."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"meltingPummelKick": {
+			"name": "Melting Pummel Kick",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/25/Ut623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Flare Up.",
+				"level2": "Startup decreases. Damage Up.",
+				"level3": "Startup decreases. Damage Up.",
+				"level4": "Startup decreases. Damage Up."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/245.html#id_2176773a",
+			"bc": {
+				"difference": false,
+				"b": "-",
+				"c": "-"
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"shootingStar": {
+			"name": "Shooting Star",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d2/Ut214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Startup time decrease. +2 Bullets.",
+				"level2": "Bullet hitbox increase.",
+				"level3": "+2 Bullets.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/244.html#id_1031847d",
+			"bc": {
+				"difference": true,
+				"b": "Utsuho flies forward.",
+				"c": "Utsuho flies backward."
+			},
+			"classification": "BULLET",
+			"density": "C1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?"
+		},
+		"retroAtomicModel": {
+			"name": "Retro Atomic Model",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b8/Ut214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Shooting Star.",
+				"level2": "B Version startup decreased.",
+				"level3": "B Version startup decreased. Duration Up.",
+				"level4": "B Version startup decreased. Duration Up. C Version generates 3 orbs."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/244.html#id_9b003bd9",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "Summons 2 orbs instead of 1, but much slower startup."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0
+		},
+		"vengefulNuclearSpirits": {
+			"name": "Vengeful Nuclear Spirits",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/71/Ut214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Shooting Star. (9 Bullets)",
+				"level2": "10 Bullets. Interval between bullets decreased. [\\*]",
+				"level3": "12 Bullets. Interval between bullets decreased.",
+				"level4": "15 Bullets. Interval between bullets decreased. [\\*]"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/244.html#id_e3e08a74",
+			"bc": {
+				"difference": true,
+				"b": "Places the signs.",
+				"c": "Fires the signs."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "[*] Due to a bug, increases the bullet hitbox on Hell Wave Cannon."
+		},
+		"breakSun": {
+			"name": "Break Sun",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/6c/Ut22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "+6 Bullets.",
+				"level2": "Hold duration increased.",
+				"level3": "+6 Bullets. Hold duration increased.",
+				"level4": "Hold duration increased."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/244.html#id_695cc0ee",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B20x1, C1xN",
+			"grazeRes": "inf, 1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"shootingSun": {
+			"name": "Shooting Sun",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d3/Ut22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Break Sun.",
+				"level2": "-",
+				"level3": "Hitbox size increases.",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/244.html#id_8f67a19e",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "C version fires further than B version."
+			},
+			"classification": "BULLET",
+			"density": "B1x1, B+?x1",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"hellWaveCannon": {
+			"name": "Hell Wave Cannon",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Ut22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Break Sun.",
+				"level2": "Faster Charge Efficiency.",
+				"level3": "Faster Charge Efficiency.",
+				"level4": "Faster Charge Efficiency."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/244.html#id_02264cbe",
+			"bc": {
+				"difference": true,
+				"b": "-",
+				"c": "C version spreads further than B version."
+			},
+			"classification": "BULLET",
+			"density": "Normal: B1x1\n Hold: B6x1",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Ground Melt",
+				"emoteIcon": "<:Ut236bc1:728254213926289460>"
+			},
+			{
+				"name": "Hell Geyser",
+				"emoteIcon": "<:Ut236bc2:728254214257770506>"
+			},
+			{
+				"name": "Radiant Blade",
+				"emoteIcon": "<:Ut236bc3:728254214035341434>"
+			}
+		],
+		"623": [
+			{
+				"name": "Flare Up",
+				"emoteIcon": "<:Ut623bc1:728254214349914142>"
+			},
+			{
+				"name": "Rocket Dive",
+				"emoteIcon": "<:Ut623bc2:728254214354239588>"
+			},
+			{
+				"name": "Melting Pummel Kick",
+				"emoteIcon": "<:Ut623bc3:728254214400376952>"
+			}
+		],
+		"214": [
+			{
+				"name": "Shooting Star",
+				"emoteIcon": "<:Ut214bc1:728254213876088843>"
+			},
+			{
+				"name": "Retro Atomic Model",
+				"emoteIcon": "<:Ut214bc2:728254214387794000>"
+			},
+			{
+				"name": "Vengeful Nuclear Spirits",
+				"emoteIcon": "<:Ut214bc3:728254214148587561>"
+			}
+		],
+		"22": [
+			{
+				"name": "Break Sun",
+				"emoteIcon": "<:Ut22bc1:728254214010044497>"
+			},
+			{
+				"name": "Shooting Sun",
+				"emoteIcon": "<:Ut22bc2:728254214106644520>"
+			},
+			{
+				"name": "Hell Wave Cannon",
+				"emoteIcon": "<:Ut22bc3:728254214119096320>"
+			}
+		]
+	},
+	"spellcards": {
+		"hellsArtificialSun": {
+			"name": "Hell's Artificial Sun",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/20/Utsc01.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "9+14",
+			"motionCancel": "-",
+			"total": "113 + 70n",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "something something eats 5 cards 12 + 14n hits"
+		},
+		"selfTokamak": {
+			"name": "Control \"Self Tokamak\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/55/Utsc02.png",
+			"classification": "BULLET",
+			"density": "Binfx1",
+			"grazeRes": "inf",
+			"startup": "13",
+			"motionCancel": "-",
+			"total": "76",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Duration: 10s, || 20 hits. Guaranteed: 27F"
+		},
+		"nuclearVisor": {
+			"name": "Light Cover \"Nuclear Visor\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/25/Utsc03.png",
+			"classification": "BULLET",
+			"density": "B7x1",
+			"grazeRes": "inf",
+			"startup": "10+9",
+			"motionCancel": "-",
+			"total": "43",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "10F Guaranteed. Max 7hits"
+		},
+		"megaFlare": {
+			"name": "Explosion Sign \"Mega Flare\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/be/Utsc04.png",
+			"classification": "BULLET",
+			"density": "A6x1",
+			"grazeRes": "inf",
+			"startup": "21+4",
+			"motionCancel": "-",
+			"total": "G: 96\n A: 141",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"fixedStar": {
+			"name": "Burning Star \"Fixed Star\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/88/Utsc05.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "9+12",
+			"motionCancel": "-",
+			"total": "60",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"creepingSun": {
+			"name": "Nuclear Sign \"Creeping Sun\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/35/Utsc06.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "9+1",
+			"motionCancel": "-",
+			"total": "177",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"highTensionBlade": {
+			"name": "Light Energy \"High Tension Blade\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/57/Utsc07.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "13+12, 42",
+			"motionCancel": "-",
+			"total": "104",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "note to self: melee + bullet"
+		},
+		"theTenSuns": {
+			"name": "Burning Star \"The Ten Suns\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/e1/Utsc08.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "16+21",
+			"motionCancel": "-",
+			"total": "178",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": ""
+		},
+		"nuclearBlazeGeyser": {
+			"name": "Geothermal \"Nuclear Blaze Geyser\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/73/Utsc09.png",
+			"classification": "BULLET",
+			"density": "A3xN",
+			"grazeRes": "17F",
+			"startup": "7+20, 37, ... 87",
+			"motionCancel": "-",
+			"total": "117",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "up to 8"
+		},
+		"yatagarasuDive": {
+			"name": "Crow Sign \"Yatagarasu Dive\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/00/Utsc10.png",
+			"classification": "MELEE",
+			"startup": "G:14?, 63 \n A: 17+7",
+			"active": "G: 14, 29\n A: until Landing",
+			"total": "G: 133\n A: until Landing",
+			"guard": "Mid, High",
+			"rbadv": "G: -96\n A: -24",
+			"wbadv": "-",
+			"extra": "reversal or something, double check startup 1-17f invuln"
+		},
+		"uncontrollableDive": {
+			"name": "Nuclear Heat \"Uncontrollable Dive\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fe/Utsc11.png",
+			"classification": "MELEE",
+			"startup": "5+11",
+			"active": "-",
+			"total": "*",
+			"guard": "Mid",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"subterraneanSun": {
+			"name": "Subterranean Sun",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cb/Utsc12.png",
+			"classification": "BULLET",
+			"density": "Ainfx1, B1xN",
+			"grazeRes": "inf, 1F",
+			"startup": "17+23, 172, 232, 292, 352",
+			"motionCancel": "-",
+			"total": "176",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Duration 523F?"
+		},
+		"gigaFlare": {
+			"name": "Explosion Sign \"Giga Flare\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/a1/Utsc13.png",
+			"classification": "BULLET",
+			"density": "Sinfx1",
+			"grazeRes": "inf",
+			"startup": "40+1",
+			"motionCancel": "-",
+			"total": "214",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"abyssNova": {
+			"name": "Abyss Nova",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/fe/Utsc14.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "Init: 10\nActi: 11+30",
+			"motionCancel": "-",
+			"total": "Init: 17\n G: 318\n A: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "Unblockable - 1-289F Invuln"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Hell's Artificial Sun",
+				"emoteIcon": "<:Utsc01:728254214417154068>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Self Tokamak",
+				"emoteIcon": "<:Utsc02:728254214471417917>"
+			},
+			{
+				"name": "Nuclear Visor",
+				"emoteIcon": "<:Utsc03:728254214496845874>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Mega Flare",
+				"emoteIcon": "<:Utsc04:728254214484000798>"
+			},
+			{
+				"name": "Fixed Star",
+				"emoteIcon": "<:Utsc05:728254214479937627>"
+			},
+			{
+				"name": "Creeping Sun",
+				"emoteIcon": "<:Utsc06:728254214504972379>"
+			},
+			{
+				"name": "High Tension Blade",
+				"emoteIcon": "<:Utsc07:728254214442057769>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "The Ten Suns",
+				"emoteIcon": "<:Utsc08:728254214832259092>"
+			},
+			{
+				"name": "Nuclear Blaze Geyser",
+				"emoteIcon": "<:Utsc09:728254214798573679>"
+			},
+			{
+				"name": "Yatagarasu Dive",
+				"emoteIcon": "<:Utsc10:728254214811156530>"
+			},
+			{
+				"name": "Uncontrollable Dive",
+				"emoteIcon": "<:Utsc11:728254214350045186>"
+			},
+			{
+				"name": "Subterranean Sun",
+				"emoteIcon": "<:Utsc12:728254214639452262>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Giga Flare",
+				"emoteIcon": "<:Utsc13:728254214362366063>"
+			},
+			{
+				"name": "Abyss Nova",
+				"emoteIcon": "<:Utsc14:728254214861750312>"
+			}
+		]
+	}
+}

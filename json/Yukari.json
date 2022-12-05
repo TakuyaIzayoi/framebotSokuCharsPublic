@@ -1,0 +1,891 @@
+{
+	"id": "yukari",
+	"name": "Yukari",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Yukari_Yakumo",
+	"thanks": "Freudia",
+	"movement": {
+		"dash": 7,
+		"commit": 5,
+		"backdashInvuln": "1-7",
+		"backdashGraze": "8-28",
+		"backdashTotal": 39
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-1",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 18,
+			"guard": "Mid",
+			"rbadv": "-4",
+			"wbadv": "N/A"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 30,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "-2"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 4,
+			"total": 42,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 3,
+			"total": 25,
+			"guard": "Low",
+			"rbadv": "+1",
+			"wbadv": "+5"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 2,
+			"total": 24,
+			"guard": "Low",
+			"rbadv": "-6",
+			"wbadv": "-4"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 4,
+			"total": 40,
+			"guard": "High",
+			"rbadv": "-4",
+			"wbadv": "+2"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 30,
+			"active": 4,
+			"total": 59,
+			"guard": "High (Crush)",
+			"rbadv": "-2",
+			"wbadv": "+20"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 2,
+			"total": 37,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 6,
+			"total": 45,
+			"guard": "Low",
+			"rbadv": "-11",
+			"wbadv": "-5"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 6,
+			"total": 34,
+			"guard": "High, Air",
+			"rbadv": "(-4)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 4,
+			"total": 61,
+			"guard": "High, Air",
+			"rbadv": "(-29)",
+			"wbadv": "?"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 6,
+			"total": 56,
+			"guard": "High, Air",
+			"rbadv": "(-24)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": "Until Landing",
+			"total": "~",
+			"guard": "High, Air",
+			"rbadv": "+3*",
+			"wbadv": "+9*",
+			"extra": " *on instant air. Data depends on height move is done at."
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 16,
+			"motionCancel": 28,
+			"total": 54,
+			"FrameAdv": "-1 [+16]",
+			"spiritDmg": 0.075
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x25",
+			"grazeRes": 1,
+			"startup": "36",
+			"motionCancel": "48",
+			"total": "74",
+			"FrameAdv": "-11 [+6]",
+			"spiritDmg": 0.075
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": "1",
+			"startup": 16,
+			"motionCancel": 32,
+			"total": 62,
+			"FrameAdv": "-19 [+12]",
+			"spiritDmg": 0.075
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 14,
+			"active": 4,
+			"total": 34,
+			"guard": "High",
+			"rbadv": "-5",
+			"wbadv": "-1"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 17,
+			"motionCancel": 31,
+			"total": 67,
+			"FrameAdv": "-23 [+14]",
+			"spiritDmg": 0.075,
+			"extra": "8f Landing recovery."
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x25",
+			"grazeRes": 1,
+			"startup": 38,
+			"motionCancel": 48,
+			"total": 87,
+			"FrameAdv": "[+15]",
+			"spiritDmg": 0.075,
+			"extra": "8f Landing recovery."
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x15",
+			"grazeRes": 1,
+			"startup": 18,
+			"motionCancel": 33,
+			"total": 81,
+			"FrameAdv": "-36 [+13]",
+			"spiritDmg": 0.075
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": 5,
+			"startup": 19,
+			"motionCancel": 31,
+			"total": 52,
+			"FrameAdv": "-6 [+27]",
+			"spiritDmg": 0.25,
+			"extra": "Attack Cancel: 19F"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "5",
+			"startup": "22",
+			"motionCancel": "22",
+			"total": "53",
+			"FrameAdv": "-7 [+25]",
+			"spiritDmg": 0.25,
+			"extra": "Attack Cancel: 12F."
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "B1x6",
+			"grazeRes": "5",
+			"startup": "29",
+			"motionCancel": 31,
+			"total": 52,
+			"FrameAdv": "-4 [+18]",
+			"spiritDmg": 0.25,
+			"extra": "Attack Cancel: 19F"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 6,
+			"total": 55,
+			"guard": "1-2F: Low \n 3-6F: Mid, Air",
+			"rbadv": "-21",
+			"wbadv": "-15",
+			"extra": "Graze frames 4~14"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": 5,
+			"startup": 12,
+			"motionCancel": 30,
+			"total": 69,
+			"FrameAdv": "[+12]",
+			"spiritDmg": 0.25,
+			"extra": "Landing Recovery: 8F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "B1x5",
+			"grazeRes": "5",
+			"startup": "12",
+			"motionCancel": "30",
+			"total": "69",
+			"FrameAdv": "[+12]",
+			"spiritDmg": 0.25,
+			"extra": "Landing Recovery: 8F"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "B1x6",
+			"grazeRes": "5",
+			"startup": 22,
+			"motionCancel": 30,
+			"total": 69,
+			"FrameAdv": "[+22]",
+			"spiritDmg": 0.25,
+			"extra": "Landing Recovery: 8F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 2,
+			"total": 53,
+			"guard": "High",
+			"rbadv": "-14",
+			"wbadv": "-8",
+			"extra": "Similar to f.5a in size but taller"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 2,
+			"total": 51,
+			"guard": "High",
+			"rbadv": "-13",
+			"wbadv": "-7",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 33,
+			"active": 2,
+			"total": 67,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "25",
+			"extra": "Purple Flash: 5F"
+		}
+	},
+	"skillcards": {
+		"openLamentedBoxOfUrashima": {
+			"name": "Open, Lamented Box of Urashima",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/85/Yu236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Startup decreased by 4F (B: 26F, C: 29F).",
+				"level3": "Generates a large shockwave when it hits the ground.",
+				"level4": "Startup decreased by 4F (B: 22F, C: 25F)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_593acc92",
+			"bc": {
+				"difference": true,
+				"b": "The tomb appears at a quarter screen distance away from yukari (can spawn outside of the screen)",
+				"c": "The tomb appears at a half screen distance away from yukari (can spawn outside of the screen)"
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"boundToTheGrave": {
+			"name": "Bound to the Grave",
+			"image": "https://wiki.koumakan.jp/images/hisouten/e/ec/Yu236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Highjump cancel (B: 31F, C: 42F).",
+				"level2": "Startup decreases (B: 15F, C: 25F). Highjump cancel (B: 30F, C: 40F). The grave markers will fly from the gap in straight lines if they did not strike the opponent or any bullets when appearing.",
+				"level3": "",
+				"level4": "Startup decreases (B: 13F, C: 23F). Highjump cancel (B: 28F, C: 38F)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_d56bb4db",
+			"bc": {
+				"difference": true,
+				"b": "Yukari executes the move at her current position.",
+				"c": "Yukari pauses for a moment and steps forward to execute the move (+80dots)."
+			},
+			"classification": "BULLET",
+			"density": "B1x?",
+			"grazeRes": "1F, inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"bewitchingBait": {
+			"name": "Bewitching Bait",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/78/Yu236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Fires 5 lasers.",
+				"level3": "",
+				"level4": "Fires 6 lasers."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_d66284e2",
+			"bc": {
+				"difference": true,
+				"b": "Square appears at chest level, in front of Yukari.",
+				"c": "Square appears much further in front of Yukari."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Hold +1 Bullet"
+		},
+		"ghostlyButterflyHiddenInZenTemple": {
+			"name": "Ghostly Butterfly Hidden in Zen Temple",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b0/Yu623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Recovery on C version decreases by 1F.",
+				"level2": "Recovery on C version decreases by 1F.",
+				"level3": "Recovery on C version decreases by 1F. 5th hit added to B version and changes color.",
+				"level4": "Recovery on C version decreases by 1F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_d7aa83e4",
+			"bc": {
+				"difference": true,
+				"b": "Yukari jumps straight upwards while spinning. Upper body invulnerable 1-14F.",
+				"c": "Yukari moves forward while spinning."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"illusionManjiParasol": {
+			"name": "Illusion Manji Parasol",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/43/Yu623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Hits 3 times. Density of B3.",
+				"level2": "Hits 4 times. Density of B4.",
+				"level3": "-",
+				"level4": "Hits 5 times. Density of B5."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_b4805492",
+			"bc": {
+				"difference": true,
+				"b": "Unleashes the pinwheel forward.",
+				"c": "Releases the pinwheel forward and diagonally, upward on ground, downward in air."
+			},
+			"classification": "BULLET",
+			"density": "B#x1",
+			"grazeRes": "inf",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "double check level up info"
+		},
+		"borderBetweenBrainsAndFeet": {
+			"name": "Border Between Brains and Feet",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d1/Yu623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Startup Speed+",
+				"level3": "Startup Speed+, Vertical Hitbox+",
+				"level4": "Startup Speed+, Vertical Hitbox+"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_3ca5c4b2",
+			"bc": {
+				"difference": true,
+				"b": "-25F on block.",
+				"c": "Slower startup and becomes unblockable. Slightly larger vertical range."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "2F",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "The extra lines don't actually have hitboxes."
+		},
+		"rideTheWavesFightTheOcean": {
+			"name": "Ride the Waves, Fight the Ocean",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d3/Yu214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "B version becomes air usable. Stays out longer.",
+				"level2": "B version increases in size. Stays out longer.",
+				"level3": "Stays out longer.",
+				"level4": "Each bullet absorbed will count twice as much. Stays out longer."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_67744588",
+			"bc": {
+				"difference": true,
+				"b": "Opens up a dark gap that will absorb bullets and fill the stock.",
+				"c": "Opens up a light gap that will release a number of white orbs depending on the amount of bullets stocked."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Yukari opens a gap in front of her. B version opens a dark gap which will intercept and absorb bullets that are not being grazed, while filling the stock. The absorption does not work on special projectiles (e.g. Suika's mini-Suikas), but will absorb any B-density bullet and lower, and even certain bullet spellcards (like Utsuho's 2SC visor and tokamak). \nThe stock is the amount of bullets generated by absorbing or while grazing bullets on top of a B gap. The stock has a cap of 13 bullets, and can be released through a C gap. Example: Reimu 5C is a bullet of density B3x1 (one bullet with 3HP). Absorbing that single bullet will generate only one bullet in stock, while grazing Reimu's bullet for 3 frames (after which it dies) on top of the gap will generate three bullets. Note that stopping grazing will immediately resume the absorption. "
+		},
+		"universeOfMatterAndAntimatter": {
+			"name": "Universe of Matter and Antimatter",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/17/Yu214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Lasts 40F. 8 hits.",
+				"level2": "Lasts 60F. Increases max hits to 10.",
+				"level3": "Lasts 80F",
+				"level4": "Lasts 100F."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_66b4142e",
+			"bc": {
+				"difference": true,
+				"b": "Places the portal on top of Yukari. (60/[210] dots away)",
+				"c": "Places the portal about 3 character lengths away. (360/[510] dots away)"
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"eyeOfChanges": {
+			"name": "Eye of Changes",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/69/Yu214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Has a base duration of 5 seconds (300F).",
+				"level2": "Duration increased to 6 seconds (360F).",
+				"level3": "Duration increased to 7 seconds (420F).",
+				"level4": "Duration increased to 8 seconds (480F)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_42e3080d",
+			"bc": {
+				"difference": true,
+				"b": "Opens a gap with a purple eye that fires when the opponent is hit.",
+				"c": "Opens a gap with a red eye that fires on block."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"illusionalRift": {
+			"name": "Illusional Rift",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c0/Yu421bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "C version's frame advantage +2F (becomes -6).",
+				"level2": "C version's frame advantage +2F, it becomes possible to be + if you hit at the lowest height possible (+1F at best). Becomes -4.",
+				"level3": "",
+				"level4": "C version's frame advantage +2F (becomes -2)."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_ef6da49b",
+			"bc": {
+				"difference": true,
+				"b": "Opens a ground level boundary and Yukari comes spinning out. ← or → controls location at which Yukari reappears. **Air unblockable.**",
+				"c": "Opens a boundary directly above Yukari, then Yukari comes tumbling down from it. ← or → controls the angle at which Yukari tumbles."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"fleshDismantler": {
+			"name": "Flesh Dismantler",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/8f/Yu421bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "Startup is 3F faster, invulnerable 16-38F for B, 16-46F for C.",
+				"level3": "Startup is 4F faster, invulnerable 16-38F for B, 16-42F for C.",
+				"level4": "Startup is 6F faster, invulnerable 16-32F for B, 16-36F for C."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_54805ea8",
+			"bc": {
+				"difference": true,
+				"b": "Yukari will come out of the darkness when the button is released. Maintain B and move with ← and → to delay the attack and control where you surface. **Airunblockable.**",
+				"c": "Yukari bursting out from the ground directly under her opponent. Cannot be delayed by holding the move."
+			},
+			"classification": "MELEE",
+			"startup": 0,
+			"active": 0,
+			"total": 0,
+			"guard": "High",
+			"rbadv": "0",
+			"wbadv": "0",
+			"extra": ""
+		},
+		"wingsOfTheChimera": {
+			"name": "Wings of the Chimera",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/13/Yu421bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Up to 1 portal on the stage",
+				"level2": "Up to 2 portals on stage.",
+				"level3": "Up to 2 portals on stage.",
+				"level4": "Up to 3 portals on stage."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/232.html#id_409620ab",
+			"bc": {
+				"difference": true,
+				"b": "Creates an exit portal above her current location.",
+				"c": "Teleports to the previously created portal. Invulnerability provided during Duration time."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "",
+			"startup": "",
+			"motionCancel": "",
+			"total": "",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "If you have this skill at level 2 and level it up with 2 portals on stage, a third portal will appear even if the max number of portals for level 3 is 2. \nBy leveling the skill up you can create multiple exit portals. Portals created in this way will be consumed in a last to first out basis. "
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Open, Lamented Box of Urashima",
+				"emoteIcon": "<:Yu236bc1:728254351214117006>"
+			},
+			{
+				"name": "Bound to the Grave",
+				"emoteIcon": "<:Yu236bc2:728254351285420093>"
+			},
+			{
+				"name": "Bewitching Bait",
+				"emoteIcon": "<:Yu236bc3:728254351423832074>"
+			}
+		],
+		"421": [
+			{
+				"name": "Illusional Rift",
+				"emoteIcon": "<:Yu421bc1:728254351402991636>"
+			},
+			{
+				"name": "Flesh Dismantler",
+				"emoteIcon": "<:Yu421bc2:728254351138881607>"
+			},
+			{
+				"name": "Wings of the Chimera",
+				"emoteIcon": "<:Yu421bc3:728254351423963157>"
+			}
+		],
+		"214": [
+			{
+				"name": "Ride the Waves, Fight the Ocean",
+				"emoteIcon": "<:Yu214bc1:728254351071510638>"
+			},
+			{
+				"name": "Universe of Matter and Antimatter",
+				"emoteIcon": "<:Yu214bc2:728254351214379139>"
+			},
+			{
+				"name": "Eye of Changes",
+				"emoteIcon": "<:Yu214bc3:728254350853668866>"
+			}
+		],
+		"623": [
+			{
+				"name": "Ghostly Butterfly Hidden in Zen Temple",
+				"emoteIcon": "<:Yu623bc1:728254351440871465>"
+			},
+			{
+				"name": "Illusion Manji Parasol",
+				"emoteIcon": "<:Yu623bc2:728254351650455612>"
+			},
+			{
+				"name": "Border Between Brains and Feet",
+				"emoteIcon": "<:Yu623bc3:728254351172173975>"
+			}
+		]
+	},
+	"spellcards": {
+		"boundaryBorderBetween2Dand3D": {
+			"name": "Boundary \"Border Between 2D and 3D\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/12/Yusc01.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "9+14",
+			"motionCancel": "",
+			"total": "60",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Resets hit on corner, diss. on 5th corner."
+		},
+		"chen": {
+			"name": "Shikigami \"Chen\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/50/Yusc02.png",
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "1F",
+			"startup": "11+8",
+			"motionCancel": "",
+			"total": "48",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "restores hit on ground, 3 bounces"
+		},
+		"lacedWithVenom": {
+			"name": "Aerial Bail \"Laced with Venom\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c6/Yusc03.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "1F",
+			"startup": "13+81, 99, 104, 109",
+			"motionCancel": "-",
+			"total": "52",
+			"FrameAdv": "-",
+			"spiritDmg": "either 0 or 3. usually 0",
+			"extra": "what"
+		},
+		"quadrupleBarrier": {
+			"name": "Border Sign \"Quadruple Barrier\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/a/ae/Yusc04.png",
+			"classification": "BULLET",
+			"density": "Ainfx1",
+			"grazeRes": "inf",
+			"startup": "3+7, 52",
+			"motionCancel": "-",
+			"total": "96",
+			"FrameAdv": "-",
+			"spiritDmg": "",
+			"extra": ""
+		},
+		"ranYakumo": {
+			"name": "Shikigami \"Ran Yakumo\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/70/Yusc05.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "11+4",
+			"motionCancel": "-",
+			"total": "48",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "15 hits"
+		},
+		"objectiveBorder": {
+			"name": "Boundary \"Objective Border\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bd/Yusc06.png",
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "1F",
+			"startup": "9+?",
+			"motionCancel": "-",
+			"total": "70",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Does not disappear on hit, resets hit on reverse till x time."
+		},
+		"nestOfFireflies": {
+			"name": "Fantasy Nest \"Nest of Fireflies\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/42/Yusc07.png",
+			"classification": "BULLET",
+			"density": "B1x30",
+			"grazeRes": "1F",
+			"startup": "13+15, 29, 31, ...",
+			"motionCancel": "-",
+			"total": "127",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"charmingQuadrupleBarrier": {
+			"name": "Boundary \"Charming Quadruple Barrier\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/15/Yusc08.png",
+			"classification": "BULLET",
+			"density": "A?x1",
+			"grazeRes": "inf",
+			"startup": "5+8, 115",
+			"motionCancel": "-",
+			"total": "194",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "pretty sure this is a reversal too - 1-58F"
+		},
+		"theMagicEyeOfLaplace": {
+			"name": "Magic Eye \"The Magic Eye of Laplace\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/25/Yusc09.png",
+			"classification": "BULLET",
+			"density": "B1x12",
+			"grazeRes": "1F",
+			"startup": "13",
+			"motionCancel": "-",
+			"total": "67",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "you have 10seconds"
+		},
+		"tripToTheOldStation": {
+			"name": "Obsolete Line \"Trip to the Old Station\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/2b/Yusc10.png",
+			"classification": "MELEE",
+			"startup": "16+98, 150, 186, 222",
+			"active": "-",
+			"total": 292,
+			"guard": "Unblock",
+			"rbadv": "-",
+			"wbadv": "-",
+			"extra": "113F grntd."
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Border Between 2D and 3D",
+				"emoteIcon": "<:Yusc01:728254351528820838>"
+			},
+			{
+				"name": "Chen",
+				"emoteIcon": "<:Yusc02:728254351558311936>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Laced with Venom",
+				"emoteIcon": "<:Yusc03:728254351449129071>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Quadruple Barrier",
+				"emoteIcon": "<:Yusc04:728254351411380265>"
+			},
+			{
+				"name": "Ran Yakumo",
+				"emoteIcon": "<:Yusc05:728254351692398692>"
+			},
+			{
+				"name": "Objective Border",
+				"emoteIcon": "<:Yusc06:728254351419899916>"
+			},
+			{
+				"name": "Nest of Fireflies",
+				"emoteIcon": "<:Yusc07:728254351235219574>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Charming Quadruple Barrier",
+				"emoteIcon": "<:Yusc08:728254351721889932>"
+			},
+			{
+				"name": "The Magic Eye of Laplace",
+				"emoteIcon": "<:Yusc09:728254351537340437>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Trip to the Old Station",
+				"emoteIcon": "<:Yusc10:728254351725953032>"
+			}
+		]
+	}
+}

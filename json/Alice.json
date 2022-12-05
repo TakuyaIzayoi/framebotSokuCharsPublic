@@ -1,0 +1,1020 @@
+{
+	"id": "margatroidAlice",
+	"name": "Alice Margatroid",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Alice_Margatroid",
+	"movement": {
+		"dash": 9,
+		"commit": 7,
+		"backdashInvuln": "1-6",
+		"backdashGraze": "7-23",
+		"backdashTotal": 32
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 3,
+			"total": 19,
+			"guard": "Low",
+			"rbadv": "-1",
+			"wbadv": "+1"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 3,
+			"total": 19,
+			"guard": "Low",
+			"rbadv": "-1",
+			"wbadv": "+1"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 18,
+			"guard": "Low",
+			"rbadv": "-1",
+			"wbadv": "+1"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 3,
+			"total": 31,
+			"guard": "High",
+			"rbadv": "-6",
+			"wbadv": "-2"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 48,
+			"guard": "High",
+			"rbadv": "-10",
+			"wbadv": "-4"
+		},
+		"5aaa[a]": {
+			"classification": "MELEE",
+			"startup": 40,
+			"active": 3,
+			"total": 76,
+			"guard": "High (Crush)",
+			"rbadv": "-9",
+			"wbadv": "+13"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 24,
+			"total": 52,
+			"guard": "High, Air",
+			"rbadv": "+?",
+			"wbadv": "+?",
+			"extra": "Up to 6 hits, spacing dependant, blind spot in front of Alice."
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 5,
+			"total": 27,
+			"guard": "Low",
+			"rbadv": "-1",
+			"wbadv": "+3"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 10,
+			"total": 57,
+			"guard": "High, Air",
+			"rbadv": "-21",
+			"wbadv": "-15",
+			"extra": "Blind spot in front of Alice"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 30,
+			"active": 10,
+			"total": 72,
+			"guard": "High (Crush), Aerial",
+			"rbadv": "-15",
+			"wbadv": "+7",
+			"extra": "Blind spot in front of Alice"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 4,
+			"total": 34,
+			"guard": "High",
+			"rbadv": "-3",
+			"wbadv": "+3"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": "15",
+			"active": "20",
+			"total": 50,
+			"guard": "High x5, Air",
+			"rbadv": "-19, -15, -11, -7, -3",
+			"wbadv": "-15, -11, -7, -3, +1",
+			"extra": "Up to 5 hits, cancellable between any hit after the 1st doll hits."
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 11,
+			"active": 4,
+			"total": 32,
+			"guard": "High, Air",
+			"rbadv": "(-2)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 10,
+			"total": 56,
+			"guard": "High, Air",
+			"rbadv": "(-22)",
+			"wbadv": "?",
+			"extra": "Blind spot in front of Alice."
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 16,
+			"total": 65,
+			"guard": "High, Air",
+			"rbadv": "(-18)",
+			"wbadv": "?",
+			"extra": "Up to 4 hits."
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": "12",
+			"total": "50",
+			"guard": "High, Air",
+			"rbadv": "-2(-1)*",
+			"wbadv": "+2*"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "21-27",
+			"motionCancel": 19,
+			"total": 58,
+			"FrameAdv": "-0 [+14]",
+			"spiritDmg": 0.15,
+			"extra": "Startup depends on distance."
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "500 HP",
+			"grazeRes": "5",
+			"startup": 16,
+			"motionCancel": 22,
+			"total": 71,
+			"FrameAdv": "-3 [+15]",
+			"spiritDmg": 0.125,
+			"extra": "Max 5 hits."
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "22-47",
+			"motionCancel": 18,
+			"total": 58,
+			"FrameAdv": "-7",
+			"spiritDmg": 0.15,
+			"extra": "Startup depends on distance."
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 24,
+			"total": 61,
+			"guard": "High, Air",
+			"rbadv": "-8",
+			"wbadv": "-4",
+			"extra": "6 hits max. Blind spot in front of Alice. Is skill cancellable."
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "27-33",
+			"motionCancel": 25,
+			"total": 52,
+			"FrameAdv": "+12",
+			"spiritDmg": 0.15
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "30-55",
+			"motionCancel": 33,
+			"total": 70,
+			"FrameAdv": "-3 [+14]",
+			"spiritDmg": 0.15
+		},
+		"4c": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": 98,
+			"motionCancel": 35,
+			"total": 52,
+			"FrameAdv": "N/A",
+			"spiritDmg": 0.175,
+			"extra": "600 HP, will no longer interact after it fires, and then remains onscreen for her 22 skills."
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": 95,
+			"motionCancel": 21,
+			"total": 40,
+			"FrameAdv": "N/A",
+			"spiritDmg": 0.175,
+			"extra": "600 HP, will no longer interact after it fires, and then remains onscreen for her 22 skills."
+		},
+		"5[c]": {
+			"classification": "BULLET",
+			"density": "B4x1",
+			"grazeRes": "N/A",
+			"startup": 76,
+			"motionCancel": 58,
+			"total": 65,
+			"FrameAdv": "+56 [+64]",
+			"spiritDmg": 0.25,
+			"extra": "4 hits max. Up to 3 C dolls can fire lasers at once."
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": 99,
+			"motionCancel": 27,
+			"total": 46,
+			"FrameAdv": "N/A",
+			"spiritDmg": 0.175,
+			"extra": "600 HP, will no longer interact after it fires, and then remains onscreen for her 22 skills."
+		},
+		"2[c]": {
+			"classification": "BULLET",
+			"density": "B4x1",
+			"grazeRes": "N/A",
+			"startup": 82,
+			"motionCancel": 64,
+			"total": 71,
+			"FrameAdv": "+56 [+64]",
+			"spiritDmg": 0.25,
+			"extra": "4 hits max. Up to 3 C dolls can fire lasers at once."
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": "1",
+			"startup": 95,
+			"motionCancel": 21,
+			"total": 40,
+			"FrameAdv": "N/A",
+			"spiritDmg": 0.175
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "B1x4",
+			"grazeRes": "N/A",
+			"startup": 76,
+			"motionCancel": 58,
+			"total": 65,
+			"FrameAdv": "+56 [+64]",
+			"spiritDmg": 0.25,
+			"extra": "4 hits max. Up to 3 C dolls can fire lasers at once."
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": "22, 26, 30, 34",
+			"active": "2, 2, 2, 2",
+			"total": 64,
+			"guard": "Low",
+			"rbadv": "+0",
+			"wbadv": "+6",
+			"spiritDmg": 0.375,
+			"extra": "4 hits max. Spirit damage on wrongblock only."
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": 97,
+			"motionCancel": 21,
+			"total": 47,
+			"FrameAdv": "N/A",
+			"spiritDmg": 0.175,
+			"extra": "600 HP, will no longer interact after it fires, and then remains onscreen for her 22 skills."
+		},
+		"j.5[c]": {
+			"classification": "BULLET",
+			"density": "B1x4",
+			"grazeRes": "N/A",
+			"startup": 71,
+			"motionCancel": 66,
+			"total": 81,
+			"FrameAdv": "+35 [+54]",
+			"spiritDmg": 0.25,
+			"extra": "4 hits max. Up to 3 C dolls can fire lasers at once."
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": "N/A",
+			"startup": 95,
+			"motionCancel": 29,
+			"total": 48,
+			"FrameAdv": "N/A",
+			"spiritDmg": 0.175,
+			"extra": "600 HP, will no longer interact after it fires, and then remains onscreen for her 22 skills."
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "B4x1",
+			"grazeRes": "N/A",
+			"startup": 67,
+			"motionCancel": 59,
+			"total": 74,
+			"FrameAdv": "+35 [+54]",
+			"spiritDmg": 0.25,
+			"extra": "4 hits max. Up to 3 C dolls can fire lasers at once."
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": "N/A",
+			"startup": 97,
+			"motionCancel": 21,
+			"total": 47,
+			"FrameAdv": "N/A",
+			"spiritDmg": 0.175,
+			"extra": "600 HP, will no longer interact after it fires, and then remains onscreen for her 22 skills."
+		},
+		"j.6[c]": {
+			"classification": "BULLET",
+			"density": "B4x1",
+			"grazeRes": "N/A",
+			"startup": 71,
+			"motionCancel": 66,
+			"total": 81,
+			"FrameAdv": "+35 [+54]",
+			"spiritDmg": 0.25,
+			"extra": "4 hits max. Up to 3 C dolls can fire lasers at once."
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 3,
+			"total": 52,
+			"guard": "High",
+			"rbadv": "-13",
+			"wbadv": "-7",
+			"extra": "Similar to Dial A last hit but tall hitbox behind alice."
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 17,
+			"active": 3,
+			"total": 45,
+			"guard": "High",
+			"rbadv": "3",
+			"wbadv": "9",
+			"extra": "20f of blockstop"
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 39,
+			"active": 2,
+			"total": 69,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "29",
+			"extra": "Purple Flash: 7F \n Very tiny hitbox in front of Alice."
+		}
+	},
+	"skillcards": {
+		"dollPlacement": {
+			"name": "Doll Placement",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d8/Al236bc1.png",
+			"levels": {
+				"level0": "Duration 80F, hits 4 times.",
+				"level1": "Duration increases to 2 seconds.",
+				"level2": "Hits 5 times.",
+				"level3": "Duration increases to 3 seconds.",
+				"level4": "Hits 6 times."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/240.html#id_b702374f",
+			"bc": {
+				"difference": true,
+				"b": "Goes horizontally forward and hovers at several character lengths away from Alice.",
+				"c": "Goes diagonally upwards."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "41",
+			"motionCancel": "26",
+			"total": "40",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "701 HP"
+		},
+		"returningDolls": {
+			"name": "Returning Dolls",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f0/Al236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Doll Placement.",
+				"level2": "-",
+				"level3": "After being hitting or being blocked, it will now be able to hit on the return.",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/240.html#id_4a85c5d5",
+			"bc": {
+				"difference": true,
+				"b": "Goes horizontally forward then flies back to Alice.",
+				"c": "On the ground, goes diagonally upwards. When used in air doll travels diagonally downwards."
+			},
+			"classification": "BULLET",
+			"density": "- HP",
+			"grazeRes": "-",
+			"startup": "G: 16\nA: 26",
+			"motionCancel": "G: 35\n A: 49",
+			"total": "49",
+			"FrameAdv": "-",
+			"spiritDmg": 1,
+			"extra": ""
+		},
+		"dollAmbush": {
+			"name": "Doll Ambush",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/07/Al236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Spawns 4 dolls.",
+				"level2": "Spawns 5 dolls.",
+				"level3": "",
+				"level4": "Spawns 6 dolls."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/240.html#id_5c0c3324",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "1HP",
+			"grazeRes": "-",
+			"startup": "103",
+			"motionCancel": "44",
+			"total": "77(12)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"volatileDoll": {
+			"name": "Volatile Doll",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/78/Al623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "An extra doll is added.",
+				"level2": "Dolls gain the ability to stick.",
+				"level3": "An extra doll is added.",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/240.html#id_6ba1d468",
+			"bc": {
+				"difference": true,
+				"b": "Alice jumps backwards and throws the dolls in front of where she activated the skill.",
+				"c": "Same as B but throws the dolls about 3 characters away"
+			},
+			"classification": "BULLET",
+			"density": "Explosion: 1Bx1, Self-Destruct: 1x??",
+			"grazeRes": "Inf",
+			"startup": "?, 19, + remarks",
+			"motionCancel": "No Charge: 44 \n []: 59/68?",
+			"total": "63/93/102/landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "(there's a lot of stuff here, based on air/charge, clean up later)"
+		},
+		"dollCremation": {
+			"name": "Doll Cremation",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b3/Al623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "",
+				"level3": "An extra doll is thrown.",
+				"level4": "An extra doll is thrown."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/240.html#id_dbf65cba",
+			"bc": {
+				"difference": true,
+				"b": "Throws dolls a short distance.",
+				"c": "Throws dolls a longer distance."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "G: 19-28F \nA: 38-63F",
+			"motionCancel": "G: 29 \nA: 52F",
+			"total": "G: 48 \nA: 76",
+			"FrameAdv": "-",
+			"spiritDmg": 0.4,
+			"extra": ""
+		},
+		"edoHighExplosivePawn": {
+			"name": "Edo High-Explosive Pawn",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/3a/Al623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "",
+				"level2": "The doll will also start to jump towards aerial opponents (B version), or lunge towards them when close (C version).",
+				"level3": "Doll jump height and speed increase. Distance it will lunge at increases.",
+				"level4": "Doll jump height and speed increase. Distance it will lunge at increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/240.html#id_e71efb32",
+			"bc": {
+				"difference": true,
+				"b": "The doll will slowly walk forward. B version leveled up will make the doll able to jump when opponents are near it.",
+				"c": "The doll will start running forward. It will slip when opponents come near, causing it to move forward quickly."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "11F to Come out\n 40F Until Explode\n Expl.: 1F",
+			"motionCancel": "21F",
+			"total": "40",
+			"FrameAdv": "-",
+			"spiritDmg": 1,
+			"extra": ""
+		},
+		"dollArrangement": {
+			"name": "Doll Arrangement",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/40/Al214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "Attack speed increases.",
+				"level2": "-",
+				"level3": "Frame advantage increases.",
+				"level4": ""
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/239.html#id_0f5f7e75",
+			"bc": {
+				"difference": true,
+				"b": "Creates four dolls in a horizontal row above Alice.",
+				"c": "Creates a 2x2 square of dolls above and in front of Alice."
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "*",
+			"startup": "Lv 0: 54, 64, 69, 74 \nLv 1+: 59, 64, 69, 74 \n Air Lv 0: 62, 67, 72, 77\n Air Lv 1: 42 ,47 , 52, 57",
+			"motionCancel": "29",
+			"total": "59 (12)",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "\"The 'falling' dolls have infinite graze resistance, the already landed ones don't have any\n Though, if you graze the falling doll, it will keep its inf graze resistance even if it lands\""
+		},
+		"thousandSpearDolls": {
+			"name": "Thousand Spear Dolls",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/88/Al214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "C version hits up to 6 times.",
+				"level2": "Recovery decreases. C version hits up to 7 times.",
+				"level3": "Recovery decreases. C version hits up to 8 times.",
+				"level4": "Recovery decreases. C version hits up to 9 times."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/239.html#id_b5d63e5e",
+			"bc": {
+				"difference": true,
+				"b": "Rapid thrusts with many dolls.",
+				"c": "On the ground, rapid doll thrusts while Alice moves forward. In the air, more stabs than the B version."
+			},
+			"classification": "MELEE",
+			"startup": "B: 13F\n C: 17F",
+			"active": 13,
+			"total": "G.B: 81F\n G.C\n 97\nA.B: 61(30)\nA.C: 91(32)",
+			"guard": "Mid",
+			"rbadv": "G.B: -17\n G.C: -20\n A.B -5\n A.C: -2",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"dollArchers": {
+			"name": "Doll Archers",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/88/Al214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Number of arrows: 6",
+				"level2": "Number of dolls/arrows increases. +2 (8 total)",
+				"level3": "Number of dolls/arrows increases. +2 (10 total)",
+				"level4": "Number of dolls/arrows increases. +2 (12 total)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/239.html#id_c4db1206",
+			"bc": {
+				"difference": true,
+				"b": "Shots are fired in a lower arc.",
+				"c": "Shots are fired in a higher arc."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "26F",
+			"motionCancel": "B: 38\n C: 46",
+			"total": "73",
+			"FrameAdv": "-",
+			"spiritDmg": "0.15xN",
+			"extra": ""
+		},
+		"dollActivation": {
+			"name": "Doll Activation",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/44/Al22bc1.png",
+			"levels": {
+				"level0": "Hits 4 times.",
+				"level1": "Duration increases.",
+				"level2": "Duration increases, and an extra doll can be set for it. Can now hit 5 times.",
+				"level3": "Duration increases.",
+				"level4": "Duration increases, and an extra doll can be set for it. Can now hit 6 times."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/239.html#id_ba823d1b",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "",
+			"grazeRes": "inf",
+			"startup": "17",
+			"motionCancel": "28",
+			"total": "48",
+			"FrameAdv": "-",
+			"spiritDmg": 0.125,
+			"extra": "this is the part where duration makes more sense than something else. \n Lv 0/1/2/3/4 Duration: 90/95/100/105/110F \n HP: 601"
+		},
+		"spDoll": {
+			"name": "SP Doll",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/21/Al22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Each laser beam fired using the C version hits 4 times.",
+				"level2": "Duration increases. Hits 5 times. C version becomes -10[+22]/-6[+26]",
+				"level3": "Duration increases. Hits 7 times. C version becomes -4[+22]/±0[+26]",
+				"level4": "Duration increases. Hits 9 times. C version becomes +2[+22]/+6[+26]"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/239.html#id_655c5efd",
+			"bc": {
+				"difference": true,
+				"b": "Places a doll into orbit around Alice. Using this while three dolls are orbiting will activate them instead.",
+				"c": "Activates one of the dolls in orbit. Using this while no dolls are orbiting will place one instead."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "G: 24F\n A: 28F",
+			"motionCancel": "G: 33F \n A.B: 50 \n A.C: 46",
+			"total": "Summon: 40F\n G.B 85\n A.B: 90\n G.C: 70\n A.C: 75",
+			"FrameAdv": "-",
+			"spiritDmg": "B: 0.1\n C: 0.125",
+			"extra": ""
+		},
+		"seekerWire": {
+			"name": "Seeker Wire",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/03/Al22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "An extra doll can be set.",
+				"level3": "-",
+				"level4": "An extra doll can be set."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/239.html#id_8d84c0b6",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "15",
+			"motionCancel": "27",
+			"total": "85",
+			"FrameAdv": "-",
+			"spiritDmg": 0.5,
+			"extra": ""
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Doll Placement",
+				"emoteIcon": "<:Al236bc1:726752162998255646>"
+			},
+			{
+				"name": "Returning Dolls",
+				"emoteIcon": "<:Al236bc2:726752163027615844>"
+			},
+			{
+				"name": "Doll Ambush",
+				"emoteIcon": "<:Al236bc3:726752162968764476>"
+			}
+		],
+		"214": [
+			{
+				"name": "Doll Arrangement",
+				"emoteIcon": "<:Al214bc1:726752162503458908>"
+			},
+			{
+				"name": "Thousand Spear Dolls",
+				"emoteIcon": "<:Al214bc2:726752162839003146>"
+			},
+			{
+				"name": "Doll Archers",
+				"emoteIcon": "<:Al214bc3:726752162851586068>"
+			}
+		],
+		"623": [
+			{
+				"name": "Volatile Doll",
+				"emoteIcon": "<:Al623bc1:726752162679357442>"
+			},
+			{
+				"name": "Doll Cremation",
+				"emoteIcon": "<:Al623bc2:726752162859712555>"
+			},
+			{
+				"name": "Edo High-Explosive Pawn",
+				"emoteIcon": "<:Al623bc3:726752163182805023>"
+			}
+		],
+		"22": [
+			{
+				"name": "Doll Activation",
+				"emoteIcon": "<:Al22bc1:726752162159263815>"
+			},
+			{
+				"name": "SP Doll",
+				"emoteIcon": "<:Al22bc2:726752162595471380>"
+			},
+			{
+				"name": "Seeker Wire",
+				"emoteIcon": "<:Al22bc3:726752162721562646>"
+			}
+		]
+	},
+	"spellcards": {
+		"artfulSacrifice": {
+			"name": "Magic Sign \"Artful Sacrifice\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/02/Alsc01.png",
+			"classification": "BULLET",
+			"density": "A3x1",
+			"grazeRes": "3F",
+			"startup": "5+50",
+			"motionCancel": "-",
+			"total": "43",
+			"FrameAdv": "-",
+			"spiritDmg": "2?",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"littleLegion": {
+			"name": "War Sign \"Little Legion\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/81/Alsc02.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "Initial: 11+9\n Latter: 39",
+			"motionCancel": "-",
+			"total": 48,
+			"FrameAdv": "-",
+			"spiritDmg": "0.2 * N",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"shanghaiDoll": {
+			"name": "Curse Sign \"Shanghai Doll\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/07/Alsc03.png",
+			"classification": "BULLET",
+			"density": "Binfx1",
+			"grazeRes": "inf",
+			"startup": "G: 10\n A: 14",
+			"motionCancel": "-",
+			"total": "G: 155\n A: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "0.1 * N; ~1.8~1.9",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"seekerDolls": {
+			"name": "Spy Sign \"Seeker Dolls\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/dd/Alsc04.png",
+			"classification": "BULLET",
+			"density": "B4x16",
+			"grazeRes": "inf",
+			"startup": "10+64",
+			"motionCancel": "-",
+			"total": "123",
+			"FrameAdv": "-",
+			"spiritDmg": 3,
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"tripWire": {
+			"name": "Focus Power \"Trip Wire\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/cc/Alsc05.png",
+			"classification": "BULLET",
+			"density": "BinfxDolls",
+			"grazeRes": "inf",
+			"startup": "G: 11+11 \n A: 11+23",
+			"motionCancel": "-",
+			"total": "G: 94\n A: Until Landing",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "reversal/invuln G:1-40F A:1-42F, dolls",
+			"imageHitbox": ""
+		},
+		"returnInanimate": {
+			"name": "Demonic Control \"Return Inanimate\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/3/32/Alsc06.png",
+			"classification": "BULLET",
+			"density": "S1x1",
+			"grazeRes": "inf",
+			"startup": "9+30",
+			"motionCancel": "-",
+			"total": "53",
+			"FrameAdv": "-",
+			"spiritDmg": "2",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"futuristicPuppet": {
+			"name": "Doll \"Futuristic Puppet\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/71/Alsc07.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "10+19",
+			"motionCancel": "-",
+			"total": "~7 seconds",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Use `~fp <move>`. Incomplete atm. \n **Movelist:** \n `5a`, `2a`, `6a`, `8a`, `5b`, `5c`, `5d`",
+			"imageHitbox": ""
+		},
+		"dollsOfWar": {
+			"name": "War Command \"Dolls of War\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/20/Alsc08.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "Inf",
+			"startup": "15+22",
+			"motionCancel": "-",
+			"total": "94",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "",
+			"imageHitbox": "1-45F Invuln"
+		},
+		"houraiDoll": {
+			"name": "Curse Sign \"Hourai Doll\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/00/Alsc09.png",
+			"classification": "BULLET",
+			"density": "Binfx6",
+			"grazeRes": "inf",
+			"startup": "10+18",
+			"motionCancel": "-",
+			"total": "135",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "",
+			"imageHitbox": ""
+		},
+		"hollandDoll": {
+			"name": "Crimson Sign \"Holland Doll\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/7/77/Alsc10.png",
+			"classification": "BULLET",
+			"density": "B20x4",
+			"grazeRes": "inf",
+			"startup": "Init: 9+41, \nLasers: 64, 74, 84, 94",
+			"motionCancel": "-",
+			"total": "47",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "",
+			"imageHitbox": "just graze the center lmao"
+		},
+		"cutePhalanx": {
+			"name": "Lance Sign \"Cute Phalanx\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/69/Alsc11.png",
+			"classification": "MELEE",
+			"startup": "G: 9+6, \nA: 5+8",
+			"active": "15/144/13 at some point what",
+			"total": "G: 178 \n A:141",
+			"guard": "Mid, High at end of G.",
+			"rbadv": "G: -7, A: +3 (lc)",
+			"wbadv": "G: +15",
+			"extra": ""
+		},
+		"lemmingsParade": {
+			"name": "Dolls \"Lemmings' Parade\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/5d/Alsc12.png",
+			"classification": "BULLET",
+			"density": "1??x1 x31 dolls",
+			"grazeRes": "1F",
+			"startup": "9+?(~35)",
+			"motionCancel": "-",
+			"total": "201",
+			"FrameAdv": "-",
+			"spiritDmg": "3 ~ 3.2",
+			"extra": "",
+			"imageHitbox": ""
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Artful Sacrifice",
+				"emoteIcon": "<:Alsc01:726752163186999316>"
+			}
+		],
+		"2sc": [
+			{
+				"name": "Little Legion",
+				"emoteIcon": "<:Alsc02:726752163325280278>"
+			},
+			{
+				"name": "Shanghai Doll",
+				"emoteIcon": "<:Alsc03:726752163770138664>"
+			},
+			{
+				"name": "Seeker Dolls",
+				"emoteIcon": "<:Alsc04:726752163266691124>"
+			},
+			{
+				"name": "Trip Wire",
+				"emoteIcon": "<:Alsc05:726752163447046225>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Return Inanimate",
+				"emoteIcon": "<:Alsc06:726752163279142956>"
+			},
+			{
+				"name": "Futuristic Puppet",
+				"emoteIcon": "<:Alsc07:726752163564617818>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Dolls of War",
+				"emoteIcon": "<:Alsc08:726752163589652540>"
+			},
+			{
+				"name": "Hourai Doll",
+				"emoteIcon": "<:Alsc09:726752163300245508>"
+			},
+			{
+				"name": "Holland Doll",
+				"emoteIcon": "<:Alsc10:726752163581395014>"
+			},
+			{
+				"name": "Cute Phalanx",
+				"emoteIcon": "<:Alsc11:726752163526737982>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Lemmings' Parade",
+				"emoteIcon": "<:Alsc12:726752163677863966>"
+			}
+		]
+	}
+}

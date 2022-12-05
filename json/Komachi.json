@@ -1,0 +1,950 @@
+{
+	"id": "onozukaKomachi",
+	"name": "Komachi Onozuka",
+	"wiki": "https://hisouten.koumakan.jp/wiki/Komachi_Onozuka",
+	"movement": {
+		"dash": 5,
+		"commit": 8,
+		"backdashInvuln": "1-9",
+		"backdashGraze": "10-28",
+		"backdashTotal": 44
+	},
+	"normals": {
+		"4a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 3,
+			"total": 26,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5a": {
+			"classification": "MELEE",
+			"startup": 9,
+			"active": 3,
+			"total": 26,
+			"guard": "Mid",
+			"rbadv": "-2",
+			"wbadv": "N/A"
+		},
+		"5aa": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 6,
+			"total": 47,
+			"guard": "High",
+			"rbadv": "-11",
+			"wbadv": "-5"
+		},
+		"5aaa": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 3,
+			"total": 64,
+			"guard": "High",
+			"rbadv": "-24",
+			"wbadv": "-18"
+		},
+		"5aaaa": {
+			"classification": "MELEE",
+			"startup": 27,
+			"active": 2,
+			"total": 51,
+			"guard": "High (Crush)",
+			"rbadv": "-3",
+			"wbadv": "+25"
+		},
+		"f.5a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 6,
+			"total": 57,
+			"guard": "High",
+			"rbadv": "-21",
+			"wbadv": "-15"
+		},
+		"2a": {
+			"classification": "MELEE",
+			"startup": 8,
+			"active": 3,
+			"total": 21,
+			"guard": "Low",
+			"rbadv": "-4",
+			"wbadv": "-2"
+		},
+		"6a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 47,
+			"guard": "Low",
+			"rbadv": "-10",
+			"wbadv": "-4"
+		},
+		"6[a]": {
+			"classification": "MELEE",
+			"startup": 31,
+			"active": 3,
+			"total": 63,
+			"guard": "Low (Crush)",
+			"rbadv": "-5",
+			"wbadv": "+17"
+		},
+		"66a": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 4,
+			"total": 42,
+			"guard": "High",
+			"rbadv": "-8",
+			"wbadv": "-2"
+		},
+		"3a": {
+			"classification": "MELEE",
+			"startup": 16,
+			"active": 3,
+			"total": 57,
+			"guard": "High",
+			"rbadv": "-20",
+			"wbadv": "-14"
+		},
+		"3[a]": {
+			"classification": "MELEE",
+			"startup": "31",
+			"active": "3",
+			"total": 75,
+			"guard": "High (Crush)",
+			"rbadv": "-17",
+			"wbadv": "+5"
+		},
+		"j.5a": {
+			"classification": "MELEE",
+			"startup": 10,
+			"active": 6,
+			"total": 46,
+			"guard": "High, Air",
+			"rbadv": "(-17)",
+			"wbadv": "?"
+		},
+		"j.6a": {
+			"classification": "MELEE",
+			"startup": 15,
+			"active": 2,
+			"total": 69,
+			"guard": "High, Air",
+			"rbadv": "(-35)",
+			"wbadv": "?",
+			"extra": "Landing Recovery: 7F"
+		},
+		"j.8a": {
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 2,
+			"total": 54,
+			"guard": "High, Air",
+			"rbadv": "(-16)",
+			"wbadv": "?"
+		},
+		"j.2a": {
+			"classification": "MELEE",
+			"startup": 21,
+			"active": 2,
+			"total": 59,
+			"guard": "High, Air",
+			"rbadv": "(-19)",
+			"wbadv": "?"
+		},
+		"5b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "16, 18, ..., 26",
+			"motionCancel": 23,
+			"total": 50,
+			"FrameAdv": "-9 [+15]",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 23F"
+		},
+		"5[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "31, 33, ..., 49",
+			"motionCancel": 42,
+			"total": 73,
+			"FrameAdv": "-9 [+15]",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 42F"
+		},
+		"2b": {
+			"classification": "BULLET",
+			"density": "C1x8",
+			"grazeRes": 1,
+			"startup": "20, 22, ..., 34",
+			"motionCancel": 29,
+			"total": 57,
+			"FrameAdv": "-19 [+15]",
+			"spiritDmg": "0.125*8",
+			"extra": "Attack Cancel: 21F"
+		},
+		"6b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "16, 18, ..., 26",
+			"motionCancel": 27,
+			"total": 50,
+			"FrameAdv": "-9 [+15]",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 27F"
+		},
+		"6[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "31, 33, ..., 49",
+			"motionCancel": 42,
+			"total": 73,
+			"FrameAdv": "-9 [+15]",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 42F"
+		},
+		"66b": {
+			"classification": "MELEE",
+			"startup": 13,
+			"active": 22,
+			"total": 54,
+			"guard": "Low",
+			"rbadv": "-20",
+			"wbadv": "-14",
+			"extra": "Graze Frames: 4-34F"
+		},
+		"j.5b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "22, 24, ..., 32",
+			"motionCancel": 27,
+			"total": 57,
+			"FrameAdv": "[+15]",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 24F \nLanding Recovery: 10F"
+		},
+		"j.5[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "37, 39, ..., 55",
+			"motionCancel": 42,
+			"total": 72,
+			"FrameAdv": "[+15]",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 39F \nLanding Recovery: 10F"
+		},
+		"j.2b": {
+			"classification": "BULLET",
+			"density": "C1x6",
+			"grazeRes": 1,
+			"startup": "21, 23, ..., 31",
+			"motionCancel": 26,
+			"total": 59,
+			"FrameAdv": "[+15]",
+			"spiritDmg": "0.125*6",
+			"extra": "Attack Cancel: 23F \nLanding Recovery: 10F"
+		},
+		"j.2[b]": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "33, 35, ..., 51",
+			"motionCancel": 41,
+			"total": 74,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 38F \nLanding Recovery: 10F"
+		},
+		"j.6b": {
+			"classification": "BULLET",
+			"density": "C1x10",
+			"grazeRes": 1,
+			"startup": "17, 19, ..., 35",
+			"motionCancel": 27,
+			"total": 57,
+			"FrameAdv": "[+16]",
+			"spiritDmg": "0.125*10",
+			"extra": "Attack Cancel: 24F \nLanding Recovery: 10F"
+		},
+		"5c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "10F",
+			"startup": 25,
+			"motionCancel": 33,
+			"total": 65,
+			"FrameAdv": "-19 [+14]",
+			"spiritDmg": "0.5"
+		},
+		"2c": {
+			"classification": "BULLET",
+			"density": "B1xn",
+			"grazeRes": "-",
+			"startup": "21+",
+			"motionCancel": "42+",
+			"total": "63+",
+			"FrameAdv": "-12 [+10]",
+			"spiritDmg": "1*n",
+			"extra": "Blows up all spirits on screen. If there are none, this attack does nothing.\nCan be held for 139F, Pulls inactive wisps.\nHold is cancellable with specials/spells.\nIf B or A is pressed: 15F Cancel Animation.\nIf canceled before detonation, all wisps disappear regardless of detonation."
+		},
+		"6c": {
+			"classification": "BULLET",
+			"density": "C3x2",
+			"grazeRes": "1",
+			"startup": 25,
+			"motionCancel": 37,
+			"total": 61,
+			"FrameAdv": "-6 [+19]",
+			"spiritDmg": "0.5*2"
+		},
+		"6[c]": {
+			"classification": "BULLET",
+			"density": "C3x4",
+			"grazeRes": "1",
+			"startup": 40,
+			"motionCancel": 52,
+			"total": 81,
+			"FrameAdv": "-6 [+19]",
+			"spiritDmg": "0.5*4"
+		},
+		"66c": {
+			"classification": "MELEE",
+			"startup": 24,
+			"active": 2,
+			"total": 62,
+			"guard": "High",
+			"rbadv": "-17",
+			"wbadv": "-11"
+		},
+		"j.5c": {
+			"classification": "BULLET",
+			"density": "B1x1",
+			"grazeRes": "10F",
+			"startup": 26,
+			"motionCancel": 34,
+			"total": 84,
+			"FrameAdv": "[+14]",
+			"spiritDmg": "0.5",
+			"extra": "Landing Recovery: 10F"
+		},
+		"j.2c": {
+			"classification": "BULLET",
+			"density": "C3x2",
+			"grazeRes": "1",
+			"startup": 23,
+			"motionCancel": 35,
+			"total": 74,
+			"FrameAdv": "[+19]",
+			"spiritDmg": "0.5*2",
+			"extra": "Landing Recovery: 10F"
+		},
+		"j.2[c]": {
+			"classification": "BULLET",
+			"density": "C3x4",
+			"grazeRes": "1",
+			"startup": 36,
+			"motionCancel": 48,
+			"total": 82,
+			"FrameAdv": "[+19]",
+			"spiritDmg": "0.5*4",
+			"extra": "Landing Recovery: 10F"
+		},
+		"j.6c": {
+			"classification": "BULLET",
+			"density": "C3x2",
+			"grazeRes": "1",
+			"startup": 21,
+			"motionCancel": 33,
+			"total": 67,
+			"FrameAdv": "-16 [+19]",
+			"spiritDmg": "0.5*2",
+			"extra": "Landing Recovery: 10F"
+		},
+		"j.6[c]": {
+			"classification": "BULLET",
+			"density": "C3x4",
+			"grazeRes": "1",
+			"startup": 34,
+			"motionCancel": 46,
+			"total": 80,
+			"FrameAdv": "-16 [+19]",
+			"spiritDmg": "0.5*4",
+			"extra": "Landing Recovery: 10F"
+		}
+	},
+	"system": {
+		"divineRaimentOfTheDragonFish": {
+			"name": "Divine Raiment of the Dragon Fish",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/d6/Soku_common_card013.png",
+			"classification": "MELEE",
+			"startup": 18,
+			"active": 6,
+			"total": 64,
+			"guard": "High",
+			"rbadv": "-25",
+			"wbadv": "-19",
+			"extra": "Roughly the same as f.5a, but twice as thick vertically"
+		},
+		"spellBreakingDrug": {
+			"name": "Spell-Breaking Drug",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/46/Soku_common_card011.png",
+			"classification": "MELEE",
+			"startup": 19,
+			"active": 6,
+			"total": 65,
+			"guard": "High",
+			"rbadv": "-25",
+			"wbadv": "-19",
+			"extra": ""
+		},
+		"leftHandedFoldingFan": {
+			"name": "Left-handed Folding Fan",
+			"description": "placeholder text",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9b/Soku_common_card008.png",
+			"classification": "MELEE",
+			"startup": 40,
+			"active": 6,
+			"total": 73,
+			"guard": "-",
+			"rbadv": "-",
+			"wbadv": "26",
+			"extra": "Purple Flash: 8F"
+		}
+	},
+	"skillcards": {
+		"spiritsOfTheFirm": {
+			"name": "Spirits of the Firm",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/48/Ko236bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "+1 Afterbullet.",
+				"level4": "+2 Afterbullet."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_121cac20",
+			"bc": {
+				"difference": true,
+				"b": "Slower-traveling flame.",
+				"c": "Moves faster and thus combos more readily, but does not stay onscreen as long as the B version."
+			},
+			"classification": "BULLET",
+			"density": "B1x1 (both)",
+			"grazeRes": "inf, 5F",
+			"startup": "B: 23\nC: 25",
+			"motionCancel": "B: 40\nC: 42",
+			"total": "B: 64\nC: 66",
+			"FrameAdv": "-",
+			"spiritDmg": "1?",
+			"extra": "stuff rises"
+		},
+		"scytheOfTheReaper": {
+			"name": "Scythe of the Reaper",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/16/Ko236bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Spirits of the Firm.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "+1 Hitbox."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_08c37b85",
+			"bc": {
+				"difference": true,
+				"b": "Shorter range on ground.",
+				"c": "Much longer range on ground. Different animation in the air - also, juggles."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "inf",
+			"startup": "B: 13\n G.C: 24\n A.C: 14",
+			"motionCancel": "G.B: 16\n G.C: 28\n A.B: 15\n A.C: 19",
+			"total": "G.B: 59\n G.C: 71\n A.B: 75\n A.C: 66",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"aHumanSpiritPassingBy": {
+			"name": "A Human Spirit Passing By",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/58/Ko236bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Spirit of the Firm.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Density increases. Hitbox increases."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_c7c15ad3",
+			"bc": {
+				"difference": true,
+				"b": "Comes from behind the opponent.",
+				"c": "Comes from behind Komachi."
+			},
+			"classification": "BULLET",
+			"density": "Lv 1: B1x1 \n Lv4: B3x1",
+			"grazeRes": "inf",
+			"startup": "28",
+			"motionCancel": "25",
+			"total": "66",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "<insert numbers of how fast things travel>"
+		},
+		"boundSpiritsOfTheEarth": {
+			"name": "Bound Spirits of the Earth",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f3/Ko623bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "+1 Bullet (5->6)",
+				"level3": "-",
+				"level4": "+1 Bullet (6->7)"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_9197983e",
+			"bc": {
+				"difference": true,
+				"b": "Moves up to one screen's height before falling down.",
+				"c": "Moves up higher all the way to the ceiling. Fades away before reaching the floor."
+			},
+			"classification": "BULLET",
+			"density": "C5xN",
+			"grazeRes": "10F",
+			"startup": "B: 64-73F?\nC: 77-81F?",
+			"motionCancel": "43",
+			"total": "66",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"windOnTheLastJourney": {
+			"name": "Wind on the Last Journey",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/b8/Ko623bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Bound Spirits of the Earth.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "Hitbox increase."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_45590103",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, 5 hits.",
+				"c": "Slower startup, 12 hits, also causes Komachi to lunge forward."
+			},
+			"classification": "MELEE",
+			"startup": "B: 10\nC: 28",
+			"active": "B: 21\nC: 66",
+			"total": "B: 75\nC: 135",
+			"guard": "Mid",
+			"rbadv": "B: -21\nC: -27",
+			"wbadv": "-"
+		},
+		"boatOnTheSanzu": {
+			"name": "Boat on the Sanzu",
+			"image": "https://wiki.koumakan.jp/images/hisouten/f/f8/Ko623bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Bound Spirits of the Earth.",
+				"level2": "Can be canceled using B or C.",
+				"level3": "-",
+				"level4": "-"
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_c9656305",
+			"bc": {
+				"difference": true,
+				"b": "Shorter travel distance. After level 2, holding A will cause Komachi to leap off her boat and perform a stronger variant of j2A. Holding B or C will result in a j8A with increased damage and significantly increased knockback.",
+				"c": "Travels about one character width further. Holding A will result in a j8A with increased damage and significantly increased knockback. After level 2, holding B or C will cause Komachi to leap off her boat and perform a stronger variant of j2A."
+			},
+			"classification": "MELEE",
+			"startup": "Boat: 26\n Scythe: 97\n G:29\n A:21",
+			"active": "Boat: 51\n Scythe: 4\n Follow: 2",
+			"total": "Boat: 133\n Follow: 55",
+			"guard": "Mid, High",
+			"rbadv": "Boat: -15\nGround-Follow-up: -6\n Air-Follow-up: -13",
+			"wbadv": "Boat: -9\nGround-Follow-up: 0\n Air-Follow-up: -7",
+			"extra": "need to write stuff on rush/a/b/c follow up here"
+		},
+		"floatingSpiritsOfTheIndolentDead": {
+			"name": "Floating Spirits of the Indolent Dead",
+			"image": "https://wiki.koumakan.jp/images/hisouten/0/0a/Ko214bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "-",
+				"level2": "-",
+				"level3": "-",
+				"level4": "+1 Bullet, +2 Bullet if charged."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_587f77a2",
+			"bc": {
+				"difference": true,
+				"b": "Produces a line of wisps that will travel ahead.",
+				"c": "Produces a line of wisps that will travel upward."
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "9F",
+			"startup": "B/C: 24+6n\n[]: 41+6n",
+			"motionCancel": "B/C: 33\n []: 58",
+			"total": "77\n []: 107",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "Chargable. \n Cancelling early may produce less wisps."
+		},
+		"lonelyBoundSpirit": {
+			"name": "Lonely Bound Spirit",
+			"image": "https://wiki.koumakan.jp/images/hisouten/6/64/Ko214bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Floating Spirits of the Ind. Dead.",
+				"level2": "Duration Up. Hitbox Duration Up. Hitbox Increase.",
+				"level3": "Duration Up. Hitbox Duration Up.",
+				"level4": "Duration Up."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_c665d5da",
+			"bc": {
+				"difference": false,
+				"b": "",
+				"c": ""
+			},
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "inf",
+			"startup": "1",
+			"motionCancel": "[]: 20 \n [*]: 40",
+			"total": "[]: 62 \n [*]: 88",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": "1st: 18F\n Charged -> 13F; 38F & 43F\nDuration: 420, 480, 540, 600F\n HB-Duration:15, 25, 40"
+		},
+		"scytheOfExorcism": {
+			"name": "Scythe of Exorcism",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/4c/Ko214bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Floating Spirits of the Ind. Dead.",
+				"level2": "+3 Spirits on hit. +1 Spirit on hit.",
+				"level3": "+3 Spirits on hit. +1 Spirit on hit.",
+				"level4": "+3 Spirits on hit. +1 Spirit on hit."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_7309c2e0",
+			"bc": {
+				"difference": true,
+				"b": "Whiffs point blank, has shorter range.",
+				"c": "Longer range and overall larger windup."
+			},
+			"classification": "MELEE",
+			"startup": "B: 22\n C: 34",
+			"active": "6",
+			"total": "B: 71\n C:83",
+			"guard": "Mid",
+			"rbadv": "-18 [+2]?",
+			"wbadv": "-",
+			"extra": ""
+		},
+		"ritualOfEcstasy": {
+			"name": "Ritual of Ecstasy",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/43/Ko22bc1.png",
+			"levels": {
+				"level0": "",
+				"level1": "B Version faster recovery. C version faster startup.",
+				"level2": "-",
+				"level3": "-",
+				"level4": "B Version faster recovery. C version faster startup."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_4c4c6985",
+			"bc": {
+				"difference": true,
+				"b": "Faster startup, slower recovery.",
+				"c": "Slower startup, faster recovery."
+			},
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "",
+			"motionCancel": "",
+			"total": "Lv0-1-4: 88/73/58",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "teleport ayylmao\n B: invuln: 31-40F, pos. change 31F\n C: invuln Lv0/1/4: 61-70F, 46-55F, 31-40F."
+		},
+		"theEndlessWay": {
+			"name": "The Endless Way",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/c4/Ko22bc2.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ritual of Ecstasy.",
+				"level2": "Duration Up.",
+				"level3": "Duration Up. Area of Effect Size Up.",
+				"level4": "Duration Up."
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_757871cf",
+			"bc": {
+				"difference": true,
+				"b": "Creates a small pillar in front of her. Charging will significantly increase the Area of Effect.",
+				"c": "Slower startup, creates a small pillar at the opponent's position. Charging will only affect the Area of Effect."
+			},
+			"classification": "MELEE",
+			"startup": "B: 50\n C: 61\n[B]: 80\n[C]: 91",
+			"active": 4,
+			"total": "B: 71\n C: 87\n[B]: 101\n[C]: 112",
+			"guard": "Mid",
+			"rbadv": "*: +9\n C: +4",
+			"wbadv": "-",
+			"extra": "Duration: 210/240/270/300F \n note to self fill this out + when the field happens"
+		},
+		"tasteOfDeath": {
+			"name": "Taste of Death",
+			"image": "https://wiki.koumakan.jp/images/hisouten/9/9f/Ko22bc3.png",
+			"levels": {
+				"level0": "",
+				"level1": "Replaces Ritual of Ecstasy. 20F Cancel.",
+				"level2": "Gravitation Power Up. Cancel Time decreased. (20F -> 15F)",
+				"level3": "Gravitation Power Up. Cancel Time decreased. (15F -> 10F)",
+				"level4": "Gravitation Power Up. "
+			},
+			"cardURL": "https://w.atwiki.jp/bulletaction/pages/222.html#id_36787cd7",
+			"bc": {
+				"difference": true,
+				"b": "Can be held to lengthen gravitational pull or be cancelled by pressing C.",
+				"c": "Cancels itself when held."
+			},
+			"classification": "MELEE",
+			"startup": 28,
+			"active": 2,
+			"total": 78,
+			"guard": "High",
+			"rbadv": "-23",
+			"wbadv": "-19",
+			"extra": "When holding the skillcard, pressing and holding B+C will automatically do the feint version. This significantly reduces time wasted on skillcard use.\nnote to self theres interrupt frame data+hold"
+		}
+	},
+	"skills": {
+		"236": [
+			{
+				"name": "Spirits of the Firm",
+				"emoteIcon": "<:Ko236bc1:728252430437056646>"
+			},
+			{
+				"name": "Scythe of the Reaper",
+				"emoteIcon": "<:Ko236bc2:728252430969602150>"
+			},
+			{
+				"name": "A Human Spirit Passing By",
+				"emoteIcon": "<:Ko236bc3:728252431024259123>"
+			}
+		],
+		"623": [
+			{
+				"name": "Bound Spirits of the Earth",
+				"emoteIcon": "<:Ko623bc1:728252430604697701>"
+			},
+			{
+				"name": "Wind on the Last Journey",
+				"emoteIcon": "<:Ko623bc2:728252430994767952>"
+			},
+			{
+				"name": "Boat on the Sanzu",
+				"emoteIcon": "<:Ko623bc3:728252430789115979>"
+			}
+		],
+		"214": [
+			{
+				"name": "Floating Spirits of the Indolent Dead",
+				"emoteIcon": "<:Ko214bc1:728252430697103360>"
+			},
+			{
+				"name": "Lonely Bound Spirit",
+				"emoteIcon": "<:Ko214bc2:728252430713749514>"
+			},
+			{
+				"name": "Scythe of Exorcism",
+				"emoteIcon": "<:Ko214bc3:728252430718074922>"
+			}
+		],
+		"22": [
+			{
+				"name": "Ritual of Ecstasy",
+				"emoteIcon": "<:Ko22bc1:728252430583726170>"
+			},
+			{
+				"name": "The Endless Way",
+				"emoteIcon": "<:Ko22bc2:728252430667481109>"
+			},
+			{
+				"name": "Taste of Death",
+				"emoteIcon": "<:Ko22bc3:728252430982185010>"
+			}
+		]
+	},
+	"spellcards": {
+		"flowOfTheRiver": {
+			"name": "Nautical Sign \"Flow of the River\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/4/43/Kosc01.png",
+			"classification": "MELEE",
+			"startup": "11+8, 70",
+			"active": "51, 15",
+			"total": 135,
+			"guard": "Mid, High",
+			"rbadv": "-44",
+			"wbadv": "-16"
+		},
+		"abundantFloatingSpirits": {
+			"name": "Spirit SIgn \"Abundant Floating Spirits\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/2/28/Kosc02.png",
+			"classification": "BULLET",
+			"density": "B2x5",
+			"grazeRes": "inf",
+			"startup": "10+4+5N",
+			"motionCancel": "-",
+			"total": "55",
+			"FrameAdv": "-",
+			"spiritDmg": "?",
+			"extra": ""
+		},
+		"ferriageInTheDeepFog": {
+			"name": "Death Song \"Ferriage in the Deep Fog\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/dc/Kosc03.png",
+			"classification": "BULLET",
+			"density": "B1x30",
+			"grazeRes": "1F",
+			"startup": "11+?",
+			"motionCancel": "-",
+			"total": "227",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "177~205F air state, 13F start?"
+		},
+		"irresoluteBoundSpirit": {
+			"name": "Malice Sign \"Irresolute Bound Spirit\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/8/86/Kosc04.png",
+			"classification": "BULLET",
+			"density": "B1xN",
+			"grazeRes": "inf",
+			"startup": "10",
+			"motionCancel": "-",
+			"total": "52",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "14, 19, ... 39F"
+		},
+		"narrowConfinesOfAvici": {
+			"name": "Hell \"Narrow Confines of Avici\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/5/59/Kosc05.png",
+			"classification": "BULLET",
+			"density": "B4x1",
+			"grazeRes": "inf",
+			"startup": "13+7, 37",
+			"motionCancel": "-",
+			"total": "63",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "check plz + notes"
+		},
+		"scytheOfFinalJudgment": {
+			"name": "Death Sign \"Scythe of Final Judgement\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/b/bf/Kosc06.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "-",
+			"startup": "26+5",
+			"motionCancel": "-",
+			"total": "?",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "check plz, block high btw"
+		},
+		"scytheOfWanderingSpirits": {
+			"name": "Soul Sign \"Scythe of Wandering Spirits\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/d/dd/Kosc07.png",
+			"classification": "BULLET",
+			"density": "-",
+			"grazeRes": "inf",
+			"startup": "15+8+11N",
+			"motionCancel": "-",
+			"total": "112",
+			"FrameAdv": "-",
+			"spiritDmg": 0,
+			"extra": "check plz"
+		},
+		"shortLifeExpectancy": {
+			"name": "Poor Fate \"Short Life Expectancy\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/1/1a/Kosc08.png",
+			"classification": "MELEE",
+			"startup": "11+22",
+			"active": 3,
+			"total": 93,
+			"guard": "Mid",
+			"rbadv": "-39",
+			"wbadv": "-"
+		},
+		"unpitiablePitiableLife": {
+			"name": "Exchange \"Unpitiable, Pitiable Life\"",
+			"image": "https://wiki.koumakan.jp/images/hisouten/c/ca/Kosc09.png",
+			"classification": "MELEE",
+			"startup": "11+42",
+			"active": 3,
+			"total": 118,
+			"guard": "Mid",
+			"rbadv": "-44",
+			"wbadv": "-"
+		}
+	},
+	"spells": {
+		"1sc": [
+			{
+				"name": "Flow of the River",
+				"emoteIcon": "<:Kosc01:728252432500654100>"
+			},
+			{
+				"name": "Abundant Floating Spirits",
+				"emoteIcon": "<:Kosc02:728252432412573757>"
+			}
+		],
+		"3sc": [
+			{
+				"name": "Ferriage in the Deep Fog",
+				"emoteIcon": "<:Kosc03:728252432596992030>"
+			},
+			{
+				"name": "Irresolute Bound Spirit",
+				"emoteIcon": "<:Kosc04:728252432592928858>"
+			},
+			{
+				"name": "Narrow Confines of Avici",
+				"emoteIcon": "<:Kosc05:728252432395796584>"
+			}
+		],
+		"4sc": [
+			{
+				"name": "Scythe of Final Judgment",
+				"emoteIcon": "<:Kosc06:728252432689266788>"
+			},
+			{
+				"name": "Scythe of Wandering Spirits",
+				"emoteIcon": "<:Kosc07:728252432211247126>"
+			}
+		],
+		"5sc": [
+			{
+				"name": "Short Life Expectancy",
+				"emoteIcon": "<:Kosc08:728252432437477509>"
+			},
+			{
+				"name": "Unpitiable, Pitiable Life",
+				"emoteIcon": "<:Kosc09:728252432865296435>"
+			}
+		]
+	}
+}
